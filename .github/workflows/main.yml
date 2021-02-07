@@ -62,7 +62,7 @@ jobs:
           config_timezone: Europe/Kiev
           plugin_activity: yes
           plugin_activity_days: 14
-          plugin_activity_filter: push, issue, pr, release, review, wiki, member
+          plugin_activity_filter: push, issue, pr, release, review, wiki, member, comment
 
   github-metrics:
     runs-on: ubuntu-latest
