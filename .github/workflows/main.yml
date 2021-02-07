@@ -43,6 +43,30 @@ jobs:
           base: ""
           config_timezone: Europe/Kiev
           plugin_languages: yes
+
+  wakatime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@master
+        with:
+          filename: wakatime.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: Anton-Latukha
+          template: classic
+          base: ""
+          config_timezone: Europe/Kiev
+          
+          plugin_wakatime: yes                                      # (🚧 @master feature)
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
+          plugin_wakatime_days: 30                                   # Display last week stats
+          plugin_wakatime_sections: time, projects, projects-graphs # Display time and projects sections, along with projects graphs
+          plugin_wakatime_limit: 5                                  # Show 4 entries per graph
+
           
   activity:
     runs-on: ubuntu-latest
