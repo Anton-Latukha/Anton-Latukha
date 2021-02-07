@@ -38,7 +38,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: AntonLatukha
+          user: Anton-Latukha
           template: classic
           base: ""
           config_timezone: Europe/Kiev
