@@ -54,19 +54,16 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
           # Options
           user: Anton-Latukha
           template: classic
           base: ""
           config_timezone: Europe/Kiev
-          
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, projects, projects-graphs, editors, os
+          plugin_wakatime_sections: time, projects, languages, editors, os
           plugin_wakatime_limit: 5
-
           
   activity:
     runs-on: ubuntu-latest
