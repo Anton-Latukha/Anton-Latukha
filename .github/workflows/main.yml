@@ -111,3 +111,20 @@ jobs:
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, release, review, wiki, member, comment
+
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metadata.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: Anton-Latukha
+          template: classic
+          base: metadata
+          config_timezone: Europe/Kiev
