@@ -25,6 +25,17 @@ jobs:
           config_timezone: Europe/Kiev
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           
   languages:
     runs-on: ubuntu-latest
@@ -43,6 +54,24 @@ jobs:
           base: ""
           config_timezone: Europe/Kiev
           plugin_languages: yes
+
+  stargazers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: stargazers.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: Anton-Latukha
+          template: classic
+          base: ""
+          config_timezone: Europe/Kiev
+          plugin_stargazers: yes
 
   wakatime:
     runs-on: ubuntu-latest
@@ -81,14 +110,3 @@ jobs:
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, release, review, wiki, member, comment
-
-  github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      # See action.yml for all options
-      - uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
