@@ -10,6 +10,3 @@
 <a href="https://github.com/Anton-Latukha">
   <img align="center" width="49%" src="./activity.svg" />
 </a>
-<a href="https://github.com/Anton-Latukha">
-  <img align="right" src="./metadata.svg" />
-</a>
