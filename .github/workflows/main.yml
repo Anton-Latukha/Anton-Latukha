@@ -90,6 +90,7 @@ jobs:
           config_timezone: Europe/Kiev
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 14
           
   activity:
     runs-on: ubuntu-latest
