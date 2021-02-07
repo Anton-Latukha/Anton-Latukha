@@ -5,5 +5,5 @@
   <img align="center" width="49%" src="./github-metrics.svg" />
 </a>
 <a href="https://github.com/Anton-Latukha">
-  <img align="center" width="49%" src="./languages.svg" />
+  <img align="center" width="49%" src="./activity.svg" />
 </a>
