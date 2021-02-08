@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="346" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1106" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -737,6 +737,34 @@
               <section class="activity">
                 
                 
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#804 WIP: Improvements to make it easier to implement runners other than StandardT</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by ali-abrar in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">About autorship, it any changes happen somewhere: it is important to check authorship only once, right before the merge.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                 
                 
                 
@@ -746,16 +774,359 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">Anton-Latukha/Anton-Latukha</div>
+                    Pushed 54 commits in <div class="repo">obsidiansystems/hnix</div>
                   </div>
                   <div class="details">
                     
-                      <div>on branch <div class="code">main</div></div>
+                      <div>on branch <div class="code">aa/monadthunk-experiment</div></div>
                     
                     
                       <div class="commit">
-                        <div class="sha">#f5d7352</div>
-                        <div class="message">Rename README.md to ReadMe.md</div>
+                        <div class="sha">#7e6cd97</div>
+                        <div class="message">cabal: rm cryptohash-sha512 override (#814)
+
+https://github.com/haskell-hvr/cryptohash-sha512/pull/5#issuecomment-757068529
+
+Nixpkgs is Ok with all this, it does not import these overrides and have own separate mechanics for the overrides. Since cryptohash-sha512 package is essentially in the unmaintained state - I think it is not worth cleaning the Nixpkgs description because soon (on soon arriving 9.0) - it may be needed again in Nixpgs store, and to that time I hope we make a transition.
+
+This cleaning has a nice side-effect that after release HNix would not need to recompile the cryptohash and Store packages every build.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#a4c5ecf</div>
+                        <div class="message">default.nix: rm Remote override (#816)
+
+Resolved: https://hydra.nixos.org/build/134683562</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#3aa0ebf</div>
+                        <div class="message">default.nix: upd rev
+
+In the old one the `hnix-store-remote` is marked broken, this is already fixed.
+So switching to new revision.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#c642d95</div>
+                        <div class="message">README: add Current status section</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#328b04c</div>
+                        <div class="message">Merge #817: default.nix: upd rev; readme: add Current status section
+
+"Project status" currently formed by the composition on the theme from https://github.com/haskell-nix/hnix/issues/767#issuecomment-739190263 &amp; https://github.com/haskell-nix/hnix/issues/767#issuecomment-739949611</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#44ef7ba</div>
+                        <div class="message">[auto] upd README TOC</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#63f164b</div>
+                        <div class="message">README: organize sections</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#fa3c446</div>
+                        <div class="message">README: upd info</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#06b21cc</div>
+                        <div class="message">[auto] upd README TOC</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7bbdee7</div>
+                        <div class="message">README: upd &amp; org</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#9410ca1</div>
+                        <div class="message">README: upd &amp; org</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#c6cf3a3</div>
+                        <div class="message">[auto] upd README TOC</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#e8e883f</div>
+                        <div class="message">moved README-design.md to projects Wiki (#820)
+
+Also updated the text. It talked about differences in `NValue` &amp; `NValueNF`, and John made a proper move removing explicit `NValueNF` a while ago, it just tool me some time to become sure I understand it properly and attend to it.
+
+Close: #723, `NValue`, `NValueF` and `NValueNF` were addressed. And Wiki article now full with info and promoted from the draft to article.
+
+Full text and more is now here: https://github.com/haskell-nix/hnix/wiki/Design-of-the-HNix-code-base</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#20ddd8a</div>
+                        <div class="message">README: Contributing: link to "Design of the HNix code base" Wiki</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#bea4f40</div>
+                        <div class="message">README: move info from "Getting Started" Wiki article
+
+Info submitted by John Wiegley &amp; Doug Beardsley.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#5af3f1d</div>
+                        <div class="message">[auto] upd README TOC</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#34820ee</div>
+                        <div class="message">rename '&lt;CYCLE&gt;' to more direct understandable '&lt;expr&gt;' (#824)
+
+In Nix the `&lt;CYCLE&gt;` only used in one case:
+`data/nix/src/libexpr/eval.cc`
+```cpp
+static void printValue(std::ostream &amp; str, std::set&lt;const Value *&gt; &amp; active, const Value &amp; v)
+{
+    checkInterrupt();
+
+    if (active.find(&amp;v) != active.end()) {
+        str &lt;&lt; "&lt;CYCLE&gt;";
+        return;
+    }
+    ...
+}
+```
+
+it never appears otherwise and so is not checked in expression tests, so it is a cosmetic output.
+
+Semantically `&lt;CYCLE&gt;` was remotely right only in `opaque` `src/Nix/Normal.hs`
+which tries to detect cycles, and only partially right, even if just due to non-termination detection problem (halting problem).
+
+In other cases, where `&lt;CYCLE&gt;` was used - they are no cycles, which people see: https://github.com/haskell-nix/hnix/issues/663#issue-646681651, and felt confused.
+
+In REPL case - they are simply thunks, or as in XML - just mark expressions.
+
+&amp; they are all expressions after all.
+
+Even most of the infinite nonterminating expressions can be WHNF &amp; studied as expression layer by layer.
+
+And since we can say "expr", that also saves users &amp; devs from communicating what in the lazy FP programming "thunk" slang means.
+
+And currently by itself explains the #777 situation.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#dd2cb2b</div>
+                        <div class="message">CI: add Cabal-macOS built test
+
+This is basic requirement for developing on macOS.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#eb709cc</div>
+                        <div class="message">CI: Nix-dev-env-macOS: demoting to weekly build&amp;check
+
+The Haskell project development should not be blocked by the Nixpkgs macOS build
+failures.
+Already introduced more basic Hackage Cabal macOS check.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#21a48fe</div>
+                        <div class="message">prune language UndecidableInstances
+
+This are files that can drop it.</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#804 WIP: Improvements to make it easier to implement runners other than StandardT</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by ali-abrar in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">Backup is at: https://github.com/haskell-nix/hnix/tree/2021-02-08-backup-aa/monadthunk-experiment</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 20 commits in <div class="repo">Anton-Latukha/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#5c50295</div>
+                        <div class="message">ReadMe: HNix (#833)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#c2dfe56</div>
+                        <div class="message">ReadMe: code levels upon laout levels (aka aligning layout horizontally)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#4618080</div>
+                        <div class="message">ReadMe: reword Disclaimer</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6f6750c</div>
+                        <div class="message">ReadMe: form Git clone section
+
+Without it the beginning looks sudden, weird to other layout.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f74c7f8</div>
+                        <div class="message">ReadMe: update Cachix section</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#0ff1046</div>
+                        <div class="message">ReadMe: update Contributing</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#9d03e52</div>
+                        <div class="message">ReadMe: Profiling: proper simple command example</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#4555c07</div>
+                        <div class="message">ReadMe: Profiling: add straight-forward effective instructive example</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#28e3c82</div>
+                        <div class="message">Merge #837 Readme: add profiling info, overall update</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7624bf6</div>
+                        <div class="message">[auto] upd ReadMe TOC</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#ffa62f8</div>
+                        <div class="message">ReadMe: upd Current status</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#573c035</div>
+                        <div class="message">[auto] upd ReadMe TOC</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#558701d</div>
+                        <div class="message">map -&gt; fmap
+
+Allow not only literal lists.
+This for example should allow NonEmpty lists at least.
+
+Also do not think I do this things on a whim.
+I postphoned the refactors from map, (++), until I understand the underlying GHC
+Haskell processes &amp; performance better.
+
+I did some research on: is there a reason to use map over fmap, and are the
+performance reasons?
+In short - there is 0 information on why some people use `map` over `fmap`, there
+are no reports of performance reasons.
+
+Well, I know that there is a possibility of a minor type class interface
+compilation &amp; runtime use cost. But I think GHC is good enough to infer zero
+cost for the concrete list type for which `map` gets used.
+
+And overall we not did thorough profiling/perfommans walkthrough so far. I am
+sure that use of standard fmap for code flexibility is not a bottleneck in the
+design, I've seen some performance problems design has.
+
+And we not even did the profiling to do inlining and specialize work yet. It is
+more effective to keep using `fmap`, and supply specialization, which allows to
+keep the code polymorhic, portable to write for and effective in performance.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#753dfc6</div>
+                        <div class="message">(++) -&gt; (&lt;&gt;)
+
+Lets allow ourselves to switch from [] &amp; Strings in Haskell
+in any part of the code.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#c5d04c3</div>
+                        <div class="message">additional map -&gt; fmap</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#cebe523</div>
+                        <div class="message">String: m refactor</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#de66704</div>
+                        <div class="message">Main: fuse functor</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6a15a08</div>
+                        <div class="message">Repl: m refactor</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#9c1dd44</div>
+                        <div class="message">Value: tiny refactor</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#0c236a4</div>
+                        <div class="message">Merge #839: Basic polymorphism refactor
+
+Clean-up refactor, with some equivalent code simplification, some functor fusioning in executable.</div>
                       </div>
                     
                   </div>
@@ -779,115 +1150,53 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">Anton-Latukha/Anton-Latukha</div>
+                    Pushed 8 commits in <div class="repo">haskell-nix/hnix</div>
                   </div>
                   <div class="details">
                     
-                      <div>on branch <div class="code">main</div></div>
+                      <div>on branch <div class="code">2021-02-08-Value-org</div></div>
                     
                     
                       <div class="commit">
-                        <div class="sha">#4087f79</div>
-                        <div class="message">Update README.md</div>
+                        <div class="sha">#573c035</div>
+                        <div class="message">[auto] upd ReadMe TOC</div>
                       </div>
                     
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">Anton-Latukha/Anton-Latukha</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">main</div></div>
-                    
-                    
                       <div class="commit">
-                        <div class="sha">#adff788</div>
-                        <div class="message">Update README.md</div>
+                        <div class="sha">#0c236a4</div>
+                        <div class="message">Merge #839: Basic polymorphism refactor
+
+Clean-up refactor, with some equivalent code simplification, some functor fusioning in executable.</div>
                       </div>
                     
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">Anton-Latukha/Anton-Latukha</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">main</div></div>
-                    
-                    
                       <div class="commit">
-                        <div class="sha">#15bd2b1</div>
-                        <div class="message">Update main.yml</div>
+                        <div class="sha">#a8e01de</div>
+                        <div class="message">Value: add organization, structure, documentation</div>
                       </div>
                     
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">Anton-Latukha/Anton-Latukha</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">main</div></div>
-                    
+                      <div class="commit">
+                        <div class="sha">#3adcb1d</div>
+                        <div class="message">Value: m cosmetic</div>
+                      </div>
                     
                       <div class="commit">
-                        <div class="sha">#9ff4524</div>
-                        <div class="message">Update main.yml</div>
+                        <div class="sha">#21cf0e0</div>
+                        <div class="message">Atoms: make imports explicit</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6254179</div>
+                        <div class="message">Atoms: add docs</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#32a2049</div>
+                        <div class="message">Value: upd documentation</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#02acba3</div>
+                        <div class="message">Value: form section "F: NValue -&gt; NValue'"</div>
                       </div>
                     
                   </div>
