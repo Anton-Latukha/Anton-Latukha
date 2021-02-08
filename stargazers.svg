@@ -731,7 +731,7 @@
           <div class="chart-bars">
             
               <div class="entry">
-                <span class="value">686</span>
+                <span class="value">685</span>
                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                 26
                 
@@ -754,7 +754,7 @@
               </div>
             
               <div class="entry">
-                <span class="value">689</span>
+                <span class="value">688</span>
                 <div class="bar" style="height: 26.249999999999996px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                 29
                 
@@ -768,7 +768,7 @@
               </div>
             
               <div class="entry">
-                <span class="value">690</span>
+                <span class="value">689</span>
                 <div class="bar" style="height: 34.166666666666664px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                 31
                 
@@ -791,7 +791,7 @@
               </div>
             
               <div class="entry">
-                <span class="value">691</span>
+                <span class="value">690</span>
                 <div class="bar" style="height: 42.083333333333336px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                 3
                 
@@ -826,7 +826,7 @@
               </div>
             
               <div class="entry">
-                <span class="value">692</span>
+                <span class="value">691</span>
                 <div class="bar" style="height: 49.99999999999999px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                 8
                 
