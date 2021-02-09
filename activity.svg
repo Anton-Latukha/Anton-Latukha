@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="403" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="267" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -737,25 +737,18 @@
               <section class="activity">
                 
                 
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#377 Suggested improvements to NExpr</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Infinisil in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">Just wanted to mention:
-
-&gt; some things are representable ... but never occur in parsing.
-
-Due to Nix paradigms we would never be able to parse everything just by reading the Expr level.
-
-Some things can be made unrepresentable in Expr, but all. For example, reifying the record: is it a non-recursive, or recursive - is Eval.
-
-To be more concrete - we need to gather examples what is unrepresentable in Nix to unrepresent it.</div>
-                  </div>
                 
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
+                    Updated 1 wiki page in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div class="page">
+                        List of Haskell Nix projects
+                      </div>
+                    
+                  </div>
                 
                 
                 
@@ -773,100 +766,18 @@ To be more concrete - we need to gather examples what is unrepresentable in Nix 
               <section class="activity">
                 
                 
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#667 NRecordType naming</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by sjakobi in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">And with languages we always need to think about:
-
-`NSetRecursicity` is Expr,
-`NRecordRecursivity` is not Expr, is not Parser, it can be reified only during Eval, so it belongs to the completely other part of the code.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
                 
                   <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#4 Control.Monad.Ref: add instance MonadAtomicRef (ST a)</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
+                    Updated 1 wiki page in <div class="repo">haskell-nix/hnix</div>
                   </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">mainland/ref-tf</div></div>
-                    <div class="comment">Thank you for the quick merge.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
+                  <div class="details">
                     
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                      <div class="page">
+                        List of Haskell Nix projects
+                      </div>
                     
-                    Commented on <div class="issue">#667 NRecordType naming</div>
                   </div>
-                    <div class="details">
-                    <div>opened by sjakobi in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">True.
-
-Maybe it was named for the possibility to read/write the code that processes record recursivity or not, aka "maybe just" reify nonrecursive record as constant.
-
-In Nix the type of the records by itself can not be recursive or nonrecursive. There is no such atom as record, every record belonging to some attrset. So in evaluation if ever record is processed - it needs to account the Set type into account, and then maybe determine itself as non-recursive. It can be beneficial to represent non-recursive records as such in the long run, but do not have idea about the cost savings of it.
-
-As you noted:
-
-```haskell
--- | 'NRecordType' distinguishes between recursive and non-recursive attribute
--- sets.
-data NRecordType
-  = NNonRecursive  -- ^ &gt;     { ... }
-  | NRecursive     -- ^ &gt; rec { ... }
-  deriving (Eq, Ord, Enum, Bounded, Generic, Typeable, Data, Show, Read,
-            NFData, Hashable)
-```
-
-It is probably due to `rec` use, aka `rec` allows `set` records to be recursive.
-
-I'd named it `NSetRecursivity`, `NIsSetRec` or `NSetType` - all of them are better then `NRecordType`. But, well, since as noted above record logic has the possibility to be handled internally at some point - it seems Ok to leave it as such currently. For example - the RecSet can be represented internally by two-component (Set &amp;&amp; RecSet), where all `NNonRecursive` go into the first Set. The use of the `NRecordType` is currently exclusively limited to the module.
-
-So `NSetRecursivity`, `NIsSetRec` or `NSetType` *idk*, `Recursivity` seems Ok, `RecRecursivity` seems...
-
-I'd had both `NSetRecursivity` and `NRecRecursivity`, so that the records can be sorted by recursivity and RecSet can be represented as `{{Constants} &amp;&amp; {RecursiveFunctions}}`.</div>
-                  </div>
-                
                 
                 
                 
@@ -889,11 +800,69 @@ I'd had both `NSetRecursivity` and `NRecRecursivity`, so that the records can be
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
-                    Opened <div class="issue">#846 Please, organize the `Expr` module</div>
+                    Opened <div class="issue">#100 Please, upload docs to Hackage, and link to the official upstream</div>
                   </div>
                   <div class="details">
-                    <div>opened  in <div class="repo">haskell-nix/hnix</div></div>
+                    <div>opened  in <div class="repo">input-output-hk/nix-tools</div></div>
                   </div>
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
+                    Updated 1 wiki page in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div class="page">
+                        List of Haskell Nix projects
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
+                    Updated 1 wiki page in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div class="page">
+                        List of Haskell Nix projects
+                      </div>
+                    
+                  </div>
+                
+                
                 
                 
                 
