@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="441" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="744" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -746,6 +746,144 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 32 commits in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-02-08-Value-org</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#5223d51</div>
+                        <div class="message">rm Setup.hs (#843)
+
+Allows HLS to work normally. Setup.hs, at least simple ones, seem to be under deprecation.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#402aeb6</div>
+                        <div class="message">make orphan instance warnings explicit</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#b68cb66</div>
+                        <div class="message">move instance Binary NAtom to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#71f50b2</div>
+                        <div class="message">move instances {From,To}JSON NAtom to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#3a99b16</div>
+                        <div class="message">move instances HasCitations1 NValue to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#bca3868</div>
+                        <div class="message">move instance Eq1 NValueF to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6c15ed7</div>
+                        <div class="message">move TH instance Eq1 NValue' to the parent as derivable
+
+Eq1 instance was previously derived as an orphan through TemplateHaskell.
+And that TH instance when moved into Nix.Value was breaking the NValue' data
+constructor deriving.
+
+So it is moved as derivable instance.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#323c312</div>
+                        <div class="message">Nix/Exec: note to the instance MonadEval NValue</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#b5ef442</div>
+                        <div class="message">Expr/Types: rm orphan instances Hashable1 {NonEmpty,NExprF,Binding}</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#1131205</div>
+                        <div class="message">move Fix1{,T} instances to the type class parent
+
+Since type class is up the structure - move instances there.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#902e6dd</div>
+                        <div class="message">move instances Monad{,Atomic}Ref Fix1T to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#d3532a3</div>
+                        <div class="message">move instance MonadFile Fix1T to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#0515c5f</div>
+                        <div class="message">move instance MonadStore Fix1T to the parent</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6383f1f</div>
+                        <div class="message">Expr/Types: m upd</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#fa7aab2</div>
+                        <div class="message">remaining map -&gt; fmap</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#0375504</div>
+                        <div class="message">Var: m refactor</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#fec7032</div>
+                        <div class="message">Fresh{,.Basic}, Effects: m clean-up</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#ecab803</div>
+                        <div class="message">add back the "OPTIONS_GHC -Wno-orphans"</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#e5c34b8</div>
+                        <div class="message">Value.Equal: m refactor</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#8c6fb78</div>
+                        <div class="message">ChangeLog: annotate instance migration</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
                     Pushed 4 commits in <div class="repo">Anton-Latukha/hnix</div>
                   </div>
                   <div class="details">
@@ -877,39 +1015,6 @@
                     
                       <div class="commit">
                         <div class="sha">#522e448</div>
-                        <div class="message">Fresh: m clean-up</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-02-09-upd-deps</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#ec77734</div>
                         <div class="message">Fresh: m clean-up</div>
                       </div>
                     
