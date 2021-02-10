@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="375" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="397" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -741,6 +741,38 @@
                     
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
                     
+                    Commented on <div class="issue">#113 Compare with other recursion-schemes library</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by gelisam in <div class="repo">ekmett/recursion-schemes</div></div>
+                    <div class="comment">Yes, for example, HNix currently uses `data-fix:Data.Fix`, but even it not as much as I'd wished, HNix is a big project with largely home-backed scheming (the recursion-schemes core of it [`Nix.Expr.Types`](https://github.com/haskell-nix/hnix/blob/master/src/Nix/Expr/Types.hs) &amp; [`Nix.Value`](https://github.com/haskell-nix/hnix/blob/master/src/Nix/Value.hs).
+
+One day a migration would happen.
+
+But currently, indeed - interested to understand the difference.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
                     Commented on <div class="issue">#849 Treewide: Basic polymorphic refactoring</div>
                   </div>
                     <div class="details">
@@ -900,42 +932,6 @@ Benchmark hnix-benchmarks: FINISH				Benchmark hnix-benchmarks: FINISH
                     
                       <div class="commit">
                         <div class="sha">#8152874</div>
-                        <div class="message">(Nothing -&gt; mempty)
-
-Replaced only where the `(Semigroup a =&gt; Maybe a)` is already present,
-so does not change the signatures.</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-02-10-upd-polymorphic-base-refactor</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#3d77123</div>
                         <div class="message">(Nothing -&gt; mempty)
 
 Replaced only where the `(Semigroup a =&gt; Maybe a)` is already present,
