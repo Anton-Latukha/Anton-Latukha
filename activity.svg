@@ -741,6 +741,112 @@
                     
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
                     
+                    Commented on <div class="issue">#850 Maybe reimplement the `demand` and `force` for MonadValue and such</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by Anton-Latukha in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">And moreover, we see that arguments passed in majority of cases does not get used, they get passed-through. Which means there should be an elegant way to not pass them, but apply them exteriorly, which would save a lot of computations also. Recently ByteString in the `0.11` did so, and got 25% performance increase.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#850 Maybe reimplement the `demand` and `force` for MonadValue and such</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by Anton-Latukha in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">So, `Thunk.Basic` also flips `force` &amp; so its implementation `forceThunk`:
+```haskell
+forceThunk
+  :: forall m v a
+   . (MonadVar m, MonadThrow m, MonadCatch m, Show (ThunkId m))
+  =&gt; NThunkF m v
+  -&gt; (v -&gt; m a)
+  -&gt; m a
+forceThunk k (Thunk n active ref) = do
+  eres &lt;- readVar ref
+  case eres of
+    Computed v      -&gt; k v
+    Deferred action -&gt; do
+      nowActive &lt;- atomicModifyVar active (True, )
+      if nowActive
+        then throwM $ ThunkLoop $ show n
+        else do
+          v &lt;- catch action $ \(e :: SomeException) -&gt; do
+            _ &lt;- atomicModifyVar active (False, )
+            throwM e
+          _ &lt;- atomicModifyVar active (False, )
+          writeVar ref (Computed v)
+          k v
+```
+
+With arguments flipped that way, notice `k` is not modified and always gets returned first, which means that with being the first argument - it is likely to get memory reuse.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    Opened <div class="issue">#850 Maybe reimplement the `demand` and `force` for MonadValue and such</div>
+                  </div>
+                  <div class="details">
+                    <div>opened  in <div class="repo">haskell-nix/hnix</div></div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
                     Commented on <div class="issue">#381 Add a “why” section</div>
                   </div>
                     <div class="details">
@@ -781,142 +887,6 @@ The main work is essentially done, so it is a great time to clean-up after the w
                     <div class="details">
                     <div>opened by asymmetric in <div class="repo">haskell-nix/hnix</div></div>
                     <div class="comment">And would mention that because of this implementation and strong type system - the complex Nix code would be much easier to debug, HNix is&amp;would be able to generate great and understandable code debug reports.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#381 Add a “why” section</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by asymmetric in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">Well, it would be strange to right upfront bluntly advertise the project while official Nix agenda is ongoing.
-
-The corner stone is simple:
-Nix language is purely functional lazy language.
-Haskell is purely functional lazy language.
-
-Because of that - it means that Nix language implementation in Haskell is straight-forward and can be very performant. Since the Haskell &lt;-&gt; Nix type casts are the most direct.
-
-Haskell is a great DSL engine. Since they have same paradigms - it is easy to make Haskell DSL that is a Nix language.
-
-On top of it - Nix language is highly recursive language, many of the core types of the language are recursive (for example: recursive attrsets, functions, and expressions overall). That means it is strongly recursive in nature.
-
-HNix harnessed that nature fully through the recursive schemes, which are a current cutting edge minimalistic direct scientific system to easily manage the recursive structures of any complexity and efficiently doing operations on them of any transformations.
-
-F-algebras (used in recursive-schemes) effectively allows recursions to be made and managed as flat structures, or managed on layer basis. The recursion is not managed as recursion, but as standard F-algebra operations as fold, unfolds and such. And that approach also allows the recursive language to be represented non-recursively to the GHC, and the recursive code is difficult to optimize, while non-recursive result allows GHC to efficiently compile the non-recursive code we give, which is a representation of recursive code.
-For example, because the recursive nature of Nix and its recursive structures get represented as non-recursive - there is "no" recursivity in the GHC code result.
-And the difference is for example: currently, during refactoring, I see no overhead by introducing more polymorphism into the code. Often polymorphism can introduce overhead if for example the type class inference repeatedly happens in a recursive loop - but not in our case.
-
-The "Why" goes further, since Haskell has a very strong type system - that is very contrary to Nix interpreter dynamic typechecking.
-For example during treewide refactoring in Nixpkgs currently maintainer can not check that the replacement is sound in all places. So the treewide refactors "just make done" (oversimplifying here), and there is no way to check that refactor works in all Nixpkgs subdomains, and so refactor merges, Hydra and users catch the bugs, that often gets represented in the Hydra by delta falls, and it sometimes happens that treewide refactors get reverted compelettely, so they happen by sheer trial&amp;error on a massive scale in alive, central and relied upon codebase, because there is no way to properly type check the diff.
-
-Nix language strongly borrows, influenced by and builds from Haskell code development principles, syntax &amp; development. For example, not only HNix uses recursion-schemes, Nixpkgs provides in the base the `lib/fixed-points`, which gets used pretty often by other libraries in `Nixpkgs`, any kinds of derivation extension/expansion, aka overlays, often rely on `lib/fixed-points`, which is just recursive schemes use really. Since there are such functions as `makeExtensible`, `converge`, `extends`, `composeExtensions`, I'd said that current Nixpkgs is not possible to do without it. What to do in highly recursive language with recursive attrsets that uses recursive structures upon recursive structures? Only fixed-point (attractor) math convergence math to make it all be written and work nicely. And on the outside people not even know it gets used, one just extends something and it works.
-
-Since the proper recursion-schemes design and use and Haskell &amp; Nix sharing paradigms - the implementation is the most direct. I mean the direct functor from Hask subcategory to Nix category - type of direct.
-
-HNix essentially build a functor from Hask to Nix, and raising the functor is the most simple, direct, effective and transformation, which makes it elegant.
-
-One effectively needs just to look into [`Value.hs`](https://github.com/haskell-nix/hnix/blob/302af6d6892938bf68315975159b483bb35c70b5/src/Nix/Value.hs) to see it.
-
-Not just Hask -&gt; Nix functor, there is a Nix -&gt; Hask functor which looks:
-```
--- | Module pattens use @language PatternSynonyms@: unidirectional synonyms (@&lt;-@),
--- and @ViewPatterns@: (@-&gt;@) at the same time.
--- @ViewPatterns Control.Comonad.extract@ extracts
--- from the @NValue (Free (NValueF a))@
--- the @NValueF a@. Which is @NValueF p m r@. Since it extracted from the
--- @NValue@, which is formed by \( (F a -&gt; a) F a \) in the first place.
--- So @NValueF p m r@ which is extracted here, internally holds the next NValue.
-pattern NVConstant' x &lt;- NValue (extract -&gt; NVConstantF x)
-pattern NVStr' ns &lt;- NValue (extract -&gt; NVStrF ns)
-pattern NVPath' x &lt;- NValue (extract -&gt; NVPathF x)
-pattern NVList' l &lt;- NValue (extract -&gt; NVListF l)
-pattern NVSet' s x &lt;- NValue (extract -&gt; NVSetF s x)
-pattern NVClosure' x f &lt;- NValue (extract -&gt; NVClosureF x f)
-pattern NVBuiltin' name f &lt;- NValue (extract -&gt; NVBuiltinF name f)
-```
-
-This functor gets the real Nix values and extracts them into Hask-Haskell internal representation. Isn't that seems elegant?</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
-                    Updated 1 wiki page in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div class="page">
-                        Design of the HNix code base
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#113 Compare with other recursion-schemes library</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by gelisam in <div class="repo">ekmett/recursion-schemes</div></div>
-                    <div class="comment">Yes, for example, HNix currently uses `data-fix:Data.Fix`, but even it not as much as I'd wished, HNix is a big project with largely home-backed scheming (the recursion-schemes core of it [`Nix.Expr.Types`](https://github.com/haskell-nix/hnix/blob/master/src/Nix/Expr/Types.hs) &amp; [`Nix.Value`](https://github.com/haskell-nix/hnix/blob/master/src/Nix/Value.hs).
-
-One day a migration would happen.
-
-But currently, indeed - interested to understand the difference.</div>
                   </div>
                 
                 
