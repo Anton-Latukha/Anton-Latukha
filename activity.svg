@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="381" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="403" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -737,6 +737,109 @@
               <section class="activity">
                 
                 
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#381 Add a “why” section</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by asymmetric in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">And would mention that because of this implementation and strong type system - the complex Nix code would be much easier to debug, HNix is&amp;would be able to generate great and understandable code debug reports.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#381 Add a “why” section</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by asymmetric in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">Well, it would be strange to right upfront bluntly advertise the project while official Nix agenda is ongoing.
+
+The corner stone is simple:
+Nix language is purely functional lazy language.
+Haskell is purely functional lazy language.
+
+Because of that - it means that Nix language implementation in Haskell is straight-forward and can be very performant. Since the Haskell &lt;-&gt; Nix type casts are the most direct.
+
+Haskell is a great DSL engine. Since they have same paradigms - it is easy to make Haskell DSL that is a Nix language.
+
+On top of it - Nix language is highly recursive language, many of the core types of the language are recursive (for example: recursive attrsets, functions, and expressions overall). That means it is strongly recursive in nature.
+
+HNix harnessed that nature fully through the recursive schemes, which are a current cutting edge minimalistic direct scientific system to easily manage the recursive structures of any complexity and efficiently doing operations on them of any transformations.
+
+F-algebras (used in recursive-schemes) effectively allows recursions to be made and managed as flat structures, or managed on layer basis. The recursion is not managed as recursion, but as standard F-algebra operations as fold, unfolds and such. And that approach also allows the recursive language to be represented non-recursively to the GHC, and the recursive code is difficult to optimize, while non-recursive result allows GHC to efficiently compile the non-recursive code we give, which is a representation of recursive code.
+For example, because the recursive nature of Nix and its recursive structures get represented as non-recursive - there is "no" recursivity in the GHC code result.
+And the difference is for example: currently, during refactoring, I see no overhead by introducing more polymorphism into the code. Often polymorphism can introduce overhead if for example the type class inference repeatedly happens in a recursive loop - but not in our case.
+
+The "Why" goes further, since Haskell has a very strong type system - that is very contrary to Nix interpreter dynamic typechecking.
+For example during treewide refactoring in Nixpkgs currently maintainer can not check that the replacement is sound in all places. So the treewide refactors "just make done" (oversimplifying here), and there is no way to check that refactor works in all Nixpkgs subdomains, and so refactor merges, Hydra and users catch the bugs, that often gets represented in the Hydra by delta falls, and it sometimes happens that treewide refactors get reverted compelettely, so they happen by sheer trial&amp;error on a massive scale in alive, central and relied upon codebase, because there is no way to properly type check the diff.
+
+Nix language strongly borrows, influenced by and builds from Haskell code development principles, syntax &amp; development. For example, not only HNix uses recursion-schemes, Nixpkgs provides in the base the `lib/fixed-points`, which gets used pretty often by other libraries in `Nixpkgs`, any kinds of derivation extension/expansion, aka overlays, often rely on `lib/fixed-points`, which is just recursive schemes use really. Since there are such functions as `makeExtensible`, `converge`, `extends`, `composeExtensions`, I'd said that current Nixpkgs is not possible to do without it. What to do in highly recursive language with recursive attrsets that uses recursive structures upon recursive structures? Only fixed-point (attractor) math convergence math to make it all be written and work nicely. And on the outside people not even know it gets used, one just extends something and it works.
+
+Since the proper recursion-schemes design and use and Haskell &amp; Nix sharing paradigms - the implementation is the most direct. I mean the direct functor from Hask subcategory to Nix category - type of direct.
+
+HNix essentially build a functor from Hask to Nix, and raising the functor is the most simple, direct, effective and transformation, which makes it elegant.
+
+One effectively needs just to look into [`Value.hs`](https://github.com/haskell-nix/hnix/blob/302af6d6892938bf68315975159b483bb35c70b5/src/Nix/Value.hs) to see it.
+
+Not just Hask -&gt; Nix functor, there is a Nix -&gt; Hask functor which looks:
+```
+-- | Module pattens use @language PatternSynonyms@: unidirectional synonyms (@&lt;-@),
+-- and @ViewPatterns@: (@-&gt;@) at the same time.
+-- @ViewPatterns Control.Comonad.extract@ extracts
+-- from the @NValue (Free (NValueF a))@
+-- the @NValueF a@. Which is @NValueF p m r@. Since it extracted from the
+-- @NValue@, which is formed by \( (F a -&gt; a) F a \) in the first place.
+-- So @NValueF p m r@ which is extracted here, internally holds the next NValue.
+pattern NVConstant' x &lt;- NValue (extract -&gt; NVConstantF x)
+pattern NVStr' ns &lt;- NValue (extract -&gt; NVStrF ns)
+pattern NVPath' x &lt;- NValue (extract -&gt; NVPathF x)
+pattern NVList' l &lt;- NValue (extract -&gt; NVListF l)
+pattern NVSet' s x &lt;- NValue (extract -&gt; NVSetF s x)
+pattern NVClosure' x f &lt;- NValue (extract -&gt; NVClosureF x f)
+pattern NVBuiltin' name f &lt;- NValue (extract -&gt; NVBuiltinF name f)
+```
+
+This functor gets the real Nix values and extracts them into Hask-Haskell internal representation. Isn't that seems elegant?</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
@@ -815,123 +918,6 @@ But currently, indeed - interested to understand the difference.</div>
                 
                 
                 
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#849 Treewide: Basic polymorphic refactoring</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">Benchmarks:
-```
-diff -y \
-master.log                                                                                                refactor.log
-
-Build profile: -w ghc-8.10.3 -O1				Build profile: -w ghc-8.10.3 -O1
-In order, the following will be built (use -v for more detail	In order, the following will be built (use -v for more detail
- - hnix-0.12.0.1 (bench:hnix-benchmarks) (first run)		 - hnix-0.12.0.1 (bench:hnix-benchmarks) (first run)
-Preprocessing benchmark 'hnix-benchmarks' for hnix-0.12.0.1..	Preprocessing benchmark 'hnix-benchmarks' for hnix-0.12.0.1..
-Building benchmark 'hnix-benchmarks' for hnix-0.12.0.1..	Building benchmark 'hnix-benchmarks' for hnix-0.12.0.1..
-Running 1 benchmarks...						Running 1 benchmarks...
-Benchmark hnix-benchmarks: RUNNING...				Benchmark hnix-benchmarks: RUNNING...
-benchmarking Parser/nixpkgs-all-packages.nix			benchmarking Parser/nixpkgs-all-packages.nix
-time                 188.5 ms   (181.5 ms .. 197.4 ms)	      |	time                 191.3 ms   (184.0 ms .. 199.4 ms)
-                     0.999 R²   (0.997 R² .. 1.000 R²)	      |	                     0.999 R²   (0.998 R² .. 1.000 R²)
-mean                 195.4 ms   (191.6 ms .. 205.4 ms)	      |	mean                 195.0 ms   (191.7 ms .. 204.2 ms)
-std dev              7.930 ms   (1.684 ms .. 11.07 ms)	      |	std dev              7.397 ms   (845.0 μs .. 10.42 ms)
-variance introduced by outliers: 14% (moderately inflated)	variance introduced by outliers: 14% (moderately inflated)
-
-benchmarking Parser/nixpkgs-all-packages-pretty.nix		benchmarking Parser/nixpkgs-all-packages-pretty.nix
-time                 1.920 ms   (1.909 ms .. 1.928 ms)	      |	time                 1.917 ms   (1.907 ms .. 1.929 ms)
-                     1.000 R²   (1.000 R² .. 1.000 R²)		                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 1.918 ms   (1.912 ms .. 1.925 ms)	      |	mean                 1.905 ms   (1.900 ms .. 1.911 ms)
-std dev              22.02 μs   (15.85 μs .. 35.43 μs)	      |	std dev              18.10 μs   (14.35 μs .. 23.58 μs)
-
-benchmarking Parser/let-comments.nix				benchmarking Parser/let-comments.nix
-time                 94.32 μs   (94.15 μs .. 94.51 μs)	      |	time                 94.18 μs   (94.00 μs .. 94.38 μs)
-                     1.000 R²   (1.000 R² .. 1.000 R²)		                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 94.28 μs   (94.09 μs .. 94.51 μs)	      |	mean                 94.27 μs   (94.09 μs .. 94.47 μs)
-std dev              671.8 ns   (532.1 ns .. 941.3 ns)	      |	std dev              663.4 ns   (542.9 ns .. 860.4 ns)
-
-benchmarking Parser/let-comments-multiline.nix			benchmarking Parser/let-comments-multiline.nix
-time                 107.6 μs   (107.4 μs .. 107.8 μs)		time                 107.6 μs   (107.4 μs .. 107.8 μs)
-                     1.000 R²   (1.000 R² .. 1.000 R²)		                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 107.6 μs   (107.5 μs .. 107.8 μs)	      |	mean                 107.5 μs   (107.3 μs .. 107.6 μs)
-std dev              500.3 ns   (380.0 ns .. 672.6 ns)	      |	std dev              600.5 ns   (484.8 ns .. 796.1 ns)
-
-benchmarking Parser/let.nix					benchmarking Parser/let.nix
-time                 90.49 μs   (90.30 μs .. 90.69 μs)	      |	time                 90.30 μs   (90.16 μs .. 90.41 μs)
-                     1.000 R²   (1.000 R² .. 1.000 R²)		                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 90.36 μs   (90.18 μs .. 90.51 μs)	      |	mean                 90.27 μs   (90.11 μs .. 90.45 μs)
-std dev              539.1 ns   (426.8 ns .. 723.3 ns)	      |	std dev              582.6 ns   (449.0 ns .. 777.8 ns)
-
-benchmarking Parser/simple.nix					benchmarking Parser/simple.nix
-time                 447.3 μs   (445.0 μs .. 449.5 μs)	      |	time                 444.2 μs   (442.8 μs .. 445.8 μs)
-                     1.000 R²   (1.000 R² .. 1.000 R²)		                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 444.1 μs   (443.2 μs .. 445.2 μs)	      |	mean                 443.9 μs   (443.2 μs .. 445.4 μs)
-std dev              3.545 μs   (2.674 μs .. 4.941 μs)	      |	std dev              3.327 μs   (2.418 μs .. 4.956 μs)
-
-benchmarking Parser/simple-pretty.nix				benchmarking Parser/simple-pretty.nix
-time                 445.2 μs   (444.0 μs .. 446.6 μs)	      |	time                 442.5 μs   (441.9 μs .. 443.1 μs)
-                     1.000 R²   (1.000 R² .. 1.000 R²)		                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 445.3 μs   (444.5 μs .. 446.7 μs)	      |	mean                 443.1 μs   (442.5 μs .. 443.9 μs)
-std dev              3.420 μs   (2.249 μs .. 5.604 μs)	      |	std dev              2.355 μs   (1.794 μs .. 3.410 μs)
-
-Benchmark hnix-benchmarks: FINISH				Benchmark hnix-benchmarks: FINISH
-```</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-02-10-upd-polymorphic-base-refactor</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#26f5211</div>
-                        <div class="message">remainding (map -&gt; fmap)</div>
-                      </div>
-                    
-                  </div>
                 
                 
                 
