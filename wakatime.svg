@@ -874,31 +874,31 @@
                   
                     <div class="entry">
                       <span class="name">hnix</span>
-                      <div class="bar" style="width: 75.67999999999999%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                      <div class="bar" style="width: 75.80799999999999%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                       <span class="value">95%</span>
                     </div>
                   
                     <div class="entry">
                       <span class="name">Terminal</span>
-                      <div class="bar" style="width: 2.032%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                      <div class="bar" style="width: 2.024%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                       <span class="value">3%</span>
                     </div>
                   
                     <div class="entry">
                       <span class="name">spacemacs</span>
-                      <div class="bar" style="width: 0.624%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                      <div class="bar" style="width: 0.616%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                       <span class="value">1%</span>
                     </div>
                   
                     <div class="entry">
                       <span class="name">haskell</span>
-                      <div class="bar" style="width: 0.5920000000000001%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                      <div class="bar" style="width: 0.488%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                       <span class="value">1%</span>
                     </div>
                   
                     <div class="entry">
                       <span class="name">hnix-store</span>
-                      <div class="bar" style="width: 0.38399999999999995%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                      <div class="bar" style="width: 0.37599999999999995%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                       <span class="value">0%</span>
                     </div>
                   
@@ -913,19 +913,19 @@
                   
                     <div class="entry">
                       <span class="name">Haskell</span>
-                      <div class="bar" style="width: 50.431999999999995%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                      <div class="bar" style="width: 50.736%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
                       <span class="value">63%</span>
                     </div>
                   
                     <div class="entry">
                       <span class="name">Other</span>
-                      <div class="bar" style="width: 28.424%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                      <span class="value">36%</span>
+                      <div class="bar" style="width: 28.232%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                      <span class="value">35%</span>
                     </div>
                   
                     <div class="entry">
                       <span class="name">Org</span>
-                      <div class="bar" style="width: 0.8400000000000001%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                      <div class="bar" style="width: 0.736%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                       <span class="value">1%</span>
                     </div>
                   
