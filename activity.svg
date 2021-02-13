@@ -737,6 +737,45 @@
               <section class="activity">
                 
                 
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#111562 haskellPackages.hnix fails to build on macOS</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by siraben in <div class="repo">NixOS/nixpkgs</div></div>
+                    <div class="comment">Yes.
+
+HNix-Store-Core project test suite uses `/proc`, and macOS has no `/proc` https://github.com/haskell-nix/hnix-store/issues/109.
+
+Lets say, HNix-Store-* is still improving the maintenance situation in it: https://matrix.hackage.haskell.org/#/package/hnix-store-core.
+Need some time how to carefully figure out how to unwrap the human nature situation in it.
+
+Sorry for the current response: figuring-out the situation in the project is more important than to running-in and hotfixing the current bug and pretend to be a weekend hero that saves the day to everyone. Because then we (I) would keep pinging the maintainers to maintain the project and make releases, and they would keep "saving the day", when that is their responsibility to solve things before this or ASAP fix them by themselves. Upstream maintenance is aware of this bug for 1.5 month, and so far nothing was done. So I'm thinking about how to fix the whole of the situation properly. How to address the situation so that `HNix-Store-*` expands to get responsible people.
+
+Probably, really start to prefer merging `HNix-Store-*` in to `HNix` to form 1 monorepo.
+
+Would be with relevant news in a couple of days.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                 
                 
                 
@@ -843,34 +882,6 @@ Ok, this time can say that from the patch the `master` diverged so much, it is e
                     <div class="comment">https://github.com/haskell-nix/hnix/issues/200#issuecomment-772720761
 
 In the end I talked about properly packing the contexts. If I understand what is context correctly (and I do not, because there are several different contexts in the project), the evaluation contexts form a 1 single tree, where the top node is `TopLevelExpression` context, and the context tree grows from it. HNix being cellular automata that grows the context tree during evaluation. *idk* is it sound to have 1 context tree for the whole evaluation and pass the tree position, to have `ContextPos` to the `SourcePos`. And so when error gets thrown - to grow and gather the context. Maybe even the context tree is somewhat related to AST, so transitionally to `SourcePos`), but as I said - it is just thinking and I mix together at least two types of contexts.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#200 Increase the performance of parsing and evaluation speed</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by jwiegley in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">Regarding https://github.com/haskell-nix/hnix/issues/200#issuecomment-772720761: long was looking for this article to find it back:https://www.haskellforall.com/2019/12/prefer-to-use-fail-for-io-exceptions.html to think about, maybe it is the same thing, HNix also uses `error` everywhere. So use `fail` to not store exceptions in memory, and reify it only on code execution. And where `thowM - catch` is used - find a way to `throwM` only on execution.</div>
                   </div>
                 
                 
