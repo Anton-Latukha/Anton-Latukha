@@ -737,6 +737,38 @@
               <section class="activity">
                 
                 
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#851 Remove MonadPlus</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by turion in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">Returning of the derived `MonadPlus` into `FreshIdT` solves all inference.
+
+The `MonadPlus -&gt; Alternative =&gt; &lt;+&gt;` - is a biggy one, and seems more important then that last MonadPlus instance. We would be able to crack it sometime during the progress.
+
+Lets make it so, so we merge the current progress, and would simply attenuate the #768 report.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                 
                 
                 
@@ -985,38 +1017,6 @@ so does not change the signatures.</div>
                     <div class="comment">Were replacing `&gt;&gt;` to `*&gt;` in https://github.com/haskell-nix/hnix/pull/849.
 
 Let me merge that, as it prunes superflous Monad constraints, maybe that would help with Monad constraint inference and so that to closer find the inference point between the Alternative &lt;-&gt; Monad &lt;-&gt; MonadPlus.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#851 Remove MonadPlus</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by turion in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">Briefly looked over the code change, the project code, the libs, so far also did not found where the requirement pops up from.
-
-Can tell, like Tomas Aquinas, apophaticly: where I looked for and where the constraint is not 8), but can not point to it.
-
-What I can say - that there is no mention of it in the HNix-Store or `nix-derivation` packages. So, thinking it is not from the upstream Nix stack. Derived instance of something has it? Arrived from other libs?</div>
                   </div>
                 
                 
