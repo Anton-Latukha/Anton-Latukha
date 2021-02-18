@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="686" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="362" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -754,74 +754,8 @@
                     
                     
                       <div class="commit">
-                        <div class="sha">#6d2f5d7</div>
-                        <div class="message">Nix.Builtins: replaceStrings: m refactor: form "replaceWithNixBug"</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#828 Nix.Builtins: replaceStrings refactor</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">The fixated Nix "" bug prevents an implementation from being elegant and lighter.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 2 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-01-20-upd-replaceStrings</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#68c5998</div>
-                        <div class="message">Nix.Builtins: replaceStrings: m refactor: improve readability</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#72e957e</div>
-                        <div class="message">Nix.Builtins: replaceStrings: m refactor: form "replaceWithNixBug"</div>
+                        <div class="sha">#4aa0e99</div>
+                        <div class="message">Nix.Builtins: replaceStrings: m refactor: m upd to readability</div>
                       </div>
                     
                   </div>
@@ -853,8 +787,8 @@
                     
                     
                       <div class="commit">
-                        <div class="sha">#42330cd</div>
-                        <div class="message">Nix.Builtins: replaceStrings: m refactor: improve readability</div>
+                        <div class="sha">#760c047</div>
+                        <div class="message">Nix.Builtins: replaceStrings: m refactor: m upd to readability</div>
                       </div>
                     
                   </div>
@@ -878,7 +812,7 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 91 commits in <div class="repo">haskell-nix/hnix</div>
+                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
                   </div>
                   <div class="details">
                     
@@ -886,120 +820,79 @@
                     
                     
                       <div class="commit">
-                        <div class="sha">#21a48fe</div>
-                        <div class="message">prune language UndecidableInstances
-
-This are files that can drop it.</div>
+                        <div class="sha">#1ddcebc</div>
+                        <div class="message">Nix.Builtins: replaceStrings: m refactor: optimize; document</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-01-20-upd-replaceStrings</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#e85758f</div>
+                        <div class="message">Nix.Builtins: replaceStrings: m refactor: m upd</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 2 commits in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-01-20-upd-replaceStrings</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#84c9bee</div>
+                        <div class="message">Nix.Builtins: replaceStrings: m refactor: m upd</div>
                       </div>
                     
                       <div class="commit">
-                        <div class="sha">#e82e9c4</div>
-                        <div class="message">prune -Wno-missing-signatures</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#e9958d8</div>
-                        <div class="message">clean-up</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#60abb7a</div>
-                        <div class="message">Merge #830: Clean-up</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#4f5f785</div>
-                        <div class="message">ChangeLog: upd to current</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#cf5bab9</div>
-                        <div class="message">drop capslock, use {ChangeLog, ReadMe, License}.md (#831)
-
-I know a couple of good people annoyed by capslocking.
-And moreover, studies show it is harder to grasp the capslocked text.
-Capslocking does not work anyway and not worth it, somewhere since we got Web &amp; URLs.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#f71ef94</div>
-                        <div class="message">CI: upd ReadMe TOC workflow (#832)
-
-* CI: upd On-Readme-update: README-&gt;ReadMe
-
-* CI: remane On-Read(m-&gt;M)-update.yml</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#8d3326e</div>
-                        <div class="message">ReadMe: link to GHC RTS section.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#2a5ac19</div>
-                        <div class="message">ReadMe: link to GHC User Manual "Profiling" section
-
-Since we are giving basics without much explanation, we should direct people to the main source of information &amp; learning on the topic at hand.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#3b24a5e</div>
-                        <div class="message">ReadMe: m perf command fix</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c357b63</div>
-                        <div class="message">upd {rev, hnix-store 0.4.1.0, Nix GHC 8.10 strict} (#835)
-
-System.Nix.Store.Remote now reexports Remote.Types
-:arrow_up_small: allowed at once to enable strict builds to not forget them further.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#5c50295</div>
-                        <div class="message">ReadMe: HNix (#833)</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#c2dfe56</div>
-                        <div class="message">ReadMe: code levels upon laout levels (aka aligning layout horizontally)</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#4618080</div>
-                        <div class="message">ReadMe: reword Disclaimer</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#6f6750c</div>
-                        <div class="message">ReadMe: form Git clone section
-
-Without it the beginning looks sudden, weird to other layout.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#f74c7f8</div>
-                        <div class="message">ReadMe: update Cachix section</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#0ff1046</div>
-                        <div class="message">ReadMe: update Contributing</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#9d03e52</div>
-                        <div class="message">ReadMe: Profiling: proper simple command example</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#4555c07</div>
-                        <div class="message">ReadMe: Profiling: add straight-forward effective instructive example</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#28e3c82</div>
-                        <div class="message">Merge #837 Readme: add profiling info, overall update</div>
+                        <div class="sha">#3af8cdb</div>
+                        <div class="message">Nix.Builtins: replaceStrings: m refactor: m upd</div>
                       </div>
                     
                   </div>
