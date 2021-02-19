@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="419" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="457" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -741,6 +741,49 @@
                     
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
                     
+                    Commented on <div class="issue">#15 Has Haskell 2020 Stalled?</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by eborden in <div class="repo">haskell/rfcs</div></div>
+                    <div class="comment">It is known that committee is dejure, but GHC is defacto.
+
+Currently, there are &gt;100 language extensions.
+The path of least resistance is to at least recommend a set of them.
+
+To get the safest ones from the top of: https://mail.haskell.org/pipermail/ghc-steering-committee/2020-November/001876.html and to form a `HaskellYYYY` recommended extension.
+
+There was and is `Haskell98`, and approach works, so why we would not go further?
+
+So, people can start reducing the extension lists, and some *maybe* would need to learn 1-2 new useful language semantics. Forming the extentions helps to bound back together the dejure management power and defacto GHC working implementation power, everyone would know what standard set of extensions is recommended to what year it would be easier to remember for people then the official Report document, and no one needs to write a big Report document with a stemp on it and rewrite the compiler to new standard when there is opt-in already existing set of language extensions, the only thing that needed is to form a recommended subset of a set. And all who opt-in to use `HaskellYYYY` recommended extension would be focused on optimizing that set of extensions. That creates a track of history and a braid of extensions through time that can be worked on and followed by anybody. All the Reports is hard to enumerate and to list their contents on one page, while the chosen subsets can be formed yearly and enumeration of those sets would fit on the one page.
+
+After the set is proclaimed, the official document is still always can be formed to make language changes and standardization more official. The constant discussions on the current extension subset direct towards making new year extension subset to include discussed changes. And when Report would be decided to be formed - the core of it would be the year extension subset + the conclusions of discussions on it. It is known it is hard "to write a scientific paper", especially a Report one, but just "starting doing something and writing something" (discussing extensions and forming "new this years list" one), it is much easier to start, the first time still would be harder, but when the discussion would roll - year to year "open source distro news" everyone is happy to hear and know and participate in. It is harder to actively participate in Linux distributions (there is a lot of meta situation + a random subset of technologies and languages), in programming language everybody knows the language under discussion, so yearly "distro" process would polish itself through the volume of people that can participate, so in a big lazy list of people there always would being someone that is active and currently does the role job.
+
+And then, when it would be wanted - grab a current set and body of discussion, form the Report, and proclaim a standard officially by merging the extensions into the base language.
+
+And so I would not need to ship my own extension to myself to reduce the extension list in the project we have.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
                     Commented on <div class="issue">#5872 Please, help with hnix-store-core removal</div>
                   </div>
                     <div class="details">
@@ -887,31 +930,6 @@ I currently have repository access. *afaik* only </div>
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
-                    Opened <div class="issue">#5872 Please, help with hnix-store-core removal</div>
-                  </div>
-                  <div class="details">
-                    <div>opened  in <div class="repo">commercialhaskell/stackage</div></div>
-                  </div>
                 
                 
                 
