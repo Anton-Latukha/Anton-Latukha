@@ -737,6 +737,68 @@
               <section class="activity">
                 
                 
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#5872 Please, help with hnix-store-core removal</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by Anton-Latukha in <div class="repo">commercialhaskell/stackage</div></div>
+                    <div class="comment">&gt; Sorry for being off-topic - I'm fine with dropping this from stackage for now and also giving you Hackage access.
+
+I promise to be careful with forming releases, and notifying during the formation of the `hnix-store` releases. The major releases need to be peer-reviewed. The minor releases can happen by themself. Meaning that because there are ~2-3 active people and not being mission critical infrastructure, we need to preserve the effort, the `0.0.x.x` fix releases do not need to be peer-reviewed, but if the problem with Hackage release happens - lets fix it fast. Also would note if someone would want to change something in docs, changelog or so - please do it by own hands. If someone between releases would do something stupid - please, do not shame them, we always can simply silently fix it.
+
+We have a very small team, it means we have a small resource of effort, and there is a huge volume of things to do, models of preserved effort with enough output quality seem great to use in this situation.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#5872 Please, help with hnix-store-core removal</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by Anton-Latukha in <div class="repo">commercialhaskell/stackage</div></div>
+                    <div class="comment">@shlevy, @sorki. I love you.
+
+`hnix-store-core` is not maintained on Stackage LTS for the 11 months. That creates problems for the last half of the year. How it would get solved further after?</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                 
                 
                 
@@ -816,89 +878,6 @@ After the set is proclaimed, the official document is still always can be formed
 And then, when it would be wanted - grab a current set and body of discussion, form the Report, and proclaim a standard officially by merging the extensions into the base language.
 
 And so I would not need to ship my own extension to myself to reduce the extension list in the project we have.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#5872 Please, help with hnix-store-core removal</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">commercialhaskell/stackage</div></div>
-                    <div class="comment">It all started very simple. Currently `hnix-store-core` does not builds for macOS for an unknown number of time. Somewhere since macOS does not have `/proc`.
-
-macOS build fail was reported to `hnix`, but it was a build fail of `hnix-store-core`.
-
-The question is to automatically set one flag to remove the `/proc`-related test on macOS.
-
-But I do not want, as lately frequently, instead of the official maintainers to care about it for them. Making the flag is simple. And then call and beg maintainers to show-up &amp; review merge the fix to merge it, because they do not show-up it is a self-merge, well Ok, then beg the official maintainers to release the project.
-
-After the release then go personally and fix in Nixpkgs all the things, because Stackage LTS package not being maintained by maintainers.
-
-That is quite a lot of hassle to provide 1 binary flag to support the platform I do not have. I need to flop over quite a lot of people not being maintainers to submit 1 binary flag that project interest in the first place.
-
-Overall, this year as said, personally plan a reorganization of `hnix` (preparation and split of it into 4 packages, Expressions (language &amp; parser), Evaluation, Executable (CLI), Extra (Lint, Convert, Format &amp; so on). And soon plan refactor `hnix-store-core` hash interface and do needed work there. With `hnix` being 4 packages and store being 2, it, also because of lacking maintainers, seems logical to form 1 monorepo, so all projects get maintained by 1 team.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#5872 Please, help with hnix-store-core removal</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">commercialhaskell/stackage</div></div>
-                    <div class="comment">@shlevy
-
-Well, understand, happens.
-
-After all you created the project and moved it close to a finish line, so it is understandable that one gets tired.
-
-Specifically not used personnel from the process description. Until it would've been strange that the person with only repository access raises the question of removing the project package from Stackage LTS, so numbered the access of people known.
-
-&gt; Happy to include whoever you think is appropriate.
-Any set of people that would be proactively indeed holding responsibility. Great when maintainers participate in the project processes, at least constantly once a week. Great when one does not need to seek &amp; request from maintainers to maintain the project and to ask maintainers to make releases and support promised and explain that it is needed because it simplifies the life of others, the release processes and the downstream flow at the same time.
-
-We had a tight circle this year, if it is not being me - then @layus. The release team discussion belongs to the `hnix-store` repo.
-
-I work quite a bit this year to ramp-up the processes and to give the quality of life in the projects and allow some onboarding, hoping that when some milestone would be achieved (this year or next year), the community would expand somewhat.
-
-But the `hnix` &amp; `hnix-store-remote` being Hackage, and `hnix-store-core` being Stackage LTS - seems strange at least, if not to say quite inconvenient.</div>
                   </div>
                 
                 
