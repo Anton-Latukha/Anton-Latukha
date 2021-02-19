@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="457" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="419" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -737,6 +737,61 @@
               <section class="activity">
                 
                 
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    Opened <div class="issue">#854 Please, proactively adopt the `GHC2021` extention</div>
+                  </div>
+                  <div class="details">
+                    <div>opened  in <div class="repo">haskell-nix/hnix</div></div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#15 Has Haskell 2020 Stalled?</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by eborden in <div class="repo">haskell/rfcs</div></div>
+                    <div class="comment">&gt; Are you familiar with the [GHC2021](https://github.com/ghc-proposals/ghc-proposals/pull/380) proposal?
+
+Well, it is the right way. But, as said, GHC internal kitchen is not enough. There is Foundation, Committee, and GHC. And they love to pretend that they are separate and not related. The GHC work &amp; recommended extensions -&gt; Haskell Standard process needs to be eventually formally established at least vaguely. The absolute up-down form of power is tyranny, absolute down-up demos power is anarchy. With the better forms of processes are in between, that means that not only up-down form of power should be formalized but down-up also, that formalization preserves a lot, for example, keeps a balance from situation falling into one or the other way.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                   <div class="field">
                     
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
@@ -844,88 +899,6 @@ We had a tight circle this year, if it is not being me - then @layus. The releas
 I work quite a bit this year to ramp-up the processes and to give the quality of life in the projects and allow some onboarding, hoping that when some milestone would be achieved (this year or next year), the community would expand somewhat.
 
 But the `hnix` &amp; `hnix-store-remote` being Hackage, and `hnix-store-core` being Stackage LTS - seems strange at least, if not to say quite inconvenient.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#111562 haskellPackages.hnix fails to build on macOS</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by siraben in <div class="repo">NixOS/nixpkgs</div></div>
-                    <div class="comment">I walked and thought and started to crank the situation from the Stackage.
-
-`hnix-store-core` a year ago was published by ... to the `stackage` and submitted to `stackage` LTS.
-
-And the person that submitted it there - never after done anything to maintain it.
-
-Which, you know. https://search.nixos.org/packages?channel=unstable&amp;from=0&amp;size=50&amp;sort=relevance&amp;query=hnix-store-core
-
-So unwrapping the situation from the Stackage: https://github.com/commercialhaskell/stackage/issues/5872, so the Haskell-Nix &amp; Nixpkgs maintainers have an easier time to releasing and supporting the release.
-
-After that again would discuss the expansion of the release team.
-
-After that - we can do &amp; more importantly *release* &amp; ship the macOS support properly.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#5872 Please, help with hnix-store-core removal</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">commercialhaskell/stackage</div></div>
-                    <div class="comment">&gt; Hi @Anton-Latukha,
-&gt; 
-&gt; Maintainers are always free to remove their package from nightly, preferably by removing it from build-constraints.yaml in this repo. That will also prevent it from being included in the next LTS major release. We've never had a request to remove a package from LTS before (I think) so I'm not sure what to do here (I'll ping the other curators). But i'd like to make it clear that we do not expect you to support an old version of a package, you can simply ignore any issues related to LTS. If hnix-store-core remains in LTS until we do next major LTS release, would that be ok for you? (that's less work for us).
-&gt; 
-&gt; But because of #5766 we will at some point close that issue and remove hnix-store-core anyway. So perhaps we should just do that immediately :-) @juhp would you mind?
-
-No rush.
-
-Just cranking down the situation.
-
-`hnix-store-core` was in a rough state for some time. And it being on ` stackage` without `hnix` &amp; `hnix-store-remote`... Because of Nixpkgs connection, we need to be or on Hackage only, or on Stackage fully, because if anything of `hnix*` stays in between - we (&amp; Nixpkgs maintainers) have a hassle in Nixpkgs. "Default" `haskellPackages.hnix-store-core` is Stackage `0.2.0` [there](https://search.nixos.org/packages?channel=unstable&amp;from=0&amp;size=50&amp;sort=relevance&amp;query=hnix-store-core), so for Nixpkgs we need to ship an official/unoficcial side-package, by the Nixpkgs process &amp; policy it can have only naming `haskellPackages.hnix-store-core_0_4_1_0`, where package name hardcodes the version. So every release we (being proper maintainers) need to go to Nixpkgs and override everything that used `haskellPackages.hnix-store-core_0_4_1_0` to new `haskellPackages.hnix-store-core_0_x_x_x`, that also involves quite complex time window management to do it roughly properly.
-
-
-
-I currently have repository access. *afaik* only </div>
                   </div>
                 
                 
