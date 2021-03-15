@@ -1044,6 +1044,167 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 4 commits in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#fcc86b0</div>
+                        <div class="message">Value: fx MonadFail for GHC 8.6</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#1b63287</div>
+                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6195134</div>
+                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#b45f208</div>
+                        <div class="message">Reduce: refactor</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#5c49502</div>
+                        <div class="message">Reduce: refactor</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 3 commits in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#55d3f54</div>
+                        <div class="message">Value: fx MonadFail for GHC 8.6</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#7c81a78</div>
+                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#1807736</div>
+                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#bb92ba3</div>
+                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
                     Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
                   </div>
                   <div class="details">
@@ -1054,169 +1215,6 @@
                       <div class="commit">
                         <div class="sha">#ee82c97</div>
                         <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 4 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#9f5365e</div>
-                        <div class="message">cabal: stopping GHC 8.4 support
-
-https://github.com/haskell-nix/hnix/issues/885</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#34c8530</div>
-                        <div class="message">Value: fx MonadFail for GHC 8.6</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#54bce4a</div>
-                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#9418d98</div>
-                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 2 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#708c278</div>
-                        <div class="message">Value: fx MonadFail for GHC 8.6</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#e597b30</div>
-                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 2 commits in <div class="repo">Anton-Latukha/.spacemacs.d</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">private</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#c7ae307</div>
-                        <div class="message">M  init.el</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#58fd614</div>
-                        <div class="message">M  init.el</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#a1a03b9</div>
-                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
                       </div>
                     
                   </div>
