@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="462" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="451" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -1044,6 +1044,181 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 2 commits in <div class="repo">layus/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">nvalue-cleanup</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#3329035</div>
+                        <div class="message">ChangeLog: add note on the NValue' data constructor change</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#00a7f21</div>
+                        <div class="message">Value: m docs</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#886 Harmonize NValue and NValue' notations, add doc ad COMPLETE annotations to patterns.</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by layus in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">Nice, indeed. There was some puzzlement there before. Now we see it is `NValue'` there.
+
++====
+
+About documentation:
+The best live examples for documentation for the project that know of is https://github.com/kowainik/relude, there complete documentation and then more. Over `kowainik` projects overall they keep extremely good documentation, so they ironed-out how to use the majority of the Haddock features and layouts. Those sources are a good example to look into for some particularities of the practice.
+
+One thing that I would differ with them, they section the imports, while I prefer sectioning the source code, since then people have structural awareness of where they are and what the main theme of the code block while reading the code and working in the source files. And that simple source outlining during work gives organization overall, a peace of mind, structural folding, editing: 
+
+&lt;details&gt;&lt;summary&gt;Screenshot&lt;/summary&gt;
+
+![Screenshot-2021-03-15-14:16:45](https://user-images.githubusercontent.com/20933385/111152144-185a6580-8599-11eb-8218-4a8a9a6e7aa0.png)
+
+It was #555 in the past.
+
+&lt;/details&gt;
+
+About Haddocks, of course, the practice makes perfect. Myself still learning the specific details of Haddock.
+
+Also, you've see probably some of my `Value` docs, I knew they were corny at the time of writing, but they came out too corny <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />.
+
+If you consider the patch a draft, then lock it in as a draft. Making the patch ready for merge and right-away stating in the head post that it is a draft - sends opposite messages. Why it is a draft, I see it complete. Probably you consider it as a draft, since docs can be improved.
+
+I began to see, like the Kernel team says that security bugs are just regular bugs, that the documentation process is just code refactoring, meaning that it is sneaked-in duringx the main work. Refactors to docs are even lighter questions to the refactors to code and they both a kinda moral, sanitary, and effective necessity - the most effective way to go about them is to do the docs and code refactors as drive-by improvements into the patches during main work.
+
+For me it looks good to merge. As personally with docs I adhere to the Wiki community post-editing and the rule: having documentation is better than not having it. And polishing the docs in the environment of merge requests I consider it to be overall a very counter-productive and socially awkward process and awkward overall. Rather then doing that, I like saying "thank you" and merging the improvements to docs.
+
+Saying "thanks" and eagerly merging docs also goes into approaching to docs as code refactoring.
+
+I even go further - maintainers are *carte blanche* to self-merge docs. Up until it would be shown to be required the otherwise case.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 1 commit in <div class="repo">Anton-Latukha/mantra</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#f9563c5</div>
+                        <div class="message">M  mantra-en.org</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 3 commits in <div class="repo">Anton-Latukha/mantra</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">master</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#9a4ea17</div>
+                        <div class="message">M  mantra-en.org</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#2cb6d73</div>
+                        <div class="message">M  mantra-en.org</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#29d9086</div>
+                        <div class="message">M  mantra-en.org</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
                     Pushed 2 commits in <div class="repo">Anton-Latukha/mantra</div>
                   </div>
                   <div class="details">
@@ -1059,167 +1234,6 @@
                       <div class="commit">
                         <div class="sha">#14f2f37</div>
                         <div class="message">M  mantra-en.org</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 4 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#fcc86b0</div>
-                        <div class="message">Value: fx MonadFail for GHC 8.6</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#1b63287</div>
-                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#6195134</div>
-                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#b45f208</div>
-                        <div class="message">Reduce: refactor</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#5c49502</div>
-                        <div class="message">Reduce: refactor</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 3 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#55d3f54</div>
-                        <div class="message">Value: fx MonadFail for GHC 8.6</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#7c81a78</div>
-                        <div class="message">Thunk.Basic: refactoring the thunk lock/unlock procedure</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#1807736</div>
-                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-11-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#bb92ba3</div>
-                        <div class="message">Thunk.Basic: more refactor for locking mechanism; module organization</div>
                       </div>
                     
                   </div>
