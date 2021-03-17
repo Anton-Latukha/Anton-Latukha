@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="421" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="339" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -1036,6 +1036,124 @@
                 
                 
                 
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    Closed <div class="issue">#808 Please, adjust the test suites to work in the nix-build</div>
+                  </div>
+                  <div class="details">
+                    <div>opened  in <div class="repo">haskell-nix/hnix</div></div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#808 Please, adjust the test suites to work in the nix-build</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by Anton-Latukha in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">Done.
+
+Nix dev envs work.
+
+Nixpkgs is another process.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
+                    Closed <div class="issue">#652 No explicit implementation for ‘liftTyped’ In the instance declaration for ‘Lift (Fix NExprF)’</div>
+                  </div>
+                  <div class="details">
+                    <div>opened by sjakobi in <div class="repo">haskell-nix/hnix</div></div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#652 No explicit implementation for ‘liftTyped’ In the instance declaration for ‘Lift (Fix NExprF)’</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by sjakobi in <div class="repo">haskell-nix/hnix</div></div>
+                    <div class="comment">Was done.
+
+ Remembering that `layus` submitted lifted instance.
+
+GHC 8.10 Nix build currently holds strict testing.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/></svg>
                     Updated 1 wiki page in <div class="repo">haskell-nix/hnix</div>
@@ -1047,158 +1165,6 @@
                       </div>
                     
                   </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#713 File watches are created over-zealously</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by hpdeifel in <div class="repo">emacs-lsp/lsp-mode</div></div>
-                    <div class="comment">Spitballing:
-
-Linux filesystems for many years ship the `inotify` with a directory mode, which allows having 1 watcher for the directory:
-Old system was `dnotify`: https://www.kernel.org/doc/html/latest/filesystems/dnotify.html, then [`inotify`](https://en.wikipedia.org/wiki/Inotify), [LWN docs on it](https://lwn.net/Articles/604686/).</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#1 More instances; or how to use the Acc properly</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">nikita-volkov/acc</div></div>
-                    <div class="comment">Ok.
-
-Undetstood.
-
-I would think a bit here next:
-
-So `Acc` is for the parser, and project nicely packs the parser module: https://github.com/haskell-nix/hnix/blob/master/src/Nix/Parser.hs.
-
-`NExprF` is what is called a base functor for `NExpr`. It is recursion schemes, https://github.com/haskell-nix/hnix/wiki/Design-of-the-HNix-code-base#nix-types-and-their-core-type-system.
-
-So thinking. Ok. `Acc` fits into Parser, again, for example where the lists are used there, to grow stuff and then freeze it into other type.
-
-But `Parser` mainly works on `NExprF` &amp; `NExprLocF` (main and annotated expression primitives), so thinking maybe `Acc` fits for the `NExprF` and `NExprLocF` which are there to be used by parser and when done are converted into `NExpr` and `NExprLoc`.
-
-So maybe put the freeze data type before this process:
-https://github.com/haskell-nix/hnix/blob/7ac94bb24d625dfec6760892359c9e863369614a/src/Nix/Expr/Types.hs#L516-L517
-
-Sorry for trying to figuring-out it here and maybe asking your mind on it, just want to do things properly, largely without guardrails from others, frequently by myself in the project, so at least trying to have the idea of where it fits before doing core changes.
-
-Ok, thank you. Got some basic idea.</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#880 Please, make the statement "Monoid is not List" true</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by Anton-Latukha in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">https://github.com/nikita-volkov/acc/issues/1#issuecomment-800976286
-
-&gt; *nikita-volkov:*
-&gt;
-&gt; There is a common pattern to construct data structures in two phases: first build, then freeze. With that in mind it helps to separate data structures into modification-optimized and frozen.
-&gt; 
-&gt; The first category is your builders, maps, sets, lists and what not, all optimized for various kinds of modification operations. Frozen types are optimized for querying operations and compact representation in memory, their examples are monolithic types like vectors, text, bytestring and ADTs around them.
-&gt; 
-&gt; Your `NExprF` and `NString` seem to fall into the frozen category. That's why I recommend using `Vector` instead of list or `Acc` in it.
-&gt; 
-&gt; Since `Vector` is not optimized for any sort of modification, you'll need a data structure optimized for building it. `Acc` paired with `Int` (for the vector size) would do for such purpose, however I've already released a package dedicated to building vectors and it is optimized even better for the task: ["vector-builder"](http://hackage.haskell.org/package/vector-builder).
-&gt; 
-&gt; I sense the way you construct is by parsing. It is a typical case for the build/freeze approach. More so, you'll find utilities like `many` and `some` in the "vector-builder" package that are particularly useful in parsing.
-
-</div>
-                  </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-                    
-                    Commented on <div class="issue">#851 Remove MonadPlus</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by turion in <div class="repo">haskell-nix/hnix</div></div>
-                    <div class="comment">Would be happy to see you again.</div>
-                  </div>
-                
                 
                 
                 
