@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="519" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="441" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -1035,6 +1035,50 @@
               <section class="activity">
                 
                 
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    Commented on <div class="issue">#374 Please, explain the difference in use between `show` &amp; `toText|toLText|toString`</div>
+                  </div>
+                    <div class="details">
+                    <div>opened by Anton-Latukha in <div class="repo">kowainik/relude</div></div>
+                    <div class="comment">Yep.
+
+As I've put it:
+&gt; forgot about the escape literals difference.
+
+This also seems like a nice case to make a small notes to guide people.
+
+As `relude` gives prime-time to text data types refactroing. Previously `Show` differentiated the use, to not marshall into String - people were using Text functions directly, and `show` was used only for output things. To the point that topic opener forgot there is a difference between `pack/unpack` and `show`.
+
+To clean-up the accumulated String technical debt, 1-st thing HNix migrated to `relude`.
+
+I've seen the http://hackage.haskell.org/package/relude-1.0.0.1/docs/Relude-String.html right-away, but initially ignored it since its description is minimalistic and for thinking the following:
+
+After/during migration to `relude` since the situation is changed - the barriers are no longer where they were, and the parametric `show` tempts to be used as an easy escape everywhere, and relearned that literals escaping compounding was the price, and that the marshaling happened anyway and twice.
+
+That why I think that minimal note guard rails should be mentioned, in fact, that would be enough to guide migrations properly.</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                 
                 
                 
@@ -1193,102 +1237,6 @@ When to try to remove the base case too hard, the `base foldr1` is what comes ou
                 
                 
                 
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 7 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">master</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#965e199</div>
-                        <div class="message">Builtins: clean-up names, form `*Nix` group for builtins
-
-Noticed that the `*_` was used to avoid collision with well-known Haskell
-function names.
-
-But `*_` has a different semantic meaning in Haskell, and the reader still thought it
-is Haskell well-known functions with `_` modification.
-
-This also created a dichotomy in function names, now some were normal, and some
-were `_` without difference in the semantic meaning of them.
-
-They now are formed in subgroup. All of them are internal module functions.
-
-This subgroup can be put in a separate module and imported qualified, and so -
-would be able to drop the `*Nix` suffix from them.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#e4ffbfd</div>
-                        <div class="message">Builtins: clean-up</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#0e7e538</div>
-                        <div class="message">Builtins: layouting; refactoring</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#f1940c8</div>
-                        <div class="message">Builtins: organization
-
-Grouping and moving things around.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#e6bdbef</div>
-                        <div class="message">Builtins: helpers: add {nVNull, mkNVBool}</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#7aa6f54</div>
-                        <div class="message">Builtins: layout</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#1f59a22</div>
-                        <div class="message">Merge #899: Builtins: normalizing fun names; refactor; org
-
-Noticed that the `*_` was used to avoid collision with well-known Haskell
-function names.
-
-But `*_` has a different semantic meaning in Haskell, and the reader still thought it
-is Haskell well-known functions with `_` modification.
-
-This also created a dichotomy in function names for the `builtins`, now some were normal, and some
-were `_` without difference in the semantic meaning to them.
-So reader logic was tripping over this dichotomy and between the well-known Haskell names and their `_` modifications.
-
-`builtins` functions are internal to module. Now they are formed in `*Nix` subgroup.
-
----
-
-Since it is the biggest module, wanted to split-away the functions into `Builtins.Function` module. But nope. `builtins.builtins.builtins...` is a part of the code design. Left a note that the module not really can be split that nicely.</div>
-                      </div>
-                    
-                  </div>
                 
                 
                 
