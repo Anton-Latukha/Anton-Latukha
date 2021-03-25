@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="424" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="526" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -1035,6 +1035,93 @@
               <section class="activity">
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 8 commits in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-03-23-refactors</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#3c99399</div>
+                        <div class="message">Derivation.hs: remove uses of `undefined`</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#ff38065</div>
+                        <div class="message">Fix leftover import of Text, impeding strict build</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#d6b8c5a</div>
+                        <div class="message">revert "CI: Nix dev env: GHC 8.10: disable strict build"
+
+This reverts commit cd02c6dd59105ccbfb36218fba3b0bce3c8c77ad.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#14347bf</div>
+                        <div class="message">Limit allowed relude versions</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#965e199</div>
+                        <div class="message">Builtins: clean-up names, form `*Nix` group for builtins
+
+Noticed that the `*_` was used to avoid collision with well-known Haskell
+function names.
+
+But `*_` has a different semantic meaning in Haskell, and the reader still thought it
+is Haskell well-known functions with `_` modification.
+
+This also created a dichotomy in function names, now some were normal, and some
+were `_` without difference in the semantic meaning of them.
+
+They now are formed in subgroup. All of them are internal module functions.
+
+This subgroup can be put in a separate module and imported qualified, and so -
+would be able to drop the `*Nix` suffix from them.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#e4ffbfd</div>
+                        <div class="message">Builtins: clean-up</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#0e7e538</div>
+                        <div class="message">Builtins: layouting; refactoring</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f1940c8</div>
+                        <div class="message">Builtins: organization
+
+Grouping and moving things around.</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                   <div class="field">
                     
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
@@ -1174,59 +1261,6 @@ would be able to drop the `*Nix` suffix from them.</div>
                     
                       <div class="commit">
                         <div class="sha">#b37cf90</div>
-                        <div class="message">Builtins: clean-up</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 2 commits in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-23-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#804dcd7</div>
-                        <div class="message">Builtins: clean-up names, form `*Nix` group for builtins
-
-Noticed that the `*_` was used to avoid collision with well-known Haskell
-function names.
-
-But `*_` has a different semantic meaning in Haskell, and the reader still thought it
-is Haskell well-known functions with `_` modification.
-
-This also created a dichotomy in function names, now some were normal, and some
-were `_` without difference in the semantic meaning of them.
-
-They now are formed in subgroup. All of them are internal module functions.
-
-This subgroup can be put in a separate module and imported qualified, and so -
-would be able to drop the `*Nix` suffix from them.</div>
-                      </div>
-                    
-                      <div class="commit">
-                        <div class="sha">#5e073dd</div>
                         <div class="message">Builtins: clean-up</div>
                       </div>
                     
