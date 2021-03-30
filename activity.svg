@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="390" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -1035,6 +1035,94 @@
               <section class="activity">
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 11 commits in <div class="repo">haskell-nix/hnix</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">2021-03-26-refactors</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#8d03ba3</div>
+                        <div class="message">cabal: allow TH 2.17</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#fcb4baf</div>
+                        <div class="message">{cabal, Expr.Types}: for GHC 8.6 use th-lift-instances for Lift Text</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#a213a27</div>
+                        <div class="message">Expr.Types: inst Lift (Fix (NExprF)): use lift for Text
+
+Result may be quite a saving.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#32bca67</div>
+                        <div class="message">Expr.Types: m import upd: use TH qualified</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#324c550</div>
+                        <div class="message">Expr.Types: inst Lift (Fix (NExprF)): use monad</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f9f4f25</div>
+                        <div class="message">TH.hs: nix: add note about Quasi(Quoter -&gt; Text)</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#24a868d</div>
+                        <div class="message">Render.Frame: renderExpr: -&gt; Text</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#75fdcf8</div>
+                        <div class="message">Render.Frame: renderValue: -&gt; Text</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#6e0487d</div>
+                        <div class="message">Render.Frame: layout</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#4891c8c</div>
+                        <div class="message">Expr.Types: TH.Lift (Fix NExprF): lift: doc &amp; layout
+
+Show that it does monadic join and then pure.</div>
+                      </div>
+                    
+                      <div class="commit">
+                        <div class="sha">#f9b9b30</div>
+                        <div class="message">Cache: layout</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
                   <div class="field">
                     
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
@@ -1141,40 +1229,6 @@ It is interesting and useful to note that Lift Text is supplied by default from 
                       <div class="commit">
                         <div class="sha">#8e119c6</div>
                         <div class="message">{cabal, Expr.Types}: for GHC 8.6 use th-lift-instances for Lift Text</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">haskell-nix/hnix</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">2021-03-26-refactors</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#58c29c5</div>
-                        <div class="message">cabal: allow TH 2.17</div>
                       </div>
                     
                   </div>
