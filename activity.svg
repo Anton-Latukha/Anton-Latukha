@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="669" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="398" class="">
     <defs>
         <style/>
     </defs>
@@ -1043,6 +1043,41 @@
                                     </div>
                                     <div class="commit">
                                         <span class="sha">
+                                            #7055d2d
+                                        </span>
+                                        <span class="message">
+                                            tree-wide: rm vacuous toText
+
+After migration, these (Text -&gt; Text), so no need for them.
+
+After all this FilePath is seen for a need of conversion.
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">
+                                            haskell-nix/hnix
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            2021-04-02-refactors
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
                                             #6522ae8
                                         </span>
                                         <span class="message">
@@ -1157,179 +1192,6 @@ Note: not talking about the whole `relude` stuff.
                                         </span>
                                         <span class="message">
                                             Repl: m refactor
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 16 commits in
-                                        <span class="repo">
-                                            haskell-nix/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            master
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #a5fd4d7
-                                        </span>
-                                        <span class="message">
-                                            TH: refactor
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #2d3fab9
-                                        </span>
-                                        <span class="message">
-                                            TH: freeVar: do not fmap when Nothing
-
-`mapMaybe` terminates computations if application returns `Nothing`.
-
-`fmap freeVars` does not change the Maybe monad.
-
-So the code was `mapMaybe (fmap func)` vacuously before reducing on `Nothing`.
-
-Not `mapMaybe` reduces computations and what is left recieves a `fmap`.
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #5ba0f3a
-                                        </span>
-                                        <span class="message">
-                                            Exec: nvBuiltinP: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #7956a72
-                                        </span>
-                                        <span class="message">
-                                            Exec: inst MonadEval (NValue): refactor: fmap toString -&gt; once
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #532151e
-                                        </span>
-                                        <span class="message">
-                                            Effects: class MonadInstantiate: instantiateExpr: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #5f4a7bf
-                                        </span>
-                                        <span class="message">
-                                            Exec: nixInstantiateExpr: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #9685fa7
-                                        </span>
-                                        <span class="message">
-                                            Effects: class MonadEnv: getEnvVar: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #388e306
-                                        </span>
-                                        <span class="message">
-                                            Effects: class MonadExec: exec': -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #16fb617
-                                        </span>
-                                        <span class="message">
-                                            Effects: parseStoreResult: -&gt; Text
-
-Converted only 1 Text. The Either String ... comes from Store.
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #59ad3e2
-                                        </span>
-                                        <span class="message">
-                                            Effects: inst MonadStore: add{,Text}ToStore: (pure . f =&lt;&lt; -&gt; f &lt;$&gt;)
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #9741743
-                                        </span>
-                                        <span class="message">
-                                            Exec: exec: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #1f151fc
-                                        </span>
-                                        <span class="message">
-                                            Effects.Derivation: renderSymbolic: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #37bfd45
-                                        </span>
-                                        <span class="message">
-                                            Builtins: class ToBuiltin: toBuiltin -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #8811d04
-                                        </span>
-                                        <span class="message">
-                                            Lint: symerr: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #b148cf9
-                                        </span>
-                                        <span class="message">
-                                            ChangeLog: add recent to Text migrations
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #2b287ed
-                                        </span>
-                                        <span class="message">
-                                            Merge #914: to Text migrations; TH refactor
-
-Currently covered the case of most of the HNix.
- * In the next PRs, the last modules that are most high-level: `{Builtins, Repls, Main}`.
- * There are a couple of `String` cases with list processing and such that got left below.
- * `FilePath` is still `FilePath` for `FilePath` legacy reasons.
- * In the code got to the Store String iceberg, which needs attention.
- 
-* In this PR: everything else pretty much Text now.
- 
-* TH got refactored, now process of `freeVars` is more vivid.
-* Replaced `fmap toString` in several places with duing one call.
-* Reduced `=&lt;&lt;` to `&lt;$&gt;` in one place.
                                         </span>
                                     </div>
                                 </div>
