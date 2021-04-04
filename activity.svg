@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="472" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="478" class="">
     <defs>
         <style/>
     </defs>
@@ -1042,6 +1042,39 @@
                                         </span>
                                     </div>
                                     <div class="comment">
+                                        &gt; I would have rather had a safe foldr1 (with no base case) that is restricted to nonempty structures.
+
+There are none such. NonEmpty structures always have the base case, that is what to do for `NonEmpty` value.
+
+So if one `(a -&gt; a -&gt; a) -&gt; t a -&gt; a` one also needs to provide the base case, but now one needs to do it inside of the `(a -&gt; a -&gt; a)`, which is a limiting signature.
+`relude: foldr1` allows the same thing, except that it does not require to pack base case into `(a -&gt; a -&gt; a)` requirements, the base case for `t a` now can be anything `b`, and catamorphism can be anything: `(a -&gt; b -&gt; b) -&gt; b`.
+
+Hence, `relude`s version is super to `base`s, and former called consistently, while the `(a -&gt; a -&gt; a) -&gt; t a -&gt; a` is a limiting fold that works only for some cases, it is still handy and useful, but needs other name.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">
+                                            #307 Add 'foldr1' to the 'Foldable1' typeclass
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        opened by chshersh in
+                                        <span class="repo">
+                                            kowainik/relude
+                                        </span>
+                                    </div>
+                                    <div class="comment">
                                         &gt; (within a more limited domain of application) and thus redundant.
 
 This almost does not happen in Haskell, especially by thoughtful authors. In Haskell for "more limited domain of application" people often use words "specialized to", "more powerful", "optimized for". As if used properly when needed, special cases optimize better, for some cases `MonadPlus` for parsers is more powerful then `Alternative`, `Abelian` structure is much more performant then `Semigroup`, more restrictions, more properties - more implementation optimization possible. The weaker structures in most cases can be used, but frequently they work less efficiently. The best the most understandable example that I've seen is comparing `Associative` to `Associative &amp; Commutative`, what is only `Associative` is strictly one-threaded sequential, the `Commutative` gives complete parallelism.
@@ -1133,41 +1166,6 @@ It became obvious that `FilePath` should be casted to some type that makes the b
 `path` also provides functionality to distinguish between path types, which HNix currently does internally.
 
 Overall, this is the next move in the transition from String in the HNix.
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            haskell-nix/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            2021-04-02-refactors
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #7055d2d
-                                        </span>
-                                        <span class="message">
-                                            tree-wide: rm vacuous toText
-
-After migration, these (Text -&gt; Text), so no need for them.
-
-After all this FilePath is seen for a need of conversion.
-                                        </span>
                                     </div>
                                 </div>
                             </section>
