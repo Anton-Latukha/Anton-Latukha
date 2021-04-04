@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="427" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="472" class="">
     <defs>
         <style/>
     </defs>
@@ -1042,6 +1042,60 @@
                                         </span>
                                     </div>
                                     <div class="comment">
+                                        &gt; (within a more limited domain of application) and thus redundant.
+
+This almost does not happen in Haskell, especially by thoughtful authors. In Haskell for "more limited domain of application" people often use words "specialized to", "more powerful", "optimized for". As if used properly when needed, special cases optimize better, for some cases `MonadPlus` for parsers is more powerful then `Alternative`, `Abelian` structure is much more performant then `Semigroup`, more restrictions, more properties - more implementation optimization possible. The weaker structures in most cases can be used, but frequently they work less efficiently. The best the most understandable example that I've seen is comparing `Associative` to `Associative &amp; Commutative`, what is only `Associative` is strictly one-threaded sequential, the `Commutative` gives complete parallelism.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">
+                                            #307 Add 'foldr1' to the 'Foldable1' typeclass
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        opened by chshersh in
+                                        <span class="repo">
+                                            kowainik/relude
+                                        </span>
+                                    </div>
+                                    <div class="comment">
+                                        Since `foldr` does not have NonEmpty boundary, one can use `(a -&gt; b -&gt; b)` on empty `t a` that is unsafe, the most simple "on the lap" example is to evaluate strictly - ` `\ xs acc -&gt; acc &lt;&gt; head xs` or for that matter `\ xs acc -&gt; f (acc &lt;&gt; head xs)`, or any function that implicitly uses root of the structure or the tail of it.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">
+                                            #307 Add 'foldr1' to the 'Foldable1' typeclass
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        opened by chshersh in
+                                        <span class="repo">
+                                            kowainik/relude
+                                        </span>
+                                    </div>
+                                    <div class="comment">
                                         That `*1` naming used consistently. `foldr1` is `Foldable1`, which gives what `Foldable1` does - gives a guarantee that the structure is empty-safe. While `foldr` with `Foldable` does not gives that guarantee and allows non-total unsafe functions.
                                     </div>
                                 </div>
@@ -1113,72 +1167,6 @@ Overall, this is the next move in the transition from String in the HNix.
 After migration, these (Text -&gt; Text), so no need for them.
 
 After all this FilePath is seen for a need of conversion.
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            haskell-nix/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            2021-04-02-refactors
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #6522ae8
-                                        </span>
-                                        <span class="message">
-                                            Main: some to Text migrations
-
-Only some, beacause other uses pervasively rely on String and wouldn't be effective.
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            haskell-nix/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            2021-04-02-refactors
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #27489ab
-                                        </span>
-                                        <span class="message">
-                                            Main: some toText migrations
-
-Only some, beacause other uses pervasively rely on String and wouldn't be effective.
                                         </span>
                                     </div>
                                 </div>
