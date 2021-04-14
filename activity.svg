@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="580" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="454" class="">
     <defs>
         <style/>
     </defs>
@@ -1028,6 +1028,92 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 4 commits in
+                                        <span class="repo">
+                                            Anton-Latukha/Fundamental-Haskell
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            master
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #75958bb
+                                        </span>
+                                        <span class="message">
+                                            Join function: upd
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #a8249b3
+                                        </span>
+                                        <span class="message">
+                                            Join function: upd
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #c6cc2fa
+                                        </span>
+                                        <span class="message">
+                                            Bind function: upd
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #db5bcbf
+                                        </span>
+                                        <span class="message">
+                                            Bind function: upd
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">
+                                            Anton-Latukha/Fundamental-Haskell
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            master
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #9c81bb6
+                                        </span>
+                                        <span class="message">
+                                            Meta: html upd
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 1 commit in
                                         <span class="repo">
                                             Anton-Latukha/.spacemacs.d
@@ -1123,177 +1209,6 @@ Allows to parse the book.
                                         </span>
                                         <span class="message">
                                             M  mantra-en.org
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            Anton-Latukha/mantra
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            master
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #ddbdac4
-                                        </span>
-                                        <span class="message">
-                                            M  mantra-en.org
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 11 commits in
-                                        <span class="repo">
-                                            haskell-nix/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            master
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #690d910
-                                        </span>
-                                        <span class="message">
-                                            Lint: NTypeF: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #8fb005b
-                                        </span>
-                                        <span class="message">
-                                            Builtins: foldNixPath: -&gt; Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #28a446e
-                                        </span>
-                                        <span class="message">
-                                            Repl: to Text migrations
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #2567036
-                                        </span>
-                                        <span class="message">
-                                            Repl: to Text migrations
-
-Another bunch of to Text
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #03baff6
-                                        </span>
-                                        <span class="message">
-                                            Repl: to Text migrations
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #2311b48
-                                        </span>
-                                        <span class="message">
-                                            Repl: to Text migrations
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #28b84cc
-                                        </span>
-                                        <span class="message">
-                                            treewide: ((fmap . fmap) -&gt; &lt;&lt;$&gt;&gt;)
-
-Since &lt;$&gt; gives more simple readability, decided that &lt;&lt;$&gt;&gt; also gives better
-readabilty.
-
-And in migration from `relude` stuff like this useful to save into `Utils`.
-
-Note: not talking about the whole `relude` stuff.
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #9f1bc5b
-                                        </span>
-                                        <span class="message">
-                                            Repl: m refactor
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #6522ae8
-                                        </span>
-                                        <span class="message">
-                                            Main: some to Text migrations
-
-Only some, beacause other uses pervasively rely on String and wouldn't be effective.
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #7055d2d
-                                        </span>
-                                        <span class="message">
-                                            tree-wide: rm vacuous toText
-
-After migration, these (Text -&gt; Text), so no need for them.
-
-After all this FilePath is seen for a need of conversion.
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #fb1f95e
-                                        </span>
-                                        <span class="message">
-                                            Merge #915: Repl: toText refactors
-
-
-* What is currently left to migrate is the last realistic bit currently, the more complex String manipulations that initially passed by, and now would return and migrate it.
-
-* What then what is left is Store Strings, FilePaths, and places that have heavy external String use, it is pity that a lot of libs give only Strings.
-* Let's hope that more updates would arrive with current endeavors.
-
-After the mentioned at the top migrations, would consider the migration as largely done in HNix, and would move to other things, probably to do what is possible for the GHC support.
-
-Over the "to Text" migrations run rough real-life `Firefox` evaluation "benchmarking", the time of computation was roughly the same across the points in migration.
-
-Thou looked into time performance, since was more worried about maybe some marshaling somewhere, but currently, as put above - seems not. There should be quite a memory save, Text is much more memory efficient and strict type at the same time.
-
-During these last overpasses, the #912 is the main thing and became apparent.
                                         </span>
                                     </div>
                                 </div>
