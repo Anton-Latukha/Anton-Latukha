@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="544" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="474" class="">
     <defs>
         <style/>
     </defs>
@@ -1058,6 +1058,84 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">
+                                            Anton-Latukha/Fundamental-Haskell
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            master
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #92cd41d
+                                        </span>
+                                        <span class="message">
+                                            Closure: upd
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 3 commits in
+                                        <span class="repo">
+                                            Anton-Latukha/Fundamental-Haskell
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            master
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #e985f5f
+                                        </span>
+                                        <span class="message">
+                                            Applicative interchange property: upd
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #ed2210a
+                                        </span>
+                                        <span class="message">
+                                            Applicative interchange property: upd
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #cda76d3
+                                        </span>
+                                        <span class="message">
+                                            Closure: upd
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 4 commits in
                                         <span class="repo">
                                             Anton-Latukha/Fundamental-Haskell
@@ -1168,128 +1246,6 @@
                                     <div class="commit">
                                         <span class="sha">
                                             #18ec85f
-                                        </span>
-                                        <span class="message">
-                                            refactors
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 6 commits in
-                                        <span class="repo">
-                                            Anton-Latukha/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            2021-04-14-refactors
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #cbe7e7a
-                                        </span>
-                                        <span class="message">
-                                            Type.Infer: refactors
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #a786ba6
-                                        </span>
-                                        <span class="message">
-                                            treewide: (pure &lt;=&lt; -&gt;)
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #a72e584
-                                        </span>
-                                        <span class="message">
-                                            Effects.Derivation: buildDerivationWithContext: refactor: (pure.&lt;=&lt; -&gt; &lt;$&gt;)
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #58809c5
-                                        </span>
-                                        <span class="message">
-                                            Builtins: seqNix: (const (pure b) &lt;=&lt; -&gt; b &lt;$)
-
-This is just an eqivalent replacer. The reference implementation sequentially does for `a` &amp;
-`b` forceValue, and returns `b`.
-
-The `seq` in GHC promises that `a` would be evaluated to `WHNF` - not more &amp; not
-less.
-
-In this current implementation is `m` preservation from `a` is a good things,
-idk so far.
-
-The first version of `seq` was `a &gt;&gt; b`.
-
-Then it became this one.
-
-Since reference does forceValue bor both, the exact same implementation is:
-
-```haskell
-seqNix a b =
-  demand b &lt;* demand a
-```
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #26b4bc9
-                                        </span>
-                                        <span class="message">
-                                            Builtins: (seq, deepSeq)Nix: doc
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #8a9a897
-                                        </span>
-                                        <span class="message">
-                                            refactors
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            Anton-Latukha/hnix
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            2021-04-14-refactors
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #d223d72
                                         </span>
                                         <span class="message">
                                             refactors
