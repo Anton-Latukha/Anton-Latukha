@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="387" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="428" class="">
     <defs>
         <style/>
     </defs>
@@ -1106,6 +1106,81 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#919 Voting the license move BSD -&gt; LGPL</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">  Replying to hard linking &amp; dynamic linking in the scope of LGPL 
+<i>
+While I like the spirit of the LGPL I am worried that abiding by it with a non-LGPL downstream means disabling all inlining / not including any unfoldings in addition to dynamic linking. That can be a little tricky and cause annoying performance problems that cannot be solved without breaking modularity.
+</i>
+Such tecnical questions are not how law operates. Derivative work is viewed regardless of them. The same code can be compiled both as dynamic- and as hard-linked, that binary compilation detail does not turn work form legality from normal to suddenly a derivative work.
+If linkage was a factor then dynamically linked code also has a table that links to the library anyway also.
+When LGPL is the weakest well-known license we have &amp; it was created clearly with a purpose to support libraries and it has a more precise definition of linkage and derivative work. If one uses HNix library as a package - that is undoubtedly the right use. page 12 last paragraph mentions:
+<i>
+Works statically linking to the Library fall out of the scope of the LGPL until they are compiled with the ‘Library’.
+As to used as a package, or as a library, even statically linked - is completely Ok under LGPL.
+</i>
+As far as I read lawyer advice on those questions, type of software linking was explained to be completely a technical details question, that is irrelevant to legality and not reviewed in the court. In other words, the legal definitions of what is modification &amp; "derivative work" are not connected in any with how compilation happens.
+I have a IT lawyer friend which is proficient in Open Source questions, but as professional lawyer he is held liable for what he even casually advises and therefore full paid contract must take place for him to give legal advice, I do not have such resources to pay at the time, but maybe would ping him, if the legal question would bother me.
+Reading in-depth the info on the question - it currently seems that linkage in precisely GPL-license case is still a grey area, as in GPL-v3 it is still stated vaguely and broadly.(http://mediatechlaw.mstreetlegal.com/2014/04/25/open-source-dynamic-linking-and-licensing-consideration-for-developers/)
+That is also why LGPL-v3.0+. Since looking at the zeitgeist:
+
+cloud &amp; Free Software;
+relicenses of a lot of known projects;
+interaction of proprietary &amp; open project models;
+so far there was just a handful of FSF protection cases;
+but since the activity, soon there would be more cases to both sides, and since US law is precedential, that is where the legal reading would be established/standardized.
+Also note that FSF took the opportunity to dethrone RMS &amp; in that time talked to be more supportive of the businesses, service creation, money-earning. It seems FSF actively works to give strictly defined licenses &amp; their use.
+
+In other words LGPL suits for library use, and next versions probably would clear out the safety fears.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#919 Voting the license move BSD -&gt; LGPL</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment"> Answering, (sort-of), why legal "rule of thumb" is &gt;50% major vote, why not 100% 
+
+
+https://github.com/haskell-nix/hnix/issues/919#issuecomment-830571216
+<i>
+<i>
+To change the license, we need to get &gt;50% of the agreement in contributors.
+</i>
+Are you sure you don't need to get the consent of everyone whose code is to be relicensed?
+FWIW I don't mind my contributions being relicensed to any OS license.
+</i>
+The problem can be reformulated as: "How is it possible to do diplomatic/any decision process when some people who contribute to the contry/community do not agree with diplomatic action." 100% view yields complete paralysis. In practice, something was neede to solve that paralisys situation, that is why legally major vote is used as baseline concept. For example, in governmental procedures the quorum and amounts are more determined for all actions, in military actions, stakeholders in the business - correspond to a particular majority vote, but IT Open Source is still not fully formed procedures &amp; legal grounds. Most relicensing happens by a major vote: https://en.wikipedia.org/wiki/Software_relicensing. In studying relicensing question, saw info on a lot of different migrations, not aware of examples of big projects doing 100% migration, that is ideal to strive to or to say it is an idealistic view, but from information seen that practically the major vote holds enough legal power.
+The process should respect the code author's opinions. If someone would request to actively withdraw their contributions, would understand that and would need to manage that. But, obviously, would mention that feels like a kind of a trick to do, because post factum it is an easy thing.
+We do not need to go far. For example - Nix relicensed (GPL -&gt; LGPL), and Nixpkgs. Of course, for things like Nixpkgs, it is hard to find proper all embodying license. People here participated in Nixpkgs relicensed when it was had ~800 contributors. Of course, some of 800 people were not reached. BTW forgot what license it was, currently do not even know what Nixpkgs license is, probably the implicit one, but that is an understandable compromise and a tangent.
+Otherwise, if people go for 100% view - public projects would be set in stone and no public project would be able to adapt to anything. For example, we even can go further &amp; ask, does the programmer taken all agreements to all changes of code of the other programmers?
+For example, also, the view does not put what to do with thanatosensitivity, if someone who contributed the code, sorry for my English, groaks, it is hard to deliver letters to the other side of the grass &amp; even if reached - it is hard to receive a legally interpretable response. That requirement would stasis any public projects forever, public works wouldn't be able to adapt to anything. Even external de jure processes &amp; laws change by major vote &amp; some compromise processes. To say, the view itself kills off own projects in the long run.
+That is why legally it is not possible nor reasonable to construct such laws. And the law writing &amp; courts tend to conceptually operate not on literary readings/execution, but the realism understanding &amp; morality just as well. As said, the relicensing procedures are not fully legally normalized/formalized, yet, but from practical uses, information read counting legal advice - it would not be 100% view because of its impossibility to get realized on many fronts, it would be a grade of a major vote, just as in all other comparable areas and other legal processes would be added to it, as to in Linux Kernel. So that processes from being seen as separate parts to be able to transcend to be a public process.
+We believe we talk in the context of US law, but I live in UA personally, so all this, in reality, is pretty vague, humanitarian, and on good terms.
+<code>&gt;50%</code> is what makes voting decisions legally liable, it is what used in practice by majority of the projects. But the more &amp; more careful the better.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
@@ -1157,39 +1232,6 @@
                                         <span class="sha">#766b826</span>
                                         <span class="message">Builtins: {seq, deepSeq}Nix: doc</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#919 Voting the license move BSD -&gt; LGPL</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Asking recently active: @layus, @expipiplus1, @sorki, @sjakobi.
-Asking initial: @jwiegley, @ryantrinkle, @kmicklas, @mightybyte, @bennofs, @domenkozar.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Opened <span class="issue">#919 Voting the license move BSD -&gt; LGPL</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
                                 </div>
                             </section>
                         </div>
