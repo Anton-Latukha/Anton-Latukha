@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="259" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="349" class="">
     <defs>
         <style/>
     </defs>
@@ -1109,6 +1109,31 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#122706 haskellPackages.hnix: unbreak</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by sternenseemann in <span class="repo">NixOS/nixpkgs</span></div>
+                                    <div class="comment">Yes, the question of what deps expose in the env is important. But as we see, indeed - only direct dependencies get exposed &amp; Nix would hide all others.
+So far, I do not know about cases or can not imagine how packages (not even module level) compiled with different dependency versions &amp; hard linked by Nix, how those can influence dependent packages that use other hard-linked library.
+The main difference between library branches in Haskell is difference in API interface. But that is fully covered by the strong type system &amp; the CPP preprocessor. So this case of compatibility fully is covered by Haskell.
+If there can be real problems of misalignment between versions during compilations - then that issue is not raised only for Haskell, as then it touches Nix design &amp; Nixpkgs practise as a whole.
+Overall, I can imagine there could be some optimization limitations, if GHC for example <code>V1Lib.func ... V2Lib.func</code>, and because they implemented differently - it can not optimize them. But as I understand GHC would use/recieve dependencies code already in precompiled form and library functions used generally would not propagate through transitive package.
+So for me it is hard to imagine the case when Haskell library dependency versions metter much. My knowledge of GHC is limited, and there can be some details &amp; cases of such.
+While when some out-of-band Nixpkgs package versions are removed - maintainer or itself checks what packages use it, or Nix language explicitly notifies maintainer to remove according overrides, which helps with in-time maintainence.
+But I would consider patching as maybe a better practice and would look at the practice of its application. But patches can be left beyound their cause and intruduce side-effects, &amp; in time people can loose the track of causes of why it is there. As I see patches are still not handled structurally, no RFC or functions to help with their maintenance.
+Thou, I still evaluating the approaches.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#309 Replace every use of ErrorCall with a custom Exception value</span>
                     </div>
                                 </div>
@@ -1201,21 +1226,6 @@ Checked the constraints introduced - `relude` constraints are wide, they
                                     <div class="details">
                                         <div> in <span class="repo">haskell-nix/hnix</span></div>
                                         <div>4 files changed <span class="code">++13 --14</span></div>
-                                    </div>
-                                </section>
-                            </div>
-                            <div class="row fill-width">
-                                <section class="activity">
-                                    <div class="field">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                            <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-                                        </svg>
-                                        <div class="content">
-                      Closed <span class="issue">#933 Constraint on relude needs to be &gt;= 1.0.0.0</span>
-                    </div>
-                                    </div>
-                                    <div class="details">
-                                        <div>opened by sternenseemann in <span class="repo">haskell-nix/hnix</span></div>
                                     </div>
                                 </section>
                             </div>
