@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="349" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="510" class="">
     <defs>
         <style/>
     </defs>
@@ -1106,24 +1106,14 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#122706 haskellPackages.hnix: unbreak</span>
+                      Opened <span class="issue">#450 Please, how is Pos not a Monoid</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by sternenseemann in <span class="repo">NixOS/nixpkgs</span></div>
-                                    <div class="comment">Yes, the question of what deps expose in the env is important. But as we see, indeed - only direct dependencies get exposed &amp; Nix would hide all others.
-So far, I do not know about cases or can not imagine how packages (not even module level) compiled with different dependency versions &amp; hard linked by Nix, how those can influence dependent packages that use other hard-linked library.
-The main difference between library branches in Haskell is difference in API interface. But that is fully covered by the strong type system &amp; the CPP preprocessor. So this case of compatibility fully is covered by Haskell.
-If there can be real problems of misalignment between versions during compilations - then that issue is not raised only for Haskell, as then it touches Nix design &amp; Nixpkgs practise as a whole.
-Overall, I can imagine there could be some optimization limitations, if GHC for example <code>V1Lib.func ... V2Lib.func</code>, and because they implemented differently - it can not optimize them. But as I understand GHC would use/recieve dependencies code already in precompiled form and library functions used generally would not propagate through transitive package.
-So for me it is hard to imagine the case when Haskell library dependency versions metter much. My knowledge of GHC is limited, and there can be some details &amp; cases of such.
-While when some out-of-band Nixpkgs package versions are removed - maintainer or itself checks what packages use it, or Nix language explicitly notifies maintainer to remove according overrides, which helps with in-time maintainence.
-But I would consider patching as maybe a better practice and would look at the practice of its application. But patches can be left beyound their cause and intruduce side-effects, &amp; in time people can loose the track of causes of why it is there. As I see patches are still not handled structurally, no RFC or functions to help with their maintenance.
-Thou, I still evaluating the approaches.
-</div>
+                                    <div>opened  in <span class="repo">mrkkrp/megaparsec</span></div>
                                 </div>
                             </section>
                         </div>
@@ -1131,17 +1121,30 @@ Thou, I still evaluating the approaches.
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#309 Replace every use of ErrorCall with a custom Exception value</span>
+                      Pushed 4 commits in <span class="repo">Anton-Latukha/mantra</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by jwiegley in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Since PR desynced &amp; closed it - task is no longer in the process - report is open to contribution.
-If someone would attend to the task - please, because the error handling in Haskell is a developing &amp; pluralism topic - lets start public dialog about it in advance to settle on a way. &amp; since the amount of changes is big - I promise to try to accept stages/parts of the work done.
-</div>
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#87aa086</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f9f9252</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ec5b73f</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b7d9037</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -1149,91 +1152,87 @@ If someone would attend to the task - please, because the error handling in Hask
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#122706 haskellPackages.hnix: unbreak</span>
+                      Pushed 5 commits in <span class="repo">Anton-Latukha/mantra</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by sternenseemann in <span class="repo">NixOS/nixpkgs</span></div>
-                                    <div class="comment">
-                                        <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> Arrived too late to the party.
-@sternenseemann Thanks.
-https://github.com/NixOS/nixpkgs/pull/122706#issuecomment-840447881 &amp; https://github.com/NixOS/nixpkgs/pull/122706#issuecomment-840493972 It is interesting, since my main strategy always to go to use overrides. See it as design &amp; package stores misalignment &amp; that out of Stackage overrides can be handled is a automatic manner someday.
-But this sort of backporting patching seems interesting.
-<i>
-I share your concern that it will be annoying for downstream users if we override.
-</i>
-I do not understand why. Please, @maralorn, can you help understand why?
-
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#260d46e</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9e12fd2</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4b814e2</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fe3fd35</span>
+                                        <span class="message">M  mantra-en.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#94483bf</span>
+                                        <span class="message">M  mantra-en.org</span>
                                     </div>
                                 </div>
                             </section>
-                            <div class="row fill-width">
-                                <section class="activity">
-                                    <div class="field">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                            <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                        </svg>
-                                        <div class="content">
-                      Pushed 4 commits in <span class="repo">haskell-nix/hnix</span>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/mantra</span>
                     </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#7e68c06</span>
+                                        <span class="message">M  mantra-en.org</span>
                                     </div>
-                                    <div class="details">
-                                        <div>on branch <span class="code">master</span></div>
-                                        <div class="commit">
-                                            <span class="sha">#9f873ca</span>
-                                            <span class="message">Merge #934: Cabal: dep: relude: require &gt;= 1.0; upd Nixpkgs rev
-
-Was pretty careful with use of reexports. Library builds great with `0.7` relude, thou before release I cleaned-up the Cabal dependencies, which introduced dependency on reexports provided in `relude`, which indeed were introduced in `1.0`.
-
-To extimate the constraints, checked the bounds introduced to what HNix had. The package bounds are on stable packages and have big timescale bounds, nothing got restricted. Thou it added another structural dependency.
-
-In reality pretty ready to see &amp; evaluate the new base &amp; prelude.</span>
-                                        </div>
-                                        <div class="commit">
-                                            <span class="sha">#f4ea5dc</span>
-                                            <span class="message">cabal: dep: relude: require &gt;= 1.0
-
-Since reexports of basic packages were cleaned-up in Cabal dependencies, that
-included only in `relude`.
-
-Checked the constraints introduced - `relude` constraints are wide, they
-(currently) do not to already present version constraints, but of course add structurally.</span>
-                                        </div>
-                                        <div class="commit">
-                                            <span class="sha">#b9349f3</span>
-                                            <span class="message">{Expr.Types, Parser}: m clean-up</span>
-                                        </div>
-                                        <div class="commit">
-                                            <span class="sha">#8044e29</span>
-                                            <span class="message">default.nix: upd rev</span>
-                                        </div>
+                                    <div class="commit">
+                                        <span class="sha">#b8a124b</span>
+                                        <span class="message">M  mantra-en.org</span>
                                     </div>
-                                </section>
-                            </div>
-                            <div class="row fill-width">
-                                <section class="activity">
-                                    <div class="field">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                            <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
-                                        </svg>
-                                        <div class="content">
-                      Merged <span class="issue">#934 Cabal: dep: relude: require &gt;= 1.0; upd Nixpkgs rev</span>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/mantra</span>
                     </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#1e7a842</span>
+                                        <span class="message">M  mantra-en.org</span>
                                     </div>
-                                    <div class="details">
-                                        <div> in <span class="repo">haskell-nix/hnix</span></div>
-                                        <div>4 files changed <span class="code">++13 --14</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#28c0a7f</span>
+                                        <span class="message">M  mantra-en.org</span>
                                     </div>
-                                </section>
-                            </div>
+                                </div>
+                            </section>
                         </div>
                     </section>
                 </div>
-                <div id="metrics-end"></div>
             </section>
+            <div id="metrics-end"></div>
         </div>
     </foreignObject>
 </svg>
