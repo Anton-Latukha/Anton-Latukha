@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="996" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1014" class="">
     <defs>
         <style/>
     </defs>
@@ -1109,6 +1109,33 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#7169fc5</span>
+                                        <span class="message">Exec: evalExprLoc: readability</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#08bacc4</span>
+                                        <span class="message">Utils: add docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#14ea746</span>
+                                        <span class="message">Nix.Eval: evalWithAttrSet: readability</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 15 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1352,29 +1379,6 @@ Just to match constructor definition order.</span>
                                         <span class="message">Expr.Types.Annotated: AnnE: add explanation
 
 That is my understanding, it can be wrong (but hey, there were no better there)!</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-15-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#46a82e3</span>
-                                        <span class="message">treewide: use pattern AnnE, add doc to it</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ef2700b</span>
-                                        <span class="message">Thunk.Basic: forceMain: refact</span>
                                     </div>
                                 </div>
                             </section>
