@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="725" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="996" class="">
     <defs>
         <style/>
     </defs>
@@ -1109,6 +1109,89 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 15 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#9ddfaf1</span>
+                                        <span class="message">Exec: evalExprLoc: readability</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2fc5f2b</span>
+                                        <span class="message">Utils: add docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9600f8c</span>
+                                        <span class="message">Nix.Eval: evalWithAttrSet: refactor
+
+Rely on `do` notation.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d751940</span>
+                                        <span class="message">Nix.Eval: evalBinds: processAttrSetKeys: simplify</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b5b1df6</span>
+                                        <span class="message">Nix.Eval: reduce `??`</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#30fd770</span>
+                                        <span class="message">Nix.Eval: eval: refactor
+
+Heavily relying on the new powerful `do` desugaring algorythm.
+
+Reversed one of the last `&gt;&gt;=` in the project.
+
+easier to read @eval (NAbs _ _)@, explained the `withScopes scope . inform &lt;$&gt; args`.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1b05eb6</span>
+                                        <span class="message">Expr.Shorthands: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a52b860</span>
+                                        <span class="message">Expr.Shorthands: binary operators: add docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c192ef1</span>
+                                        <span class="message">Expr.Shorthands: org binary operators</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8a2c51e</span>
+                                        <span class="message">Expr.Shorthands: m upd docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8c95670</span>
+                                        <span class="message">Expr.Shorthands: m upd docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d52ccf9</span>
+                                        <span class="message">Expr.Types: NBinaryOp:NUpdate: improve explanation</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8fb29ab</span>
+                                        <span class="message">Nix.Pretty: m cosmetic</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e807ab7</span>
+                                        <span class="message">Expr.Types.Annotated: pattern AnnE: use AnnF type</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ad57f84</span>
+                                        <span class="message">Expr.Types: add note "This is deep embedding"</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 20 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1293,21 +1376,6 @@ That is my understanding, it can be wrong (but hey, there were no better there)!
                                         <span class="sha">#ef2700b</span>
                                         <span class="message">Thunk.Basic: forceMain: refact</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Opened <span class="issue">#170 Arrow zoo: note on the Pattern Guards </span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">kowainik/kowainik.github.io</span></div>
                                 </div>
                             </section>
                         </div>
