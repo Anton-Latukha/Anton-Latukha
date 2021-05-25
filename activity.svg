@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="888" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="579" class="">
     <defs>
         <style/>
     </defs>
@@ -1115,8 +1115,110 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-05-21-refactors</span></div>
                                     <div class="commit">
-                                        <span class="sha">#b33f992</span>
+                                        <span class="sha">#06c5396</span>
+                                        <span class="message">Eval: add fun addMetaInfo</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#b8aacf8</span>
+                                        <span class="message">Eval: add fun addMetaInfo</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2175a30</span>
+                                        <span class="message">Expr.Types: mv instance TH.Lift NExpr into a proper place</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#cf884d7</span>
+                                        <span class="message">Utils: add type TransformF
+
+Explain `Transform{,F}`
+It allows easier reading.</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 5 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#1629d78</span>
+                                        <span class="message">Eval: add fun addMetaInfo</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#17493b0</span>
+                                        <span class="message">Expr.Types: mv instance TH.Lift NExpr into a proper place</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b7c0ca6</span>
+                                        <span class="message">Utils: add type TransformF
+
+Explain `Transform{,F}`
+It allows easier reading.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a6a4826</span>
+                                        <span class="message">Eval: add fun evalContent</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1bddd93</span>
                                         <span class="message">Eval: addSourcePositions: explain a little better</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 4 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#588c62f</span>
+                                        <span class="message">Eval: add fun addMetaInfo</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#019fdae</span>
+                                        <span class="message">Expr.Types: mv instance TH.Lift NExpr into a proper place</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8777cb3</span>
+                                        <span class="message">Utils: add type TransformF
+
+Explain `Transform{,F}`
+It allows easier reading.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bde5843</span>
+                                        <span class="message">Eval: add fun evalContent</span>
                                     </div>
                                 </div>
                             </section>
@@ -1134,208 +1236,9 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-05-21-refactors</span></div>
                                     <div class="commit">
-                                        <span class="sha">#1ccffd3</span>
-                                        <span class="message">Eval: WIP attrSetAlter</span>
+                                        <span class="sha">#b33f992</span>
+                                        <span class="message">Eval: addSourcePositions: explain a little better</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 10 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#959db0e</span>
-                                        <span class="message">Eval: WIP attrSetAlter</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ea71e3e</span>
-                                        <span class="message">{Utils{,Fix1}, Cited.Basic, Eval}: m clean-ups</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ad0cf50</span>
-                                        <span class="message">Builtins: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#81a08ac</span>
-                                        <span class="message">ChangeLog: 0.13: fx instance MonadAtomicRef 0.13 note</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#baea981</span>
-                                        <span class="message">Frames: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#08e1c53</span>
-                                        <span class="message">cabal: language extentions: declare a bunch of extentions
-
-OverloadedStrings
-, DeriveGeneric
-, DeriveDataTypeable
-, DeriveFunctor
-, DeriveFoldable
-, DeriveTraversable
-, DeriveLift
-, FlexibleContexts
-, FlexibleInstances
-, StandaloneDeriving
-, TypeApplications
-, TypeSynonymInstances
-, InstanceSigs
-, MultiParamTypeClasses
-, TupleSections
-, LambdaCase
-, BangPatterns</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8aeef80</span>
-                                        <span class="message">Builtins: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4d584ff</span>
-                                        <span class="message">treewide: use `one` for all singletons
-
-Ok. I cave in on it in the end, it is a great idea.
-`singleton` set of functions requires proper binding ad-hoc polymorphism.
-
-And an-hoc polymorphism (TypeFamilies includded) is a native lambda space to Haskell.
-
-The only thing that is needed is to check during writing is that type gets
-inferred &amp; no in the immediate recursion loop.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#43cf4a0</span>
-                                        <span class="message">Type.Infer: empty -&gt; mempty (:: LogicT)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7fb5f7f</span>
-                                        <span class="message">{Lint, Assumption, Eval, Expr.Types, Type.Env}: m clean-up</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 35 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-21-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#779d6a1</span>
-                                        <span class="message">Convert: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#fad0302</span>
-                                        <span class="message">Effects: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#99d5f21</span>
-                                        <span class="message">{Value, String}: m: use AttrSet alias</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#cb1e23e</span>
-                                        <span class="message">Value.Monad: class MonadValue: add docs</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#03523fc</span>
-                                        <span class="message">Eval: eval: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e745326</span>
-                                        <span class="message">Exec: evalExprLoc: readability</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8139bf6</span>
-                                        <span class="message">Utils: add docs</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f84acf7</span>
-                                        <span class="message">Nix.Eval: evalWithAttrSet: readability</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#cef392f</span>
-                                        <span class="message">Nix.Eval: evalBinds: processAttrSetKeys: simplify</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#30c4975</span>
-                                        <span class="message">Nix.Eval: reduce `??`</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ee8e183</span>
-                                        <span class="message">Nix.Eval: eval: refactor
-
-Heavily relying on the new powerful `do` desugaring algorythm.
-
-Reversed one of the last `&gt;&gt;=` in the project.
-
-easier to read @eval (NAbs _ _)@, explained the `withScopes scope . inform &lt;$&gt; args`.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f987b03</span>
-                                        <span class="message">Expr.Shorthands: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8a52c30</span>
-                                        <span class="message">Expr.Shorthands: binary operators: add docs</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ec5421f</span>
-                                        <span class="message">Expr.Shorthands: org binary operators</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#1c746f1</span>
-                                        <span class="message">Expr.Shorthands: m upd docs</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b687b1a</span>
-                                        <span class="message">Expr.Shorthands: m upd docs</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9b1bc8d</span>
-                                        <span class="message">Expr.Types: NBinaryOp:NUpdate: improve explanation</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b6a48d9</span>
-                                        <span class="message">Nix.Pretty: m cosmetic</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2ec6c21</span>
-                                        <span class="message">Expr.Types.Annotated: pattern AnnE: use AnnF type</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#073b93e</span>
-                                        <span class="message">Expr.Types: add note "This is deep embedding"</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
-                                    </svg>
-                                    <div class="content">
-                      Updated 1 wiki page in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="page">
-                        Design of the HNix code base
-                      </div>
                                 </div>
                             </section>
                         </div>
