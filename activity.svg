@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="429" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="149" class="">
     <defs>
         <style/>
     </defs>
@@ -1165,40 +1165,77 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
+                      Commented on <span class="issue">#111 Haskell Server Wrapper Function for Stack specific $PATH</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e68dd38</span>
-                                        <span class="message">Cited.Basic: instance MonadTHunk Cited: thunk: refactor</span>
-                                    </div>
+                                    <div>opened by Pitometsu in <span class="repo">emacs-lsp/lsp-haskell</span></div>
+                                    <div class="comment">Maybe the people have difficulty responding, because the case &amp; semantics are not ordered. It is hard to parse the semantics, even weak interpretation does infer the case.
+It would be easier to understand if you would describe the environment of the project, what is used for what, and then nail the case.
+Overall, from my experience, and from referring to the current official Stack docs, Stack just as 3 years ago, has very weak Nix integration: link.
+Cabal has much better integration with Nix, running in Nix environment. Cabal would detect that it is running in Nix environment &amp; would use Nix to load dependencies &amp; work as Nix client, download the Haskell binary caches from Nixpkgs Hydra CI, and store the build artifacts in Nix.
+Also, important to note that <code>stack config env</code> &amp; <code>stack config --any-key</code> <code>stack path</code> &amp;  <code>stack path --any-key</code> are all effectful:
+<code class="language-multiline">$ stack path --project-root
+
+<span class="token trimmed">(3 more lines were trimmed)</span></code>
+Tangent: 
+To tell a secret - using <code>cabal</code> inside Nix is equivalent to <code>stack</code> but with binary caches. As <code>cabal</code> would infer the version from Nixpkgs which inherits Stackage every midnight (thou I do not remember Nightly or LTS), and so the Stackage package set is a core of Nixpkgs <code>haskellPackages</code>, and all other Hackage set gets weekly handcrafted updates in Nixpkgs to be aligned to whats on Stackage. Thou there is a maintainer change there &amp; also Cabal-Nix setup nevertheless comes with its own configuration woes.
+
+But, overall the solution may be as simple as this:
+Of course, there is a directive to inherit something from host environment into a pure Nix environment:
+<code class="language-multiline">🅸 ~/s/h/hnix:2021-05-27-refactors◦&gt; echo "$IN_NIX_SHELL"
+
+<span class="token trimmed">(10 more lines were trimmed)</span></code>
+Note:
+https://github.com/NixOS/nix/issues/419#issuecomment-66932799
+<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> It is true. It was true when it was written, &amp; it is the same currently. Would spare the personal details, but can recommend not do shell work for Nix, or if do any - upfront be ready to throw the work out the window. Nix taught me to not care to contribute when doing contribution, as caring does not depend on me but on one holding the "merge" button.
+Also important to note that some "deep" Nix people (seems like principally) - use all bashisms possible, which heavily hardcodes Nix to Bash. So in code implementation, the <code>/usr/bin/env sh</code>, preferably <code>bash</code> or <code>dash</code> need to be run as a wrapper to make <code>nix-shell -p .. --pure --keep PATH</code> inheritance work.
+Sadly there is a lot of such open secret undocumented technical difficulties which when researched are caused by social context reasons, seems like Conway's law strongly formed many of Nix details in the past.
+
+                  </div>
                                 </div>
                             </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        </svg>
+                                        <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                    </div>
+                                    <div class="details">
+                                        <div>on branch <span class="code">2021-05-27-refactors</span></div>
+                                        <div class="commit">
+                                            <span class="sha">#e68dd38</span>
+                                            <span class="message">Cited.Basic: instance MonadTHunk Cited: thunk: refactor</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        </svg>
+                                        <div class="content">
                       Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#183dea2</span>
-                                        <span class="message">Cited: m layout</span>
                                     </div>
-                                    <div class="commit">
-                                        <span class="sha">#9d1a87b</span>
-                                        <span class="message">Cited.Basic: Cited: rm singleton field name
+                                    <div class="details">
+                                        <div>on branch <span class="code">2021-05-27-refactors</span></div>
+                                        <div class="commit">
+                                            <span class="sha">#183dea2</span>
+                                            <span class="message">Cited: m layout</span>
+                                        </div>
+                                        <div class="commit">
+                                            <span class="sha">#9d1a87b</span>
+                                            <span class="message">Cited.Basic: Cited: rm singleton field name
 
 I strongly consider reation of records for singletons an antipattern.
 
@@ -1216,83 +1253,61 @@ Often I check &amp; find that sigleton field accessors are never used, which is 
 true in this case.
 
 M  src/Nix/Cited/Basic.hs</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        </svg>
+                                        <div class="content">
                       Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#580fc99</span>
-                                        <span class="message">Main: main: refactor traverse</span>
                                     </div>
-                                    <div class="commit">
-                                        <span class="sha">#cbcf62b</span>
-                                        <span class="message">Thunk.Basic: export deferred</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9b02635</span>
-                                        <span class="message">Var: reduce module
+                                    <div class="details">
+                                        <div>on branch <span class="code">2021-05-27-refactors</span></div>
+                                        <div class="commit">
+                                            <span class="sha">#580fc99</span>
+                                            <span class="message">Main: main: refactor traverse</span>
+                                        </div>
+                                        <div class="commit">
+                                            <span class="sha">#cbcf62b</span>
+                                            <span class="message">Thunk.Basic: export deferred</span>
+                                        </div>
+                                        <div class="commit">
+                                            <span class="sha">#9b02635</span>
+                                            <span class="message">Var: reduce module
 
 See: https://github.com/haskell-nix/hnix/issues/946</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
-                                    </svg>
-                                    <div class="content">
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
+                                        </svg>
+                                        <div class="content">
                       Updated 1 wiki page in <span class="repo">haskell-nix/hnix</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div class="page">
+                                    </div>
+                                    <div class="details">
+                                        <div class="page">
                         Design of the HNix code base
                       </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#9913572</span>
-                                        <span class="message">Main: main: refactor traverse</span>
                                     </div>
-                                    <div class="commit">
-                                        <span class="sha">#8d53116</span>
-                                        <span class="message">Thunk.Basic: export deferred</span>
-                                    </div>
-                                </div>
-                            </section>
+                                </section>
+                            </div>
                         </div>
                     </section>
                 </div>
+                <div id="metrics-end"></div>
             </section>
-            <div id="metrics-end"></div>
         </div>
     </foreignObject>
 </svg>
