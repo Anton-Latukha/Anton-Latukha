@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="506" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="409" class="">
     <defs>
         <style/>
     </defs>
@@ -1168,6 +1168,59 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#367 Implement import-from-derivation</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by shlevy in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">For direction:
+Look at #947 where import functions discussed. Look into the current code of them in Builtins.
+&amp; the main article is:
+https://nixos.wiki/wiki/Import_From_Derivation
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#947 Are `{scopedI,i}mport` should return strict value?</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">The current main import function code:
+https://github.com/haskell-nix/hnix/blob/70a8e141fe30c43bb9abba7e1910f0299dc2022f/src/Nix/Builtins.hs#L1209-L1239
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Opened <span class="issue">#947 Do `{scopedI,i}mport` need to return strct value?</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#776 Please, pack the 'Value.hs' funtions into type classes</span>
                     </div>
                                 </div>
@@ -1198,103 +1251,6 @@ Thou from the list there can be cases where implementation gets aligned with fam
                                     <div class="commit">
                                         <span class="sha">#6393c0b</span>
                                         <span class="message">cabal: m clean-up</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e6eed3a</span>
-                                        <span class="message">treewide: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c183989</span>
-                                        <span class="message">Convert: Deeper: reduce singleton accessor in favour of the coerce
-
-coerse works &amp; reads intuitively.
-
-Currently because of the size &amp; a lot of type imports to modules, and maybe
-because of recursivity of data types - GHC needs type signature help. But in the
-future it should improve &amp; it makes code more understandable to the reader.</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 5 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#07caac2</span>
-                                        <span class="message">treewide: (HashMap.union-&gt;(&lt;&gt;))</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c118b5e</span>
-                                        <span class="message">treewide: (Set.union-&gt;(&lt;&gt;))</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7a53466</span>
-                                        <span class="message">treewide: (Map.union-&gt;(&lt;&gt;))</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e1e1eff</span>
-                                        <span class="message">Type.Env: drop singleton accessor, add&amp;use mergeRight for &lt;&gt; (infixr)
-
-As long as type as newtype - singleton accessor is an antipattern.
-
-It is stongly seen in this example, black magic with accessors, accessor
-constructrs
-&amp; accesor set overrides was reduced.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#80561d2</span>
-                                        <span class="message">treewide: (*.-&gt;m)empty
-
-These were the last ones.
-
-`mempty` infers everywhere.</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-05-27-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#710d1d3</span>
-                                        <span class="message">Expr.Types: m org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#559d84f</span>
-                                        <span class="message">{Eval,Pretty}: m use stripAnn</span>
                                     </div>
                                 </div>
                             </section>
