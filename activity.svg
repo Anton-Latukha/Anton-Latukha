@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="390" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="407" class="">
     <defs>
         <style/>
     </defs>
@@ -1168,6 +1168,31 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#179 Need another output token to represent thunks</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by jwiegley in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">Well. The more I listen to @layus &amp; the more I think about it - the more I agree with @layus, that thunking type system should gain some type abstractions depending on computation done on them.
+For me the https://github.com/haskell-nix/hnix/issues/179#issuecomment-865252362 contradicts the https://github.com/haskell-nix/hnix/issues/179#issue-314292570. We need to evaluate the thunks to print them, while they can be infinite &amp; they can contain invalid values or (maybe) even gibberish - which means 1 of 2 things:
+
+<code>Show</code> instance for thunks should have complex behaviour: depending on the thunk the output mode would differ.
+Keep it ``.
+Differentiate between thunks, aka had it normalized - it becomes value type (speaking vaguely here). In any case this report asks - the thunk printing needs to reify the thunk, it done on the computation low level, but that should be type system requirement.
+
+(in other words, it needs to be formulated: current type system state needs to be criticized &amp; different sides in its shortcommings shown) &amp; then develop a solution, establish &amp; thread newtypes into the typesystem, as that is always a first step &amp; preserves all current computation efficiency. Raw <code>thunk</code> is the base type &amp; the reified stuff builds ontop of it.
+As in reality <code>thunks</code> can not be shown, if it is shown - what is shown is not (no longer a) thunk.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#5 Ghc 8.10</span>
                     </div>
                                 </div>
@@ -1236,24 +1261,6 @@ Considering this as seen, discussed and closed.
                                 <div class="details">
                                     <div> in <span class="repo">peti/hsyslog</span></div>
                                     <div>2 files changed <span class="code">++64 --27</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#17 upd documentation</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">peti/hsyslog</span></div>
-                                    <div class="comment">Ok.
-Considering this as discussed and closed.
-</div>
                                 </div>
                             </section>
                         </div>
