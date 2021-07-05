@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="802" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="820" class="">
     <defs>
         <style/>
     </defs>
@@ -1168,6 +1168,37 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 4 commits in <span class="repo">Anton-Latukha/fish-functions</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#8a300b6</span>
+                                        <span class="message">add sghc (Switch Haskell infra)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#18835ff</span>
+                                        <span class="message">add nrg (Nix filetypes grep)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#df31090</span>
+                                        <span class="message">add nfd (Nix filetypes find)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f7f88cc</span>
+                                        <span class="message">add hr (Haskell REPL)</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-sandbox</span>
                     </div>
                                 </div>
@@ -1323,33 +1354,6 @@ M  recursion-schemes-study/src/Main.hs</span>
                                     <div class="commit">
                                         <span class="sha">#d893502</span>
                                         <span class="message">M  demo/demo.cabal</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">Anton-Latukha/notes</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#4df3bbd</span>
-                                        <span class="message">M  Flow.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d50418f</span>
-                                        <span class="message">M  Flow.org_archive</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#afb32db</span>
-                                        <span class="message">M  "Habit flow.org"</span>
                                     </div>
                                 </div>
                             </section>
