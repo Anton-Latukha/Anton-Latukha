@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="429" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="782" class="">
     <defs>
         <style/>
     </defs>
@@ -1174,100 +1174,210 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
                                     <div class="commit">
-                                        <span class="sha">#634684c</span>
+                                        <span class="sha">#e698ce7</span>
+                                        <span class="message">CI: upd to GHC 9.0</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 10 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#32f98be</span>
+                                        <span class="message">add GHC 9.0 support
+
+This shows the power of the cleaning &amp; organization of the code.
+
+I expected there is something complex about the update.
+
+But in reality - what was needed is the proper ordering of the code.
+
+Goot that I love preparation &amp; to order the code before doing work.
+
+Nice.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3d9121c</span>
                                         <span class="message">Expr.Types: org: mv TH instances to their types
 
 This should ideally align TH inference &amp; would help keep the code properly
 structured &amp; currently going to help me to understand what is going on with TH
 inference in GHC 9.0.</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
                                     <div class="commit">
-                                        <span class="sha">#a5734aa</span>
+                                        <span class="sha">#737e575</span>
                                         <span class="message">Expr.Types: org lens traversals</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#fd8bded</span>
+                                        <span class="sha">#91f430c</span>
                                         <span class="message">Expr.Types: org code for TH</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
                                     <div class="commit">
-                                        <span class="sha">#a208489</span>
-                                        <span class="message">Expr.Types: org lens traversals</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#efec8f5</span>
+                                        <span class="sha">#35812c9</span>
                                         <span class="message">Expr.Types: {Params,Antiquoted,NString}: mv standalone TH into normal</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
                                     <div class="commit">
-                                        <span class="sha">#f3dbd3c</span>
+                                        <span class="sha">#7fbdcad</span>
                                         <span class="message">Expr.Types: NBinaryOp: mv standalone instances into list</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#d9414a3</span>
+                                        <span class="sha">#8d26c16</span>
+                                        <span class="message">Expr.Types: NUnaryOP: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#52c90a6</span>
                                         <span class="message">Expr.Types: NRecordType: mv standalone instances into list</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#9e259bd</span>
+                                        <span class="sha">#6b4cb93</span>
                                         <span class="message">Expr.Types: Binding: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#60c037d</span>
+                                        <span class="message">Expr.Types: mv Hashable1 NonEmpty: proper order fixes deriving inference</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 5 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#8ce21ee</span>
+                                        <span class="message">add GHC 9.0 support
+
+This shows the power of the cleaning &amp; organization of the code.
+
+I expected there is something complex about the update.
+
+But in reality - what was needed is the proper ordering of the code.
+
+Goot that I love preparation &amp; to order the code before doing work.
+
+Nice.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#26539c7</span>
+                                        <span class="message">Expr.Types: org: mv TH instances to their types
+
+This should ideally align TH inference &amp; would help keep the code properly
+structured &amp; currently going to help me to understand what is going on with TH
+inference in GHC 9.0.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c7121ce</span>
+                                        <span class="message">Expr.Types: org lens traversals</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9903147</span>
+                                        <span class="message">Expr.Types: org code for TH</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3255d15</span>
+                                        <span class="message">Expr.Types: mv Hashable1 NonEmpty: proper order fixes deriving inference</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 9 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#365e1d3</span>
+                                        <span class="message">Expr.Types: mv Hashable1 NonEmpty: proper order fixes deriving inference</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#da3005e</span>
+                                        <span class="message">add GHC 9.0 support
+
+This shows the power of the cleaning &amp; organization of the code.
+
+I expected there is something complex about the update.
+
+But in reality - what was needed is the proper ordering of the code.
+
+Goot that I love preparation &amp; to order the code before doing work.
+
+Nice.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9ac05bd</span>
+                                        <span class="message">Expr.Types: org: mv TH instances to their types
+
+This should ideally align TH inference &amp; would help keep the code properly
+structured &amp; currently going to help me to understand what is going on with TH
+inference in GHC 9.0.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ffd199e</span>
+                                        <span class="message">Expr.Types: org lens traversals</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e1d695e</span>
+                                        <span class="message">Expr.Types: org code for TH</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#96b4549</span>
+                                        <span class="message">Expr.Types: {Params,Antiquoted,NString}: mv standalone TH into normal</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e93f838</span>
+                                        <span class="message">Expr.Types: NBinaryOp: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1527786</span>
+                                        <span class="message">Expr.Types: NUnaryOP: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f2289b5</span>
+                                        <span class="message">Expr.Types: NRecordType: mv standalone instances into list</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#cdb5d11</span>
+                                        <span class="message">fx</span>
                                     </div>
                                 </div>
                             </section>
