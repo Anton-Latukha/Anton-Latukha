@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="498" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="714" class="">
     <defs>
         <style/>
     </defs>
@@ -1168,6 +1168,135 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#f3dbd3c</span>
+                                        <span class="message">Expr.Types: NBinaryOp: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d9414a3</span>
+                                        <span class="message">Expr.Types: NRecordType: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9e259bd</span>
+                                        <span class="message">Expr.Types: Binding: mv standalone instances into list</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 14 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#06607a0</span>
+                                        <span class="message">Expr.Types: Binding: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5c73148</span>
+                                        <span class="message">Expr.Types: mv more instances into Orphans section</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9e87d0d</span>
+                                        <span class="message">Expr.Types: NKeyName: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2af0a6f</span>
+                                        <span class="message">Expr.Types: NString: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d996d42</span>
+                                        <span class="message">Expr.Types: Antiquoted: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#dcd3029</span>
+                                        <span class="message">Expr.Types: Params: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f7c3b69</span>
+                                        <span class="message">Expr.Types: NExprF: mv standalone instances into list</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3c51df1</span>
+                                        <span class="message">Expr.Types: m org: reord additional instances</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a8d6a90</span>
+                                        <span class="message">Expr.Types: m org: sort additional instances</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4d22e29</span>
+                                        <span class="message">Expr.Types: m org: mv NRecordType</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f76320a</span>
+                                        <span class="message">Expr.Types: m org: mv Antiquoted</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#98431c5</span>
+                                        <span class="message">Expr.Types: m org: mv Binding</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8703a2a</span>
+                                        <span class="message">Expr.Types: m org: mv NAttrPath</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0da3d45</span>
+                                        <span class="message">Expr.Types: m org: mv Antiquoted</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 4 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#188c11e</span>
+                                        <span class="message">Expr.Types: org instances</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a19ed8a</span>
+                                        <span class="message">Expr.Types: m clean-up: mv NAttrPath</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5c357f4</span>
+                                        <span class="message">Expr.Types: Binding: upd doc</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e20aac0</span>
+                                        <span class="message">Lint: m upd</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1203,92 +1332,6 @@
                                     <div class="commit">
                                         <span class="sha">#87f0c7a</span>
                                         <span class="message">Expr.Types: Binding: upd doc</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#5254393</span>
-                                        <span class="message">Lint: m upd</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d7d37c1</span>
-                                        <span class="message">Expr: Types: upd {Params, Antiquoted, NString, NExprF} deriving
-
-This is for GHC 9.0. It has deprecations/changes in the deriving
-mechanisms.
-
-Which made TH compat deriving obsolete/incompatible.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7cd7626</span>
-                                        <span class="message">treewide: ('*'-&gt;Type)
-
-StartIsType is deprecated.</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#970f3f3</span>
-                                        <span class="message">Expr: Types: upd {Params, Antiquoted, NString, NExprF} deriving
-
-This is for GHC 9.0. It has deprecations/changes in the deriving
-mechanisms.
-
-Which made TH compat deriving obsolete/incompatible.</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-06-ghc-9.0</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#61560f7</span>
-                                        <span class="message">Expr: Types: upd {Params, Antiquoted, NString, NExprF} deriving
-
-This is for GHC 9.0 actually. It has deprecations/changes in the deriving
-mechanisms.
-
-Which made TH compat deriving obsolete/incompatible.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#71c85f6</span>
-                                        <span class="message">Merge #963: Minor updates</span>
                                     </div>
                                 </div>
                             </section>
