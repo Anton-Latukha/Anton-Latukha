@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="700" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="893" class="">
     <defs>
         <style/>
     </defs>
@@ -1168,6 +1168,68 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 10 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-07-09-changes</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#bef95eb</span>
+                                        <span class="message">tests: ParserTests: major refactor
+
+All tests are preserved &amp; work the same way.
+
+The variadic functions were constructed to make test reviewing &amp; adding more
+straight-forward  (hopefully).</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#059393c</span>
+                                        <span class="message">tests: ReduceExprTests: m refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7cdeab9</span>
+                                        <span class="message">tests: PrettyParseTests: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f6c7c54</span>
+                                        <span class="message">Expr.Shorthands: add mkNeg (negative of a number)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7ac4d73</span>
+                                        <span class="message">Expr.Shorthands: fx (declare) presedences for rest of the operators
+
+Nix has 14 levels, Haskell has 9, so relatively translated it, but may need more tweaking.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9aaa74d</span>
+                                        <span class="message">Expr.Shorthands: fx (@@) operator presedence</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#cb0b947</span>
+                                        <span class="message">Expr.Shorthands: fx (@.) operator presedence</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1b338b7</span>
+                                        <span class="message">Expr.Shorthands: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3dafe59</span>
+                                        <span class="message">Expr.Shorthands: rearrange operators to more logical order</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a5a52be</span>
+                                        <span class="message">Expr.Shorthands: add @.&lt;|&gt; for Nix expession `s.x or y`</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1314,30 +1376,6 @@ M  src/Nix/Expr/Shorthands.hs</span>
                                 </div>
                                 <div class="details">
                                     <div>opened  in <span class="repo">estatico/variadic</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Anton-Latukha/variadic</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-11-org</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#490fef0</span>
-                                        <span class="message">Variadic: add TOC
-
-"These works represent the opinions of the PR authors, PR authors work can not
-represent the opinions of the other people (project maintainers)."
-
-(this joke goes from documentation experience).</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
