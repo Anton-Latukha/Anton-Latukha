@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1042" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1043" class="">
     <defs>
         <style/>
     </defs>
@@ -1173,6 +1173,28 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by layus in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment"><code>Convert</code> module is one of the most obscure parts of the project.
+Function instances need type signatures to "undiscombabulate" themselves.
+I feel like it is again the same situation as you put previously. <code>NValue*</code> is a thunk &amp; a value which are hardly inspectable.
+Maybe: the conversion instances logic can be expanded to pattern match &amp; account/filter cases to transfer the context, and where there would be no context.
+But currently, I do not know the proper way. I still do not get the logic/difference between NThunk &amp; NValue enough to decide.
+What I know - is that I am pretty glad with the result of lifting up the <code>VarName</code> type boundary - it revealed a lot of things in the type system &amp; it is a good starting point. The same solution probably goes to the evaluation values, but so far I could not poke into the type boundary that is needed there. Probably we need to lift type boundaries nearby, where that is obvious - &amp; starting from that obvious typesystem would lead us to the solution with these (NValues).
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#958 Clarify string coercion errors</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by layus in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">Maybe I did a tiny bad thing merging <code>master</code> into the branch.
 Is it ready yet?
 It seems a lot of discussion for the detail.
@@ -1412,24 +1434,6 @@ Future would rehash this logic into more consice form.</span>
                                 <div class="details">
                                     <div> in <span class="repo">haskell-nix/hnix</span></div>
                                     <div>39 files changed <span class="code">++552 --461</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#1010 Modify Radio Targets to linkify with org-roam </span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by CestDiego in <span class="repo">org-roam/org-roam</span></div>
-                                    <div class="comment">Well, true. Someone needs to implement it before it would work &amp; it probably requires a number of architectural shifts.
-Thank you for all the hard work on the project, &amp; we need to remember that it is all a gift to us.
-</div>
                                 </div>
                             </section>
                         </div>
