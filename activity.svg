@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="916" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1218" class="">
     <defs>
         <style/>
     </defs>
@@ -1198,6 +1198,126 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 56 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#1cdce67</span>
+                                        <span class="message">Expr: Types: Annotated: add patterns for AnnA
+
+This is patterns for fully formed annotated expressions.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0843a1b</span>
+                                        <span class="message">Expr: Types: Annotated: add type AnnA ann f = Fix (AnnF ann f)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ee95c41</span>
+                                        <span class="message">Builtins: m refactors</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#79509f0</span>
+                                        <span class="message">Builtins: mk nixVersionNix</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e6e5c41</span>
+                                        <span class="message">Builtins: mk langVersionNix</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b550bbb</span>
+                                        <span class="message">Value: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#371553e</span>
+                                        <span class="message">Value: lowercase "complete" directive</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2f57984</span>
+                                        <span class="message">Type: Type: typeSet: fx Variadic to Closed
+
+Closed unifies with any set, preserving the type of set it unifies to.
+
+Variadic would make any other set variadic.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3290f38</span>
+                                        <span class="message">m imports change
+
+Helps building proper module dependency graphs.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b2eaa7e</span>
+                                        <span class="message">treewide: use `newtype Path = Path FilePath`
+
+This yealds the distinction between String &amp; Paths, allowing closer to migrate
+to something like `path` package, and quickier convert processing what is left
+from String to Text.
+
+The boundary: {Nix, Nix.Options, Shorthands} ask to supply FilePath to them, so
+users so far do not require to know what Path type is &amp; just use FilePath as previously.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#150c1fe</span>
+                                        <span class="message">treewide: lets stop yelling OPTIONS_GHC all the time</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c7eec8a</span>
+                                        <span class="message">treewide: lets stop yelling LANGUAGE all the time
+
+I know that is widespread use, but I am on the side of politeness &amp; not all caps
+stuff, there are other people that prefer this.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fc264db</span>
+                                        <span class="message">Expr: Types: m</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b3c3996</span>
+                                        <span class="message">Expr: Types: Doc: m upd</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b7fae35</span>
+                                        <span class="message">Expr: Types: more explicit imports</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8d7bb23</span>
+                                        <span class="message">Expr: Types: Doc: upd TOC</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9bda865</span>
+                                        <span class="message">Expr: Types: Doc: mk Utils section</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#52e85eb</span>
+                                        <span class="message">Expr: Types: Doc: fx header</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#40ad70c</span>
+                                        <span class="message">treewide: mv ViewPatterns into default extentions
+
+Due to Haskell having coerce, and SPJ saying - it is the only one big change to
+the core Haskell language they had like ever. That confirms my understanding of
+`coerce` as the central feature of Haskell.
+
+To use `coerce` comfortable &amp; succinctly, the ViewPatterns use is needed,
+therefore making it default extention.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2a12695</span>
+                                        <span class="message">Expr: Types: Variadic: add instances {Semigroup, Monoid}</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1375,35 +1495,6 @@
                                     <div class="commit">
                                         <span class="sha">#3c05fba</span>
                                         <span class="message">Expr: Types: Annotated: stripAnn(-&gt;F) &amp; better stripAnnotation type</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-07-21-static-keys</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#a97c9b2</span>
-                                        <span class="message">Expr: Types: Annotated: AnnF(P-&gt;), Ann(E-&gt;)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8428de6</span>
-                                        <span class="message">Expr: Types: Annotated: Ann(-&gt;Unit)
-
-Ann was misleading name that complicated naming of the annotation tree</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#df2cc27</span>
-                                        <span class="message">Expr: Types: Annotated: annToAnnF: upd type use AnnA</span>
                                     </div>
                                 </div>
                             </section>
