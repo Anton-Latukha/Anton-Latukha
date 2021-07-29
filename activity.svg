@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="845" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="757" class="">
     <defs>
         <style/>
     </defs>
@@ -1198,6 +1198,40 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/Anton-Latukha.github.io</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#63731c7</span>
+                                        <span class="message">upd
+
+M  2017-04-12-SaltStack-Formulas-install/index.html
+M  2017-04-14-How-to-setup-proxy-to-listen-Spotify/index.html
+M  2017-05-04-Restore-of-deleted-LVM-(Advanced)/index.html
+M  2019-08-02-NixOS-HIE-Emacs/index.html
+M  2020-08-08-Use-Linux-file-manager-for-Wine-applications/index.html
+M  2020-12-08-Haskell-Nixpkgs-integration-test/index.html
+M  404.html
+M  about/index.html
+M  bio/index.html
+M  index.html</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#68d120f</span>
+                                        <span class="message">Haskell notes: upd</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">Anton-Latukha/config-fish</span>
                     </div>
                                 </div>
@@ -1343,56 +1377,6 @@
                                     <div class="commit">
                                         <span class="sha">#d6c19e5</span>
                                         <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 7 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#57a55fd</span>
-                                        <span class="message">Merge #981: CI: GitHib: add HLint</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4025133</span>
-                                        <span class="message">Normal: stubCycles: use foldl'
-
-`reverse` walks the whole list &amp; strictifies the process, the `foldl'` should be
-used here.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#1d3a9c2</span>
-                                        <span class="message">.hlint: enable additional groups</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d321eae</span>
-                                        <span class="message">Parser: m upd</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3dcd056</span>
-                                        <span class="message">CI: GitHyb: add HLint</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#885b714</span>
-                                        <span class="message">add .hlint.yaml
-
-This is not `relude` list cleaned-up.
-
-It of cource would need to be adjusted.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b2b4976</span>
-                                        <span class="message">treewide: hlint clean-up</span>
                                     </div>
                                 </div>
                             </section>
