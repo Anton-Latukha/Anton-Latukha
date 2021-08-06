@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1148" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1202" class="">
     <defs>
         <style/>
     </defs>
@@ -1215,6 +1215,140 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 21 commits in <span class="repo">haskell-nix/hnix-store</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-08-02-upds</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#bc000b4</span>
+                                        <span class="message">Remote: clean-up imports</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5b1b513</span>
+                                        <span class="message">Core: clean-up imports</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a93cba0</span>
+                                        <span class="message">treewide: hlint refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#75c8104</span>
+                                        <span class="message">treewide: hlint refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2b58d3e</span>
+                                        <span class="message">treewide: use lift</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3fe7fce</span>
+                                        <span class="message">treewide: use lift</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f27d5c1</span>
+                                        <span class="message">treewide: use ask{,s}</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#54a7c92</span>
+                                        <span class="message">treewide: use WriteMode</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d2970b9</span>
+                                        <span class="message">treewide: use ReadMode</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8f932bd</span>
+                                        <span class="message">treewide: use decodeUtf8</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0789f25</span>
+                                        <span class="message">treewide: use toString</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#99da38f</span>
+                                        <span class="message">treewide: use withFile</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c1d54c8</span>
+                                        <span class="message">treewide: use toLText</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5d22b94</span>
+                                        <span class="message">treewide: use pass</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c00dedc</span>
+                                        <span class="message">treewide: use toText</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#80f27bb</span>
+                                        <span class="message">Core: Derivation: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e350ee4</span>
+                                        <span class="message">Core: tests: NarFormat: (data -&gt; newtype) Nar</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c4183d2</span>
+                                        <span class="message">treewide: (LANGUAGE -&gt; language)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8e3955f</span>
+                                        <span class="message">Core: cabal: declare default-extensions</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f555947</span>
+                                        <span class="message">Remote: use relude as Prelude</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 6 commits in <span class="repo">haskell-nix/hnix-store</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-08-02-upds</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#ba8f474</span>
+                                        <span class="message">Remote: tests: NixDaemon: mockedEnv: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f27ad62</span>
+                                        <span class="message">Remote: clean-up imports</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#eea3334</span>
+                                        <span class="message">Core: clean-up imports</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ea62608</span>
+                                        <span class="message">treewide: hlint refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0969e1f</span>
+                                        <span class="message">treewide: hlint refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f3736b2</span>
+                                        <span class="message">treewide: use lift</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 15 commits in <span class="repo">haskell-nix/hnix-store</span>
                     </div>
                                 </div>
@@ -1353,128 +1487,6 @@
                                     <div class="commit">
                                         <span class="sha">#ef6343b</span>
                                         <span class="message">Core: use relude as Prelude</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 12 commits in <span class="repo">haskell-nix/hnix-store</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-08-02-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#f383abe</span>
-                                        <span class="message">Core: tests: NarFormat: (data -&gt; newtype) Nar</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#003bd9e</span>
-                                        <span class="message">treewide: (LANGUAGE -&gt; language)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#16d555c</span>
-                                        <span class="message">Core: cabal: declare default-extensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#1a68cfb</span>
-                                        <span class="message">Remote: use relude as Prelude</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#50e307d</span>
-                                        <span class="message">Remote: cabal: declare default-extensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#11c7e81</span>
-                                        <span class="message">Core: use relude as Prelude</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#eb550bd</span>
-                                        <span class="message">Remote: tests: NixDaemon: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#39b55ad</span>
-                                        <span class="message">Core: tests: treewide refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9f459ac</span>
-                                        <span class="message">Remote: treewide refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b816f41</span>
-                                        <span class="message">treewide: clean-up language extensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3f5d909</span>
-                                        <span class="message">{Code, Remote}: require base &gt;=4.12 (GHC 8.6)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#21bce33</span>
-                                        <span class="message">CI: GHC (9.0 - 8.6)</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 11 commits in <span class="repo">haskell-nix/hnix-store</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-08-02-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#27bc863</span>
-                                        <span class="message">Core: tests: NarFormat: (data -&gt; newtype) Nar</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7cac8f2</span>
-                                        <span class="message">treewide: (LANGUAGE -&gt; language)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#6a636e4</span>
-                                        <span class="message">Core: cabal: declare default-extensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f605ebd</span>
-                                        <span class="message">Remote: use relude as Prelude</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#697f53e</span>
-                                        <span class="message">Remote: cabal: declare default-extensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8fb8579</span>
-                                        <span class="message">Core: use relude as Prelude</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b72b755</span>
-                                        <span class="message">Remote: tests: NixDaemon: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e71c7a0</span>
-                                        <span class="message">Core: tests: treewide refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#0be3efe</span>
-                                        <span class="message">Remote: treewide refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#010ec2c</span>
-                                        <span class="message">treewide: clean-up language extensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8fb6f3c</span>
-                                        <span class="message">{Code, Remote}: require base &gt;=4.12 (GHC 8.6)</span>
                                     </div>
                                 </div>
                             </section>
