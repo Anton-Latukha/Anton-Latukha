@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1060" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="811" class="">
     <defs>
         <style/>
     </defs>
@@ -1221,6 +1221,25 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-08-02-upds</span></div>
                                     <div class="commit">
+                                        <span class="sha">#916624b</span>
+                                        <span class="message">Core: tests: Hash: spec_hash: refactor</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell-nix/hnix-store</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-08-02-upds</span></div>
+                                    <div class="commit">
                                         <span class="sha">#2bf02a9</span>
                                         <span class="message">Core: tests: Hash: spec_nixhash: refactor</span>
                                     </div>
@@ -1380,81 +1399,6 @@
                                     <div class="commit">
                                         <span class="sha">#f3736b2</span>
                                         <span class="message">treewide: use lift</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 15 commits in <span class="repo">haskell-nix/hnix-store</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-08-02-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#020ef9a</span>
-                                        <span class="message">Remote: clean-up imports</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#fd06bce</span>
-                                        <span class="message">Core: clean-up imports</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e2ebd52</span>
-                                        <span class="message">treewide: hlint refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#bab56c1</span>
-                                        <span class="message">treewide: hlint refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#cfb33af</span>
-                                        <span class="message">treewide: use lift</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3a9455c</span>
-                                        <span class="message">treewide: use ask{,s}</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d63418a</span>
-                                        <span class="message">treewide: use WriteMode</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f5a1a95</span>
-                                        <span class="message">treewide: use ReadMode</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#0d4c7c0</span>
-                                        <span class="message">treewide: use decodeUtf8</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c879600</span>
-                                        <span class="message">treewide: use toString</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f05606a</span>
-                                        <span class="message">treewide: use withFile</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#62baee6</span>
-                                        <span class="message">treewide: use toLText</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ad4b7ec</span>
-                                        <span class="message">treewide: use pass</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8befe87</span>
-                                        <span class="message">treewide: use toText</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2aa4dc4</span>
-                                        <span class="message">Core: Derivation: refactor</span>
                                     </div>
                                 </div>
                             </section>
