@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="768" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="431" class="">
     <defs>
         <style/>
     </defs>
@@ -1215,6 +1215,29 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/fish-functions</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#2af74c3</span>
+                                        <span class="message">M  hshowlang.fish</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e156d6a</span>
+                                        <span class="message">M  hshowlang.fish</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">Anton-Latukha/fish-functions</span>
                     </div>
                                 </div>
@@ -1282,110 +1305,6 @@ I am also personally interested in this work. Please, if you want to finish - yo
                                     <div>opened by layus in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">I refactrored <code>Parser</code>. Now antiquotations are organized there, which may help. There is a specific question of labellin/error reporting particularly in the parsers, the raised question is HNix evaluation messaging, but parser things &amp; labeling of parser parts can be a way of improve error reporting, as parser generally needs to name every part of the language that can fail &amp; so we can draw/deduplicate names from it.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 57 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#3bbb712</span>
-                                        <span class="message">Expr.Strings: remote(PlainEmpty-&gt;EmptyPlains)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4bb170f</span>
-                                        <span class="message">tests: ParserTests: throwParseError: improve output</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2ece6b0</span>
-                                        <span class="message">tests: ParserTests: asserParseFail: improve output</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e6b2011</span>
-                                        <span class="message">tests: ParserTests: assertParsePrint: upd output form factor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#53d4107</span>
-                                        <span class="message">tests: ParserTests: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4424049</span>
-                                        <span class="message">tests: ParserTests: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#80a3b4f</span>
-                                        <span class="message">dep: megaparsec 9.1</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3fa70e7</span>
-                                        <span class="message">Parser: reorganization
-
-Now order in the module is mode logical &amp; catalogued.
-
-It has pretty much the same order of following as the datatype of NExpr it
-parses into.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a568d72</span>
-                                        <span class="message">Parser: m refactor: megaparsec (string-&gt;chunk)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a7a3b0a</span>
-                                        <span class="message">Expr: Types: Recursivity: add instances {Semigroup, Monoid}</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9a3582d</span>
-                                        <span class="message">Parser: m layout: aligning (&lt;|&gt;)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#05bc113</span>
-                                        <span class="message">Parser: m org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#1d90764</span>
-                                        <span class="message">Parser: m upd: use Parser type synonym</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f9bc17f</span>
-                                        <span class="message">Parser: swap annotateLocation{,1} names
-
-1 was misleading as it returned normal annotation.
-
-Now 1 is used for a minimal AnnUnit.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a4065ab</span>
-                                        <span class="message">Parser: annotate(LocationNamed1 -&gt; NamedLocation)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#63bfbc3</span>
-                                        <span class="message">Parser: add annotateLocationNamed1; (&lt;?&gt; -&gt; label)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#0f986dc</span>
-                                        <span class="message">Parser: rename (&lt;+&gt;) -&gt; (&lt;|&gt;)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#423aae4</span>
-                                        <span class="message">Parser: , upd</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e7ff8dc</span>
-                                        <span class="message">Parser: operator: m upd</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#060fb02</span>
-                                        <span class="message">default.nix: upd rev</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
