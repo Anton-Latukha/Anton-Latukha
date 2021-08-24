@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="704" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="616" class="">
     <defs>
         <style/>
     </defs>
@@ -1275,6 +1275,64 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/notes</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#e7d2b25</span>
+                                        <span class="message">M  "Habit flow.org"</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6719217</span>
+                                        <span class="message">M  mantra</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 5 commits in <span class="repo">Anton-Latukha/config</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#abb5446</span>
+                                        <span class="message">M  kdeglobals</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#86206b6</span>
+                                        <span class="message">M  Syncplay/MainWindow.conf</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c3ad09b</span>
+                                        <span class="message">M  fish</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b6ea2ca</span>
+                                        <span class="message">M  plasma-org.kde.plasma.desktop-appletsrc</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4a4319b</span>
+                                        <span class="message">M  vlc/vlcrc</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">Anton-Latukha/mantra</span>
                     </div>
                                 </div>
@@ -1357,84 +1415,6 @@
                                     <div class="commit">
                                         <span class="sha">#9fbed40</span>
                                         <span class="message">M  config.fish</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 10 commits in <span class="repo">Anton-Latukha/mantra</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#4f374a4</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d7d9ce7</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a0f9f4a</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c6c4bea</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#5847317</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#54dc41e</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#038c364</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#43b1d61</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f1a0f8f</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c07754d</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">Anton-Latukha/mantra</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#4288669</span>
-                                        <span class="message">M  mantra-en.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#db52569</span>
-                                        <span class="message">M  mantra-en.org</span>
                                     </div>
                                 </div>
                             </section>
