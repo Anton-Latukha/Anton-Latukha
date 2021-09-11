@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="443" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="441" class="">
     <defs>
         <style/>
     </defs>
@@ -1275,6 +1275,99 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-sandbox</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#231a44f</span>
+                                        <span class="message">R  demo-project/.gitignore -&gt; IOHK-demo-project/.gitignore
+R  demo-project/CHANGELOG.md -&gt; IOHK-demo-project/CHANGELOG.md
+R  demo-project/README.md -&gt; IOHK-demo-project/README.md
+R  demo-project/Setup.hs -&gt; IOHK-demo-project/Setup.hs
+R  demo-project/app/Main.hs -&gt; IOHK-demo-project/app/Main.hs
+R  demo-project/build.sh -&gt; IOHK-demo-project/build.sh
+R  demo-project/default.nix -&gt; IOHK-demo-project/default.nix
+R  demo-project/demo-project.cabal -&gt; IOHK-demo-project/demo-project.cabal
+R  demo-project/derivation.nix -&gt; IOHK-demo-project/derivation.nix
+R  demo-project/env-defaults.sh -&gt; IOHK-demo-project/env-defaults.sh
+R  demo-project/ghcjs-build.sh -&gt; IOHK-demo-project/ghcjs-build.sh
+R  demo-project/jobsets.nix -&gt; IOHK-demo-project/jobsets.nix
+R  demo-project/release.nix -&gt; IOHK-demo-project/release.nix
+R  demo-project/shell.nix -&gt; IOHK-demo-project/shell.nix
+R  demo-project/src/HDT/Tasks.hs -&gt; IOHK-demo-project/src/HDT/Tasks.hs
+R  demo-project/stack.yaml -&gt; IOHK-demo-project/stack.yaml
+R  demo-project/test/Spec.hs -&gt; IOHK-demo-project/test/Spec.hs
+D  demo/.gitignore
+D  demo/CHANGELOG.md
+D  demo/README.md
+D  demo/Setup.hs
+D  demo/app/Main.hs
+D  demo/build.sh
+D  demo/default.nix
+D  demo/demo.cabal
+D  demo/derivation.nix
+D  demo/env-defaults.sh
+D  demo/ghcjs-build.sh
+D  demo/jobsets.nix
+D  demo/release.nix
+D  demo/shell.nix
+D  demo/src/HDT/Tasks.hs
+D  demo/stack.yaml
+D  demo/test/Spec.hs
+D  demo1/.github/workflows/ci.yml
+D  demo1/.gitignore
+D  demo1/.travis.yml
+D  demo1/CHANGELOG.md
+D  demo1/LICENSE
+D  demo1/README.md
+D  demo1/app/Main.hs
+D  demo1/demo1.cabal
+D  demo1/src/Demo1.hs
+D  demo1/stack.yaml</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 4 commits in <span class="repo">Anton-Latukha/notes</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#a36f348</span>
+                                        <span class="message">M  Notes.org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bbd73f2</span>
+                                        <span class="message">M  "Habit flow.org"</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4bdd28c</span>
+                                        <span class="message">M  haskell</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#087393d</span>
+                                        <span class="message">M  mantra</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">Anton-Latukha/mantra</span>
                     </div>
                                 </div>
@@ -1318,60 +1411,6 @@ Also <code>wmctrl</code> is a tool for it, it manages windows through long-forgo
                                 </div>
                                 <div class="details">
                                     <div>opened  in <span class="repo">haskell/haskell-mode</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Anton-Latukha/.spacemacs.d</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">private</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#bb0059a</span>
-                                        <span class="message">M  init.el</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 5 commits in <span class="repo">Anton-Latukha/Fundamental-Haskell</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#ea2b95d</span>
-                                        <span class="message">M  parser.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#188143e</span>
-                                        <span class="message">M  parser.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f356c53</span>
-                                        <span class="message">M  parser.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#6a70a3f</span>
-                                        <span class="message">M  parser.org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#6c294f9</span>
-                                        <span class="message">M  parser.org</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
