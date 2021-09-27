@@ -1272,6 +1272,25 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#369 Text: add fun isSubsequenceOf</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/text</span></div>
+                                    <div class="comment">I currently do not have enough knowledge of low-level and high performance Haskell. But would learn and try to improve.
+Currently, next I would cover the supplementary quality required: tests, benchmarks and things that good library piece requires. Having that would look into how further optimization.
+Thank you for your work and reviews.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
@@ -1359,28 +1378,6 @@ So the contents should be cached first, and the search patterns are switchable.<
                                         <span class="sha">#79cc430</span>
                                         <span class="message">M  mantra</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2143 Freeze version of hlint used to lint ghcide</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">@jneira
-<i>
-What do you think about contributing in the repo changing the way we use hlint?
-</i>
-Yes, it is a thing I also wanted to propose &amp; motivated to do. Depending on Mitchell response I can prioritize actions accordingly (do the HLS CI config change, or create an action and then introduce config change here).
-As you proposed it also the second part (submit CI config restructure) is agreed. Upon configuration work going to reach out in the nearest days in IRC/Matrix, to make it under maintainer team requirements.
-</div>
                                 </div>
                             </section>
                         </div>
