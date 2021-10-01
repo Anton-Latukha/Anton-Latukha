@@ -935,10 +935,25 @@
     margin-right: 0;
   }
 
-/* Introduction */
-  .introduction {
+/* Introduction and sponsors */
+  .introduction, .sponsors {
     white-space: normal;
     margin: 0 13px 2px;
+  }
+  .sponsors.goal {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: #7777771F;
+  }
+  .sponsors .goal-text {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .sponsors .avatar {
+    margin: 2px;
   }
 
 /* Stackoverflow */
@@ -1125,10 +1140,37 @@
     overflow: hidden;
   }
 
+/* Code snippet */
+  .snippet .body {
+    padding-left: 12px;
+  }
+  .snippet.additions {
+    color: #336543;
+  }
+  .snippet.deletions {
+    color: #9A5256;
+  }
+
 /* Markdown and syntax highlighting */
   .markdown b, .markdown i {
     display: inline-block;
     width: 97%;
+  }
+  .markdown p {
+    margin: 8px 0;
+  }
+  .markdown ul {
+    padding-left: 24px;
+  }
+  .markdown a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  .markdown blockquote {
+    border-left: 4px solid #7777771F;
+    color: #777777;
+    margin: 0;
+    padding-left: 16px;
   }
   code {
     background-color: #7777771F;
@@ -1143,6 +1185,15 @@
     white-space: pre-wrap;
     width: 97%;
     margin-top: 4px;
+  }
+  span.code {
+    background-color: #7777771F;
+    padding: 1px 5px;
+    font-size: 80%;
+    border-radius: 6px;
+    color: #777777;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    margin: 0 4px -3px;
   }
   .token.comment {
     color: #669900;
@@ -1164,7 +1215,27 @@
   }
   .token.trimmed {
     font-style: italic;
-    color: #77777760
+    color: #77777760;
+  }
+  .token.coord {
+    color: #D2A8FF;
+    font-weight: bold;
+  }
+  .token.inserted:not(.prefix) {
+    color: #AAD0B4DC;
+    background-color: #336543DC;
+  }
+  .token.deleted:not(.prefix) {
+    color: #EED2D0DC;
+    background-color: #9A5256DC;
+  }
+
+/* Typography */
+  .space {
+    margin-left: 7px;
+  }
+  .blue {
+    color: #58a6ff;
   }
 
 /* Charts */
@@ -1317,44 +1388,8 @@ The Making a Faster Curry with Extensional Types is a great article that touches
                                 </div>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/text</span></div>
-                                    <div class="comment">I've made a list of arcticles, but the text got lost.
-You do not know about this problem, because it is already very old Computer Science / FP problem that is so scientifically trivial on its face of requiring to solve it &amp; and developed, so it does not make hype splashes anymore.
-Articles start from 1970 of data control flow analysis &amp; SPJ has quite a number of articles, 2019 is particularly rich in references to other information. Guys &amp; SPJ worked numerous times on arity raising optimization systems in GHC, articles related to argument ordering optimization, old and newer currying optimization systems, "Manticore" and so on and so on.
-Terms that directly influenced &amp; try to solve argument passing ordering:
-
-<code>data-flow alanysis</code>
-<code>function partitioning</code>
-<code>partial application</code>, currying &amp; uncurring.
-`free variables and problems of inlining
-<code>demand analysis</code>, <code>specializalization</code>, <code>inlining</code> &amp; <code>instantiaton</code>
-curring/uncurrying optimization
-<code>arity raising</code> &amp; its optimization approaches and techniques
-<code>G-mashine</code>, <code>Spineless Tagless G-Machine</code> and its mapping to hardware.
-
-The scientific community does not refer to preferable ordering of arguments, because for 50 years it tries to tackle the different optimization algorithms for it, and as SPJ articles show - the problem is still fresh.
-Scientists do not talk about ordering, because the recommendations are very old &amp; obvious to them, and as it is not their responsibility to order arguments properly in the functions.
-There are not only articles, there are books that refer to all of this &amp; GHC.
-If one reads carefully "Haskell Programming from First Principles" it also covers the question of a canonical ordering of arguments for Haskell that align with currying/partial application/inlining and books gives recommendations on them. There is an optimal order to argument passing that help the data flow analysis, demand analysis &amp; reuse.
-The problem starts when people think that ordering of arguments does not matter to the code &amp; result. People implement the wrong order of arguments and then everyone requires to follow them.
-The type/ordering that does:
-<code class="language-haskell"><span class="token hvariable">res</span> <span class="token operator">=</span> <span class="token builtin">fmap</span> <span class="token punctuation">(</span><span class="token builtin">lookup</span> <span class="token hvariable">db</span><span class="token punctuation">)</span> <span class="token hvariable">requests</span></code>
-is a proper order, from the style of the code &amp; the science behind the language.
-But, if to phrase &amp; argument it as respecting the language design, preserving &amp; propagating the best practices - does not matter, but what matters is what mistakes was fossilized previously - honestly that offends me as a kind of some programmer.
-As an educated person, I can not accept the "it was this way before, so should be the same" arguments. Those are one of the main archetypes of a fallacious argumentation in a debate, the most stong one that perpetuates the errors, it is literally the first phrase mentioned in the articles 1 2 on cognitive biases we have.
-But if to admit the problem: "I know the old ordering is wrong, but lets introduce new function with that wrong ordering, GHC in 2 arguments it does not matter, we can mention that canonical ordering in Haskell is different, lets just make it again to make it seamless to people as other functions made the same mistake", it is nice to phrase it in that way to negotiate with a person to step over the science &amp; knowledge and purposefully do the wrong thing that perpetuates a bad code style. Because sometimes it indeed is needed, but the need &amp; how to mitigate the problem is determined during the dialectic debate.
-As I see it - <code>isSubsequenceOf</code> is a pretty rare function, the main use of it is for textual search. So despite the error in the earlier implementation in <code>[]</code>, the <code>text</code> implementation would be a more impactful example, and so it can set a proper ordering here, list is notorious and so on and so on, avoid <code>[]</code> asap ... and so the <code>bytestring</code> &amp; another can/would follow <code>text</code> implementation. The base would be rehashed in the future and so <code>text</code> with proper ordering can indicate one more problem to fix in the <code>base</code> during transitions &amp; breakages there.
-Or at least the other function can be created &amp; the <code>isSubsequenceOf</code> is an inalienable synonym for a proper function.
-Forming these messages takes time, I think this is the most pinpoint question in the flow, would be better to spend the time on writing the code, and I think we are interested in the quality code.
-This message between the lines proposed the solution: if maintainers ask - Ok, would do that ordering, but lets make <code>isSubsequenceOf</code> a synonym to the proper function and mention that in the doc, which would:
-
-help the compiler optimization, as flip alias would be annihilated during compilation - the alignment of the currying in Core would be right.
-give people function with proper ordering, the elegance of its use would nudge people towards the proper ordering.
-mention in docs that <code>isSubsequenceOf</code> is a synonym, to explicitly politely nudge people towards proper practice, even if without mentioning why.
-In the new function mention that its argument ordering is canonical for Haskell.
-as a result of all that - the reverse compatibility is preserved, but a new function is introduced and encouraged to be used, and so in the future other libraries would propagate the new function name.
-
-Then we are arriving at the most difficult question - how to name it.
-</div>
+                                    <div class="comment">An error occurred:code.replace is not a function
+Please report this to https://github.com/markedjs/marked.</div>
                                 </div>
                             </section>
                         </div>
@@ -1385,21 +1420,8 @@ Then we are arriving at the most difficult question - how to name it.
                                 </div>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/text</span></div>
-                                    <div class="comment">Well, this is how at least Lambda Calculus works.
-So compiler sees where and how it can reuse the higher-order function &amp; its memory.
-The more constant and biggest impact thing goes first to cache it/cache precompiled specialized function to it, store what is needed in faster machine memory.
-The other way is actually imperative style, which people got accustomed to.
-That is why I talk that <code>lookup request db</code> is ... It is if we want to cache the same large request to search through a large number of small databases. It is illogical from the lambda calculus/System F design. But there were internal GHC work trying to mitigate the optimization of order of arguments, but its results, well afaik it worked good only for 2 argument functions.
-While caching the db because it is the main data source and then number of different requests on it:
-<code class="language-haskell"><span class="token comment">-- instead of:</span>
-  <span class="token hvariable">resCur</span> <span class="token operator">=</span> <span class="token builtin">fmap</span> <span class="token punctuation">(</span><span class="token operator">\</span> <span class="token hvariable">r</span> <span class="token operator">-&gt;</span> <span class="token builtin">lookup</span> <span class="token hvariable">r</span> <span class="token hvariable">db</span><span class="token punctuation">)</span> <span class="token hvariable">requests</span> <span class="token comment">-- lets use side-car lambda expression to fix lambda expression </span>
-<span class="token trimmed">(13 more lines were trimmed)</span></code>
-it respects the Haskell, Haskell Core, System F, Lambda Calculus designs, therefore theory gets used in full on it, it is easier for the Haskell compiler to optimize this code, &amp; so produce more optimized code, but also in itself code is concise &amp; elegant.
-In reality, it is debatable either the <code>carrier data should be searched for a pattern</code>, or the <code>pattern should be searched in the carrier data</code>, linguistically the first seems a simpler way of expressing instructions, but in Haskell, it is proper (by the lang design) to read it right to left.
-It is just because people are accustomed to see &amp; read the Haskell, lets say - not in <code>O&lt;-I</code> order it is designed in, or in data processing order in the lambda calculus (the same argument), but in some imperative-styly order, we have this thing. To make things harder - language provides pretty powerful <code>do</code> notation that reverses the (tails to the beginning) FP control flow into partially imperative style (beginning to tails), reinforcing the puzzlement.
-Lets say this is WIP code, it is done currently in the way that is easy to understand, transform &amp; optimize, main purpose is to gradually refactor it into an optimized version, then it would be transformed into the resulting final code. If there would be requirements to flip the arguments - Ok. afaik GHC should be able to handle that.
-But in GHC it (argument order optimization analysis) works solidly only for functions with 2 arguments. Someone needs to start solving the old mistakes somewhere, that is what I try to do. Higher-Order Function should be specialized for, saturated with the carrier data which is shared/reused between a lot of functions that do a lot of different requests to it.
-</div>
+                                    <div class="comment">An error occurred:code.replace is not a function
+Please report this to https://github.com/markedjs/marked.</div>
                                 </div>
                             </section>
                         </div>
