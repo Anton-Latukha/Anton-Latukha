@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1326" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1148" class="">
     <defs>
         <style/>
     </defs>
@@ -1346,6 +1346,37 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 4 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-09-03-upds</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#0a0d85e</span>
+                                        <span class="message">EvalTests: case_regression_373: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4ec86c0</span>
+                                        <span class="message">Effects.Basic: fetchTarball: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b487027</span>
+                                        <span class="message">Effects.Basic: findPathBy: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0078e57</span>
+                                        <span class="message">EvalTests: genEvalCompareTests: refactor</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1575,77 +1606,6 @@
                                     <div class="commit">
                                         <span class="sha">#69c7b43</span>
                                         <span class="message">Utils: isAbsolure: specialize to Path</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 14 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-09-03-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#8e0b43a</span>
-                                        <span class="message">Utils: sort Path functions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e1ee8df</span>
-                                        <span class="message">Utils: add takeBaseName</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c7c1917</span>
-                                        <span class="message">Utils: add dropExtensions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#51a9b88</span>
-                                        <span class="message">Utils: add takeExtentions</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#13b0632</span>
-                                        <span class="message">Utils: add takeExtension</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2bcd4f8</span>
-                                        <span class="message">Utils: add replaceExtension</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d30366a</span>
-                                        <span class="message">Utils: add joinPath</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b97a92c</span>
-                                        <span class="message">Utils: add splitDirectories</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#222d780</span>
-                                        <span class="message">Utils: add takeDirectory</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#054a949</span>
-                                        <span class="message">Utils: add (&lt;/&gt;)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c510477</span>
-                                        <span class="message">Utils: add isAbsolute</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#5758de2</span>
-                                        <span class="message">Utils: add takeFileName</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8109214</span>
-                                        <span class="message">Main: m clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3531df1</span>
-                                        <span class="message">tests: Main: m clean-up</span>
                                     </div>
                                 </div>
                             </section>
