@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1414" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1432" class="">
     <defs>
         <style/>
     </defs>
@@ -1346,6 +1346,69 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 12 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-09-03-upds</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#36e654b</span>
+                                        <span class="message">Utils: (&lt;/&gt;): specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0fa399b</span>
+                                        <span class="message">Utils: splitDirectories: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0d401fa</span>
+                                        <span class="message">Utils: joinPath: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a0290a2</span>
+                                        <span class="message">Utils: takeExtensions: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2cab609</span>
+                                        <span class="message">Utils: takeExtension: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4f37645</span>
+                                        <span class="message">Utils: takeBaseName: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1880107</span>
+                                        <span class="message">Utils: takeFileName: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6e07bb5</span>
+                                        <span class="message">Utils: replaceExtentions: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2bfdb29</span>
+                                        <span class="message">Utils: dropExtentions: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#745274d</span>
+                                        <span class="message">Utils: takeDirectory: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9137df1</span>
+                                        <span class="message">Utils: isAbsolure: specialize to Path</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e5d92a6</span>
+                                        <span class="message">Utils: sort Path functions</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 21 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1608,70 +1671,6 @@ Shrinked the recursion loop, only 3 args were needed for recursion.</span>
                                     <div class="commit">
                                         <span class="sha">#8162670</span>
                                         <span class="message">Exec: refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 11 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-09-03-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#7de42b1</span>
-                                        <span class="message">Reduce: staticImport: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b488f2c</span>
-                                        <span class="message">Expr.Types: ekey: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#57fcbef</span>
-                                        <span class="message">Standard: instance MonadValue StdValue: inform: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7f0f92c</span>
-                                        <span class="message">PrettyParseTests: genExpr: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e94350f</span>
-                                        <span class="message">PrettyParseTests: genString: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#1fad4c5</span>
-                                        <span class="message">PrettyParseTests: genParams: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c8ba319</span>
-                                        <span class="message">PrettyParseTests: add asciiVarName</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9b1cf95</span>
-                                        <span class="message">Builtins: make versionComponentSeparators local</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8d77001</span>
-                                        <span class="message">treewide: don't functor coerce
-
-In most of these cases it does not matter computationally, nevertheless there
-readability improves.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#794f623</span>
-                                        <span class="message">Scope: rm newScope
-
-Just use coerce.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b6abe02</span>
-                                        <span class="message">Builtins: add inst show VersionComponent, rm versionComponentToString</span>
                                     </div>
                                 </div>
                             </section>
