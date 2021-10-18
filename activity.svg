@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="742" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="732" class="">
     <defs>
         <style/>
     </defs>
@@ -1343,6 +1343,30 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#989 Nix shell: passing `inNixShell`</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by RaitoBezarius in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">Good day to you.
+A note to be obvious: <code>nix-shell</code> is the execution of the upstream <code>nix</code> &amp; it loads <code>default.nix</code> configuration. CI tests it on default settings at every PR &amp; runs everyday <code>master</code> branch check.
+I just now checked additionally in Nix v. <code>2.3.0</code> &amp; latest one - <code>2.3.15</code> &amp; they <code>nix-shell</code> the configuration fine.
+Upstream Nix ... lets say it has some hardcode &amp; side effects, and it very well may be it on your setup. Because of team &amp; merging difficulties in the Nix to fix such things, that directly drove me here to maintain <code>HNix</code>.
+It may be something particularly special with your way of Nix configuration, locale/Nix version/way of nix configuration, as we both know Nix configuration is a quite complex beast.
+If you would find the particular case - our team is open to merge patches &amp; you always can reformulate/update the current report, add environment information, or open new reports whenever you would see fit.
+But if you know Haskell, I am open to fixes in the code, code style in HNix is a special one, &amp; project has an exceptionally clean &amp; concise codebase.
+There is a lot of ways to configure Nix loadout, and you are free to update <code>default.nix</code> configuration and send us a patch, if it would be an addition/improvement to the general case &amp; internationalization - would be happy to merge an improvement.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
@@ -1486,31 +1510,6 @@ Just some basic lambda simplifications.</span>
                                     <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">Removed the doc.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-09-03-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#38dcc05</span>
-                                        <span class="message">Parser: nixExpr: rm doc, as it was puzzling
-
-Details: https://github.com/haskell-nix/hnix/pull/987#discussion_r728437421</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#021e95c</span>
-                                        <span class="message">PrettyParseTests: m refactor</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
