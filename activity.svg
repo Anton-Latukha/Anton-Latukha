@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="455" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="474" class="">
     <defs>
         <style/>
     </defs>
@@ -1346,6 +1346,60 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#726de5d</span>
+                                        <span class="message">Eval: eval: refactor</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 5 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#5859bd5</span>
+                                        <span class="message">Eval: buildArgument: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fd1e43b</span>
+                                        <span class="message">Eval: evalSelect: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f912b63</span>
+                                        <span class="message">Eval: evalBinds: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7358443</span>
+                                        <span class="message">Eval: desugarBinds: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f4e6f2d</span>
+                                        <span class="message">Eval: eval: m refactor</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1402,54 +1456,6 @@
                                         <span class="message">Lint: renderSymbolic: refactor
 
 Apply laws</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#79959e6</span>
-                                        <span class="message">Effects.Basic: nixFilePath: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4cf7a9d</span>
-                                        <span class="message">Effects.Basic: m upd
-
-Lets start to pull demand to Value conversion, in the future possibly reduce it.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#50eb20d</span>
-                                        <span class="message">Effects.Basic: defaultToAbsolutePath: refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#8550f2f</span>
-                                        <span class="message">Effects.Basic: defaultImportPath: refactor</span>
                                     </div>
                                 </div>
                             </section>
