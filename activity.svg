@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="456" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="526" class="">
     <defs>
         <style/>
     </defs>
@@ -1346,6 +1346,106 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 6 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#f31a6e1</span>
+                                        <span class="message">treewide: use mempty</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0093609</span>
+                                        <span class="message">hlint: add `join` rules</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4aba5c9</span>
+                                        <span class="message">hlint: add more `one` rules</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#29096a2</span>
+                                        <span class="message">hlint: add more `one` rules</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4c01f5b</span>
+                                        <span class="message">hlint: add (either Left) rule</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ac372ba</span>
+                                        <span class="message">hlint: add one rule</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#56e2f5c</span>
+                                        <span class="message">treewide: use one
+
+M  benchmarks/Main.hs
+M  main/Main.hs
+M  main/Repl.hs
+M  src/Nix/Builtins.hs
+M  src/Nix/Cited/Basic.hs
+M  src/Nix/Effects/Derivation.hs
+M  src/Nix/Expr/Shorthands.hs
+M  src/Nix/Expr/Strings.hs
+M  src/Nix/Parser.hs
+M  src/Nix/Pretty.hs
+M  src/Nix/Reduce.hs
+M  src/Nix/Render.hs
+M  src/Nix/String.hs
+M  tests/EvalTests.hs
+M  tests/Main.hs
+M  tests/NixLanguageTests.hs
+M  tests/ParserTests.hs
+M  tests/PrettyParseTests.hs</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#028ad93</span>
+                                        <span class="message">Pretty: stripLastIfEmpty: refactor: rm double reverse</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fc411d7</span>
+                                        <span class="message">Pretty: prettyOriginExpr: layout</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1381,75 +1481,6 @@
                                     <div class="commit">
                                         <span class="sha">#80bacdb</span>
                                         <span class="message">Reduce: reduce: refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#af803f5</span>
-                                        <span class="message">Builtins: splitVersion: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d48699e</span>
-                                        <span class="message">Builtins: genericClosureNix: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#09761c5</span>
-                                        <span class="message">Builtins: nixPathNix: refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#7534cfb</span>
-                                        <span class="message">Builtins: m refactors</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2c4959f</span>
-                                        <span class="message">Builtins: getContectNix: m refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-10-20-refactors</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#726de5d</span>
-                                        <span class="message">Eval: eval: refactor</span>
                                     </div>
                                 </div>
                             </section>
