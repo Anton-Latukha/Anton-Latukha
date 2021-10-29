@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="417" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="423" class="">
     <defs>
         <style/>
     </defs>
@@ -1351,7 +1351,28 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Woops.
+                                    <div class="comment">Ye....
+Cabal works only this way &amp; does not allow to not export the <code>Prelude</code> <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> ...
+Probably would need to go <code>NoImplicitPrelude</code> route &amp; import it as <code>Nix.Prelude</code> everywhere  ...
+Today is late, would do it tomorrow.
+I made a minor release beforehand, so if some stuff like this happens - there is a backup option.
+
+                  </div>
+                                </div>
+                            </section>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
+                      Commented on <span class="issue">#994 `Prelude` module clashes with `base`</span>
+                    </div>
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
+                                        <div class="comment">Woops.
 Oh, yes.
 Was thinking about it while making it.
 Would fix it in nearest time.
@@ -1359,39 +1380,39 @@ Probably making it internal would just work.
 Actually I was more surprised/impressed that what I had in mind - I made it work. The setup combines the mixing loaded <code>relude</code>s <code>Prelude</code> &amp; project local <code>Utils</code> into 1 <code>Prelude</code> module.
 Yep. Serious structural thing.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
                       Commented on <span class="issue">#991 Compatibility with aeson 2.0</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Also note - published another, now major release today - it is a big one (~400 commits), changes that are important to the DHall are in the changelog.
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
+                                        <div class="comment">Also note - published another, now major release today - it is a big one (~400 commits), changes that are important to the DHall are in the changelog.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
                       Commented on <span class="issue">#143654 handbrake: 1.3.3 -&gt; 1.4.2</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by peterhoeg in <span class="repo">NixOS/nixpkgs</span></div>
-                                    <div class="comment">Thank you.
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by peterhoeg in <span class="repo">NixOS/nixpkgs</span></div>
+                                        <div class="comment">Thank you.
 Additional "Thank you" for refactoring it to your detailed knowledge.
 Was postponing updates in it as in every release ChangeLogs they proclaim that profile &amp; etc configuration would be lost in the update, so was waiting, for something:
 
@@ -1402,49 +1423,27 @@ or on the PR.
 As I looked into the patch - it seems Ok. Especially after <code>SuperSandro2000</code> review.
 We can add Peter to the maintainers, if he wants to.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/>
-                                    </svg>
-                                    <div class="content">
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/>
+                                        </svg>
+                                        <div class="content">
                       Released
                       <span class="bold">0.15.0</span> of <span class="repo">haskell-nix/hnix</span>
                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#1596e79</span>
-                                        <span class="message">Proclaim release 0.15.0</span>
                                     </div>
-                                    <div class="commit">
-                                        <span class="sha">#bc64033</span>
-                                        <span class="message">ChangeLog: upd</span>
-                                    </div>
-                                </div>
-                            </section>
+                                </section>
+                            </div>
                         </div>
                     </section>
                 </div>
             </section>
+            <div id="metrics-end"></div>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
