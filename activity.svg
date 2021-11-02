@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="383" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="381" class="">
     <defs>
         <style/>
     </defs>
@@ -1343,39 +1343,6 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#321 Trying to understand the `NExprF` typeclass deriving mechanics</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by CMCDragonkai in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Well, actually that thread already explains the case.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
-                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
-                                    </svg>
-                                    <div class="content">
-                      Closed <span class="issue">#321 Trying to understand the `NExprF` typeclass deriving mechanics</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by CMCDragonkai in <span class="repo">haskell-nix/hnix</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
@@ -1384,14 +1351,7 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by RyanGlScott in <span class="repo">haskell-compat/deriving-compat</span></div>
-                                    <div class="comment">It also can be:
-{-
-Beside the main agenda of the project, <code>Data.Functor.Classes</code> able to naturally extend GHC deriving into @Eq1@, @Eq2@, @Ord1@, @Ord2@, @Read1@, @Read2@, @Show1@, and @Show2@. It is not yet merged upstream.
--}
-<code>It is not yet merged upstream</code> - explains generally enough &amp; prevents from logical reports "merge this upstream" "why" &amp; frequent questions about it.
-Mentioning <code>naturally extend GHC deriving GHC into</code> - talks about GHC-like guarantees, and <code>beside the main agenda</code> &amp; <code>It is not yet merged upstream.</code> explains the situation more, so people can evaluate the situation.
-In any case - it is Ok - details, a material to work with.
-Thank you. I wouldn't say more.
+                                    <div class="comment">Thank you for this.
 </div>
                                 </div>
                             </section>
@@ -1418,12 +1378,57 @@ Thank you. I wouldn't say more.
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#321 Trying to understand the `NExprF` typeclass deriving mechanics</span>
+                      Commented on <span class="issue">#996 Suddenly the same `master` branch state started to fail the testsuite</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by CMCDragonkai in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">When https://github.com/haskell-compat/deriving-compat/pull/36 closes - the report is resolved.
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">
+It means the test suite is a leaky abstraction. It depends on the environment state - default should be deterministic, the dependency should be an option.
+
+Understand it.
+
+Document it.
+
+
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+                                    </svg>
+                                    <div class="content">
+                      Opened <span class="issue">#996 Suddenly the same `master` branch state started to fail the testsuite</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#940 Please, use other/create new {SourcePos, Pos} datatypes</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">I obviously regret writing some of these reports sometimes. I mean, why I opened that issue.
+What you are saying about byte offset.
+In any case, again - the type should be abstracted by newtype first, instances introduced, code around newtype polymorphed, then internal type can be changed easily. Or even polymorph also.
+If position is changed to bytes - it would work faster &amp; AST would look simplier/tidier, but the source code address would be unreadable by a human, so then the pretty show needs to be made for human to read in error messages.
+And also byte offset is very low level &amp; synchronization between bytecount &amp; UTF8(to which I standardized codebase) or other character type - can desync, so byte address can point into the middle of a character. Also Megaparsec API ifaik alien to byte offset.
+So I propose - what I do in the code for last 1-2 years - newtype, abstract &amp; polymorph. It is a part of work done already in any case. I want to eventually arrive at the project that is very easy to read (despite my current fascination with point free style), understand &amp; modify into the needed shape.
 </div>
                                 </div>
                             </section>
