@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="567" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1011" class="">
     <defs>
         <style/>
     </defs>
@@ -1343,6 +1343,226 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 26 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#4b48e77</span>
+                                        <span class="message">hlint: drive from fmap</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#518aff2</span>
+                                        <span class="message">hlint: recommend to use fmap</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1a38817</span>
+                                        <span class="message">hlint: rm `??` rule - it is active hiding of code smell</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#755c0bc</span>
+                                        <span class="message">hlint: drive towards pure</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#efb8945</span>
+                                        <span class="message">hlint: recommend pure</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f39355d</span>
+                                        <span class="message">hlint: drive from stub</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6ef68e4</span>
+                                        <span class="message">hlint: remove return from rules</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e942be6</span>
+                                        <span class="message">hlint: recommend (()-&gt;mempty)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e428ae7</span>
+                                        <span class="message">hlint: prefere stub to pass</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#83ba536</span>
+                                        <span class="message">hlint: upd rules to stub</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7ec7cfb</span>
+                                        <span class="message">hlint: upd rules to sequenceA</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#cd13f1c</span>
+                                        <span class="message">hlint: add sequenceA rule</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#279e621</span>
+                                        <span class="message">hlint: add stub rule</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#92f3a3b</span>
+                                        <span class="message">TH: fx GHC 9.0 build</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5525258</span>
+                                        <span class="message">Expr.Shorthands: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#23e0e47</span>
+                                        <span class="message">Expr.Types: (f-&gt;getF)reeVars</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4b36138</span>
+                                        <span class="message">(TH-&gt;Expr.Types): freeVars</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d02138d</span>
+                                        <span class="message">(TH-&gt;Parser): parseExpr</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#24cd35d</span>
+                                        <span class="message">ParserTests: align tests</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2cc2ad4</span>
+                                        <span class="message">treewide: last (toText -&gt; fromString)</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#793c163</span>
+                                        <span class="message">Value: add nvNull builder
+
+it is arity * - so without `mk`</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#cd7b7c7</span>
+                                        <span class="message">Value: add nvNull' builder
+
+It is unary, &amp; object, &amp; so just `nvNull'`</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#2ce0c46</span>
+                                        <span class="message">hlint: fx return -&gt; pure rule</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 16 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#d00269b</span>
+                                        <span class="message">hlint: drive from mempty</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7cb4d46</span>
+                                        <span class="message">hlint: drive from mempty</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fa4122a</span>
+                                        <span class="message">hlint: use mempty to []</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#35d5711</span>
+                                        <span class="message">hlint: drive from fmap</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#02ba724</span>
+                                        <span class="message">hlint: recommend to use fmap</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d3d1f71</span>
+                                        <span class="message">hlint: rm `??` rule - it is active hiding of code smell</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b24b131</span>
+                                        <span class="message">hlint: drive towards pure</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3930bca</span>
+                                        <span class="message">hlint: recommend pure</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0795df9</span>
+                                        <span class="message">hlint: drive from stub</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#00d46e1</span>
+                                        <span class="message">hlint: remove return from rules</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bd939af</span>
+                                        <span class="message">hlint: recommend (()-&gt;mempty)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e654490</span>
+                                        <span class="message">hlint: prefere stub to pass</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1973d0e</span>
+                                        <span class="message">hlint: upd rules to stub</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c4096c0</span>
+                                        <span class="message">hlint: upd rules to sequenceA</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a0db261</span>
+                                        <span class="message">hlint: add sequenceA rule</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#dafc363</span>
+                                        <span class="message">hlint: add stub rule</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
@@ -1364,123 +1584,6 @@ Posts the status of the build this thing: https://github.com/NixOS/hydra/blob/ma
 &amp; it has Prometheus integration, so Hydra API is compatible with Prometheus API, which can also be (tried) to retrieve info through Prometheus API way.
 If web address hooks to retrieve status - exist (and form of them found), or made provided &amp; documented - it would be easy to setup even IFTTT - it has webhook support &amp; so here you go - automate any action on return status through IFTTT, even an Android notification if one wants.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
-                                    </svg>
-                                    <div class="content">
-                      Opened <span class="issue">#1 Please, can this be published to Hackage?</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">triloxy/hydra-api</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#21b669c</span>
-                                        <span class="message">TH: fx GHC 9.0 build</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4100839</span>
-                                        <span class="message">Expr.Shorthands: m clean-up</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 9 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#3333bc8</span>
-                                        <span class="message">Expr.Types: (f-&gt;getF)reeVars</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c783f25</span>
-                                        <span class="message">(TH-&gt;Expr.Types): freeVars</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#19929af</span>
-                                        <span class="message">(TH-&gt;Parser): parseExpr</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f5eaf1a</span>
-                                        <span class="message">ParserTests: align tests</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c933b57</span>
-                                        <span class="message">treewide: last (toText -&gt; fromString)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#33c00eb</span>
-                                        <span class="message">Exec: add evalWithTracingAndMetaInfo</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#af032af</span>
-                                        <span class="message">Eval: (framedEvalExprLoc-&gt;evalWithMetaInfo)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#bbef9fe</span>
-                                        <span class="message">Exec: evalExrLoc: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#0a07156</span>
-                                        <span class="message">Exec: evalExrLoc: m upd</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e69d55a</span>
-                                        <span class="message">Exec: (currentPos-&gt;askSpan)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e3a5573</span>
-                                        <span class="message">Scope: class Scoped: (current-&gt;ask)Scopes</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4bc6e1f</span>
-                                        <span class="message">Nix: use askOptions</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
