@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="490" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="545" class="">
     <defs>
         <style/>
     </defs>
@@ -1346,6 +1346,57 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 9 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#3333bc8</span>
+                                        <span class="message">Expr.Types: (f-&gt;getF)reeVars</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c783f25</span>
+                                        <span class="message">(TH-&gt;Expr.Types): freeVars</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#19929af</span>
+                                        <span class="message">(TH-&gt;Parser): parseExpr</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f5eaf1a</span>
+                                        <span class="message">ParserTests: align tests</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c933b57</span>
+                                        <span class="message">treewide: last (toText -&gt; fromString)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#33c00eb</span>
+                                        <span class="message">Exec: add evalWithTracingAndMetaInfo</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#af032af</span>
+                                        <span class="message">Eval: (framedEvalExprLoc-&gt;evalWithMetaInfo)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bbef9fe</span>
+                                        <span class="message">Exec: evalExrLoc: m refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0a07156</span>
+                                        <span class="message">Exec: evalExrLoc: m upd</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 3 commits in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1419,46 +1470,6 @@
                                     <div class="commit">
                                         <span class="sha">#ea4d80f</span>
                                         <span class="message">treewide: use askLocal</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 5 commits in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-05-upd-Value</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e12e2be</span>
-                                        <span class="message">Repl: layout</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b6859ad</span>
-                                        <span class="message">Repl: clean-up</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#919ad52</span>
-                                        <span class="message">Exec: callFunc: reduce demand
-
-Because it already `demand` the same argument when it arrives - no reason to run
-it twice.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8c65b8f</span>
-                                        <span class="message">Exec: redo Provenance builders &amp; code
-
-This is still not perfect &amp; not a perfect set, but a waay better.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#6903478</span>
-                                        <span class="message">Exec: m clean-up</span>
                                     </div>
                                 </div>
                             </section>
