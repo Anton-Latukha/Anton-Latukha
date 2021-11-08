@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="337" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="722" class="">
     <defs>
         <style/>
     </defs>
@@ -1346,6 +1346,214 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 4 commits in <span class="repo">haskell-nix/hnix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#e8a96a1</span>
+                                        <span class="message">Builtins: splitVersion: m upd</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1095ef1</span>
+                                        <span class="message">Pretty: a bit of docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#787a067</span>
+                                        <span class="message">Parser: flatten the structure of quatation functions</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2c927fd</span>
+                                        <span class="message">Expr.Strings: m clean-up</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1000 commits in <span class="repo">haskell-nix/nix</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#b19aec7</span>
+                                        <span class="message">Merge pull request #4461 from NixOS/ca/error-logging-fixes
+
+Fix some logging with ca derivations</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ab31513</span>
+                                        <span class="message">Merge pull request #4491 from jamesottaway/patch-1
+
+Shorten `mktemp` flag for macOS</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#991edaa</span>
+                                        <span class="message">Shorten `mktemp` flag for macOS
+
+Address `mktemp: illegal option -- -`.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9355ecd</span>
+                                        <span class="message">Add a new Cmd type working on RealisedPaths
+
+Where a `RealisedPath` is a store path with its history, meaning either
+an opaque path for stuff that has been directly added to the store, or a
+`Realisation` for stuff that has been built by a derivation
+
+This is a low-level refactoring that doesn't bring anything by itself
+(except a few dozen extra lines of code :/ ), but raising the
+abstraction level a bit is important on a number of levels:
+
+- Commands like `nix build` have to query for the realisations after the
+  build is finished which is fragile (see
+  27905f12e4a7207450abe37c9ed78e31603b67e1 for example). Having them
+  oprate directly at the realisation level would avoid that
+- Others like `nix copy` currently operate directly on (built) store
+  paths, but need a bit more information as they will need to register
+  the realisations on the remote side</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b8f345b</span>
+                                        <span class="message">Merge pull request #4483 from shlevy/libcmd
+
+Move command plugin interface to libnixcmd</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#12de046</span>
+                                        <span class="message">Add trace to build errors during import-from-derivation
+
+Example:
+
+error: builder for '/nix/store/9ysqfidhipyzfiy54mh77iqn29j6cpsb-failing.drv' failed with exit code 1;
+       last 1 log lines:
+       &gt; FAIL
+       For full logs, run 'nix log /nix/store/9ysqfidhipyzfiy54mh77iqn29j6cpsb-failing.drv'.
+
+       … while importing '/nix/store/pfp4a4bjh642ylxyipncqs03z6kkgfvy-failing'
+
+       at /nix/store/25wgzr2qrqqiqfbdb1chpiry221cjglc-source/flake.nix:58:15:
+
+           57|
+           58|         ifd = import self.hydraJobs.broken;
+             |               ^
+           59|</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#965dc60</span>
+                                        <span class="message">Drop trailing whitespace</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c03f410</span>
+                                        <span class="message">Add traces to errors while updating flake lock file
+
+Example:
+
+$ nix build --show-trace
+error: unable to download 'https://api.github.com/repos/NixOS/nixpkgs/commits/no-such-branch': HTTP error 422 ('')
+
+       response body:
+
+       {
+         "message": "No commit found for SHA: no-such-branch",
+         "documentation_url": "https://docs.github.com/rest/reference/repos#get-a-commit"
+       }
+
+       … while fetching the input 'github:NixOS/nixpkgs/no-such-branch'
+
+       … while updating the flake input 'nixpkgs'
+
+       … while updating the lock file of flake 'git+file:///home/eelco/Dev/nix'</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8e758d4</span>
+                                        <span class="message">Remove mkFlag()</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9da11ba</span>
+                                        <span class="message">Fix the error message when a dep is missing
+
+Fix a mismatch in the errors thrown when a needed output was missing
+from an input derivation that was leading to a wrong and quite misleading error
+message</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d3c4284</span>
+                                        <span class="message">Make the error message for missing outputs more useful
+
+Don't only show the name of the output, but also the derivation to which
+this output belongs (as otherwise it's very hard to track back what went
+wrong)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6af6e41</span>
+                                        <span class="message">Move command plugin interface to libnixcmd</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f15f0b8</span>
+                                        <span class="message">Update to lowdown 0.7.9</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#36c4d6f</span>
+                                        <span class="message">Group common options</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#807d963</span>
+                                        <span class="message">Group subcommands by category</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3ba98ba</span>
+                                        <span class="message">Tell user to run 'nix log' to get full build logs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a32073e</span>
+                                        <span class="message">Add FIXME</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b159d23</span>
+                                        <span class="message">Make '--help' do the same as 'help' (i.e. show a manpage)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#488a826</span>
+                                        <span class="message">Merge pull request #4467 from edolstra/error-formatting
+
+Improve error formatting</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c5b42c5</span>
+                                        <span class="message">Merge pull request #4470 from matthewbauer/fix-4469
+
+Handle missing etag in 304 Not Modified response</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm.061 3.073a4 4 0 10-5.123 0 6.004 6.004 0 00-3.431 5.142.75.75 0 001.498.07 4.5 4.5 0 018.99 0 .75.75 0 101.498-.07 6.005 6.005 0 00-3.432-5.142z"/>
+                                    </svg>
+                                    <div class="content">
+                      Added Anton-Latukha as collaborator in <span class="repo">haskell-nix/nix</span>
+                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
                     </div>
                                 </div>
@@ -1370,58 +1578,6 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by GGG-KILLER in <span class="repo">NixOS/nixpkgs</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#145077 qbittorrent: 4.3.8 -&gt; 4.3.9</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by GGG-KILLER in <span class="repo">NixOS/nixpkgs</span></div>
-                                    <div class="comment">:+1: 
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
-                                    </svg>
-                                    <div class="content">
-                      Opened <span class="issue">#1010 Please, drop `nix*` prefix from function names</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell-nix/hnix</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e1e0542</span>
-                                        <span class="message">WIP try</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
