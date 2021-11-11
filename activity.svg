@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="406" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="477" class="">
     <defs>
         <style/>
     </defs>
@@ -1343,6 +1343,23 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2341 contributing: add implicit-hie gen-hie &gt; hie.yaml note</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Representation result can be seen at: https://github.com/Anton-Latukha/haskell-language-server/blob/2021-11-10-add-gen-hie-note/docs/contributing/contributing.md
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
@@ -1352,8 +1369,46 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-11-10-add-gen-hie-note</span></div>
                                     <div class="commit">
-                                        <span class="sha">#c8fcdd3</span>
-                                        <span class="message">Merge branch 'master' into 2021-11-10-add-gen-hie-note</span>
+                                        <span class="sha">#5548217</span>
+                                        <span class="message">docs: contributing: upd "Using HLS on HLS code" section algorythm</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-10-add-gen-hie-note</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#8c32ef8</span>
+                                        <span class="message">docs: contributing: upd "Using HLS on HLS code" section algorythm</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-10-add-gen-hie-note</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#f925058</span>
+                                        <span class="message">docs: contributing: upd "Using HLS on HLS code" section algorythm</span>
                                     </div>
                                 </div>
                             </section>
@@ -1371,71 +1426,58 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-11-10-add-gen-hie-note</span></div>
                                     <div class="commit">
-                                        <span class="sha">#7aa4392</span>
-                                        <span class="message">Merge branch 'master' into 2021-11-10-add-gen-hie-note</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2341 contributing: add implicit-hie gen-hie &gt; hie.yaml note</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">New update, taking your note into account.
-Since contribution guideline info was outdated - provided restructuring best I could.
-I thought that if implicit configuration did not work for people already - recommend generating &amp; start looking at explicit configuration, that helped me numerous times, people able to read &amp; understand configuration &amp; see what is there &amp; check configuration themselves &amp; it is also way easier to understand &amp; read docs in that way.
-I do not know information about <code>implicit stack detection</code> - if it applies or not, so kept it at the end.
-Please feel free to actively delete &amp; change any part of the documentation, even directly inside PR - is Ok for documentation workflow.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-10-add-gen-hie-note</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#ab0c645</span>
-                                        <span class="message">contributing: upd section "Using HLS on HLS code"</span>
+                                        <span class="sha">#ac93719</span>
+                                        <span class="message">docs: contributing: upd "Using HLS on HLS code" section algorythm</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#83a001c</span>
-                                        <span class="message">contributing: add implicit-hie gen-hie &gt; hie.yaml note
+                                        <span class="sha">#a4137e0</span>
+                                        <span class="message">Merge pull request #2344 from haskell/dependabot/github_actions/cachix/install-nix-action-14.1</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#937de21</span>
+                                        <span class="message">Bump cachix/install-nix-action from 13 to 14.1
 
-This tool helps me for years.</span>
+Bumps [cachix/install-nix-action](https://github.com/cachix/install-nix-action) from 13 to 14.1.
+- [Release notes](https://github.com/cachix/install-nix-action/releases)
+- [Commits](https://github.com/cachix/install-nix-action/compare/v13...v14.1)
+
+---
+updated-dependencies:
+- dependency-name: cachix/install-nix-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
-                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
-                                    </svg>
-                                    <div class="content">
-                      Closed <span class="issue">#948 Functions to name and form:</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#e21d10b</span>
+                                        <span class="message">Bump fkirc/skip-duplicate-actions from 3.4.0 to 3.4.1 (#2345)
+
+Bumps [fkirc/skip-duplicate-actions](https://github.com/fkirc/skip-duplicate-actions) from 3.4.0 to 3.4.1.
+- [Release notes](https://github.com/fkirc/skip-duplicate-actions/releases)
+- [Commits](https://github.com/fkirc/skip-duplicate-actions/compare/v3.4.0...v3.4.1)
+
+---
+updated-dependencies:
+- dependency-name: fkirc/skip-duplicate-actions
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bca2cc9</span>
+                                        <span class="message">add dependabot: add Actions CI merge requests automation (#2339)
+
+Dependabot would send merge requests
+[like these](haskell-nix/hnix-store#169)
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
