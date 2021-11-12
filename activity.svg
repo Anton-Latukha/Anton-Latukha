@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="440" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="399" class="">
     <defs>
         <style/>
     </defs>
@@ -1343,48 +1343,83 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
+                                    </svg>
+                                    <div class="content">
+                      Closed <span class="issue">#1311 Please, can we bless HLint GitHub action</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">ndmitchell/hlint</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#1311 Please, can we bless HLint GitHub action</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">ndmitchell/hlint</span></div>
+                                    <div class="comment">Thank you every for participating in this.
+This dialog produced fruits.
+Process is moved further upstream, so scope of the process now there there <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />.
+
+                  </div>
+                                </div>
+                            </section>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
                       Commented on <span class="issue">#2315 HLS has ridiculously high CPU/memory usage using typed holes</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by bradrn in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Also note, <code>pepeiborra</code> would give a talk on performance: https://github.com/haskell/haskell-language-server/issues/2340#issuecomment-965681852, since typed holes inference is a big computational demand &amp; question they worked on recently - he probably/may mention it.
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by bradrn in <span class="repo">haskell/haskell-language-server</span></div>
+                                        <div class="comment">Also note, <code>pepeiborra</code> would give a talk on performance: https://github.com/haskell/haskell-language-server/issues/2340#issuecomment-965681852, since typed holes inference is a big computational demand &amp; question they worked on recently - he probably/may mention it.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
-                                    </svg>
-                                    <div class="content">
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                                            <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+                                        </svg>
+                                        <div class="content">
                       Opened <span class="issue">#368 Want to kindly ask - is there a signature comments API somewhere</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">haskell/lsp</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
+                                    </div>
+                                    <div class="details">
+                                        <div>opened  in <span class="repo">haskell/lsp</span></div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
                       Commented on <span class="issue">#2745 Haskell support</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by hasufell in <span class="repo">dependabot/dependabot-core</span></div>
-                                    <div class="comment"><i>
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by hasufell in <span class="repo">dependabot/dependabot-core</span></div>
+                                        <div class="comment"><i>
 The Haskell ecosystem often suffers from outdated package bounds.
 </i>
 I resonate strongly with that idea. Ecosystem would benefit immensely just by having a default way of notifying maintainers &amp; suggesting updates. Some community members have ~100+ packages, &amp; there always would be such things, for old history to not repeat itself - the default way of automation would be tremendously beneficial. If someone up the stack can merge new <code>base</code> bound.
@@ -1392,51 +1427,14 @@ I resonate strongly with that idea. Ecosystem would benefit immensely just by ha
 Because of Haskell strong typing &amp; referential transparency - FFI with Haskell can give the highest guarantees of stability.
 I noticed that Dependabot formerly had docs on FFI. &amp; it currently seems to require https://github.com/ffi/ffi in package descriptions in the bundler. If GitHub can not provide Haskell support - the next best option for both sides is community-managed implementation through FFI.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#17 A polite notification that Hoogle returns null on "zinza" request</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">phadej/zinza</span></div>
-                                    <div class="comment">Yep, I'd probably should not posted links to module name or type signature - because they indeed not searchable.
-But I so far not encountered that null return for package names that exist.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#17 A polite notification that Hoogle returns null on "zinza" request</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">phadej/zinza</span></div>
-                                    <div class="comment">Neither <code>hnix-store-remote</code> (which I maintain) or some <code>esotericbot</code> package - but I belive package names are searchable by name in <code>hoogle</code>:
-
-But of course you know better why that is the case.
-Ok. Thank you.
-</div>
-                                </div>
-                            </section>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                     </section>
                 </div>
             </section>
+            <div id="metrics-end"></div>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
