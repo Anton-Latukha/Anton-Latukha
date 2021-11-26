@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="441" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="731" class="">
     <defs>
         <style/>
     </defs>
@@ -1407,111 +1407,617 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                      Pushed 41 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">2021-11-11-upds</span></div>
                                     <div class="commit">
-                                        <span class="sha">#5801b68</span>
-                                        <span class="message">ghcide: Documentation: form intoSpanDoc</span>
+                                        <span class="sha">#23033ad</span>
+                                        <span class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: mv map</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#0698dde</span>
-                                        <span class="message">ghcide: Documentation: getDocumentationTryGhc: implement for 1 elem</span>
+                                        <span class="sha">#d63cf16</span>
+                                        <span class="message">ghcide: Core.Compile: getDocsBatch: ([(,)]-&gt;Map)</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
+                                    <div class="commit">
+                                        <span class="sha">#17e5402</span>
+                                        <span class="message">ghcide: Core.Compile: getDocsBatch: return (Name,)
+
+The types show it needs be such.
+
+The semantics of code in funciton show it needs be such.
+
+The use of the function shows it needs to be such.
+
+`zipWithM .. names` would not be needed.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e77c5d0</span>
+                                        <span class="message">ghcide: Core.Compile: getDocsBatch: form local fun</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8f2ab82</span>
+                                        <span class="message">Compat.HieAs (810): use fromMaybe</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fc13a36</span>
+                                        <span class="message">ghcide: Spans.AtPoint: atPoint: clarify local fun</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a89a14b</span>
+                                        <span class="message">ghcide: LSP.HoverDefinition: align
+
+If these function are plased such - they need to be aligned.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#12134ba</span>
+                                        <span class="message">ghcide: Spans.AtPoint: documentHighligh: m upd</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b00b1ea</span>
+                                        <span class="message">ghcide: Spans.LocalBindings: 2 fun: put docs to their args</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#14c087d</span>
+                                        <span class="message">ghcide: Spans.AtPoint: pointCommand: explain</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bd0046b</span>
+                                        <span class="message">Fix hls-graph build with embed-files flag (#2395)
+
+* [hls-graph] fix build with embed-files flag
+
+* bump hls-graph version number
+
+* fix build without the flag too</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4b7d139</span>
+                                        <span class="message">[skip circleci] Update release instructions (#2384)
+
+* Check the build workflow
+
+* Add gitlab/ghcup specific intructions
+
+* Apply suggestions from @michaelpj
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;
+
+* Note where are release artifacts
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7f469f0</span>
+                                        <span class="message">docs: Fix typo (#2386)
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e6ceb69</span>
+                                        <span class="message">Boot files (#2377)
+
+* Prefer source modules when combining HPTs
+
+* add a direct import into a module's boot module
+
+* disable boot fake import dependency
+
+* Add a test
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#08d6aaa</span>
+                                        <span class="message">Add extra logging for GC (#2388)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#01126b8</span>
+                                        <span class="message">Revert "Update to latest prettyprinter API (#2352)" (#2389)
+
+* Revert "Update to latest prettyprinter API (#2352)"
+
+This reverts commit 1eb133f09838c473860ee516a9304cd8c1145e7b.
+
+This change breaks compatibility with Stackage LTS 16 (GHC 8.8)
+
+* bump ghcide version number
+
+* bump wingman version number</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2e61b7c</span>
+                                        <span class="message">Bump cachix/install-nix-action from 15 to 16 (#2383)
+
+Bumps [cachix/install-nix-action](https://github.com/cachix/install-nix-action) from 15 to 16.
+- [Release notes](https://github.com/cachix/install-nix-action/releases)
+- [Commits](https://github.com/cachix/install-nix-action/compare/v15...v16)
+
+---
+updated-dependencies:
+- dependency-name: cachix/install-nix-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8945881</span>
+                                        <span class="message">Update ghcide dependency for various plugins (#2368)
+
+* hls-class-plugin: Update ghcide dependency
+
+`hls-class-plugin-1.0.1.1` imports `Development.IDE.GHC.Compat.Util`, which doesn't exist until version `1.5.0`
+
+```
+Building library for hls-class-plugin-1.0.1.1..
+[1 of 1] Compiling Ide.Plugin.Class ( src/Ide/Plugin/Class.hs, dist/build/Ide/Plugin/Class.o, dist/build/Ide/Plugin/Class.dyn_o )
+
+src/Ide/Plugin/Class.hs:27<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+27 | import           Development.IDE.GHC.Compat.Util
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-fourmolu-plugin: Update ghcide dependency
+
+```
+src/Ide/Plugin/Fourmolu.hs:18<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+18 | import qualified Development.IDE.GHC.Compat.Util as S
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-hlint-plugin: Update ghcide dependency
+
+```
+src/Ide/Plugin/Hlint.hs:79<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Core’
+    Perhaps you meant Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+79 | import           Development.IDE.GHC.Compat.Core                    hiding
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+```
+
+* hls-ormolu-plugin: Update ghcide dependency
+
+```
+src/Ide/Plugin/Ormolu.hs:14:69: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘hsc_dflags’
+   |
+14 | import           Development.IDE.GHC.Compat      (moduleNameString, hsc_dflags)
+   |                                                                     ^^^^^^^^^^
+
+src/Ide/Plugin/Ormolu.hs:16<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+16 | import qualified Development.IDE.GHC.Compat.Util as S
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-retrie-plugin: Update ghcide dependency
+
+```
+src/Ide/Plugin/Retrie.hs:60:56: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘Outputable’
+   |
+60 |                                                        Outputable,
+   |                                                        ^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:64:56: error:
+    Module
+    ‘Development.IDE.GHC.Compat’
+    does not export
+    ‘SourceText(..)’
+   |
+64 |                                                        SourceText (..),
+   |                                                        ^^^^^^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:68:56: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘hm_iface’
+   |
+68 |                                                        hm_iface, isQual,
+   |                                                        ^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:68:66: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘isQual’
+   |
+68 |                                                        hm_iface, isQual,
+   |                                                                  ^^^^^^
+
+src/Ide/Plugin/Retrie.hs:69:56: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘isQual_maybe’
+   |
+69 |                                                        isQual_maybe,
+   |                                                        ^^^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:72:56: error:
+    Module
+    ‘Development.IDE.GHC.Compat’
+    does not export
+    ‘nameModule_maybe’
+   |
+72 |                                                        nameModule_maybe,
+   |                                                        ^^^^^^^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:73:56: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘nameRdrName’
+   |
+73 |                                                        nameRdrName, occNameFS,
+   |                                                        ^^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:73:69: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘occNameFS’
+   |
+73 |                                                        nameRdrName, occNameFS,
+   |                                                                     ^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:74:56: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘occNameString’
+   |
+74 |                                                        occNameString,
+   |                                                        ^^^^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:79:56: error:
+    Module ‘Development.IDE.GHC.Compat’ does not export ‘rdrNameOcc’
+   |
+79 |                                                        rdrNameOcc, rds_rules,
+   |                                                        ^^^^^^^^^^
+
+src/Ide/Plugin/Retrie.hs:81<img class="gemoji" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAM10lEQVR4Ae3BWainaX4Q4Of3vt/yP0udOnWqq5fptFucUTRIGJ0gRiJKwlxMAhIzzXS3E/FCxWVuvLC9mEAGErRD8EZRFEVmzdAmIsxEjcgMiULwQpzEBURJxJjearqqu5az/b/v/XmW3ub0qepTPVXHC+d5fMf/58I5yucN1ydPJj8o/b4IffK/hF+qzc9vPuO6cxbOydXPe6xW/y757tJ1Ux3GSsS8vze3aVlxK9JPXer9bDxpdk6qc/Lsx30KH19/9HFrVx4r48bFGC9sWGxulX5tXWtTPy/3f2hn9v3P/qh/8TP/3J5zUJyTCL+rlDoP6xcI36IbFy48+l2x9vCjhD8VxVfyXxqdg+K8pDFqae5i3Ni0/sgHIvmBa9d92jkozs8oIryH4cKG8cJFwrMvf8kjHrDi/IxEOIPF1mUH+o4/6wErzs9KlBLOoPaD0vdTpg97wIpzEiyI4oxKqSXCpgesOCcZVqKEs8psTbjtASvOS8ajUaqzatMUmhc9YMU5yH+oJ7+r9r2zaNNStlaD/+oBK87Ba+v+IGodRmcx7e441PiGB6w4Bxl+yIFuZdVZLHe2Hbh1ufcfPWDFOUierMM4l65zFtP27Tn4Wjxp9oB1HrBrX/LHkz+yuHjJWbRpaV4ua/JvnYPiAUs+HbXOw8aGs1hubzsUfM05KB6ga1/0CXx0deuhGlGcxXL7luDVraf8N+egeEBe/TlPCH+vGxZt3LjkrJY723Py9QjpHBQPwCvPW5d+USmba499oAhnMi/35TzX5Feck8599toXXZpnX8X3rD/6eNR+cFbT7o5DtfgV56RzH137su+Zm5+PjA+uPfZ49Ktr7kVbLh1om8V/8R5e+py1lYUxl3J3tv/oj7vtfQj3QT6vXpt8Knguaq3rjz1eu8Wqe7V99WW7N167fvmp3Lr6T1woK75f+GP4/dF8UPF4pgUuOEWwJ9yWfl342a2n/KL3EL5Nr37BH43iHyTfO6yt59rDj0XU6v3Y/ubLdl+7Pgv/RvooigOlxFS7UkvtIroqohOlitoRITNlpsyU82y5fbu1aVmSTz/0tJ92F+F9uvplH470mUgfK7Vrq1ceqcP6Be9Xm5ZuvvBb5v19pcihir4P3TiKbqQbqAPdQO2J4k4y0+1XXrR/80YW/uSlp/2yO+jco29+wUdK8RPZ/HCU0haXLsdi81KNUrxfy+1bbr30AtmsLxh6IQrdQDfSjdSBbqT23ktEWLvyqGl7u7U2PYtfdgfhDF76nLW++kQUfyXTh6OUebG5VRebW6IU345ss+u/+T9Fpo01anGsDnQj3Ug30o10g3tx+5WX7N18bWfrE9YipFN07iC/rrv+kieTP42PSatlGOfFxqbhwsUapbgfpr09Mg09tXhDEIVSKIVSKMW9Kn1PWnnxq1aw7RSdU7z0OQ9fe8FXhY+UWud+/UId1y/qVlaq+6x0nUMlvFsikch0r9py6cDtx37YjjvonJBf11170VdC/OHVK1eMG5tVFA9K7QciLOe04k1JzuRMzrSJVimVKM4i59n+rRtN+KUI6Q46J1x/wY8J37d6+bJxfZ1sCCI8KN24MO3u2N5jZSQcaBNzIcLbktpTOnfT5smtl347s7VsxU+7i84JjR8pUeZxbbXKRKIRBeFBGC9cNO3u2N1nf2Ls6Ltk2jPvzma7MkMKmWSmlELICIF0INHmnOdJpFn4Gw8Vv+YuihNK+EAdukKSjWxkkulBiVq9qTV29rm5zY1tbu9M9naWlnv75v19OS+FphZKUCSSedampXmaQoqkk/7OtdkLr/6cv+AOOidk6kKEbAgk0UjHorjfolYn9R1DT1cofU/tqT2lp3aUjtJRKqUSxZFMbZrM01JbLu3dfP3KtLP9j6590dbWM55zQnFSSJJMspGNbGQjG9ncd61509ixuc76CkNflGFBv6BfoV9hWGVYY1yjX1B7onhLhNL3+pVV48ZFG48/EcP6BVn81Cuf93udULxbOpSNTCSZZJJJJtncT/Ny36GxZ22FEoig9nQ9daAb6Ea6kdojnE1YfegRRO06f94JnROSJMlEI50iHInifpi2tx1aDN4WlVKJSukoHaWjVPeqdJ3aD23e3/uwEzqnSWRzJJ0ivC2I8O2Y9/ccCqeIcB+FE4oTCpmSTCSZZJKNbGQjk2y0mWxkI9P7MS/3zfPSoeXsbdlojTbTZtpMm8nmXuU8m5f7If1nJ3TeLR3KRnqHguYtGUQ4FggEgnAg3F2SaefVq6Qj27uUoO+QjbZkDm/JRFJ6auesdq6/SmYpfNEJnROSlEk20gkFjUQEwpEMIhCOZBDhrjLt375l/9ZNb0rc3KHvWXT03SzbrjZN0r4snVRkFFGrKB21E7UXJUSpStd5S6bd167Zfe2aA5+99IxvOKFzmkQmmWi+RQbhQCAcCwSJCASJCKfKNO/vu331Ze+0emnLPO3bu3XbcpkEMrHE0llFBCGzZTgQfOV25y87ReeklA5lIx0oaI4kIhwLBJlEkEEEGUQ4kg6Eb5WmvT03X3lZtuZQRFjZuGi5s225u+tQLXSVWkOpnaid6DpRe1F7GUUqREhkSznP2jxp02Re7sW0s+PA61H8xBNP2nGK6oRnf8wnS4nfM44d4Q1Berd0ukzHEulYkrPdGzfcuvpNsjnUjwurFy/afv01bZqsjKwvWBkZxl43LtRxoS5WlXFNGVfFuKoMK8owKv2g9oM6jLrFQr+yalhbN25sGtbWLW/f6jPbR//2X/P3P/NZzQmd04SULTQEAhGOhWOBQJBBBBlEOJJBONKmyf7Ojr1bt8zLSUQYVlaN62u6YfD6K68IaWOVUhyrHXWgG6gD3UAdqL2zquPC6sOP1Fsv/vZ3v/qiH8DXnNB5t5RJJpq3hWPhSAYRCAQC4Vg4kuHGK1e1eVaH3rCyqtsc9GOPIFObl+b9pdWRUhyLICqlUiqlo3TU3r3qFisOlfAhfM0JnZNSSmRDQXMszPOsdh2ZREGQQQQZBDKI8KaNK5e9LR3JJJtDkelQphPCsSAQ4f3I1hxqzbZTdE4TSTbHwrGwt7O0ul4QjgUC4VggSAeCcLp0IB0Kqes7u8vJ0FMLMsmZbLSZNtNmYqZU92J5+5ZD2fwHp+icFJpENsfCsTAtZ205K11BkoUIEhFkEOEtGY6EY+kN6ViSrG2sunn9phvbaTGw6Il5IgqCCEcyqT21dxY5z3auvdqEX73ySf/dKTonhZttlrKFI+FYaC0tl5OxdggkAoFAkIjwtiC9Q3pLJlItYWNzzfb2rp3dyc4efZf6uqfrZ7WfRD/QJuae2lM6aiWq08zLfbde/D9NzlMJf9UddE7I5huNj7ekaAiHsoXW0nI5G8dCBhFkEEEG4UCQiHBH6UA6liQR1ChKhJZpmlhO2JswidhRSlFqEEWUIqJQggyZ6VBmk3MzLfdTuo0nt57ya+6gc0LpfSEnP7m9p1tfCJloWguHpqnRGhEIBAJBIsKRDEfC29Ib0lsyzfPs5s09bU59x0pP34XoBlPrzBlao7UmkXPT5pQ5ybmJWgSiVKR5mkk58+TDT/vX7qI64bl/5vW/+Wcs5+YH55R9FYF5TvsTmQw9JZCOpQPpSKZj6UgmmWQikUgk2ZBu3tyXLW2ssjLQFaIOoh/VcaFbXdNfuGi4uGW8cNF4cdPi4iWLzS0rly5bbG5ZbG4ZL24aL14ybmzau/F6htz6mV/wJXdRneK5X/Dvn/1RMTd/Ym8p51lMjdYc6Qpd9Q5JekOSDiQS6ViiIZFkIrVsdrYnqyND71gEdaD2dAN1oA5EOIsoRZummHd2f/dzn/K3PvNZzR0Ud3D5GT8ZfG/yj/cn/2M5mb1hZz9Ny0Y22kw2spEz2ciZ1miNbORMzmSjNVojZ7KJ1hxq6R3CkQjHggj3ovY9ob/5ok130bmLraf9Ov6SA/m8en3fH8jqx1v6ize2c6Mr2cZe6YdQIkhEeFuQTpGOJCGNPbtLSmHRIxuZZCMb2WiNUp3VvL8v2L/Que4uwvvwm//U4uLozyV/HR9yoBZzV9WuUEuoHREOhG+VjqQD6VDi1g7LiVpYDAxDJ/qRbqQb6Qa6kSjeS5tnr//v35hbm//VQ0/5EXcRvk1Xv+xDJX1M81HhI9jyhqCVopXQRRBBBAURRBBBBCVYzuwtmWZHuhq6vtONgzIu1GEh+gW1dydtuXTr5RfatLvTSvi+S0/5T+4i3GdXP++xUvyh5IPCE8ETwu+UrkTYlC4mg/cpIpRaMmrXopQapRLhULaW0/Z2klPyyctPe957CP8P/NbzVhazSyVdCi7hUkuXCovGUFhzIIu1TGNJGxl+h1Cy2S7F7UyXMQSXFFXayHQVv1rT3918xm/4ju94T/8XSNWLhAUHE/4AAAAASUVORK5CYII=" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+81 | import           Development.IDE.GHC.Compat.Util      hiding (catch, try)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-retrie-plugin: Update ghcide dependency
+
+```
+src/Ide/Plugin/Splice.hs:48<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+48 | import qualified Development.IDE.GHC.Compat.Util as Util
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-stylish-haskell-plugin: Update ghcide dependency
+
+```
+src/Ide/Plugin/StylishHaskell.hs:13<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+13 | import qualified Development.IDE.GHC.Compat.Util as Util
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-tactics-plugin: Update ghcide dependency
+
+```
+src/Wingman/Metaprogramming/Lexer.hs:14<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Core’
+    Perhaps you meant Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+14 | import           Development.IDE.GHC.Compat.Core (OccName, mkVarOcc)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Wingman/Range.hs:7<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Core’
+    Perhaps you meant Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+  |
+7 | import           Development.IDE.GHC.Compat.Core
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Wingman/Range.hs:8<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+  |
+8 | import           Development.IDE.GHC.Compat.Util as FS
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Wingman/StaticPlugin.hs:12<img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" /> error:
+    Could not find module ‘Development.IDE.GHC.Compat.Util’
+    Perhaps you meant
+      Development.IDE.GHC.Compat (from ghcide-1.4.2.2)
+      Development.IDE.GHC.Util (from ghcide-1.4.2.2)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+12 | import Development.IDE.GHC.Compat.Util
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```
+
+* hls-test-utils: Update ghcide dependency
+
+```
+src/Test/Hls.hs:52:51: error:
+    Module
+    ‘Development.IDE.Plugin.Test’
+    does not export
+    ‘TestRequest(GetBuildKeysBuilt)’
+   |
+52 | import           Development.IDE.Plugin.Test     (TestRequest (GetBuildKeysBuilt, WaitForIdeRule, WaitForShakeQueue),
+   |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Test/Hls.hs:57:51: error:
+    Module ‘Ide.PluginUtils’ does not export ‘idePluginsToPluginDesc’
+   |
+57 | import           Ide.PluginUtils                 (idePluginsToPluginDesc,
+   |                                                   ^^^^^^^^^^^^^^^^^^^^^^
+```
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;
+                      
+                    
+                      <div class="commit">
+                        <span class="sha">#0a55e9c</span>
+                        <span class="message">ghcide: Update dependency on `hls-plugin-api` (#2382)
+
+2204a16bfbbdd3f0887cdfdab4b86cbd63ab051a broke backward compatibility
+between `ghcide` and `hls-plugin-api`
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                      </div>
+                    
+                      <div class="commit">
+                        <span class="sha">#abebf26</span>
+                        <span class="message">Fix regression in GhcSessionDeps (#2380)
+
+* Fix regression in GhcSessionDeps
+
+We cannot use GetModIfaceWithoutLinkable since the session might be reused later to load a module that needs linkables
+
+Note that this does not have any effects on performance, since GetModIfaceWithoutLinkable is just a synonym for GetModIface that removes the linkable
+
+Fixes #2379
+
+* add test files
+
+* delete unused bits
+
+* Tweak test for compat. with GHC 9.0.1</span>
+                      </div>
+                    
+                  
+                
+                
+                
+                
+                
+              
+            
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    <div class="content">
                       Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-11-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#de8b06e</span>
-                                        <span class="message">WIP</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <span class="code">2021-11-11-upds</span></div>
+                    
+                    
+                      <div class="commit">
+                        <span class="sha">#c5926b8</span>
+                        <span class="message">ghcide: Documentation: mkDocsMap: m clean-up</span>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
+                    
+                    <div class="content">
+                      Commented on <span class="issue">#2349 Implementing showing of function argument documentation</span>
                     </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-11-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#44de0dc</span>
-                                        <span class="message">ghcide: Core.Compile: add getDocsNonInteractive{',}
-
-`getDocsBatch` cuurently (&amp; before) used only for single name retrieval
-function. Use of it is in `Documentation` module `getDocumentationTryGhc` where
-it wraps arg into singleton &amp; gives to `getDocsBatch` &amp; then recieves a Map with
-1 entry &amp; unsafely "lookups" doc in it.
-
-This work is to supply the proper single name retrieval-optimized version to
-stop that `getDocsBatch` there.
-
-&amp; further ideally `getDocumentationTryGhc` uses single-retrieval &amp;
-`getDocumentationsTryGhc` uses a batch mode &amp; batch mode gets optimized along
-the lines of: https://github.com/haskell/haskell-language-server/pull/2371</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#bcc2c8d</span>
-                                        <span class="message">ghcide: Core.Compile: add diagMsgs</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-11-upds</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#c673910</span>
-                                        <span class="message">WIP</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#1015 Fix nix-shell invocation</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anderssorby in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">At once I would say (or you already know) - Nix cuts corners &amp; skews typing rules - it is a challenging task to proof Nix lang code - you would basically need to disregard some of Nix behaviors - if you would find such - I would be thankful for growing the: https://github.com/haskell-nix/hnix/blob/d3d4356dd2588427a3a24fc8776aca42b472c472/tests/NixLanguageTests.hs#L66-L72
-list.
-I would be grateful if HNix would grow a <code>deprecatedRareNixQuirkTests</code> list of things were to not copy C++ implementation quirks.
+                  </div>
+                  <div class="details">
+                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                    <div class="comment">Since HLS uses per-1-element retrieval from GHC:
+The implementations for according mode are now provided.
+And switched the code into it.
+HLS runs loads docs from module interfaces.
 </div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    <div class="content">
+                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <span class="code">2021-11-11-upds</span></div>
+                    
+                    
+                      <div class="commit">
+                        <span class="sha">#5be04f7</span>
+                        <span class="message">ghcide: Documentation: form intoSpanDoc</span>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <span class="code">2021-11-11-upds</span></div>
+                    
+                    
+                      <div class="commit">
+                        <span class="sha">#5801b68</span>
+                        <span class="message">ghcide: Documentation: form intoSpanDoc</span>
+                      </div>
+                    
+                      <div class="commit">
+                        <span class="sha">#0698dde</span>
+                        <span class="message">ghcide: Documentation: getDocumentationTryGhc: implement for 1 elem</span>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+        
+      
+    
+  
+
+
+      
+        
+      
+        
+
+
+
+      
+        
+      
+        
+      
+        
+
+      
+        
+
+      
+        
+      
+        
+
+      
+        
+
+      
+        
+
+      
+        
+      
+
+      
+
+    
+    <div id="metrics-end"></div>
+  
+
+</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -1519,6 +2025,5 @@ I would be grateful if HNix would grow a <code>deprecatedRareNixQuirkTests</code
                 </div>
             </section>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
