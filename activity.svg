@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="471" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="786" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,6 +1404,202 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 53 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">fixing-the-cache-situation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#894080a</span>
+                                        <span class="message">CI: cache-deps: platforms need separate build steps
+
+Otherwise Windows was failing the first time &amp; not proceeding to retry.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ce1edd5</span>
+                                        <span class="message">CI: cache-deps: standartize if expressions &amp; names</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#224a11b</span>
+                                        <span class="message">CI: cache-deps: mv workaround for Windows before analyzing cabal.project</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a827746</span>
+                                        <span class="message">CI: cache-deps: mk src caching depend on pinned Hackage timestamp</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#758c178</span>
+                                        <span class="message">CI: cache-deps: update caching keys</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e460cd8</span>
+                                        <span class="message">CI: cache-deps: caching the sources separately</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#46b5423</span>
+                                        <span class="message">CI: cache-deps: rm build scheduling</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a56c5a1</span>
+                                        <span class="message">CI: remove GHC 8.10.5 from builds
+
+Since HLS 1.6 would not support this version - this check can be removed.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#04ff437</span>
+                                        <span class="message">CI: {cache-deps,test}: fix expressions &amp; org platform step names</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e5a19df</span>
+                                        <span class="message">CI: cache-deps: cache successes in the matrix
+
+Before this - whole matrix aborted on 1 build fail in it:
+https://github.com/haskell/haskell-language-server/runs/4383942120?check_suite_focus=true</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#eff01ae</span>
+                                        <span class="message">CI: {cache-deps,test}: run build multiple times only for Windows</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c0ee597</span>
+                                        <span class="message">CI: cache-deps: rm skip intended for `master`&lt;-&gt;PR merge skip
+
+This workflow it intended to be run on `master` only.
+&amp; to run after every merge to rebuid the cache, as was agreed before
+
+While this using this skip action - means that if the same `workflow` was
+present in the PR - the workflow would not run inside `master`, so:
+1. this code is not needed in this workflow.
+2. this code may work against the agenda of the workflow.
+
+So, lets just simplify things here.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#11212b4</span>
+                                        <span class="message">CI: use Cabal Store env variable that alredy provided by default
+
+In &amp; below:
+https://github.com/haskell/actions/blob/45e670e88ef506f3c7c305ffa3abbf1c08a38d63/setup/lib/setup-haskell.js#L61
+
+is seen that it is exact Windows &amp; Linux &amp; macOS settings.
+
+No need to guess with matching the CABAL_STORE variable to reality, while
+haskell action already gives the value of that variable.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2dcd7d7</span>
+                                        <span class="message">CI: test: mk some platform-specific setup declarative
+
+`!= 'windows-latest` may mean not latest or not windows, but the setup is for
+Linux &amp; macOS.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6fd329a</span>
+                                        <span class="message">CI: {cache-deps,test}: mk workaround as Windows-only
+
+Doing match in this way - ensures it works for all Windows configured, not only
+`windows-latest` case.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a6353b9</span>
+                                        <span class="message">CI: flatten the key restore structure
+
+Docs:
+&gt; The cache action first searches for cache hits for `key` and `restore-keys` in the branch containing the workflow run. If there are no hits in the current branch, the cache action searches for `key` and `restore-keys` in the parent branch and upstream branches.
+
+So the `key` matches first in any case &amp; scenario. &amp; because `*-bench-*` was
+proven to be superflous &amp; so removed - now we have only 1 namespace to search
+through. &amp; so we arrived at this simple solution (it is also exactly the way how cache nicely works in
+repositories I manage).</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#765f1fd</span>
+                                        <span class="message">CI: {test,bench}: stop creating &amp; using `*-bench-*` storage
+
+As we see - `bench` stored the:
+
+```
+        path: |
+          ~/.cabal/packages
+          ~/.cabal/store
+```
+
+Which means it stored just dependencies again, but now with `bench` deps aslo.
+That duplication alse depleated the cache pool quick &amp; created a complexity in
+the cache key hitting for restoration.
+
+`cache-deps` now going to already build deps for tests &amp; bench.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#85100d0</span>
+                                        <span class="message">CI: cache-deps: stop asking `*-bench-*`, ask for the own `*-build-*`</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6c69e9d</span>
+                                        <span class="message">lock-less Values state (#2429)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2e59c60</span>
+                                        <span class="message">Add known broken tests for import placement (#2425)
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">fixing-the-cache-situation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#a1affef</span>
+                                        <span class="message">cabal*.project: increment index +1s</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7acaf18</span>
+                                        <span class="message">CI: fx dist-newstyle caching path</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">fixing-the-cache-situation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#ea138b9</span>
+                                        <span class="message">remove before merge</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9398b61</span>
+                                        <span class="message">cabal*.project: set back to initial</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
@@ -1431,80 +1627,6 @@
                                     <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">&amp; I'd personally put those tests as broken for a time &amp; worked on other things. Because there is a number of new tests to take from Nix that do work &amp; other ones are easier to do for me.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#994 `Prelude` module clashes with `base`</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">If <code>0.15</code> is deprecated why particularly <code>&lt; 0.13</code> then?
-<i>
-Is there a timeframe.
-</i>
-Well. Nix 2.3.15 released with a breakage without documentation &amp; then Nix 2.4 was released with regressions in "stable" features &amp; without increasing the <code>languageVersion</code> shipped undocumented changes in the handling of the language. That is not just problem for me, but central Nixpkgs maintainers started &amp; gather signings in the declaration: https://discourse.nixos.org/t/nix-2-4-and-what-s-next/16257 to stop these sudden undocumented top-down breakages
- &amp; HNix has &amp; required to follow Nix bug2bug if that is needed &amp; so uses Nix for golden tests. From the tests enabled there is currently breakage in 1 escaping mechanism moment that Nix changed. Because it is not documented, I hunted through the Nix git logs &amp; found no explicit place where escaping was changed, &amp; read through a bunch of C++ at the best of my possibilities, tried to bisect the issue, but you get the picture. The is a need for someone who knows C++ better than me.
-I tried to adjust the HNix behavior in https://github.com/haskell-nix/hnix/pull/1009 but failed. &amp; then I decided that if nobody really cares for this - I better do some work in HLS then, which I do currently.
-Seems like HNix does the representation of this by running the <code>iterNValue</code> directly. I'd loved to see the C++ code - to know in what part of the process the escaping changes.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">fixing-the-cache-situation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#13c1389</span>
-                                        <span class="message">CI: fx update placement
-
-Seems like update should run after all caches are loaded.</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">fixing-the-cache-situation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#8ceaf09</span>
-                                        <span class="message">remove before merge
-
-cheating with cache for faster retries</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3aef451</span>
-                                        <span class="message">CI: cache: m fx</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a4bbe98</span>
-                                        <span class="message">CI: cache: m fx</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
