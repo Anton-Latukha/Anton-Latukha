@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="585" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="444" class="">
     <defs>
         <style/>
     </defs>
@@ -1413,6 +1413,56 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-12-11-ci-upd-caching</span></div>
                                     <div class="commit">
+                                        <span class="sha">#f97b4bd</span>
+                                        <span class="message">(WIP) remove before merge: advance hackage</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 4 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-12-11-ci-upd-caching</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#3098f20</span>
+                                        <span class="message">(WIP) remove before merge: advance hackage</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#772223b</span>
+                                        <span class="message">(WIP) remove before merge: test, bench</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#bdcd3c7</span>
+                                        <span class="message">(WIP) remove before merge</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6483d96</span>
+                                        <span class="message">CI: {caching,bench}: add executable patching for cache</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-12-11-ci-upd-caching</span></div>
+                                    <div class="commit">
                                         <span class="sha">#ff41e51</span>
                                         <span class="message">(WIP) remove before merge; build only cache</span>
                                     </div>
@@ -1457,128 +1507,6 @@
                                         <span class="message">(WIP) remove before merge; advance hackage
 
 [skip circleci]</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 11 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-12-11-ci-upd-caching</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#9ac4c4a</span>
-                                        <span class="message">(WIP) remove before merge; advance hackage +2s
-
-[skip circleci]</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a9667cc</span>
-                                        <span class="message">CI: {caching,test,bench}: rm default to bash</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#131866e</span>
-                                        <span class="message">CI: {caching,bench}: add executable patching for cache</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7908dcd</span>
-                                        <span class="message">(WIP) remove before merge</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#999c872</span>
-                                        <span class="message">CI: caching: separate source retrieval step &amp; separate build step</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a4fce1f</span>
-                                        <span class="message">CI: {caching,test,bench,hackage}: new caching process
-
-Sources are stored separately.
-
-Before this cache was storing per Platform/GHC sources &amp; compiled results
-together. While deps sources does not depend on platform or GHC, they are
-platform &amp; GHC agnostic. Because sources &amp; compiled results were stored togather
-&amp; sources took ~1/2-2/3 of that - cache stored multiple duplicates of the same
-source code.
-
-This config stores the source code separately.
-
-And at the same time tries to store &amp; share all source code which may be needed.
-&amp; all compiled deps that would be used in different workflows.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ee64445</span>
-                                        <span class="message">CI: {caching,test,bench,hackage}: retrieving index timestamp
-
-For 1:1 according cache to it.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d0cd643</span>
-                                        <span class="message">CI: {bench,hackage} add Linux platform config
-
-For future caching configuraiton.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2c0212b</span>
-                                        <span class="message">CI: workflows: disable stack where it is not used
-
-Hopefully it would remove it &amp; its files from being cached in the action. &amp; also
-not includde into environment.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c570656</span>
-                                        <span class="message">Build linux binaries in alpine container (#2463)
-
-* Build linux binaries in alpine container
-
-* fix submodules
-
-* install system deps
-
-* force integer-simple
-
-* Merge build-mac-win and build-linux
-
-* --disable-tests
-
-* default shell</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f128085</span>
-                                        <span class="message">#2418 Also use .hlint.yaml fixity rules when HLINT_ON_LIB_GHC not defined (#2464)
-
-* fix #2418 until upstream hlint change
-
-* remove debug import
-
-* add comment about when ghc-lib-parser-ex dependency can be removed
-
-Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-12-11-ci-upd-caching</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#820d737</span>
-                                        <span class="message">(WIP) remove before merge: advance hackage 1s [skip circleci]</span>
                                     </div>
                                 </div>
                             </section>
