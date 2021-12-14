@@ -1407,6 +1407,32 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#2480 Nix build is unstable; Should we keep it?</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Discussion &amp; the theme of the report suddenly went a weird direction.
+
+Nix dev env builds just can be made optional &amp; so the people that use them, maintain them. In that way Nix dev env can exist &amp; be refactored without blocking the community processes.
+
+One of the main problems I wanted to shine a light on:
+afaik Nix users that are on NixOS still can not do <code>cabal</code> or <code>stack</code> development without Nix wrapper environment.
+That is the one thing that drove me from using NixOS for Haskell (&amp; HNix) development. I needed to get out of situations of Nix ecosystem to be able to write Haskell code.
+So, essentially it is important to remember: if there is no Nix dev env - that means users of particularly NixOS are not able to develop for the project.
+One of the situations was the HIE in NixOS back then. And I know how much effort Nixpkgs <code>haskellPackages</code> team puts to make things working &amp; nice. Having a Nix dev env in the project essentially helps with the compatibility with the central distribution.
+It is nice to collaborate with Nixpkgs team, so both projects have easier time supporting HLS in the Nix ecosystem.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#2480 Please, fix nix build which can't find hie-bios &gt;=0.8 &amp;&amp; &lt;0.9.0</span>
                     </div>
                                 </div>
@@ -1473,24 +1499,6 @@ The downside is - putting checks to the PRs would now suddenly put a requirement
                                         <span class="sha">#42a9d59</span>
                                         <span class="message">Merge branch 'master' into add-emacs-config-example</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2476 add emacs configuration example</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by freckletonj in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Ok, 2 maintainers made reviews, all get addressed.
-I'm also a user of Emacs, so with a clear heart can merge it.
-</div>
                                 </div>
                             </section>
                         </div>
