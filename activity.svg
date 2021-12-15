@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="399" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="398" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,7 +1404,7 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
                       Commented on <span class="issue">#2349 Streamline code for getDocumentationTryGhc</span>
@@ -1412,13 +1412,11 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Easy understandability &amp; readability for docs are important. Otherwise, if it to transmit information by Shannon boundary (a mathematically maximally dense form of information) was optimal for agenda - we'd would not needed to learn protocols to correspond, languages &amp; then we can just send people to read the source code or the binary directly.
-
-In the doc for function <code>RefMap</code> purposefully gets oversimplified.
-Real type is:
-<code class="language-haskell"><span class="token keyword">type</span> <span class="token constant">RefMap</span> <span class="token hvariable">a</span> <span class="token operator">=</span> <span class="token constant">Map<span class="token punctuation">.</span>Map</span> <span class="token constant">Identifier</span> <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token constant">Span</span><span class="token punctuation">,</span> <span class="token constant">IdentifierDetails</span> <span class="token hvariable">a</span><span class="token punctuation">)</span><span class="token punctuation">]</span></code>
-But doc purposefully says it is "a map identifiers to spans", not mentioning anything about <code>IdentifierDetails</code>. Docs are to streamline understanding &amp; so because highlighting happens not based on <code>IdentifierDetails</code> but based on spans - docs forget to mention details unimportant to understanding &amp; agenda. As a result - docs forget to mention unimportant details, but a person looking-up the meaning of a function hopefully would understand/recap it through reading the tiny doc.
-Any statement is an emphasis in itself. Then generalized type names from a remote location, function doc is closer in information &amp; scope to the purpose of the function putting emphasis, people tend to read the docs of a function they have interest first &amp; think in the scope of a function. Additionally, if doc successfully conveys the process/meaning - the successful system of mental meaning/understanding is the emphasis how to read/understand the type names in the scope of the function.
+                                    <div class="comment">All I want here - is to be able point to function with complex type signature &amp; argument types - &amp; pop-up doc in as few words as possible to explain me what function does.
+Since the function is <code>\ a b c -&gt; process a b c</code> - a main part of the function is how arguments get used by the process.
+People frequently write documentation as: "Function takes ASTs, takes a getter of data, takes a Position, returns the data", or "Returns data of a position, retrieving it by getter from AST" - notice how that documentation also restates the arguments retrieved &amp; the type signature.
+That kind of documentation is prevalent across the docs, see <code>concat</code> or <code>lookup</code> or <code>filter</code> - a lot of docs pretend type signature is not there &amp; restate what is passed as args &amp; mentioned in the type signature.
+That kind of documentation people place in the wrong spot - it is a documentation for arguments. &amp; the main doc body should convey the general meaning of a function, or details of implementation/use.
 </div>
                                 </div>
                             </section>
@@ -1450,18 +1448,37 @@ Any statement is an emphasis in itself. Then generalized type names from a remot
                                 </div>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">But for me they are.
-The lack of information (or superficiality of information) in the documentation for the reader - means that the next reader would find new information &amp; would add it into documentation.
-I am just trying to doc functions so I understand them &amp; later can work with them.
-I needed to go look into the sources of all these arguments. Sometimes I can do just jump to definition, sometimes I need to go Hoogle &amp; frequently Hoogle returns a GHC 9.2.1 interface &amp; I develop in 8.10.7, so I need to go find the definitions/sources manually to look into them.
-I am a newb in the project.
-And the docs are for newbs. When person implicitly knows what the function does, or they understand all they need to know from the type signature - on that level of understanding docs are not needed &amp; so the person does not look into docs.
-So if left untouched the docs tend to go from nothing there to something there, converging on the medium level, since above medium level understanding no longer needs to look-up medium level info or add to it.
-For me - it is useful information. <code>point</code> helps to indicate that <code>Position</code> is a main topic of the function, that <code>(HieAST t -&gt; a)</code> is a getter that extracts info from <code>AST</code> based on <code>Position</code> &amp; returns plural.
-&amp; noting that <code>point</code> is <code>Position</code> also helps to understand what function is about.
-Because signature can have different implementations. It can take AST &amp; <code>(HieAST t -&gt; a)</code> is a pointer to something &amp; <code>Position</code> is a filter identifier &amp; then the body of function is a <code>Command</code>.
-Doc explains that <code>pointCommand</code> is a command when user points at some position - information is retried through getter.
-The question generally is not to remove documentation, but how to modify it so it optimally explains the function. Before this, I did not understand how <code>pointCommand</code> &amp; <code>(HieAST t -&gt; a)</code> combine.
+                                    <div class="comment">That is not a final form of documentation, documentation can be easily modified.
+With documentation, both sides need to propose improvements. So far received only "remove" suggestions, which is not helpful to improve documentation, if to have an inverse Socratic reflection.
+Because I get not suggestions of how to improve the situation - I need to improve it myself, which results in new versions of the documentation, while old thread addressed the previous version.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2349 Streamline code for getDocumentationTryGhc</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment"><i>
+This does not justify commenting types on a function.
+It does not comment types on the functions. Those are docs to arguments of a function, even Haddock internally calls them comments for arguments: https://haskell-haddock.readthedocs.io/en/latest/markup.html#constructors-and-record-fields, https://haskell-haddock.readthedocs.io/en/latest/markup.html#function-arguments.
+</i>
+It comments what argument are for &amp; about, arguments happen to have/be related to types closely &amp; so the type semantics are present in the documentation for arguments, but bears the function argument scope.
+
+<i>
+If you think that this function is hard to understand without any comments, then it is more helpful to put a comment directly relevant to this function
+</i>
+The meaning of the function documentation is to be readable/looked-up from the external scope. If to hide explanations inside the code - it defeats the purpose of documentation.
+
+By the way, because no suggestions were given - but weak points of documentation were found - documentation get new edition.
 </div>
                                 </div>
                             </section>
@@ -1478,34 +1495,6 @@ The question generally is not to remove documentation, but how to modify it so i
                                 </div>
                                 <div class="details">
                                     <div>opened  in <span class="repo">haskell/haskell-language-server</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2349 Streamline code for getDocumentationTryGhc</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">That the argument gets applied to a function. Or function takes an argument.
-
-Simple <code>get</code> helps mentally read docs as text, the function gets this this and this, returns that. Terminology of course can be disputed, aka function applies to argument or the other way around, &amp; do Haskell function return a value or other terms can be used.
-Of course to say is: "bind the ... argument to the ... parameter of a function"
-But for simple dirt-cheap basic explanation - a simple explanation of how arguments are treated semantically, how combination produces a result - documenting it arguments works great.
-Since programming is not about objects, but about processes - I try to turn object naming documentation (which type signatures "as is" are) into process describing.
-
-The main thing to explain in the function is how to think about <code>HieASTs</code> plural here. For the purpose of the function it is not important are there many ASTs or we pretend we have 1 giant complex AST of everything. So just <code>AST</code>.
-Next question is what <code>RefMap</code> is &amp; how to think about it in the scope of the function. Function reminds &amp; at the same time simplifies to the reader what obscure <code>RefMap</code> name is about. That it is important to see that is it simply a map from some identifiers to some spans.
-In that, we connected the reader that some AST is taken &amp; then identifiers of it get mapped to spans.
-Then the position is taken. Probably here it needs to be additionally cleared-out that that position determines an identifier that gets highlighted.
-The return type of the function is self-explanatory, <code>DocumentHighlight</code> - is a great self-explanatory name whose semantic meaning directly corresponds with the agenda of the function.
-</div>
                                 </div>
                             </section>
                         </div>
