@@ -1407,6 +1407,24 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#2316 Improve recompilation avoidance in the presence of TH</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by wz1000 in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Mentioned dependency #2263 - is merged.
+This PR status seems to be WIP.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#2506 CI: caching: add early termination &amp; run check on schedule</span>
                     </div>
                                 </div>
@@ -1467,33 +1485,6 @@ Anywaay... nice idea. Since I do not know enough how it works &amp; it is not th
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
                                     <div class="comment">The result now was: https://github.com/haskell/haskell-language-server/runs/4574676469?check_suite_focus=true
 Well, there are doc post-fixes. Not we are able to check how workflow skipping works. Because I upload changes to docs in <code>caching</code> - CI should skip <code>{test, bench, nix}</code> builds.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2507 Fix ci cache for windows</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by jneira in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Also note that the sources get redownloaded.
-It is while the setting to cache them was:
-<code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">if</span><span class="token punctuation">:</span> runner.os == 'Windows'
-        <span class="token key atrule">name</span><span class="token punctuation">:</span> (Windows) Platform config
-<span class="token trimmed">(2 more lines were trimmed)</span></code>
-(it is seen for example in https://github.com/haskell/haskell-language-server/runs/4574676443?check_suite_focus=true)
-So we try to cache <code>C:\sr</code> - caching is not working properly &amp; <code>~\AppData\cabal\packages</code> sources cache also does not work. It may be a different problem thou.
-Also during work, to restart the caching anew - you can advance the Hackage index (cabal in any case rolls back to the last nearby fixed state), that both would load old caches, but workflows would make sure new information is saved in the new cache.
-As for example, with Windows, the case may be that not full cache was saved somehow &amp; gets reused (it can happen during initial cache runs in PR, for example, <code>test</code> or <code>bench</code> seizing the cache key save slot before <code>caching</code> &amp; so saving <code>test</code>/<code>bench</code> cache there. But: 1. merge to master regenerated the caches, 2. what we see is not <code>test</code> or <code>bench</code> cache.
-So all which are mentioned are details. But they are refuted.
-It seems to be some Windows setup &amp; GitHub CI related thing. For example, does CI allows to override directories in the root of a disk. Maybe it saved stack files, but cabal files are elsewhere. Maybe chocolatey package changed something &amp; we keep supplying old cache &amp; its file structure does not match the new one.
 </div>
                                 </div>
                             </section>
