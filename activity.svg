@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="596" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="457" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,28 +1404,21 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 3 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                      Commented on <span class="issue">#1832 [plugin][refine-import] Do not refine to Internal module</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">2021-12-21-ci-fxs</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e4076ed</span>
-                                        <span class="message">cabal*.project: index-state +1s</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#c7acf49</span>
-                                        <span class="message">CI: {caching,test}: upd commets
-
-This should short-cirquit.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#6970aa8</span>
-                                        <span class="message">CI: {caching,test}: make rm/cp comment more informative</span>
-                                    </div>
+                                    <div>opened by rayshih in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">This done in default way seems to roughly cover Pareto balance.
+Generally, people indeed do not want/should to depend on internal modules if that is possible (&amp; that is what HLS should advise by default).
+&amp; in 20% of cases when they want to depend on <code>Internal</code> uncontrollable API - we initially can allow them to do that manually.
+As it is said in the good tooling/language design - the good style should be encouraged, but the bad style should be discouraged (in this case requiring manual work that is also a statement person wants it &amp; knows what is doing).
+Why to avoid <code>Internal</code>?
+Because: http://nikita-volkov.github.io/internal-convention-is-a-mistake/
+</div>
                                 </div>
                             </section>
                         </div>
@@ -1436,13 +1429,13 @@ This should short-cirquit.</span>
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#2520 CI: caching: fix early termination expression check &amp; cabal.project replacement</span>
+                      Commented on <span class="issue">#2316 Improve recompilation avoidance in the presence of TH</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Ok, now run is complete https://github.com/haskell/haskell-language-server/pull/2520/checks.
-Disabling <code>caching</code> &amp; enabling <code>{test,bench}</code>.
+                                    <div>opened by wz1000 in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">I wish web UI of rebase was allowed to do it in many commits.
+Many of these files seem pretty rebasable.
 </div>
                                 </div>
                             </section>
@@ -1459,26 +1452,9 @@ Disabling <code>caching</code> &amp; enabling <code>{test,bench}</code>.
                                 </div>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Ok, now I need to wait until this run completes &amp; then drop the modifications. &amp; have a 1 clean run on <code>{test,bench}</code>, it is honest to do at least because I changed <code>test</code> workflow.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2520 CI: caching: fix early termination expression check &amp; cabal.project replacement</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I advanced the <code>index-state</code>.
-Which changes the key. So the old key of cache &amp; new id for cache of the workflow does not align &amp; so the caching starts.
-Resulting into the proper long caching run: https://github.com/haskell/haskell-language-server/runs/4599160496?check_suite_focus=true
+                                    <div class="comment">Seems I checked everything about early termination this time.
+&amp; seem that <code>cabal.project</code> switcharoo now works.
+I hope we solved the main problems there &amp; hope that soon we would exhaust hidden bugs in the CI bugs would start to approach zero.
 </div>
                                 </div>
                             </section>
@@ -1490,66 +1466,32 @@ Resulting into the proper long caching run: https://github.com/haskell/haskell-l
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 7 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">2021-12-21-ci-fxs</span></div>
                                     <div class="commit">
-                                        <span class="sha">#6483ad2</span>
-                                        <span class="message">cabal*.project: index-state +1s</span>
+                                        <span class="sha">#fe329c3</span>
+                                        <span class="message">Merge branch 'master' into 2021-12-21-ci-fxs</span>
                                     </div>
-                                    <div class="commit">
-                                        <span class="sha">#74c838d</span>
-                                        <span class="message">CI: {caching,test}: upd commets
-
-This should short-cirquit.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#70b632b</span>
-                                        <span class="message">CI: {caching,test}: make rm/cp comment more informative</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#34aab46</span>
-                                        <span class="message">WIP: PLEASE, DROP THIS COMMIT BEFORE MERGE</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b113bf7</span>
-                                        <span class="message">cabal*.project: index-state +1s
-
-Renewing cache.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#08c2fe2</span>
-                                        <span class="message">CI: caching: fx `cabal.project` copying
-
-In the
-https://github.com/haskell/haskell-language-server/runs/4596861600?check_suite_focus=true
-of
-https://github.com/haskell/haskell-language-server/pull/2503
-
-Noted that:
-
-I rm cabal.project. The sources of cabal-ghc921.project contain:
-index-state: 2021-12-18T00:00:07Z
-cp cabal-ghc921.project cabal.project
-Then from cabal.project CI retrieves finderprint 2021-11-29T08:11:08Z.
-Seems like GitHub uses alias cp=cp -i - preventing UNIX-like default copying over behaviour.
-&amp; rm cabal.project does not remove the file.
-cabal.project seems to be protected from deletion.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#93e6d6d</span>
-                                        <span class="message">CI: caching: fix early termination expression check
-
-It is obscure bug.
-
-Details are in
-https://matrix.to/#/!oOjZFsoNYPAbTEgSOA:libera.chat/$tB_L6wbaxe1ElQtYzMI9woID4hZyscS6Rhpn-nsCc6Y?via=libera.chat&amp;via=matrix.org&amp;via=monoid.al
-
-Because after the second path somehow it always returned `False` - the caching
-runs always resulted in early termination.</span>
-                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2520 CI: caching: fix early termination expression check &amp; cabal.project replacement</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">CI run completed successfully: https://github.com/haskell/haskell-language-server/runs/4599610364?check_suite_focus=true.
+</div>
                                 </div>
                             </section>
                         </div>
