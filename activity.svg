@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="457" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="805" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,6 +1404,417 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">wip/evidence-info</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#4c45c87</span>
+                                        <span class="message">Spans.AtPoint: import lengthFS from Compat</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">wip/evidence-info</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#c78d7a1</span>
+                                        <span class="message">Compat.Util: m reexport lengthFS</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 266 commits in <span class="repo">haskell/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">wip/evidence-info</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#160c509</span>
+                                        <span class="message">Wingman: maintain user-defined fixity for definitions (#1697)
+
+* Pass the discovered node to withSmallest/Largest
+
+* Maintain fixity when doing case split
+
+* New layout tests
+
+* Fix tests
+
+* Fix tests wrt new infrastructure
+
+* Update stack yamls
+
+* Update cabal index state
+
+* Forgot a stack yaml
+
+* New commit to hopefully fix CI
+
+* operational is broken upstream
+
+* I dunno what I'm doing
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4d730b3</span>
+                                        <span class="message">Disable hls tests for win and ghc-9.0.1 (#2018)
+
+* Disable hls tests for win and ghc-9.0.1
+
+* Unignore hlint tests for win and ghc-9.0.1</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#6e47614</span>
+                                        <span class="message">Use operational master commit to fix build for ghc-9.0.1 (#2017)
+
+* Use operational master
+
+* Use operational master in cabal.project
+
+* Update configuration-ghc-901.nix
+
+Co-authored-by: Potato Hatsue &lt;berberman@yandex.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a0f6f5f</span>
+                                        <span class="message">Fix Wingman dependency on extra (#2007)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b8bb06e</span>
+                                        <span class="message">Warn GHC 9 Compatibility to LSP Client (#1992)
+
+* Test 9.0.1 for windows and macOS
+
+* Refactorize ghc checking in tests
+
+* Correct imports/exports
+
+* Replace CPP checks with ghcVersion
+
+* Use GHC cpp and remove 8.4
+
+* Use the ghc version runtime checker
+
+* HLINT ann ignored for ghc-9 too
+
+* Mark test as broken for win and ghc-9
+
+* Use GHC90 in eval tests
+
+* Avoid reformatting code
+
+* Remove not supported ghc-8.4
+
+* Disable tests for macos and ghc-9.0.1
+
+* Updates README to warn GHC 9 support situation
+
+* Send warning to LSP client when used on GHC 9
+
+* Stop using CPP and adds ad-hoc version discover logic in Development.IDE.GHC.Util
+
+* Use ghcVersion check
+
+* Convert alert to log message
+
+Co-authored-by: jneira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8edb0f7</span>
+                                        <span class="message">Enable tests for ghc 9 and promote `ghcVersion` check (#2001)
+
+* Test 9.0.1 for windows and macOS
+
+* Refactorize ghc checking in tests
+
+* Replace CPP checks with ghcVersion
+
+* Use GHC cpp and remove 8.4
+
+* Use the ghc version runtime checker
+
+* HLINT ann ignored for ghc-9 too
+
+* Mark test as broken for win and ghc-9
+
+* Use GHC90 in eval tests
+
+* Disable tests for macos and ghc-9.0.1
+
+* Test 9.0.1 for windows and macOS
+
+* Refactorize ghc checking in tests
+
+* Correct imports/exports
+
+* Replace CPP checks with ghcVersion
+
+* Use GHC cpp and remove 8.4
+
+* Use the ghc version runtime checker
+
+* HLINT ann ignored for ghc-9 too
+
+* Mark test as broken for win and ghc-9
+
+* Use GHC90 in eval tests
+
+* Avoid reformatting code
+
+* Remove not supported ghc-8.4
+
+* Disable tests for macos and ghc-9.0.1
+
+* Ignore hlint+cpp tests for win and ghc-9.0.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5471382</span>
+                                        <span class="message">Allow HLS plugins to declare cli commands (#1999)
+
+* turn into subcommands and move to Default.Main
+
+* remove redundant logger
+
+* fixup subcommands
+
+* HLS plugin cli commands
+
+* Add an example
+
+* print -&gt; putStrLn</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ce15ff6</span>
+                                        <span class="message">Remove &gt;= from cabal-version (#1998)
+
+Fixes warnings like:
+
+```
+Warning: test/testdata/testdata.cabal:3:27: Packages with
+'cabal-version:
+1.12' or later should specify a specific version of the Cabal spec of
+  the form
+  'cabal-version: x.y'. Use 'cabal-version: 2.0'.
+```
+
+Co-authored-by: Potato Hatsue &lt;1793913507@qq.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#47db34f</span>
+                                        <span class="message">Eval plugin: support ghc 9.0.1 (#1997)
+
+* Eval plugin: support ghc 9.0.1
+
+* Update CI and stack
+
+* Use pprTypeForUser for printing kinds
+
+* test: remove forall
+
+* test: [Char] -&gt; String
+
+* test: update forall
+
+* Keep tests only for GHC 9
+
+* Update nix and CI
+
+* Mark one hlint test as known broken
+
+* Re-enable tests for other ghc versions
+
+* Update test</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8aa698b</span>
+                                        <span class="message">nix: add support for ghc 9.0.1 (#1995)
+
+* nix: add support for ghc 9.0.1
+
+* Add CI
+
+* Don't use overrideScope
+
+* Try to disable plugins properly
+
+* Avoid removing attrs of hpkgs
+
+* Split CI steps
+
+* Jailbreak all ghc901 packages
+
+* Override `operational`
+
+* Disable the test of `dual-tree`
+
+* Override `dependent-sum-template`
+
+* Disable tests for every ghc901 package
+
+* Remove formatters executables from dev shell
+
+* Disable pre-commit check for ghc901
+
+* Override `diagrams` packages
+
+* Override `monoid-extras`
+
+* Disable class plugin and refineImports plugin (consistent with cabal-ghc901.project)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4ae0fea</span>
+                                        <span class="message">Display package names of external libraries on hover (#1626)
+
+* Display package names of external libraries on hover
+
+* Use dynflags of the current file
+
+* Add tests
+
+* Remove unclear lib name
+
+* Cleanup imports
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#0e642b3</span>
+                                        <span class="message">maximize sharing of NormalizedFilePath values (#1996)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#77af21e</span>
+                                        <span class="message">Update nix to GHC 8.10.5 (#1991)
+
+* Update nix to GHC 8.10.5
+
+* Update hiedb 0.4.0</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a0def3c</span>
+                                        <span class="message">Initialize ExportsMap using hiedb exports (#1989)
+
+* Initialize ExportsMap using hiedb exports
+
+* bump version number
+
+* Add temporary source package to ghc901 cabal project as well
+
+* fix stack descriptors
+
+* remove source package overrides
+
+* refresh cabal index state
+
+* fix 9.0.1 build</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d6de2bb</span>
+                                        <span class="message">Wingman: add emacs example config to Readme (#1988)
+
+This adds a barebones example config for emacs. Most things work out of
+the box anyways, but I found the `lsp-make-interactive-code-action`
+function somewhat hard to find, so I think the pointer to it would
+probably benefit people.
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2df3d30</span>
+                                        <span class="message">Add windows to ghcup artifacts and generate sha256 sums (#1970)
+
+* Add windows to ghcup artifacts
+
+* Add 7z compress
+
+* Make move generic per os
+
+* Generate sha256 sums
+
+* Include .tar.gz and sums in artefacts
+
+* Clean up sha256sums tags</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a7321ac</span>
+                                        <span class="message">follow change in lsp-types (#1985)
+
+* follow change in lsp-types
+
+* fix version constraint
+
+* Fix hlint</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8d44068</span>
+                                        <span class="message">Don't suggest import an unnecessary data constructor. (#1984)
+
+Usually, when the type constructor is used but the data constructor isn't, we
+only suggest importing the type constructor. When the data constructor and type
+constructor share the same name we get mixed up and suggest importing both.
+
+The solution is to do a better job filtering out the data cons when we know we
+are looking for a type con.
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e48e02a</span>
+                                        <span class="message">Bugfix type signature lenses / code actions for pattern synonyms. (#1952)
+
+* Bugfix type signature lenses / code actions for pattern synonyms.
+
+Use a better method for getting the type. The old method didn't work for
+unidirectional synonyms:
+  pattern Some a &lt;- Just a
+and gave the wrong type for synonyms with provided constraints:
+  data T1 a where"
+    MkT1 :: (Show b) =&gt; a -&gt; b -&gt; T1 a"
+  pattern MkT1' :: (Eq a, Num a) =&gt; Show b =&gt; b -&gt; T1 a
+  pattern MkT1' b = MkT1 42 b
+
+* GHC 9.2 compat fix.
+
+The multiplicities returned by patSynSig on the orig_args value are
+uninteresting. patSynSig is literally just calling (map unrestricted). There is
+no information there for us to care about.
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#dff418c</span>
+                                        <span class="message">relax megaparsec constraint (#1986)</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
@@ -1435,61 +1846,6 @@ that need an understanding of the topic.
                                     <div>opened by wz1000 in <span class="repo">haskell/haskell-language-server</span></div>
                                     <div class="comment">I would assume to know what I am doing rebasing this.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">michaelpj/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">mpj/troubleshooting-work</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#2bd9003</span>
-                                        <span class="message">Merge branch 'master' into mpj/troubleshooting-work</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2517 Rework troubleshooting section, add basic explainer</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by michaelpj in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">[skip circleci]
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-12-20-upd-cache</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e7979b9</span>
-                                        <span class="message">Merge branch 'master' into 2021-12-20-upd-cache</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
