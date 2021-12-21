@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="429" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="447" class="">
     <defs>
         <style/>
     </defs>
@@ -1407,6 +1407,67 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#409 Document architecture and relationship between component projects</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by ProofOfKeags in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">It would require to manually redo graph every N months.
+I use the https://github.com/haskell-nix/hnix/wiki/Design-of-the-HNix-code-base for easy onboarding &amp; frequently used to look at it myself. Module map - useful to understand the project internal dependencies &amp; emergence of things, to place funtionality functions properly, group modules, refactor &amp; to not have orphan instances.
+Christmass story of children reuniting with parents
+
+
+Module map was crucial for me to reunite orphans with their parents in https://github.com/haskell-nix/hnix/pull/805/files, without a map - that is pretty hard to figure-out, by having a map &amp; aligning their type system with the project structure &amp; finding the scope that is a meeting point - in landslide of cases that happens to direct to the deepest understanding to place them properly &amp; elegantly. Before there were 28 orphans, after - only 1 that produces specific IO effects. It is a measurable improvement to the performance &amp; mood of ecosystem compilations. 
+Main project links graph is laborious but realistic to do manually. But module map - is impossible to maintain manually.
+I also did a map of <code>ghcide</code>, but since it is only <code>ghcide</code> - not submitted it so far. <code>graphmod</code> required a lot of workaround to generate it &amp; upstreamed reports to it so far were not responded.
+It is pretty nice. SVG allows being zoomed-in infinitely.
+
+I know that <code>phadej</code> mastered these questions pretty good.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2507 Fix ci cache for windows</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by jneira in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">It is because rebase was done before cache was built in <code>master</code>.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#409 Document architecture and relationship between component projects</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by ProofOfKeags in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">@phadej, you know this question better than all of us. (questions what tooling &amp; how currently works to monitor dependencies, what you use &amp; how it is done). Can you say how or give a graph of the project, so we put it in the doc for contributors?
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#176 Wrong `could not execute: tasty-discover` (revisit after haskell/hie-bios#187)</span>
                     </div>
                                 </div>
@@ -1434,64 +1495,10 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2506 CI: caching: add early termination &amp; run check on schedule</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Yes, &gt;2 hours were very painful pace.
-1:15 is much tolerable (this time feel very tolerable to me), now the person knows that basically in an hour testing would be done.
-Would've been great to sneak favors from GitHub <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />.
-
-                  </div>
-                                </div>
-                            </section>
-                            <div class="row fill-width">
-                                <section class="activity">
-                                    <div class="field">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                        </svg>
-                                        <div class="content">
-                      Commented on <span class="issue">#2387 HLS not working within GHC (meta improve troubleshooting)</span>
-                    </div>
-                                    </div>
-                                    <div class="details">
-                                        <div>opened by goldfirere in <span class="repo">haskell/haskell-language-server</span></div>
-                                        <div class="comment">As it seems solved, can we close this?
-</div>
-                                    </div>
-                                </section>
-                            </div>
-                            <div class="row fill-width">
-                                <section class="activity">
-                                    <div class="field">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                        </svg>
-                                        <div class="content">
-                      Commented on <span class="issue">#2517 Rework troubleshooting section, add basic explainer</span>
-                    </div>
-                                    </div>
-                                    <div class="details">
-                                        <div>opened by michaelpj in <span class="repo">haskell/haskell-language-server</span></div>
-                                        <div class="comment">Solves https://github.com/haskell/haskell-language-server/issues/491
-</div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
                     </section>
                 </div>
             </section>
-            <div id="metrics-end"></div>
         </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
