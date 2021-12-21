@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="464" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="462" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,6 +1404,53 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2387 HLS not working within GHC (meta improve troubleshooting)</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by goldfirere in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Always love such longreads from you. Gives perspective.
+GHC is of course the kind of a final destination for HLS. Also, the middle layers (plugins &amp; how IDEs handle info) are obscure, with platform-specific multiplying it. Would mention https://github.com/haskell/haskell-language-server/issues/712 here, as if that is the case - there could be advancement at least in testing/troubleshooting the HLS runs without middle layers to the user (or with minimal middle layer).
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 3 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-12-21-ci-fxs</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#2e2d431</span>
+                                        <span class="message">CI: {caching,test}: make rm/cp comment more informative</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1f39471</span>
+                                        <span class="message">WIP: PLEASE, DROP THIS COMMIT BEFORE MERGE</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#209c368</span>
+                                        <span class="message">cabal*.project: index-state +1s
+
+Renewing cache.</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
@@ -1464,57 +1511,6 @@ cabal.project seems to be protected from deletion.</span>
                                     <div>opened by michaelpj in <span class="repo">haskell/haskell-language-server</span></div>
                                     <div class="comment">Thank you @michaelpj for these updates, especially troubleshooting guidance for the community. It would be easier after this.
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2503 Build with GHC 9.2</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I ended work.
-Please:
-
-<code>WIP: PLESE, REVERT TO PASS HLINT CI REQUIREMENTS</code> to enable HLint to check for all current (whatever would be current) <code>test</code> jobs.
-<code>WIP: PLESE, REVERT TO TEST ALL GHCs</code>
-<code>WIP: PLEASE, DROP * BEFORE MERGE</code> can be dropped before merge, dropping them at once should mostly cancel them each-out. But in reality because I needed to revert the approach - I ended-up reverting all initial <code>PLEASE, DROP</code> with inverses named also <code>PLEASE, DROP</code> in mirrored order &amp; the configs are clean from them, so on squash dropping them or not - (looking at the result diff) results should end up the same either way.
-
-I know that was ugly, but CI development requires direct REPL engagement (REPL being CI) &amp; I not force pushed once.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">haskell/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">ghc-9.2</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#870f3c2</span>
-                                        <span class="message">WIP: PLESE, REVERT TO PASS HLINT CI REQUIREMENTS</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8f35c00</span>
-                                        <span class="message">CI: index-state +1s</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e1ce542</span>
-                                        <span class="message">WIP: PLESE, REVERT TO TEST ALL GHCs</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
