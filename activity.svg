@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="805" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="768" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,18 +1404,21 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
+                      Commented on <span class="issue">#1914 Limit the number of valid hole fits</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">wip/evidence-info</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#4c45c87</span>
-                                        <span class="message">Spans.AtPoint: import lengthFS from Compat</span>
-                                    </div>
+                                    <div>opened by expipiplus1 in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Hole fitting solving would always be costly for the foreseeable futuristic future.
+I consider 10 as a sane default (which would terminate mostly in the sane time &amp; not clutter much, which I would prefer).
+The option would be ideal, but it is an unrequested feature in a community project - if some style/project would need hundreds of hole fits - they would be able to arrive and implement it.
+But lets not bikeshed - don't let the ideal be the enemy of the good.
+
+@expipiplus1 would you be kind to push it over the last bump?
+</div>
                                 </div>
                             </section>
                         </div>
@@ -1426,387 +1429,340 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
+                      Pushed 195 commits in <span class="repo">expipiplus1/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">wip/evidence-info</span></div>
+                                    <div>on branch <span class="code">joe-max-holes</span></div>
                                     <div class="commit">
-                                        <span class="sha">#c78d7a1</span>
-                                        <span class="message">Compat.Util: m reexport lengthFS</span>
+                                        <span class="sha">#d9d27e5</span>
+                                        <span class="message">Filter code actions based on prefix, not equality (#2146)
+
+It's quite unclear in the spec, but in
+microsoft/language-server-protocol#970
+it's suggested that the intention is that the kinds given in `only`
+should be used as *prefix* filters of the generated code action kinds.
+
+That is to say, if the client asks for `only = [ CodeActionRefactor ]`,
+we should give them all kinds of refactoring code actions, including
+those whose kind is `CodeActionRefactorInline` (because as "hierarchical
+strings" they are represented as `"refactor"` and `"refactor.inline"`).
+
+This is quite important for the client: e.g. I hit this because I wanted
+to ask for all the import quickfixes so I could present them to the user
+to pick one. But they use various subkinds of `"quickfix.import"`, so
+currently you cannot ask for them all (asking for `"quickfix.import"`
+currentl returns nothing!).
+
+The ipmlemention is a little ugly: this needs some helper funcitons in
+`lsp`, which I'll make a PR for separately, but I didn't want to block
+this.
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 266 commits in <span class="repo">haskell/haskell-language-server</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">wip/evidence-info</span></div>
                                     <div class="commit">
-                                        <span class="sha">#160c509</span>
-                                        <span class="message">Wingman: maintain user-defined fixity for definitions (#1697)
+                                        <span class="sha">#384902c</span>
+                                        <span class="message">Update nix flake (#2159)
 
-* Pass the discovered node to withSmallest/Largest
+* Update nix flake
 
-* Maintain fixity when doing case split
+Doing a nixpkgs update gains ghc 8.10.6 support.
 
-* New layout tests
+lsp-types needed updating to satisfy bounds so I did that.
 
-* Fix tests
+* Add ghc-lib-parser override required for ormolu
 
-* Fix tests wrt new infrastructure
+* Put the override in the right spot, oopsie
 
-* Update stack yamls
+* Pass --print-build-logs to nix commands
 
-* Update cabal index state
+* Fix tracy on darwin
 
-* Forgot a stack yaml
+* Remove the macOS hack since it got merged
 
-* New commit to hopefully fix CI
+* It appears this is actually ghc8107 by now
 
-* operational is broken upstream
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;
+Co-authored-by: Potato Hatsue &lt;1793913507@qq.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1daecd4</span>
+                                        <span class="message">Auto complete definitions within imports (#2152)
 
-* I dunno what I'm doing
+* auto complete functions from imports
+
+* address PR comments
+
+* clean up
+
+* remove duplicate HashMap import
+
+* use lookupDefault
+
+* fuzzy match filter
+
+* add field to exportsMap
+
+* generate map from modIFace
+
+* Update ghcide/src/Development/IDE/Types/Exports.hs
+
+Co-authored-by: Pepe Iborra &lt;pepeiborra@me.com&gt;
+
+* module name text alias
+
+* use hashset; enable local modules
+
+* local module imports now working
+
+* derive map from exportMap
+
+* generate maps from list
+
+* clean up
+
+* addressing PR comments
+
+* clean up
+
+* clean up
+
+* useWithStaleFast
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;
+Co-authored-by: alexnaspoleap &lt;88672779+alexnaspoleap@users.noreply.github.com&gt;
+Co-authored-by: Alex Naspo &lt;alex.naspo@leapyear.io&gt;
+Co-authored-by: Pepe Iborra &lt;pepeiborra@me.com&gt;
+Co-authored-by: Pepe Iborra &lt;pepeiborra@gmail.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#12e7742</span>
+                                        <span class="message">Reduce duplication in pragma tests (#2157)
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#adb964c</span>
+                                        <span class="message">Semiautomatic hackage releases (#2163)
+
+* Including the update of some .cabal files to make `cabal check` happy</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d1d7ce0</span>
+                                        <span class="message">Complete contributing guide (#2165)
+
+* Complete contributing guide
+
+With the contents of ./CONTRIBUTING.md (mainly the pre commit hook to format)
+
+* Delete CONTRIBUTING.md
+
+Included in the main documentation
+
+* Move style guidelines
+
+As building and testing are more important imo
+
+* Correct grammar
+
+Co-authored-by: Jan Hrcek &lt;2716069+jhrcek@users.noreply.github.com&gt;
+
+* Note cabal run behaviour
+
+Co-Authored-By: jhrcek
+
+Co-authored-by: Jan Hrcek &lt;2716069+jhrcek@users.noreply.github.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#baaee98</span>
+                                        <span class="message">Plugin in config files (#2166)
+
+* Plugin in config files
+
+List the config files where a plugin should be added
+
+* Correct grammar
+
+Co-authored-by: Pepe Iborra &lt;pepeiborra@gmail.com&gt;
+
+Co-authored-by: Pepe Iborra &lt;pepeiborra@gmail.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#4947625</span>
+                                        <span class="message">enable the PR gitpod badge and drop the label (#2167)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a23b66c</span>
+                                        <span class="message">Remove ghc-api source snapshot (#2156)
+
+* Remove ghc-api source snapshot
+
+We can replace the source snapshot with Cabal conditions.
+This will unblock Hackage uploads until
+https://github.com/haskell/haskell-language-server/pull/2128 lands
+
+* fix 9.0.1 build
+
+* add allow-newer for ghc-api-compat
+
+* fix version bounds for 9.0.1
+
+* fix hls-eval-plugin
+
+* stack fixes
+
+* added new versions of ghc-api-compat
+
+* remove source snapshot from ghc901 cabal project</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5afea90</span>
+                                        <span class="message">Add a Gitpod descriptor (#2161)
+
+* add a gitpod descriptor
+
+* preinstall haskell extension and error lens
+
+* before
+
+* fix tasks
+
+* workspace
+
+* cabal dir
+
+* stack root
+
+* Make HLS work in gitpod
+
+* tweaks
+
+* Fix GHC version</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#10d3554</span>
+                                        <span class="message">Improve incoming call for typeclass and type family instance (#2162)
+
+* Correct instance for incoming
+
+* Get rid of constant delay</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#10a0edb</span>
+                                        <span class="message">Wingman: Let-bindings in metatactics (#2160)
+
+* Add metatactic for let-bindings
+
+* Add test for simple let bindings
+
+* Label hole numbers in the documentation
+
+* Sort imports
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c91d30a</span>
+                                        <span class="message">Add ghc-8.10.7 to release build (#2158)
+
+Co-authored-by: Junyoung "Clare" Jang &lt;jjc9310@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2358362</span>
+                                        <span class="message">Add fix for correct placement of import (#2100) (#2116)
+
+* Remove HasSrcSpan import
+
+* Amend extendImportHandler' function
+
+* Amend old import tests
+
+* Adapt tests for windows newline issue
 
 Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#4d730b3</span>
-                                        <span class="message">Disable hls tests for win and ghc-9.0.1 (#2018)
+                                        <span class="sha">#b1d3dce</span>
+                                        <span class="message">Disable window job for ghc-8.10.2 (#2154)
 
-* Disable hls tests for win and ghc-9.0.1
+It fails to build with transient segfaults
 
-* Unignore hlint tests for win and ghc-9.0.1</span>
+Co-authored-by: Junyoung "Clare" Jang &lt;jjc9310@gmail.com&gt;</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#6e47614</span>
-                                        <span class="message">Use operational master commit to fix build for ghc-9.0.1 (#2017)
+                                        <span class="sha">#1cf1ae6</span>
+                                        <span class="message">Create a citation (#2155)
 
-* Use operational master
-
-* Use operational master in cabal.project
-
-* Update configuration-ghc-901.nix
-
-Co-authored-by: Potato Hatsue &lt;berberman@yandex.com&gt;</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a0f6f5f</span>
-                                        <span class="message">Fix Wingman dependency on extra (#2007)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b8bb06e</span>
-                                        <span class="message">Warn GHC 9 Compatibility to LSP Client (#1992)
-
-* Test 9.0.1 for windows and macOS
-
-* Refactorize ghc checking in tests
-
-* Correct imports/exports
-
-* Replace CPP checks with ghcVersion
-
-* Use GHC cpp and remove 8.4
-
-* Use the ghc version runtime checker
-
-* HLINT ann ignored for ghc-9 too
-
-* Mark test as broken for win and ghc-9
-
-* Use GHC90 in eval tests
-
-* Avoid reformatting code
-
-* Remove not supported ghc-8.4
-
-* Disable tests for macos and ghc-9.0.1
-
-* Updates README to warn GHC 9 support situation
-
-* Send warning to LSP client when used on GHC 9
-
-* Stop using CPP and adds ad-hoc version discover logic in Development.IDE.GHC.Util
-
-* Use ghcVersion check
-
-* Convert alert to log message
-
-Co-authored-by: jneira &lt;atreyu.bbb@gmail.com&gt;</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8edb0f7</span>
-                                        <span class="message">Enable tests for ghc 9 and promote `ghcVersion` check (#2001)
-
-* Test 9.0.1 for windows and macOS
-
-* Refactorize ghc checking in tests
-
-* Replace CPP checks with ghcVersion
-
-* Use GHC cpp and remove 8.4
-
-* Use the ghc version runtime checker
-
-* HLINT ann ignored for ghc-9 too
-
-* Mark test as broken for win and ghc-9
-
-* Use GHC90 in eval tests
-
-* Disable tests for macos and ghc-9.0.1
-
-* Test 9.0.1 for windows and macOS
-
-* Refactorize ghc checking in tests
-
-* Correct imports/exports
-
-* Replace CPP checks with ghcVersion
-
-* Use GHC cpp and remove 8.4
-
-* Use the ghc version runtime checker
-
-* HLINT ann ignored for ghc-9 too
-
-* Mark test as broken for win and ghc-9
-
-* Use GHC90 in eval tests
-
-* Avoid reformatting code
-
-* Remove not supported ghc-8.4
-
-* Disable tests for macos and ghc-9.0.1
-
-* Ignore hlint+cpp tests for win and ghc-9.0.</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#5471382</span>
-                                        <span class="message">Allow HLS plugins to declare cli commands (#1999)
-
-* turn into subcommands and move to Default.Main
-
-* remove redundant logger
-
-* fixup subcommands
-
-* HLS plugin cli commands
-
-* Add an example
-
-* print -&gt; putStrLn</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ce15ff6</span>
-                                        <span class="message">Remove &gt;= from cabal-version (#1998)
-
-Fixes warnings like:
-
-```
-Warning: test/testdata/testdata.cabal:3:27: Packages with
-'cabal-version:
-1.12' or later should specify a specific version of the Cabal spec of
-  the form
-  'cabal-version: x.y'. Use 'cabal-version: 2.0'.
-```
-
-Co-authored-by: Potato Hatsue &lt;1793913507@qq.com&gt;
-Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#47db34f</span>
-                                        <span class="message">Eval plugin: support ghc 9.0.1 (#1997)
-
-* Eval plugin: support ghc 9.0.1
-
-* Update CI and stack
-
-* Use pprTypeForUser for printing kinds
-
-* test: remove forall
-
-* test: [Char] -&gt; String
-
-* test: update forall
-
-* Keep tests only for GHC 9
-
-* Update nix and CI
-
-* Mark one hlint test as known broken
-
-* Re-enable tests for other ghc versions
-
-* Update test</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8aa698b</span>
-                                        <span class="message">nix: add support for ghc 9.0.1 (#1995)
-
-* nix: add support for ghc 9.0.1
-
-* Add CI
-
-* Don't use overrideScope
-
-* Try to disable plugins properly
-
-* Avoid removing attrs of hpkgs
-
-* Split CI steps
-
-* Jailbreak all ghc901 packages
-
-* Override `operational`
-
-* Disable the test of `dual-tree`
-
-* Override `dependent-sum-template`
-
-* Disable tests for every ghc901 package
-
-* Remove formatters executables from dev shell
-
-* Disable pre-commit check for ghc901
-
-* Override `diagrams` packages
-
-* Override `monoid-extras`
-
-* Disable class plugin and refineImports plugin (consistent with cabal-ghc901.project)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#4ae0fea</span>
-                                        <span class="message">Display package names of external libraries on hover (#1626)
-
-* Display package names of external libraries on hover
-
-* Use dynflags of the current file
-
-* Add tests
-
-* Remove unclear lib name
-
-* Cleanup imports
+GitHub now supports citation files https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files
 
 Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#0e642b3</span>
-                                        <span class="message">maximize sharing of NormalizedFilePath values (#1996)</span>
+                                        <span class="sha">#577948f</span>
+                                        <span class="message">Add ghc-8.10.7 support (#2141)
+
+* Add stack yaml for ghc-8.10.7
+
+* support for ghc-8.10.7
+
+* Use void as suggested by hlint
+
+* Remove duplicate build
+
+* Update extra-deps for ghc-8.10.7
+
+Copied from #2138 stack-8.10.6.yaml
+
+Co-authored-by: peterbecich &lt;peterbecich@gmail.com&gt;
+
+* allow newer ghc for ghc-api-compat-8.10.6
+
+Co-authored-by: Junyoung "Clare" Jang &lt;jjc9310@gmail.com&gt;
+Co-authored-by: peterbecich &lt;peterbecich@gmail.com&gt;</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#77af21e</span>
-                                        <span class="message">Update nix to GHC 8.10.5 (#1991)
+                                        <span class="sha">#550fbd7</span>
+                                        <span class="message">case sensitive language pragmas fix (#2142)
 
-* Update nix to GHC 8.10.5
-
-* Update hiedb 0.4.0</span>
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;
+Co-authored-by: alexnaspoleap &lt;88672779+alexnaspoleap@users.noreply.github.com&gt;</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#a0def3c</span>
-                                        <span class="message">Initialize ExportsMap using hiedb exports (#1989)
+                                        <span class="sha">#bd3a366</span>
+                                        <span class="message">update LTS for GHC 8.10.6 (#2138)
 
-* Initialize ExportsMap using hiedb exports
+* update LTS for GHC 8.10.6
 
-* bump version number
+https://www.stackage.org/lts-18.7
 
-* Add temporary source package to ghc901 cabal project as well
+* update GHC 8.10.6 extra-deps
 
-* fix stack descriptors
+* Use void as suggested by hlint
 
-* remove source package overrides
-
-* refresh cabal index state
-
-* fix 9.0.1 build</span>
+Co-authored-by: jneira &lt;atreyu.bbb@gmail.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
                                     </div>
                                     <div class="commit">
-                                        <span class="sha">#d6de2bb</span>
-                                        <span class="message">Wingman: add emacs example config to Readme (#1988)
+                                        <span class="sha">#98d9e74</span>
+                                        <span class="message">Move pragmas completion to pragmas plugin (#2134)
 
-This adds a barebones example config for emacs. Most things work out of
-the box anyways, but I found the `lsp-make-interactive-code-action`
-function somewhat hard to find, so I think the pointer to it would
-probably benefit people.
+* Move pragmas completion to pragmas plugin
 
+* update pragmas plugin tests
+
+* move options pragmas to pragmas plugin
+
+return empty list from logic completions when opts or pragma start
+
+fix empty list logic
+
+Co-authored-by: Alex Naspo &lt;alex.naspo@leapyear.io&gt;
 Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#2df3d30</span>
-                                        <span class="message">Add windows to ghcup artifacts and generate sha256 sums (#1970)
-
-* Add windows to ghcup artifacts
-
-* Add 7z compress
-
-* Make move generic per os
-
-* Generate sha256 sums
-
-* Include .tar.gz and sums in artefacts
-
-* Clean up sha256sums tags</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a7321ac</span>
-                                        <span class="message">follow change in lsp-types (#1985)
-
-* follow change in lsp-types
-
-* fix version constraint
-
-* Fix hlint</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8d44068</span>
-                                        <span class="message">Don't suggest import an unnecessary data constructor. (#1984)
-
-Usually, when the type constructor is used but the data constructor isn't, we
-only suggest importing the type constructor. When the data constructor and type
-constructor share the same name we get mixed up and suggest importing both.
-
-The solution is to do a better job filtering out the data cons when we know we
-are looking for a type con.
-
-Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e48e02a</span>
-                                        <span class="message">Bugfix type signature lenses / code actions for pattern synonyms. (#1952)
-
-* Bugfix type signature lenses / code actions for pattern synonyms.
-
-Use a better method for getting the type. The old method didn't work for
-unidirectional synonyms:
-  pattern Some a &lt;- Just a
-and gave the wrong type for synonyms with provided constraints:
-  data T1 a where"
-    MkT1 :: (Show b) =&gt; a -&gt; b -&gt; T1 a"
-  pattern MkT1' :: (Eq a, Num a) =&gt; Show b =&gt; b -&gt; T1 a
-  pattern MkT1' b = MkT1 42 b
-
-* GHC 9.2 compat fix.
-
-The multiplicities returned by patSynSig on the orig_args value are
-uninteresting. patSynSig is literally just calling (map unrestricted). There is
-no information there for us to care about.
-
-Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#dff418c</span>
-                                        <span class="message">relax megaparsec constraint (#1986)</span>
                                     </div>
                                 </div>
                             </section>
@@ -1818,16 +1774,13 @@ Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#1523 Use Weak pointers to automatically garbage collect old position maps</span>
+                      Commented on <span class="issue">#1983 Jump to instance definition and explain typeclass evidence for GHC 9</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>opened by wz1000 in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">During current rebase there are indeed parts like:
-<code class="language-haskell"><span class="token operator">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span> <span class="token constant">HEAD</span>
-                <span class="token hvariable">modTime</span> <span class="token operator">&lt;-</span> <span class="token hvariable">liftIO</span> <span class="token operator">$</span> <span class="token punctuation">(</span><span class="token hvariable">currentValue</span> <span class="token operator">.</span> <span class="token builtin">fst</span> <span class="token operator">=&lt;&lt;</span><span class="token punctuation">)</span> <span class="token operator">&lt;$&gt;</span> <span class="token hvariable">atomicallyNamed</span> <span class="token string">"define - read 2"</span> <span class="token punctuation">(</span><span class="token hvariable">getValues</span> <span class="token hvariable">state</span> <span class="token constant">GetModificationTime</span> <span class="token hvariable">file</span><span class="token punctuation">)</span>
-<span class="token trimmed">(7 more lines were trimmed)</span></code>
-that need an understanding of the topic.
+                                    <div class="comment"><code>nameNameSpace</code> &amp; stuff is already a programming of a provisioning of a GHC compatibility (<code>Compat.Plugins</code> etc) &amp; through the web rebase (without accessing pushing to fork) - it is slow to do.
+Rebase is done.
 </div>
                                 </div>
                             </section>
@@ -1836,16 +1789,37 @@ that need an understanding of the topic.
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#1523 Use Weak pointers to automatically garbage collect old position maps</span>
+                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by wz1000 in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I would assume to know what I am doing rebasing this.
-</div>
+                                    <div>on branch <span class="code">wip/evidence-info</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#fe99da1</span>
+                                        <span class="message">Spans.AtPoint: fix Outputable for 9.0.1</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">wip/evidence-info</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#26d2161</span>
+                                        <span class="message">Compat.Outputable: m reexport (&lt;&gt;) as 'append'</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
