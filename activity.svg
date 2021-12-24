@@ -1407,6 +1407,24 @@
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
+                      Commented on <span class="issue">#2349 Streamline code for getDocumentationTryGhc</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Since this function was mentioned in https://github.com/haskell/haskell-language-server/pull/2503#issuecomment-998126155 as preferable,
+asking @pepeiborra to review, would ask to account that <code>getDocsBatch</code> changes would be shipped in the #2371.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
                       Commented on <span class="issue">#2503 Build with GHC 9.2</span>
                     </div>
                                 </div>
@@ -1469,23 +1487,6 @@ Since terminating this process, also cleaning-up the thread on the theme.
                                     <div class="comment">I propose to have:
 <code>cabal $cabalBuild || cabal $cabalBuild || cabal $cabalBuild || cabal v2-build all --enable-tests --keep-going || cabal v2-build all --enable-tests --keep-going || cabal v2-build all --keep-going || cabal v2-build all --keep-going || cabal v2-build --enable-tests --enable-benchmarks --keep-going || cabal v2-build --enable-tests --enable-benchmarks --keep-going || cabal v2-build --enable-tests --keep-going || cabal v2-build --enable-tests --keep-going || cabal v2-build --keep-going || cabal v2-build --keep-going || true</code>
 It would tune down the targets until something of thembuild successfully. <code>true</code> is needed because new information shows that if any of <code>continue-on-error: true</code> step fails - caching action does not runs post hook, so despite having <code>continue-on-error: true</code> we need to make that step always return <code>true</code>.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2534 Please, make CI caching more tolerant</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">New information is: https://github.com/haskell/haskell-language-server/runs/4627750464?check_suite_focus=true
 </div>
                                 </div>
                             </section>
