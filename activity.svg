@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="504" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="505" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,6 +1404,29 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2503 Build with GHC 9.2</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Yes. To identify any dependency package changes &amp; cache them we moved to use the <code>cabal v2-freeze</code> hash.
+That has a downside, <code>cabal v2-freeze</code> solving must pass.
+<code>caching</code> normally operates under consistency, when all <code>test</code> &amp; <code>bench</code> pass - it ensures guarantees &amp; <code>caching</code> with <code>build all --enable-tests --enable-bench</code> can run to cache all dependencies properly at once &amp; to ship them.
+This PR &amp; running <code>caching</code> inside of it - uncovered a lot of things that can be improved in the CI to be able to facilitate the caching in complex PRs that change all kinds of stuff.
+My main agenda was to provide fast CI workflow in the PR, but in the process, I uncovered more about the reflection - how to design that CI workflow to be able to work in both modes (a) consistent codebase, b) WIP codebase).
+Ok. I would probably finish doing this, finishing can be done in another time.
+Since terminating this process, also cleaning-up the thread on the theme.
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M8 1.5a6.491 6.491 0 00-5.285 2.715l1.358 1.358A.25.25 0 013.896 6H.25A.25.25 0 010 5.75V2.104a.25.25 0 01.427-.177l1.216 1.216a8 8 0 0114.315 4.03.748.748 0 01-.668.83.75.75 0 01-.824-.676A6.501 6.501 0 008 1.5zM.712 8.004a.75.75 0 01.822.67 6.501 6.501 0 0011.751 3.111l-1.358-1.358a.25.25 0 01.177-.427h3.646a.25.25 0 01.25.25v3.646a.25.25 0 01-.427.177l-1.216-1.216A8 8 0 01.042 8.827a.75.75 0 01.67-.823zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
                                     </svg>
                                     <div class="content">
@@ -1463,23 +1486,6 @@ It would tune down the targets until something of thembuild successfully. <code>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
                                     <div class="comment">New information is: https://github.com/haskell/haskell-language-server/runs/4627750464?check_suite_focus=true
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2534 Please, make CI caching more tolerant</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Since this is a report for ongoing work &amp; can be about tolerance of caching workflow at all - rescoping this report to tolerance as a whole.
 </div>
                                 </div>
                             </section>
