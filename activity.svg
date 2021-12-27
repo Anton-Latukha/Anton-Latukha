@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="418" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="414" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,16 +1404,22 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#2536 CI: caching: closer match work/CI guarantees</span>
+                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">[skip circleci]
-</div>
+                                    <div>on branch <span class="code">2021-12-24-upd-caching</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#9a751d9</span>
+                                        <span class="message">CI: caching: m fx</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d22a317</span>
+                                        <span class="message">CI: {caching, test, bench}: `haskell/actions/setup` does the update</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -1421,16 +1427,20 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#2536 CI: caching: closer match work/CI guarantees</span>
+                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">But whould note, this was also the way to follow the provided by <code>test</code> &amp; <code>bench</code> guarantees, while not requiring maintenance of https://github.com/haskell/haskell-language-server/pull/2536#issuecomment-1001551417
-</div>
+                                    <div>on branch <span class="code">2021-12-24-upd-caching</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#d7a4afc</span>
+                                        <span class="message">CI: caching: fx benchmark caching step
+
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -1453,20 +1463,21 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 1 commit in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                      Commented on <span class="issue">#2536 CI: caching: closer match work/CI guarantees</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">2021-12-24-upd-caching</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#81dced9</span>
-                                        <span class="message">CI: caching: do bench caching only for what gets used
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment"><code>freeze</code> seems to save the real Hackage index used. So if <code>index-state</code> is pinned to something, the <code>freeze</code> infers the real snapshot time before that moment.
+That's why it seems that the placement of <code>update</code> does not even matter really. It even probably may be removed.
+But <code>update</code> would play an important role, if <code>haskell/actions/setup</code> for some reason has the older Hackage update than the <code>index-state</code> package uses. Currently idk if <code>haskell/actions/setup</code> does <code>cabal update</code>:
 
-Efficient use of available space.</span>
-                                    </div>
+so action reports nothing.
+Currently, it does does the update: https://github.com/haskell/actions/blob/a64ac8cca0d4aec4e3fd4a5fbc9ae3c4953e20aa/setup/src/setup-haskell.ts#L75 (well it should update at every run).
+</div>
                                 </div>
                             </section>
                         </div>
@@ -1482,8 +1493,7 @@ Efficient use of available space.</span>
                                 </div>
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I reformulated the PR to address the most important stuff in it.
-To match the process completely - we would need to run the <code>v2-build --enable-tests</code> command for every plugin separately, so it matches how <code>test</code> does it.
+                                    <div class="comment">[skip circleci]
 </div>
                                 </div>
                             </section>
