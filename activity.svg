@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="425" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="454" class="">
     <defs>
         <style/>
     </defs>
@@ -1412,13 +1412,12 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Oh. I thought we in CI do not test pre <code>ghcide</code> sub-project &amp; so though to add a test-suites into the process.
-But:
-<code class="language-multiline">🅸 ~/s/h/c/haskell-language-server:fix-hls-graph-build⨯&gt;cabal test shake-bench
-No tests to run for the package shake-bench-0.1.0.2
-<span class="token trimmed">(9 more lines were trimmed)</span></code>
-There are no test-suites, no benchmarks for the.
-So CI there is not of any help.
+                                    <div class="comment">The request/PR shows that there is a broad structurally important question. There is a number of subprojects &amp; they have a number of flags. &amp; CI does not tests any of them.
+
+We can not test all flag combinations.
+We can not test flag combinations * platform * GHC matrix.
+That is why decided to create a workflow: 1) which tests for "default" case, under default currently took Linux &amp; recommended GHC version 2) which builds one combination where all important flags are maximally enabled &amp; so have some cross-testing.
+
 </div>
                                 </div>
                             </section>
@@ -1435,26 +1434,7 @@ So CI there is not of any help.
                                 </div>
                                 <div class="details">
                                     <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I obviously have limited knowledge of the project.
-Since I'm already sitting - would contribute to the patch.
-The patch may uncover a bit of work.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2536 CI: caching: closer match work/CI guarantees</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">After the recent merge <code>HLint</code> check works.
+                                    <div class="comment"><code>michaelpj</code> raised a sound question.
 </div>
                                 </div>
                             </section>
@@ -1466,14 +1446,14 @@ The patch may uncover a bit of work.
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Pushed 2 commits in <span class="repo">Anton-Latukha/haskell-language-server</span>
+                      Pushed 1 commit in <span class="repo">haskell/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">2021-12-24-upd-caching</span></div>
+                                    <div>on branch <span class="code">fix-hls-graph-build</span></div>
                                     <div class="commit">
-                                        <span class="sha">#533c7d1</span>
-                                        <span class="message">Merge branch 'master' into 2021-12-24-upd-caching</span>
+                                        <span class="sha">#001fe79</span>
+                                        <span class="message">CI: add flags workflow</span>
                                     </div>
                                 </div>
                             </section>
@@ -1485,13 +1465,78 @@ The patch may uncover a bit of work.
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#2548 doc: supported-versions:add notes on adding new GHCs</span>
+                      Commented on <span class="issue">#2549 Restore TemplateHaskell pragma in hls-graph</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
                                     <div class="comment">[skip circleci]
 </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 3 commits in <span class="repo">haskell/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">fix-hls-graph-build</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#0a1b334</span>
+                                        <span class="message">CI: add flags workflow</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#712244a</span>
+                                        <span class="message">restore TemplateHaskell pragma
+
+not 9.2 specific, but required for file_embed flag</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f47bb47</span>
+                                        <span class="message">CI: caching: closer match work/CI guarantees (#2536)
+
+* CI: caching: do `bench` &amp; `test` separately
+
+`cabal v2-build all --enable-tests --enable-benchmarks` inferres 1 version per dep
+keeping all targets.
+
+People (frequently) &amp; CI do `test` &amp; `bench` separately.
+
+So `all tests` &amp; `all bench` deps may not end up.
+
+Even current code does not match the CI guarantees, as all plugins get `test`
+separately, so their deps can not match-up.
+
+`caching` should not assume guarantees bigger then provided.
+
+* CI: caching: rm workaround
+
+This workaround was not addressing the CI behaviour.
+
+* CI: {caching, test, bench}: output `freeze` or warning
+
+* CI: {caching, test, bench}: m v2-update unification
+
+* CI: caching: do bench caching only for what gets used
+
+Efficient use of available space.
+
+* CI: caching: fx benchmark caching step
+
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;
+
+* CI: {caching, test, bench}: `haskell/actions/setup` does the update
+
+* CI: caching: m fx
+
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
                                 </div>
                             </section>
                         </div>
