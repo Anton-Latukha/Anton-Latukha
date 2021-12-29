@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="481" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="575" class="">
     <defs>
         <style/>
     </defs>
@@ -1404,99 +1404,143 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                      Commented on <span class="issue">#1016 `--check` causes `&lt;&lt;loop&gt;&gt;` for basic expressions</span>
+                      Pushed 8 commits in <span class="repo">haskell/haskell-language-server</span>
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>opened by runeksvendsen in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Thanks for the report.
+                                    <div>on branch <span class="code">fix-hls-graph-build</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#3f0a641</span>
+                                        <span class="message">CI: {caching, test, bench, flags}: ('' -&gt; "")
+
+Tripped-over the syntax highlighting &amp; the DHall work (which uses `''` for QuasiQuoting stuff)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9b199ed</span>
+                                        <span class="message">hls-graph: Internal.Types: fx TVar import</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a3504a5</span>
+                                        <span class="message">CI: {caching, test, bench, flags}: fx freeze phase</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#01959d5</span>
+                                        <span class="message">hls-graph: Internal.Types: treat MonadFail</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#45b29b4</span>
+                                        <span class="message">hls-graph: Internal.Types: mk 8.6.5 code as such</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ca30ee9</span>
+                                        <span class="message">hls-graph: STM.Stats: fx stm-stats build</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#c415398</span>
+                                        <span class="message">CI: add flags workflow</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8376151</span>
+                                        <span class="message">restore TemplateHaskell pragma
+
+not 9.2 specific, but required for file_embed flag</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 2 commits in <span class="repo">haskell/haskell-language-server</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">fix-hls-graph-build</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#94bccd9</span>
+                                        <span class="message">Merge branch 'master' into fix-hls-graph-build</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#2527 Fix random SQLite busy database is locked errors</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by eddiemundo in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">
+                                        <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
+Hey. This merged. Thaanks.
+Improving tests stability is appreciated. We did had problems with it &amp; never know when in the future the structure changes/optimizations would uncovered real DB reasons again.
+Frequently have multiple HLS processes. Also when people start debugging HLS - they often run several IDEs to check the HLS integration/behavior in different IDEs &amp; during that most probably test it on the same project.
+Also, DB work is always important &amp; not looked in often. So happy to see work happening, thanks.
+
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
+                      Commented on <span class="issue">#2494 Upgrade to new version of lsp libraries</span>
+                    </div>
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by michaelpj in <span class="repo">haskell/haskell-language-server</span></div>
+                                        <div class="comment">https://github.com/haskell/haskell-language-server/pull/2494#issuecomment-1002223665
+Yes.
+I pretty much was wondering when Action particularly runs <code>update</code>. But there is too much layers I do not know enough info to say particularly. If to believe <code>if</code> switch in https://github.com/haskell/actions/blob/a64ac8cca0d4aec4e3fd4a5fbc9ae3c4953e20aa/setup/src/setup-haskell.ts#L75, <code>if (!opts.stack.enable) await exec('cabal update');</code> implies it runs when <code>stack</code> is not in use.
+Then Action code &amp; process as a whole, I know GitHub Actions infrastructure does some caching, but it is not known (for proprietary reasons) when &amp; how, so was wondering is it safe to remove additional <code>update</code> or not, but I tend to believe code.
+Also after all this only today noted that Action does not use the latest <code>ghcup</code>, so I do not know enough about how <code>haskell/actions/setup</code> works, and it also seems unmaintained.
+We also had the typo that borked (which is seen in) the <code>freeze</code> caching key structure https://github.com/haskell/haskell-language-server/pull/2549#discussion_r775949826 (but thankfully we made so everything falls-back into the simpler procedure in that case).
+In any case, if there is now some kind of error - it probably may be the rm of <code>update</code> &amp; I do not have particular feels about it the other way, just wanted to shave a step from the config &amp; the CI runs.
+</div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
+                      Commented on <span class="issue">#1016 `--check` causes `&lt;&lt;loop&gt;&gt;` for basic expressions</span>
+                    </div>
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by runeksvendsen in <span class="repo">haskell-nix/hnix</span></div>
+                                        <div class="comment">Thanks for the report.
 The initial hunch is that I kind of went wild along here &amp; swapped cons into snocs in some places, which looking back probably shouldn't, but I had some ideas to find optimizations in mind, thou not finished that. Those changes may cause infinite loops. But also there are many other things that may cause it.
 A bunch of reports need bisecting.  Thankfully commits are good for that &amp; https://github.com/Anton-Latukha/git-bisect-master-pr. Would look into it when would make a release from <code>master</code>.
 You are free to look into it.
 The code that processes the <code>--check</code> starts here: https://github.com/haskell-nix/hnix/blob/d3d4356dd2588427a3a24fc8776aca42b472c472/main/Main.hs#L119-L128
 </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2549 Restore TemplateHaskell pragma in hls-graph</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I would start CI configuration consolidation effort at https://github.com/haskell/haskell-language-server/issues/2422#issuecomment-1002279380.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2422 GitHub CI: Deduplicate workflow configuration</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">There are also automations for <code>CI</code> to keep generated files in accordance with <code>dhall</code> changes.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2422 GitHub CI: Deduplicate workflow configuration</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I've looked into DHall &amp; its alternatives.
-&amp; DHall syntax is not pretty, &amp; it is <code>{ }</code> based. But seems there are no real alternatives with such abilities &amp; it should do the job.
-I am not holding my breath to be surprised or anything, but we would see.
-I for this purpose tried to unify a subset of <code>yml</code> as much as possible.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#2549 Restore TemplateHaskell pragma in hls-graph</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by pepeiborra in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">The details (early termination rules) we can tweak in other PRs.
-I consider this ready to be reviewed &amp; merged.
-</div>
-                                </div>
-                            </section>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                     </section>
                 </div>
             </section>
+            <div id="metrics-end"></div>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
