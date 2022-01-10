@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="393" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="386" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .bold{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid#777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{display:inline-block}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .bold{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid#777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -27,61 +27,14 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Sorry for bothering you.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#1018 Compatibility with hashable-1.4</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">Well, bummer.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#1018 Compatibility with hashable-1.4</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">
-                                        Hmm... it was building with
-                                        <code>0.14.0.2</code>
-                                        under multiple GHCs locally
-                                        <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
+                                        Well, prepare for the soon arriving
+                                        <code>0.16</code>
+                                        <img class="gemoji" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAASKUlEQVR4Ae3BeZgU5Z3A8e/7VnV19/TMdA9zADNyyaF4RBRdTzBqRGN8YlyvaDbnxtXFAyUeyWZNwDzeUaMx7qJBo5IoMVnNxqiYZKMxGlDiExAUQUAZ5JoZpqd7+q56f9vFMmzRztGg7D+bz4e/+X9OsY+130U0bDFVGY4BDgD2B5qA2i2F8dHnui6reTt7QjjjJqixkqlRkZVLP9t0z4/GWn99ufl60uxjin1gyx3EbItzRXEOMAMIU+GV5Pn8eNO9GLGxnRCWtjBeiULJo97uYvaYC73xkTcWA4sU/KLpat5mH1B8jDrvok0U1wBfARL4FNj1UexhMax4DbomzIquo7nhqbtxQg719bVorenjuh6pVA+OJLlp/HQaQx+w0+sCjzlhFiRm0s3HRPEx6LiNOhz+FbgCiFJmD4sRHt2I05pAR0L06c3X8Y/3/YSiGyfREAcUlTzPsL27m5PG/4ZLJ32DwgfdSMljp5TAjzyLu0deSQcfkcVHtO1OzlA2zwJnAKFwawO1R42j5sCR2A0xlG0R9NgfvsLy96cQj8fRWtMfrRWeJ2zobuOic16gZkIzVjyKFD1MthhWME0LM689HXX7sSyZ+yIee8liL8kc7MvP4jaluA9I2A011B07gcjEFnQkRH86U03c/vS3cMI1RKNhBmNEyGSF0w9/jlg0h10XITy6EaelHsm7eJmCo+DkbJhzrjmdZd9fRDt7wWIvbL+VeCbGM8AXUErVHNJG7dSx6KjDYJ54+SJWth9CfX0tWmsGUyq5FIslzj9+IZFQnh0EdNTBGdlAKFGLm8wgJa9ZwZevP538bc/z6ty57BHNHtp2OyO8MC8BJ6tIiPrpk4hOGgFKMZhcMcpv3jiTSNjBtiyGUiwUaarvJFGTBBF2EUDAbqyl/tgDiYxuocwSuK3rB/y8/S6i7AHNHkjdRyMhfgscZtVFSHzyQEKNtfg8Dxb/1WX9RkN//vT2NHKFGqKRKEMpFEoUii6lrl+S6hV2IwICCKAgOmEksYPHgmUhcG5E8cyWO4hRJYsqtd9FVBleUHCEVR+lfvoB6GgIXzYHF87qZd7jBR7/dZGxbRaTxlkEzVs0k2RmBLHaGIPJ5gqk02nyqVWsXnoTf1yS51PH28SiCp8YQAADCGAE7Tg4iVqK21NgzDitOf7qv+fndz5DiSFoqhSBB4CjrViY+hMmosM2fX71uyIrVnv4PA/u+UmeoG3JZv70yjLeW/o13lt2K8YUqVQsluhO9pBOZ9h/RDebll2GmCKr1hm+fF2WnpSAAAKIIAIIiAEEdCRC7aRxqFCIshNDOeaLoBiCpgodd3Epin/Atqg7djw6EiKofZNH0IZNhlyeXe58tInOtT8km1zBB+/MZ/OaR/AJkC8USXYn6U6mqQtnuO7rtVx42jaMl6HPu+8b/vm7OVxX2EEoEzCAAAJiQIccakaNAq1B+HzX3VzPEDRD2HYPE1F8n7LaI8dg1UepNGGsTZAIrGv38JVceO63qwjq2baUdG+Wrq4uenp6SegNfHHE9TxwdTsnHe2QSMSptHSFy/fnF0AAAQQQAREwAiJgBMtxiLaMxCeK73Xcw1QGoRmCEuYBsciYJsKtDfTnpGNsLIvdrGs3+BY+GyKfTRIk9kiK+V6OmfgK1591I3dMOIIZjfOJthyAL5FI0J+Hnyqy+K8uQpkAAhhAAAMiAgbsSAwnlqDMxvCQzCPEADSD6LibCxFOUo5NzSf2YyANccVRh9oErXvfQwQeXFgkyLbDXPWlHn46+wK+fd6NtNnvovCw4vujwgl8juPQHxG48d8LeJ6AgBhAQAwggAExAkYI1Q5D6xBln+jIMJMBaAYgc3CAWyiLHjgSFbIYzIzpIYLWtRtees1l85YUQd+5QnPRyS9TF03jMymFzx4+lT5KKQaytt3wy9+WwAiIgBEQASNgBEQQAxiFE2vEpzTf3DSPGvqhGUBnPV8Dxli1YaL7NzOU06bZaM0u69oNP15YIOi4I2wu+IxDULSYwme3TKWP1prBzHuyhOcJGEAAATGAAQwgAgJWOIa2wyCMCGW5lH5o+iFz0CiupSx6cBtoxVCah2mmTLbp8+77hteWufSpr1Xcel0UpdhNNL8Bn91yBH2MMQzmgw7hv143ICACGMAIYgSMgMcuTk0DO10qgqKCph+dCc4E9tc1DuHWBNU6dZpNH88Tgv718ggjmjVB3dtrUL3vAwp7+FT6pFIphvLUH1wQAQMYASNgQAyIEfpYTgxl2ZRN7LiX46mg6Y/hYsrCYxpBKap1+nQHpfiQU44L8blTHSp1tDcAgt10CCrcQJ90Os1QXlnukckCIogBDGAEjIBhN6FwHTsIF1JBUyF5Pw0oZlAWHt3Inmgbrpg83iKoIa743uwI/Qml8/jsthMJSqVSDKVQgtdXGTCAEcQIGAHDh1hODT4lzKCCpkKxwNmAE2qpx4qF2VMzptkEzZkVpalB05/awgZ8oVGfJGjz5s1UY+kqD0TACBgQA+IJlbQdAaUpm7D1XsYToKmgYAZlTluCvfHpE0P0+ewpIT59Yoj+pFJRdGo1oAi1TiNo48aNVOOdDYIYwABGwAgY+mWFovi0y1EEaAJkDho4mbJQSz17Y9woiwljNM3DFDdcEWUgW9YlQAxW40HomhaCNm7cyFBijuasVguMICJgAMOALMvBp+BgAmwCttczGWi2YmGsWJi9NeurEYbFNfE6xUCcdB6fM/pUKq1bt47BTGyoYf657YRCPYh7ABgQEcQIA1G2g89oDibAJsAoplBmN9TwUZw2LcRgRBR1mZX4nHFnEFQsFlm9ejUDObKliduPPYyQsxxfplcRcwSMgMeAlGWzgzCCAE2AwKGU6XiUfWnD+kbIbkaFarHbphO0atUqSqUS/ZnSOIw7jzuKmB2hj1cUMIBhUEpZ+BQ0EaAJ0DCeMqsuwr5U2BrCFxp9CsoKE/Tmm2/Sn+ZohNuOO5KIZSHK0EcwiBHwGJRSmp3iBGiChFbKrIjD3sjlqUo8347PGXsGlV599VUqKWDuUVNIOA47qCI7CMSiAgbECFVRGAI0AaIYTpkK2+wJEZj3eIFjzknhecJgujprsZNvgtI44z5DkOd5LFmyhEon7zeSqc1N7GJl8IlEsBVgBITqCB4BNruLUKZsi2plc/CtO7I891IJnxGFxcA619XTJIZQ6wno2jaCli1bRk9PD0EKuOSgAwhSVhIBSsVaMAKGIYkYdsoQYBOksBCq9v4Hhsu+m2X1eo8+nieEbMVAEpl2fM6k86n0/PPPU2lK0zDG1NUSJHYHvkyplmEGxBOGIsZlp80E2AQJQpVeeq3ENTfn6EkLQcYoBtKxtQ47+UdQmvDEcwgyxvDss89S6bRRbVQSZxO+vImAcUEYkhiPnbYSYBMkdKMYKSUXwjb9EYEHFxa4a34eY/gQzwig6M/29+poEkNovxPRsVaCFi9ezNatW6k0tbmR3SgXnM34apsUGKoiXhGfgjUE2AQpOikzBRerlg/J5uD627IsernEQIxhQA2ZdfjCE8+n0pNPPkmluBNidF0tu4msAVy8Uj0jR7lIQaiG5xbwGcUyAmx2t5kyky1CI7tZv9Ew84YMazcYgkI2lFx2cT36tWFdI7HkC2A5OJPOJ2jbtm08//zzVBpRU0Mlib6JrysznLgRMFTFuAV8ymMZAZrdraTMS+UI+sNil3Nn9rJ2gyHo8IMsTpvuEGQM/XI3K3zh8Z9DR5sIWrBgAa7rUikRdtiNvR1xNgGKaLMNHlURr4gYDxRbmmazhgBNgII3KfOSOfr8ZYXLZd/JkM4IQRPHWjxwc4z2LezG84RKxZJNPPk6vvBBXyUok8nw+OOP0x8jQpDE3sDXm2ll5AgXMUI13GKOHQy/UwohQBMgNq8BUurqBSP4HvllEddjN60tmvm31hCvU7z1rk2QET5k/crhUNiOrhuFM+ZUgh5++GGSyST9ybkefcTuQCIr8WVDCTAChqp4xQw+pVlEBU1A8xVsUrBCXI9SVy++VK8Q1BBXPHR7jBHNmi2dFqViliBj+JD65GZ8kclfBmXRp6enh4ceeoiBtPf20kfq/ghKyGRaGT+xBIaqiHHxSjlQ5HWeX1NBU0FgEWWlTUl8537aoU9dTPHgzTXsP0rjW7yimUqex27a32vE2b4UtE3k0IsJuv/++0mn0wykp1iiM19Aoqsg3I5g4SYaECOIJ1SjlE/jU8Kvh32THirYVDCKx7RwTb59O9FD2jjz5BBtI2pZu8HjlGNDNMQVfd54u45Ky947lDFtK+njtRtACI8/G103mj5r1qzh0UcfZSgrU2uYNuYlfNtS45kwpYQUBAxVENx8Cp/A/fRDU2H4VSwH/iJFl+KmJL7DD7I493SHhrgiqDPVRJCyIsx/8SZWth+Cr3t7jPruV/BFDp9FHxFh7ty5uK7LUNZmPgBVopBvYdwUBQYwVKWU70WMi4I3m6/mRfqh6YcIP6Ist2oziDAQq/5ktB2jz+iDLgcdY+7CG9nYtR+d79Qjbg57+FGEWo+nz8KFC1myZAnVeHiZSzY7HNXWgqVBjCBGGIoguNnt+IziJgag6UdziseAd710nkL7dgaytfcIJh67gLGHXc8hn1zAfpMvIR6PkyvG+PaCWwl1vIsvevgs+qxfv56bb76ZakUjQm9rA03NLhgBA3gMyc32YIxL2fLmJE8yAE0/1BxcBTdSll3xAVJ0qZQpxOjN1xGNT6DtgK8Tbzkan2VpEvE4Xelm7lt7K6p+IuFJF+DzPI9rr72WXC5HNRK18ODsEBP2U2AAAxhhKOK5FLPd+JRmtpqDYQCaATRexQLgRZMvkVm+kUpbukfis7Smkm3b1NbV8lbvNJ7yHgVt47vllltYtmwZ1Rg9XPH4DWEOGa3BgBgBI+AxpEKmAzCgeKJpFr9nEJoBKIWIcDGQLWzoorChi6DOdBM+y9b0JxoJE4k4/Mfrk1i1zuXpp5/mkUceoRqn/p3m53MdxrQAImAEjCAGxAiDKeWSeMUsKLa4misZgsUg7ljE9mtPY7NSnFXa0oPdXIdV4+BbtXEyf37neGI1UbRW9CfshCgWSyxd3svPHvg6rltkMK3NmptmOlx+doiIBRgQV8AFXAFXwGNAXjFLoXcbZcYozhsxi+UMQTOEltk8rIR7xQi9f16Lm8ziS+fq8CnFgJRS1MZq2NZtE0qcyEBamzXfvtjh2R9GOPUoCwREAAMYEBEwAoYBGbdIPr0Vnyi+O/wqFlEFmyo0pvhGR4JRpuie3fPyauLHT8QTG59SisE4TohQSNMw6oukt/yGPsPiiulH2pwxzeaEwzRaAa4groAIGAEjYAQMiIB4Qn+MVySf2gRiQPGz5lncxFVURVElmUeoK8tPBc5TWvP78L/w8NKraWluQCnFYLK5POl0lpPazmPymE4m768Z16ZRCHiCGMATcAVxBUqCuIIUBYoGKRqkaJCCUMkr5cintoAYyn7VVMN56hJKVElTJXUJpcYeLgL+TYxBbWrHJyIMxbYsfJ/5VBtnnmQzfrRGK0AAAQQQEAEMiAAGMIIYASPg8SFuPkW+ZzOIQcGTSYsL1CWU2AOaPaDm4DZfzUyBr7aGVxcpc12PoYgRfFEnx/8SEP6HCIiAERDAAEbACBgQA2KEPiIehdRWCr0dgFD2g8YePj/xSgrsIZu90HI1P/nTbeFVGu/VQqGkHCfEYPLFEhEnz6imDSCAgAggAgIIYAABjIAIYgADGAEjYAAR3EKaQqYLxFCWRvin5tk8wV7S7KUTrn9xMagncrm8uK7HQEoll0I+z+mHPYetXXYRdhABBEQAAyKAAYwgRsAI4gmlQopcdzuF3g4Qg8ALns1hzbN5go/A5iMQ9HWgTk0m0w319THLcUIEFYslUqkemus7+cL0R9lFBAQQQAQEMIAAAoiAJ3iZLKVUmlImBWLYabUovtNyFQv5GCg+otO+1n2Y0uYZYD/btsUJWYqykluiVDK0htdwzejPM6JhM3aiBl0XwYo46JCNaI1CIUUPU/CQXBEvW8DL5PCyecQYApYqxQ8bk/xMzcHlY6L4GMz44paYcpzLFHKeUhwkqJyjs+8eE//Vhi+NvLY2rLLTgRh7SnhLNP+pFL9onsVf2AcU/wdkDvbWeibbcAQwQRRjBEYoqAEiQBrIIWxUsE40b7maP4+8kg7+5m/2qf8GH6vxiXFSllYAAAAASUVORK5CYII=" height="16" width="16" alt="" />
                                             .
-I actually more than triple-chacked it. Under
-                                            <code>8.10.7</code>
-                                            ,
-                                            <code>9.0.1</code>
-                                            ,
-                                            <code>9.0.2</code>
-                                            .
-Because the order of TH entries needed to be changed in the mainline. But in
+I hope I would manage to release it with fewer dots then
                                             <code>0.14</code>
-                                            branch -
-                                            <code>cabal</code>
-                                            after updating the bound was happy to build with it.
-I thought that cabal may infer the need of rebuild wrong, but kind of refuted it, since the build passed under several GHCs &amp; conditions, tooling was happy to build
-                                            <code>hashable 0.14.0.2</code>
-                                            dep and do early cutoff after it with positive status.
+                                            .
                                         
                                     </div>
                                 </div>
@@ -99,15 +52,25 @@ I thought that cabal may infer the need of rebuild wrong, but kind of refuted it
                                     </div>
                                     <div class="details">
                                         <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                        <div class="comment">
-                                            Uploaded support release
-                                            <code>hnix-0.14.0.6</code>
-                                            . It allows new
-                                            <code>hashable</code>
-                                            , but
-                                            <code>relude</code>
-                                            upstream is still to allow it, thou seems its upstream roadblocks are resolved.
+                                        <div class="comment">Well, sorry. Have a nice evening.</div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                        </svg>
+                                        <div class="content">
+                                            Commented on
+                                            <span class="issue">#1018 Compatibility with hashable-1.4</span>
                                         </div>
+                                    </div>
+                                    <div class="details">
+                                        <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
+                                        <div class="comment">Another day, another release.
+Generating haddocks for upload now.</div>
                                     </div>
                                 </section>
                             </div>
@@ -119,9 +82,33 @@ I thought that cabal may infer the need of rebuild wrong, but kind of refuted it
                                         </svg>
                                         <div class="content">
                                             Released
-                                            <span class="bold">0.14.0.6</span>
+                                            <span class="bold">0.14.0.7</span>
                                             of
                                             <span class="repo">haskell-nix/hnix</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="row fill-width">
+                                <section class="activity">
+                                    <div class="field">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                            <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                        </svg>
+                                        <div class="content">
+                                            Pushed 2 commits in
+                                            <span class="repo">haskell-nix/hnix</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <div>on branch <span class="code">support-branch-0.14</span></div>
+                                        <div class="commit">
+                                            <span class="sha">#5771e2e</span>
+                                            <span class="message">Proclaim 0.14.0.7</span>
+                                        </div>
+                                        <div class="commit">
+                                            <span class="sha">#6e1ece4</span>
+                                            <span class="message">Expr: Types: make the proper suport of the hashable 0.14</span>
                                         </div>
                                     </div>
                                 </section>
