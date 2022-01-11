@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="633" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -21,56 +21,12 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 13 commits in
+                                        Pushed 34 commits in
                                         <span class="repo">haskell-nix/hnix</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e6a4b88</span>
-                                        <span class="message">Pretty: prettyParams: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9916421</span>
-                                        <span class="message">Main: main': printer: m org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8e710dd</span>
-                                        <span class="message">Main: main': m layout</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ae700e5</span>
-                                        <span class="message">Pretty: use dquotes</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#03d7bf0</span>
-                                        <span class="message">Normal: normalizeValueF: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#31a67d1</span>
-                                        <span class="message">Expr.Strings: flip escapeCodes</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#417b511</span>
-                                        <span class="message">Utils: add applyAll; Expr.String: flip escapeMap</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#d684e33</span>
-                                        <span class="message">Expr.Strings: m org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#49a185a</span>
-                                        <span class="message">Pretty: use `sep` for `[Doc]`</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f7543c7</span>
-                                        <span class="message">Expr.Types: m lint</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#37f4d6c</span>
-                                        <span class="message">Pretty: add ValueOrigin, prettyProv</span>
-                                    </div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
                                         <span class="sha">#225c5ad</span>
                                         <span class="message">Pretty: prettyString: m layout</span>
@@ -79,6 +35,97 @@
                                         <span class="sha">#3d7ae8d</span>
                                         <span class="message">Pretty: add antiquote</span>
                                     </div>
+                                    <div class="commit">
+                                        <span class="sha">#5c90a8f</span>
+                                        <span class="message">Pretty.escapeDoubleQuoteString -&gt; Expr.Strings.escapeString
+
+This can be optimized further using `text-replace`.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#45b63e7</span>
+                                        <span class="message">Expr.Strings: add escapeMap</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#fd1dcc9</span>
+                                        <span class="message">Expr.Strings: upd excapeCodes</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b133a6e</span>
+                                        <span class="message">Pretty: m layout</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a557fc7</span>
+                                        <span class="message">Pretty: add prettyExtractFromProvenance</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#235d279</span>
+                                        <span class="message">Provenance: rename Provenance &amp; NCited constructors</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#64b3c10</span>
+                                        <span class="message">Pretty: (wrapParens-&gt;precedenceWrap)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a898e49</span>
+                                        <span class="message">Pretty: NixDoc: (withoutParens-&gt;getDoc)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ef52b4e</span>
+                                        <span class="message">Pretty: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#18d07be</span>
+                                        <span class="message">Pretty: clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a1b9ee1</span>
+                                        <span class="message">Pretty: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ea5351f</span>
+                                        <span class="message">EvalTestsL m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#67072c2</span>
+                                        <span class="message">Parser: m doc</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d3dd6a2</span>
+                                        <span class="message">Builtins: splitVersion: m upd</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1683aea</span>
+                                        <span class="message">Pretty: a bit of docs</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#65a107b</span>
+                                        <span class="message">Parser: flatten the structure of quatation functions</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3d75a20</span>
+                                        <span class="message">Expr.Strings: m clean-up</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#051405f</span>
+                                        <span class="message">TestCommon: refactor</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Merged
+                                        <span class="issue">#1009 Unify accessor naming</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div> in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div>11 files changed <span class="code">++322 --268</span></div>
                                 </div>
                             </section>
                         </div>
@@ -89,23 +136,15 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 3 commits in
+                                        Pushed 1 commit in
                                         <span class="repo">haskell-nix/hnix</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
                                     <div class="commit">
-                                        <span class="sha">#16677ef</span>
-                                        <span class="message">Pretty: prettyParams: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#26dd59c</span>
-                                        <span class="message">Main: main': printer: m org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#ee1e14d</span>
-                                        <span class="message">Main: main': m layout</span>
+                                        <span class="sha">#607e00f</span>
+                                        <span class="message">Pretty: precedenceWrap: m refactor</span>
                                     </div>
                                 </div>
                             </section>
@@ -124,32 +163,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
                                     <div class="commit">
-                                        <span class="sha">#5eb9358</span>
-                                        <span class="message">Pretty: prettyParams: refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#f026d46</span>
-                                        <span class="message">Main: main': printer: m org</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#48e74f8</span>
-                                        <span class="message">Main: main': m layout</span>
+                                        <span class="sha">#573d961</span>
+                                        <span class="message">Pretty: precedenceWrap: m refactor</span>
                                     </div>
                                 </div>
                             </section>
@@ -168,8 +183,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
                                     <div class="commit">
-                                        <span class="sha">#0bc2271</span>
-                                        <span class="message">Main: main': m layout</span>
+                                        <span class="sha">#c140222</span>
+                                        <span class="message">Pretty: m clean-up</span>
                                     </div>
                                 </div>
                             </section>
