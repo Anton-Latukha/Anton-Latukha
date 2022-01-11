@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="509" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="633" class="">
     <defs>
         <style/>
     </defs>
@@ -21,6 +21,146 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 13 commits in
+                                        <span class="repo">haskell-nix/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#e6a4b88</span>
+                                        <span class="message">Pretty: prettyParams: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#9916421</span>
+                                        <span class="message">Main: main': printer: m org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#8e710dd</span>
+                                        <span class="message">Main: main': m layout</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ae700e5</span>
+                                        <span class="message">Pretty: use dquotes</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#03d7bf0</span>
+                                        <span class="message">Normal: normalizeValueF: m refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#31a67d1</span>
+                                        <span class="message">Expr.Strings: flip escapeCodes</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#417b511</span>
+                                        <span class="message">Utils: add applyAll; Expr.String: flip escapeMap</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#d684e33</span>
+                                        <span class="message">Expr.Strings: m org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#49a185a</span>
+                                        <span class="message">Pretty: use `sep` for `[Doc]`</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f7543c7</span>
+                                        <span class="message">Expr.Types: m lint</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#37f4d6c</span>
+                                        <span class="message">Pretty: add ValueOrigin, prettyProv</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#225c5ad</span>
+                                        <span class="message">Pretty: prettyString: m layout</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3d7ae8d</span>
+                                        <span class="message">Pretty: add antiquote</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 3 commits in
+                                        <span class="repo">haskell-nix/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#16677ef</span>
+                                        <span class="message">Pretty: prettyParams: refactor</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#26dd59c</span>
+                                        <span class="message">Main: main': printer: m org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ee1e14d</span>
+                                        <span class="message">Main: main': m layout</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">haskell-nix/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#5eb9358</span>
+                                        <span class="message">Pretty: prettyParams: refactor</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 2 commits in
+                                        <span class="repo">haskell-nix/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#f026d46</span>
+                                        <span class="message">Main: main': printer: m org</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#48e74f8</span>
+                                        <span class="message">Main: main': m layout</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 1 commit in
                                         <span class="repo">haskell-nix/hnix</span>
                                     </div>
@@ -30,118 +170,6 @@
                                     <div class="commit">
                                         <span class="sha">#0bc2271</span>
                                         <span class="message">Main: main': m layout</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 4 commits in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#8c21fb0</span>
-                                        <span class="message">Main: main': m layout</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f1c4abb</span>
-                                        <span class="message">Pretty: prettyKeyName: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#825baab</span>
-                                        <span class="message">Pretty: use dquotes</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#dcbd947</span>
-                                        <span class="message">Normal: normalizeValueF: m refactor</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 4 commits in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#b656493</span>
-                                        <span class="message">Pretty: prettyKeyName: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#92bd74b</span>
-                                        <span class="message">Pretty: use dquotes</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#1f8d855</span>
-                                        <span class="message">Normal: normalizeValueF: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#e74d6b2</span>
-                                        <span class="message">Utils: lifted: m upd</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#c9fb7d2</span>
-                                        <span class="message">Pretty: prettyKeyName: refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#fef7a61</span>
-                                        <span class="message">Pretty: use dquotes</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-11-08-fix-representation</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#a1ba5a7</span>
-                                        <span class="message">Normal: normalizeValueF: m refactor</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#35735b5</span>
-                                        <span class="message">Utils: lifted: m upd</span>
                                     </div>
                                 </div>
                             </section>
