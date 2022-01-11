@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="767" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="724" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid#777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid#777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -14,6 +14,59 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Closed
+                                        <span class="issue">#1000 Nix 2.4 changed escaping</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#1000 Nix 2.4 changed escaping</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">Considering this closed.
+If things pop-up, a special report would work better.
+And we still need to release this.</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Opened
+                                        <span class="issue">#2 Please, switch to the current branch by default</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">chris-martin/text-replace</span></div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -168,70 +221,10 @@ the treatment of variable bindings was of so `{x}: x` was said to have
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Opened
-                                        <span class="issue">#154326 handbrake: 1.4.2 -&gt; 1.5.0</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div> in <span class="repo">NixOS/nixpkgs</span></div>
-                                    <div>1 file changed <span class="code">++2 --2</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#1018 Compatibility with hashable-1.4</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">
-                                        Well, prepare for the soon arriving
-                                        <code>0.16</code>
-                                        <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
-                                            .
-I hope I would manage to release it with fewer dots then
-                                            <code>0.14</code>
-                                            .
-                                        
-                                    </div>
-                                </div>
-                            </section>
-                            <div class="row fill-width">
-                                <section class="activity">
-                                    <div class="field">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                            <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                        </svg>
-                                        <div class="content">
-                                            Commented on
-                                            <span class="issue">#1018 Compatibility with hashable-1.4</span>
-                                        </div>
-                                    </div>
-                                    <div class="details">
-                                        <div>opened by sjakobi in <span class="repo">haskell-nix/hnix</span></div>
-                                        <div class="comment">Well, sorry. Have a nice evening.</div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
                     </section>
                 </div>
             </section>
-            <div id="metrics-end"></div>
         </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>
