@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="368" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="757" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid#777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}svg.bar{margin:4px 0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid#777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.space{margin-left:7px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -14,6 +14,334 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 35 commits in
+                                        <span class="repo">Anton-Latukha/haskell-language-server</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-12-25-getDocsTryGhc</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#aa5379d</span>
+                                        <span class="message">Fix crash on completion with type family (#2569)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#e622744</span>
+                                        <span class="message">Reuse build setup using a dedicated github action (#2563)
+
+* Extract out ci build setup
+
+* Correct action path
+
+* Add required shell property
+
+* Remove unused cabal version
+
+* Update .github/actions/setup-build/action.yml
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;
+
+* Update .github/actions/setup-build/action.yml
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;
+
+* Update .github/actions/setup-build/action.yml
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;
+
+* Update .github/actions/setup-build/action.yml
+
+Co-Authored-By: @michaelpj
+
+* Copy alt project file unconditionally
+
+* Make freeze strict
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#a8aa016</span>
+                                        <span class="message">Fix ci update hackage index (#2562)
+
+* Fix ci update hackage index
+
+* Make effective freeze file hash
+
+Co-authored-by: Anton Latukha &lt;anton.latukha@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#3983d97</span>
+                                        <span class="message">Fix ghcide handling project root (#2543)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ff0ccd6</span>
+                                        <span class="message">Enable `aarch64-darwin` in `flake.nix` (#2561)
+
+Currently only GHC 8.10.7 builds on `aarch64-darwin` after this change
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#1849a87</span>
+                                        <span class="message">Fix freeze cache key correctly (#2560)
+
+* Update cabal before freeze
+
+* Use step outputs for cache key
+
+* Remove rm freeze file
+
+* Move cabal update for flags
+
+* Flags workflow needs rm freeze file</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#ee0a0cc</span>
+                                        <span class="message">Merge pull request #2557 from guibou/fix_flake
+
+Fix nix flake by explicit version for `lsp-xxx` packages</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5dac6af</span>
+                                        <span class="message">Fix nix flake by explicit version for `lsp-xxx` packages
+
+The nix flake was failing:
+
+```
+nix build .#haskell-language-server
+```
+
+Was failing because of bounds issue related to hackage `lsp`,
+`lsp-types` and `lsp-test` projects.
+
+I've bump theses version, introducing new flake input (so they can be
+changed easily in the future) and now the build works.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#988f6ee</span>
+                                        <span class="message">Apply missing update for stack-9.0.1.yaml (#2556)</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#46dfbd1</span>
+                                        <span class="message">Restore TemplateHaskell pragma in hls-graph (#2549)
+
+* restore TemplateHaskell pragma
+
+not 9.2 specific, but required for file_embed flag
+
+* CI: add flags workflow
+
+* hls-graph: STM.Stats: fx stm-stats build
+
+* hls-graph: Internal.Types: mk 8.6.5 code as such
+
+* hls-graph: Internal.Types: treat MonadFail
+
+* CI: {caching, test, bench, flags}: fx freeze phase
+
+* hls-graph: Internal.Types: fx TVar import
+
+* CI: {caching, test, bench, flags}: ('' -&gt; "")
+
+Tripped-over the syntax highlighting &amp; the DHall work (which uses `''` for QuasiQuoting stuff)
+
+* Apply suggestions from code review
+
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;
+
+* CI: flags: post-review fxs
+
+Co-authored-by: Anton-Latukha &lt;anton.latukha@gmail.com&gt;
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2eaa2a4</span>
+                                        <span class="message">Remove cabal.project.freeze files in workflows after computing the cache key (#2552)
+
+* Enable tests for brittany and 9.0.2
+
+* Enable tests for floskell plugin
+
+* Remove cabal.project.freeze
+
+* don't test Brittany for ghc-9.0.1
+
+* restore src cache keys
+
+* restore src cache keys
+
+* remove freeze cache key
+
+Co-authored-by: Anton Latukha &lt;anton.latukha@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#937fdd0</span>
+                                        <span class="message">Merge pull request #2555 from sir4ur0n/sir4ur0n/fixDocumentationRelativeLinkHeader
+
+doc: Enable relative links with anchors</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#79b4c4c</span>
+                                        <span class="message">doc: Enable relative links with anchors
+
+Fix links like `[foo](../bar.md#baz)` incorrectly linking to `../bar.md#baz`
+instead of `../bar.html#baz`.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#15902b1</span>
+                                        <span class="message">Fix space leak where EPS retained HPTs from old HscEnv (#2553)
+
+The issue here is that the `ModuleGraph` value is not forced eagerly, so
+the EPS ends up loading an interface file for an external package and
+retains a stale reference to the old HPT for the rest of the session.
+
+The heap should always satisfy the invariant that no HomeModInfo are
+reachable via the EPS.
+
+See GHC issue #20509 for something similar.
+
+Co-authored-by: Anton Latukha &lt;anton.latukha@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#65a8512</span>
+                                        <span class="message">Add space after comma when exporting a name (#2547)
+
+* Add space after comma when exporting a name
+
+* Fix tests</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#7518a3a</span>
+                                        <span class="message">Upgrade to new version of lsp libraries (#2494)
+
+* Update to latest version of lsp libraries
+
+* Compute completions on kick
+
+This is not only for faster completions.
+ It's also needed to have semi-fresh completions after editing.
+This is specially important for the first completion request of a file - without this change there are no  completions available at all
+
+* Emit LSP custom messages on kick start/finish
+
+useful to synchonize on these events in tests
+
+* Fix completions tests after https://github.com/haskell/lsp/pull/376
+
+* Restore cabal update with comments
+
+* Use new lsp in stack 9.0.1
+
+Co-authored-by: Pepe Iborra &lt;pepeiborra@gmail.com&gt;
+Co-authored-by: jneira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#2fa5994</span>
+                                        <span class="message">Fix random SQLite busy database is locked errors (#2527)
+
+* fix sql busy database is locked errors using retries
+
+* fix ghc 9.0+
+
+* hlint fixes
+
+* fix ghc 9.0+ again
+
+* remove accidentally added redundant liftIO, remove accidentally added empty lines
+
+* add logging to retries, add exponential backoff, refactor tests
+
+* add random-1.2.1 to older stack.yamls
+
+* use Random typeclass instead of uniformR, revert stack.yamls
+
+* logInfo instead of logDebug
+
+* dont wrap action with hiedb retry on the writer side, give hiedb retry wrapper to action instead
+
+* bump log priorities to warning, wrap all hiedb calls in runWithDb and writerThread with retries, promote time duration and maxRetryCount constants to top level
+
+* fix ghc 9.0.1
+
+* refactor retryOnSqliteBusy into retryOnException et al, wrap Hiedb.runCommand with retry, fix tests
+
+* push WithHieDb into createExportsMapHieDb to potentially retry less stuff, move WithHieDb to Types.Shake to avoid circular dependency
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#f47bb47</span>
+                                        <span class="message">CI: caching: closer match work/CI guarantees (#2536)
+
+* CI: caching: do `bench` &amp; `test` separately
+
+`cabal v2-build all --enable-tests --enable-benchmarks` inferres 1 version per dep
+keeping all targets.
+
+People (frequently) &amp; CI do `test` &amp; `bench` separately.
+
+So `all tests` &amp; `all bench` deps may not end up.
+
+Even current code does not match the CI guarantees, as all plugins get `test`
+separately, so their deps can not match-up.
+
+`caching` should not assume guarantees bigger then provided.
+
+* CI: caching: rm workaround
+
+This workaround was not addressing the CI behaviour.
+
+* CI: {caching, test, bench}: output `freeze` or warning
+
+* CI: {caching, test, bench}: m v2-update unification
+
+* CI: caching: do bench caching only for what gets used
+
+Efficient use of available space.
+
+* CI: caching: fx benchmark caching step
+
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;
+
+* CI: {caching, test, bench}: `haskell/actions/setup` does the update
+
+* CI: caching: m fx
+
+Co-authored-by: Javier Neira  &lt;atreyu.bbb@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#48c6eb1</span>
+                                        <span class="message">Set an unique name for Hlint job (#2544)
+
+* Update hlint.yml
+
+* Correct typo
+
+Co-authored-by: Anton Latukha &lt;anton.latukha@gmail.com&gt;
+
+Co-authored-by: Anton Latukha &lt;anton.latukha@gmail.com&gt;</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b354202</span>
+                                        <span class="message">CI: linting (#2538)
+
+* CI: {caching,test,bench}: paths layout
+
+* CI: nix: paths layout
+
+* CI: build: organize step names
+
+* CI: build: organize step names</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -101,22 +429,6 @@
                                         <code>0.16</code>
                                         is to address after a couple of weeks time.
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Updated 1 wiki page in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div class="page">List of Haskell Nix projects</div>
                                 </div>
                             </section>
                         </div>
