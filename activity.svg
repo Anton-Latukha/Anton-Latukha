@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="908" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="691" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,26 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Anton-Latukha/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#e636442</div>
+                                        <div class="message">Value.Equal: refactor</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -164,80 +184,6 @@ The first most important client type of ChangeLogs in Haskell projects - is down
                                 <div class="details">
                                     <div>opened by soulomoon in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">Thank you, I love these changes.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 14 commits in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#99508f2</div>
-                                        <div class="message">(#1046) Value: rm value makers, use bidirectional patterns 
-
-Solves: #1045</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3b2d3de</div>
-                                        <div class="message">remove GADTs language extension for performance</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#26e28e5</div>
-                                        <div class="message">update changelog adjust Nix.Value section in 0.17.0</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0bb030a</div>
-                                        <div class="message">update changelog add link to Nix.Value section in 0.17.0</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#35d25c6</div>
-                                        <div class="message">update changelog add Nix.Value.NVConstraint section in 0.17.0</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6cad562</div>
-                                        <div class="message">update changelog for Nix.Value in 0.17.0</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f15844f</div>
-                                        <div class="message">update changelog for Nix.Value</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#61514e7</div>
-                                        <div class="message">adjust docuementation about the bijection between Hask subcategory &lt;-&gt; NValue'</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#59cd27d</div>
-                                        <div class="message">rename NvConstraint to NVConstraint</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#75347e6</div>
-                                        <div class="message">add back bytestring version check</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#982ca38</div>
-                                        <div class="message">fix</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7cd5ff3</div>
-                                        <div class="message">fix</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#be5250c</div>
-                                        <div class="message">Merge branch 'master' into unify-mk-pattern</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1c8bad4</div>
-                                        <div class="message">unify builder and pattern for Value.hs</div>
-                                    </div>
                                 </div>
                             </section>
                         </div>
