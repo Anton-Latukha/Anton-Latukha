@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="711" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="411" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,32 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 2 commits in
+                                        <span class="repo">Anton-Latukha/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#44f7b5a</div>
+                                        <div class="message">Parser: refactor
+
+clean-up `nixOperators` table.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f9112ab</div>
+                                        <div class="message">Parser: refactor</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -99,108 +125,6 @@
                                     <div class="commit">
                                         <div class="sha">#1139aa8</div>
                                         <div class="message">Pretty: (precedenceWrap -&gt; wrap), precedence(Only -&gt; )Wrap</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 52 commits in
-                                        <span class="repo">Anton-Latukha/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#8857e52</div>
-                                        <div class="message">Parser: NAppDef: rm NAssoc</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a3e3b50</div>
-                                        <div class="message">Parser: cast precedence (NOperatorDef-&gt;OperatorInfo) directly</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7e7fbae</div>
-                                        <div class="message">Parser: add &amp; use NOpPrecedence</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6af275d</div>
-                                        <div class="message">Parser: add &amp; use NOpName</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#987093e</div>
-                                        <div class="message">Lint: merge: refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f7d1519</div>
-                                        <div class="message">Lint: unify: allow any internal type in the context
-
-Allows not applying `void` externally.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5c8f1f6</div>
-                                        <div class="message">Lint: add &amp; use mkSymbolic1</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#058a74a</div>
-                                        <div class="message">treewide: stop using for{,M}{,_}, use traverse{,_}</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2be2103</div>
-                                        <div class="message">hlint: stop advising for{,M}{,_}, use traverse{,_}</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0a1e05f</div>
-                                        <div class="message">hlint: advise traverse</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a9aa57a</div>
-                                        <div class="message">Value.Equal: isDerivationM: refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#18c9c03</div>
-                                        <div class="message">Value.Equal: compateAttrSetsM: refactor into lambda</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#11fdadb</div>
-                                        <div class="message">Value.Equal: compateAttrSetsM: refactor into lambda</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#43c55ac</div>
-                                        <div class="message">Value.Equal: compateAttrSetsM: refactor into lambda</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5741973</div>
-                                        <div class="message">Value.Equal: compateAttrSetsM: refactor into lambda</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f361fea</div>
-                                        <div class="message">Value.Equal: compateAttrSetsM: refactor into lambda
-
-M  src/Nix/Value/Equal.hs</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#eaca311</div>
-                                        <div class="message">Value.Equal: compateAttrSetsM: refactor into lambda</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f1619b8</div>
-                                        <div class="message">Merge pull request #1048 from soulomoon/dev
-
-update changeLog and remove an redundant coerce</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f197359</div>
-                                        <div class="message">update changeLog</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1eb2c1a</div>
-                                        <div class="message">remove an redundant coerce</div>
                                     </div>
                                 </div>
                             </section>
