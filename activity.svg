@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="694" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="445" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,62 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Anton-Latukha/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#45224bb</div>
+                                        <div class="message">Parser: m refactor</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 5 commits in
+                                        <span class="repo">Anton-Latukha/hnix</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#2fd35b0</div>
+                                        <div class="message">Parser: m refactor</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#166cc3a</div>
+                                        <div class="message">Parser: refactor: groundwork to rm OperatorInfo: add class NOp</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2ae304c</div>
+                                        <div class="message">Parser: m refactor</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8c6d0ca</div>
+                                        <div class="message">Parser: argExpr: refactor: return Variadic first</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#8fa2cee</div>
+                                        <div class="message">Parser: add NOp class &amp; instances</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -75,130 +131,6 @@ update changeLog and remove an redundant coerce</div>
                                 </div>
                                 <div class="details">
                                     <div>opened by soulomoon in <span class="repo">haskell-nix/hnix</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 23 commits in
-                                        <span class="repo">Anton-Latukha/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#de7a99a</div>
-                                        <div class="message">Parser: NAssoc: NAssoc(None-&gt;)
-
-Also ordered the constructors, putting the NAssocLeft first, with a hope this would
-improve order of parsing matches.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#067e982</div>
-                                        <div class="message">Parser: m refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2247d30</div>
-                                        <div class="message">Parser: m refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7b3e0b4</div>
-                                        <div class="message">Parser: refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#16321ec</div>
-                                        <div class="message">Parser: m org</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e8e1fc0</div>
-                                        <div class="message">Parser: m refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e3706bf</div>
-                                        <div class="message">Parser: NOperatorDef: use Map; unify get*Operation</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4e8c421</div>
-                                        <div class="message">Parser: NOperatorDef: use Map</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9f71679</div>
-                                        <div class="message">Parser: opWithLoc: refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5610173</div>
-                                        <div class="message">Parser: nixSelector: m refactor</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#99fe2f8</div>
-                                        <div class="message">Parser: refactor get{Unary,Binary,Special}Operator
-
-Step further to move from `OperatorInfo` rough edges &amp; `nixOperators`
-implicitness.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a8e93e9</div>
-                                        <div class="message">Parser: NOperatorDef: continue merging OperatorInfo</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9b5b690</div>
-                                        <div class="message">Parser: NOperatorDef: start merging OperatorInfo</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7614a2a</div>
-                                        <div class="message">Parser: NOperatorDef: ord fields to match OperatorInfo</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c2cdb7f</div>
-                                        <div class="message">Parser: NOperatorDef: ord fields</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9685ae9</div>
-                                        <div class="message">Parser: OperatorInfo: ord fields
-
-Ordering in the cardinality/use.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c1b89da</div>
-                                        <div class="message">Parser: NAppDef: rm NAssoc</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2044642</div>
-                                        <div class="message">Parser: cast precedence (NOperatorDef-&gt;OperatorInfo) directly</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#efbf4ea</div>
-                                        <div class="message">Parser: add &amp; use NOpPrecedence</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#636894c</div>
-                                        <div class="message">Parser: add &amp; use NOpName</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Anton-Latukha/hnix</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2022-01-22-merge-NOperatorDef-n-OperatorInfo</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#e636442</div>
-                                        <div class="message">Value.Equal: refactor</div>
-                                    </div>
                                 </div>
                             </section>
                         </div>
