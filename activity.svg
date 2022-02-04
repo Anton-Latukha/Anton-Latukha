@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="351" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="661" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,219 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 37 commits in
+                                        <span class="repo">Anton-Latukha/haskell-language-server</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-12-25-getDocsTryGhc</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#8743200</div>
+                                        <div class="message">ghcide: Core.Compile: getDocsBatch: use T.Text</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#770332e</div>
+                                        <div class="message">ghcide: Core.Compile: getDocsBatch: use Map
+
+Turn `[]` into idiomatic Map.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9455014</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: structure
+
+Make code easier to reason about &amp; functionally enhancable.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#85d14fd</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationTryGhc: idiom</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ff06016</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: use Map</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ec9f99d</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: mv Map</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#bd6fbb4</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: mv Map</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b3cc943</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: mv Map</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#749e844</div>
+                                        <div class="message">ghcide: Spans.Documentation: getDocumentationsTryGhc: mv map</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#34e16cf</div>
+                                        <div class="message">ghcide: Core.Compile: getDocsBatch: ([(,)]-&gt;Map)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#aee5550</div>
+                                        <div class="message">ghcide: Core.Compile: getDocsBatch: return (Name,)
+
+The types show it needs be such.
+
+The semantics of code in funciton show it needs be such.
+
+The use of the function shows it needs to be such.
+
+`zipWithM .. names` would not be needed.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#052a341</div>
+                                        <div class="message">ghcide: Core.Compile: getDocsBatch: form local fun</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#411db02</div>
+                                        <div class="message">Add pre-commit hook for cleaning up mixed-line endings (#2679)
+
+* Update pre-commit hook to include changing line endings
+
+* Fix non-lf lines
+
+* Check pre-commit excludes files
+
+* Revert "Check pre-commit excludes files"
+
+This reverts commit 7b9670f86320156a79e570ef29b331ac36172bfe.
+
+* Actually add the exclude to contributing docs
+
+* Fix merge failure with previous patch
+
+* Inadvertently overwrote merge
+
+* Add LF option for stylish-haskell and pre-commit file
+
+Co-authored-by: Anton Latukha &lt;anton.latukha@gmail.com&gt;
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9faa179</div>
+                                        <div class="message">Fix flaky boot def test (#2686)
+
+* fix flaky boot-def test
+
+* fix test
+
+* refactor to use parser style
+
+* remove slight duplication
+
+* add comment to test
+
+Co-authored-by: mergify[bot] &lt;37929162+mergify[bot]@users.noreply.github.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7695832</div>
+                                        <div class="message">Add a test for #2673 (#2676)
+
+Co-authored-by: Javier Neira &lt;atreyu.bbb@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#bf21f3f</div>
+                                        <div class="message">Fix typos in troubleshooting.md (#2680)
+
+Co-authored-by: Michael Peyton Jones &lt;me@michaelpj.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#20a5d5d</div>
+                                        <div class="message">Optionally publish packages definitely in the hackage workflow (#2689)
+
+* Optionally publish packages defintely
+
+Via a manual run setting publish=="true"
+
+* Update hackage release instructions</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#83d26ec</div>
+                                        <div class="message">add to hlint known limitations in features doc, fix wrong comment in hlint plugin (#2685)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9d75cc5</div>
+                                        <div class="message">Prepare 1.6.1.1 (only hackage release) (#2681)
+
+* Disable -dynamic for all workflows
+
+* Remove quotes
+
+* Bump version to 1.6.1.1
+
+* Update changelog for 1.6.1.1
+
+* Correct flag set
+
+* add comment to ci step
+
+* Restore header and link</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7f00abb</div>
+                                        <div class="message">Fix hlint parsing file with disabled extension (#2671)
+
+* fix hlint parsing file with disabled extension
+
+* maybe test is magically fixed?
+
+* remove useness nub, add comments to getExtensions, add Known differences section to hlint plugin readme
+
+* remove redundant import</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Anton-Latukha/dictionary</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#41c7568</div>
+                                        <div class="message">add Jovial</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Anton-Latukha/dictionary</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#7af06dd</div>
+                                        <div class="message">add Vitrol</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -48,60 +261,6 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by drsooch in <span class="repo">haskell/haskell-language-server</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Anton-Latukha/config-git</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#fe47e92</div>
-                                        <div class="message">rm hooksPath</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#2679 Add pre-commit hook for cleaning up mixed-line endings</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by drsooch in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">Special thanks for converting those files to the initial line ending. Converting back - would solve Git diff rebases. I thought that is the first thing to do on return, before thinking further, it is already done here. Thank you.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Opened
-                                        <span class="issue">#2678 CI: Check/rewrite carrige return </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">haskell/haskell-language-server</span></div>
                                 </div>
                             </section>
                         </div>
