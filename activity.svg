@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="418" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="416" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.post{align-items:flex-start}.repository{display:flex;flex-direction:column;width:100%;margin:6px 0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.people{padding:0 10px}.licenses{display:flex}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details&gt;*,.row section{flex:1 1 0}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -15,6 +15,28 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#2707 Fix releasing</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by hasufell in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">Currently reviewed it 2 times (had 2 passes). The second one - read the code.
+I am not adept in AWK language.
+Honestly - to understand PR better structurally (where what how goes) &amp; run inference inside - the third &amp; maybe fourth passes are needed.
+Of course that it is a single commit with a big Bourne shell diff. I understand - subject matter makes making separate commits difficult, but it also becomes harder to review &amp; internalize what was done precisely &amp; the meaning of it. It is a long way of saying - to give a proper review - I need another pass. Seems pretty straightforward &amp; understandable, though.
+Seen that you've done testing during the work process.
+I can review better &amp; say/not say something more meaningful later in the day.</div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -87,74 +109,6 @@
                                         <code>license</code>
                                         field is allowed - so that is already implemented. So that is solved, would reedit my comment.
 But I arrived here, because I am in the process of making a different report.
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#5697 No valid value for license appropriate for proprietary code</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by ygale in <span class="repo">haskell/cabal</span></div>
-                                    <div class="comment">
-                                        Using terminology from
-                                        <code>Distribution.License.License</code>
-                                        :
-                                        <code>AllRightsReserved</code>
-                                        can be used, but that is while logical - not ideal, because "All rights reserved" is a default case, and if some custom proprietary license is given - the license is not
-                                        <code>AllRightsReserved</code>
-                                        .
-                                        <code>OtherLicense</code>
-                                        can be used, but Cabal does not accept
-                                        <code>license: OtherLicense</code>
-                                        , or
-                                        <code>Other</code>
-                                        or
-                                        <code>Custom</code>
-                                        neither it gives a helpful error message on how to do it, in best variant message sent to https://spdx.org/licenses/, which does not have any information how to mark a
-                                        <code>other</code>
-                                        or
-                                        <code>custom</code>
-                                        license.
-"The SPDX License List ... is a list of commonly found licenses and exceptions used in free and open or collaborative software, data, hardware, or documentation." so SPDX list as is - sending to it hardly suits any proprietary scenario, it works for OS/FS licenses but not even for default case of
-                                        <code>NONE/UnspecifiedLicense/All Rights Reserved</code>
-                                        Allowing to omit the field is a good way of solving this. Hackage in any case on code upload should check licenses for rights of distribution, where is logic to solve that through requiring/extensively checking the
-                                        <code>license</code>
-                                        field.
-The presence of
-                                        <code>License</code>
-                                        file is enough to enforce license judicially, so even if people forget to put a
-                                        <code>license</code>
-                                        field - either Hackage would notify them, either Nixpkgs (which also has license field requirements), if people post code aka on the GitHub &amp; forget
-                                        <code>license</code>
-                                        field - it is their code &amp; their thing to solve &amp; report can be opened asking about the license &amp; just attaching the file into Git repository would be enough - even
-                                        <code>.cabal</code>
-                                        file may not be changed.
-And all that would make default case, proprietary situation &amp; lawyers happy, as omitting the
-                                        <code>license</code>
-                                        field would mean the Either
-                                        <code>default case (AllRightsReserved)</code>
-                                        OR
-                                        <code>License file determines license</code>
-                                        .
-To default
-                                        <code>cabal init</code>
-                                        to default legal case in all countries of the world, or to default for a particular license for Free Software reasons - either one seems fair game.
-P.S.
-If it was my decision - I'd LGPLed everything by default, as proprietary firms/lawyers should be satisfied with free-of-change software provided for free as-is for commercial use - if they are not satisfied with getting stuff for free - I'd show them the chin flick gesture, I see no reasons not to at least LGPL the distributable software (software packages) if people care about software engineering development.
-
-So I agree with the last messages: https://github.com/haskell/cabal/issues/5697#issuecomment-475963482
-The simples solution: live as is &amp; just allow people to discover that they can delete the
-                                        <code>license</code>
-                                        field.
                                     </div>
                                 </div>
                             </section>
