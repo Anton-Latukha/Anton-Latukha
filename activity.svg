@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="385" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.topics{display:flex;flex-wrap:wrap}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.comment{color:#690}.token.punctuation{color:#8a93a8}.token.constant{color:#b44418}.token.operator{color:#106cbc}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.category,.field.language.details&gt;*,.row section{flex:1 1 0}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.category{display:flex;flex-direction:column;align-items:center}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment,.project .description{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.activity .details&gt;.comment{margin-top:6px;border-left:3px solid #777777b2;padding-left:6px}.people{padding:0 10px}.project .description{margin-left:37px;max-height:38px;font-size:12px;white-space:normal}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.comment{color:#690}.token.punctuation{color:#8a93a8}.token.symbol{color:#b44418}.token.operator{color:#106cbc}.token.trimmed{font-style:italic;color:#77777760}.space{margin-left:7px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -19,40 +19,6 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#2 Project can migrate to apply-refact, hlint --refactor use</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">hvr/Hs2010To201x</span></div>
-                                    <div class="comment">
-                                        Yes, the
-                                        <code>apply-refact</code>
-                                        also afaik still has that annoying bug when it can not handle the CPP and deletes it.
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm.061 3.073a4 4 0 10-5.123 0 6.004 6.004 0 00-3.431 5.142.75.75 0 001.498.07 4.5 4.5 0 018.99 0 .75.75 0 101.498-.07 6.005 6.005 0 00-3.432-5.142z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Added hamishmack as collaborator in
-                                        <span class="repo">haskell-nix/hnix</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                                     </svg>
                                     <div class="content">
@@ -62,10 +28,15 @@
                                 </div>
                                 <div class="details">
                                     <div>opened by soulomoon in <span class="repo">haskell-nix/hnix-store</span></div>
-                                    <div class="comment">Then the documentation would mention that it takes a getter/MonadIO printer for text &amp; monad prints the Nar form.
-You also can use type signature argument documentation for that, that is a good case to explain this type of signature.
-ArgDocs are not yet shown, but I am actively working on it in HLS, to provision the Haddock argument documentation to programmers.
-With reading along with the type signature with attached notes for every entity - person reads line by line how to work with the function &amp; understands its internal semantic enough at the same time so does not becomes puzzled &amp; so it saves the need for programmers look into the function implementation source, which is the ideal main agenda of documentation - to have almost no documentation &amp; yet it explaining the complex topics &amp; forming an intuitive understanding of the code without the need to go into reading the code that is in the other place.</div>
+                                    <div class="comment">
+                                        <i>
+                                            I like this
+                                            <code>traverse_ (yeald . str) [ "nix-archive-1", "(", .. ")" ]</code>
+                                        </i>
+                                        Yep, a nice example of meeting
+                                        <code>Traverse</code>
+                                        in the wild.
+                                    </div>
                                 </div>
                             </section>
                         </div>
@@ -99,25 +70,150 @@ With reading along with the type signature with attached notes for every entity 
                                 <div class="details">
                                     <div>opened by soulomoon in <span class="repo">haskell-nix/hnix-store</span></div>
                                     <div class="comment">
-                                        Also, seems that
-                                        <code>yield</code>
-                                        is a stable function that would get reused a lot in the function and between function runs, while
-                                        <code>text</code>
-                                        is a more dynamic information, for different function runs
-                                        <code>text</code>
-                                        frequently would be always different.
-So it has a sense to put arguments:
-                                        <code class="language-haskell"><span class="token hvariable">dumpString</span> <span class="token operator">::</span> <span class="token hvariable">forall</span> <span class="token hvariable">m</span> <span class="token operator">.</span> <span class="token constant">IO<span class="token punctuation">.</span>MonadIO</span> <span class="token hvariable">m</span> <span class="token operator">=&gt;</span> <span class="token constant">NarSource</span> <span class="token hvariable">m</span> <span class="token operator">-&gt;</span> <span class="token constant">ByteString</span> <span class="token operator">-&gt;</span> <span class="token operator">..</span></code>
-                                        It would ensure that GHC infers to compile-in &amp; cache
-                                        <code>yeald</code>
-                                        into memory stack.
-(this argument is a contrived one, because for functions with 2 arguments GHC always guarantee to infer most optimal argument order for the uses).
-But that also puts the signature &amp; code into a canonical Haskell order.
-This
-                                        <code>yeald</code>
-                                        repeat block is:
-                                        <code>traverse_ (yeald . str) [ "nix-archive-1", ...]</code>
+                                        As it is seen - generally programmers do not agree with me there, type signature documentation is thought about to be used so rarely - that HLS so far does not ship
+                                        <code>show</code>
+                                        of it.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Reviewed
+                                        <span class="issue">#177 replace the filepath argument in `addToStore` with a more common type `NarSource` (The core part)</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by soulomoon in <span class="repo">haskell-nix/hnix-store</span></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#177 replace the filepath argument in `addToStore` with a more common type `NarSource` (The core part)</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by soulomoon in <span class="repo">haskell-nix/hnix-store</span></div>
+                                    <div class="comment">
+                                        Oh, I was not aware of the CPS.
+Honestly - I am yet to use it in practice myself. Also, I remember reading that Haskell has several alternatives to do the same, and that some of them in some cases even optimize much better, and also GHC is a "smart enough compile", but of course CPS is a very flexible well developed Lambda Calculus/Lisp derivatives practice I love CPS overall, but think in the majority of cases the tail arguments then need to be noted as CPS tail passing.
+
+ArgDocs: It is simply using
+                                        <code>-- ^</code>
+                                        on function arguments. I call them ArgDocs - because it is how it is called in GHC API at least.
+
+Nota bene: By the way, which is interesting HLS mostly uses GHC to get documentation &amp; plans to migrate fully. Recent versions of GHC provide enough functionality to sort-of replace `haddock` in a lot of cases. Comments are a part of the specification overall, for literate programming reasons it is also sane to have doc definitions in the language spec &amp; so in ADT also. By the way, comments still are not implemented in HNix.
+
+
+
+
+HLS even allows to click on the function type signature declarations to do it, but it yet does not shows the result back.
+
+Theme: Documenting arguments as one of the main sources of explanation.
+Derives from the basic ideas.
+The most frequent lazy style of writing documentation is:
+                                        <code>traverse_</code>
+                                        <i>traverse_ :: (Foldable t, Applicative f) =&gt; (a -&gt; f b) -&gt; t a -&gt; f ()
+Map each element of a structure to an Applicative action, evaluate these actions from left to right, and ignore the results.</i>
+                                        Lets do the same thing but generalize this to reduction ad absurdum:
+                                        <i>functionName :: (StrangeClass f, HeadSpinningClass g, Walkable h) f -&gt; g -&gt; h -&gt; a -&gt; b -&gt; c
+Map each element of a structure to a StrangeClass f, evaluate these actions from left to right, or do the other given action if not - do the other one, and ignore the result.</i>
+                                        People writing documentation may think people understand them, while documentation is completely puzzling. Maps over what. which actions in which order are meant in the doc.
+The same we can observe even in
+                                        <code>traverse_</code>
+                                        if we squint and pretend we do not know something (people read the documentation when they do not know anything or something in type signature), so the doc says it maps what? each element (person not knowing - tries to apply the knowledge that people &amp; docs tend to sequentially mention what gets takes &amp; text entails that first - function accepts elements and maps them over the second argument), but the
+                                        <code>traverse_</code>
+                                        doc is written non-sequentially, so mapping of the doc to the type signature is left "for the user to practice understanding of how documentation maps to the API of the function". So person needs to go and learn all types present in type signature and internalize knowledge, of
+                                        <code>(StrangeClass f, HeadSpinningClass g, Walkable h)</code>
+                                        and then go back &amp; try to understand how the doc description mention elements &amp; what is implicit mapping of those elements to the API of the function.
+Where in reality the
+                                        <code>Map each element of a structure to an Applicative action, evaluate these actions from left to right, and ignore the results.</code>
+                                        , the form of description: "function takes value to transform, takes transformation, takes takes accessor for the angle, returns tangent of an angle" what they do and meant to do - they mentally go over the type signature &amp; describe what arguments are accepted &amp; how they compose, that means they wanted to do:
+                                        <code class="language-multiline language-haskell" xml:space="preserve"><span class="token hvariable">fun</span>
+  <span class="token operator">::</span> <span class="token hvariable">a</span> <span class="token comment">-- ^ transformation</span>
+<span class="token trimmed">(3 more lines were trimmed)</span></code>
+                                        No handwaving what part of the text meant what argument - no inference of implicit map of internal knowledge, that requirement got eliminated simply laying the "takes this, takes that, does this with that" - to what people semantically described - an API &amp; meaning of arguments it takes.
+
+The
+                                        <code>-&gt;</code>
+                                        is a general intuitive symbol for action. Haskell is cool because of its functional approach (functions) &amp; their type system. Type system implements a Hask "category". Functions are morphism that also denoted
+                                        <code>-&gt;</code>
+                                        , and
+                                        <code>:: a -&gt; b</code>
+                                        in Haskell is action, computation, function, morphism.
+During development, what defines the good function for the programmer from a random Haskell community place - a function that is easy to use.
+To be usable - the function needs to be understandable to the point that person is sure what function does.
+That means either function is without docs &amp; considered understandable on its own (and we naively implicitly assume everyone is like us in understanding), or if there is documentation - it is better for it to effectively in a short amount of symbols convey what function does so it becomes clear to the reader.
+The main flaws of documentation. 1. Semantic transmission, 2. Volume &amp; effort-time to read it, 3. People not reading documentation because of all other mentioned entries. 4. During development - developers forget about documentation and so documentation rots and so user trust in documentation diminishes.
+Now, from other perspective:
+What function from the outside has.
+The most theoretical case is:
+                                        <code class="language-haskell"><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token operator">\</span>    <span class="token hvariable">a</span> <span class="token operator">-&gt;</span> <span class="token hvariable">a</span><span class="token punctuation">)</span> <span class="token operator">::</span> <span class="token hvariable">a</span> <span class="token operator">-&gt;</span> <span class="token hvariable">a</span><span class="token punctuation">)</span></code>
+                                        That is the minimal definition and API of a function. As we see - the most important part in the function is code, and then the type of a function.
+The next essential is the name.
+And that forms the API of the function:
+                                        <code>name :: a -&gt; b</code>
+                                        . How to document the API? Precicely - document the
+                                        <code>name</code>
+                                        &amp;
+                                        <code>:: a -&gt; b</code>
+                                        . People tend to put everything into the main documentation block (explaining
+                                        <code>name</code>
+                                        ) &amp; forget the explain type signature which in fact describes the function, types as proofs, if person does not uses the type signature Haskell/GHC - would not allow to use the function/code.
+                                        <code>name</code>
+                                        can be explained as much as people want, but if in that reader does not understand type signature - the explanations &amp; docs were useless, since person can not use the function in code.
+It also can be seen that in
+                                        <code>name :: a -&gt; b</code>
+                                        , the
+                                        <code>a -&gt; b</code>
+                                        hold the symbol of a an action/function/morphism,
+                                        <code>name</code>
+                                        holds only a
+                                        <code>name</code>
+                                        , from
+                                        <code>name</code>
+                                        alone it is impossible to tell whenever it is a function or a value - person needs to look in type signature &amp; see
+                                        <code>:: a -&gt; b</code>
+                                        - Ok - now I see is a function.
+The idea is to stop pretending that one-size-fits-all
+                                        <code>name</code>
+                                        field - fits all causes of documentation, it does not, it does not have a mapping of semantics to the API of the function.
+
+For example, imagine the signature:
+                                        <code>dumpString :: forall m . IO.MonadIO m =&gt; (ByteString -&gt; m ()) -&gt; ByteString -&gt; m ()</code>
+                                        But this type signature puzzles because its type signature looks like
+                                        <code>id (-&gt;)</code>
+                                        :
+                                        <code>dumpString :: forall m . IO.MonadIO m =&gt; (ByteString -&gt; m ()) -&gt; (ByteString -&gt; m ())</code>
                                         .
+Because type signature is not clear &amp; puzzles - type signature needs explanation.
+So minimal documentation would be attached to that.
+We would also do not need in such cases to explain what particular
+                                        <code>ByteString</code>
+                                        or other repeating or alike types from several parameters passed we mean. Does "text" mean
+                                        <code>ByteString</code>
+                                        or in
+                                        <code>IO</code>
+                                        or
+                                        <code>Text</code>
+                                        or
+                                        <code>String</code>
+                                        - using ArgDocs it is harder to loose the reader because docs have 1:1 mapping &amp; we think, writing, &amp; explain in terms of the API.
+Attaching documentation to type signature, ArgDocs - do not rot, because they are directly connected to the API.
+For example flipping arguments in function - the main documentation block - would lose sequentiality - we either forget &amp; sequentiality breaks &amp; so the reader needs to infer words to args map - or dev would need to not forget to reread &amp; rewrite the docs, which devs are famously forgetful about. Placing the main short API description into API signature - ties documentation to the realization &amp; makes it be monitorable/trackable. In the project we frequently refresh type signatures for ourselves, but we do not reread the main documentation blocks.
+And so on and so on. As you see - I have a lot of thoughts on this topic, which is why I went to fix the HLS API documentation interface to show them.
                                     </div>
                                 </div>
                             </section>
