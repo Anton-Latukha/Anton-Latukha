@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="438" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="439" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,36 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#169 Start careers infrastructure and a stab at the devops position posting.</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by myShoggoth in <span class="repo">haskellfoundation/haskellfoundation.github.io</span></div>
+                                    <div class="comment">
+                                        Please, @haskellfoundation, @myShoggoth, @goldfirere, @bgamari, @rebeccaskinner, @angerman, @simonpj, @gbaz.
+                                        <code>myShoggoth</code>
+                                        - I am not your enemy. I only try to solve the situation diplomatically, to meet any mutual agreement &amp; save my life in the process.
+I can move West, even inside Ukraine - it is a huge country &amp; Russians would never be able to take the West os Ukraine, the real , into Zakarpattia Oblast - there, behind mountains is a completely safe region to work at least for several years. Then everything would be fine. I just need to know that I would have work &amp; any money source.
+As we see, I can formulate &amp; know more different IT ecosystem specifics, what is needed to be done in this work &amp; can formulate what is needed - even better than board members put it, which shows I understand what to do.
+I have already was working in the Free community for years in Haskell projects &amp; infrastructures, before that I worked in NixOS/Nixpkgs community. I have friendly relationships with many people in the community. In Haskell ecosystem, in Nixpkgs Haskell packages team, in OpenSuse, in Arch Linux.
+I am not a conflicting person, it is the absence of the dialog - that creates a perception of the conflict. &amp; I am under extreme stress because of the circumstances. I need to go either way &amp; decide.
+You can get me for cheap, for any price we would discuss. As a real human being with dignity - I am ready to be responsible &amp; do heavy work for a living for social benefit. I want to be surrounded by a good society &amp; communicate &amp; work together, to help with anything that would be proposed &amp; prioritized.
+I know Haskell society as the best people &amp; community I know.
+I have not yet gone into the military. I still believe into the Haskell community, into us, - for me connection of
+                                        <code>{Free Software/Open Source, Haskell, science, math, egalitarian good people}</code>
+                                        - is the consolidation of the main forces in the world &amp; I believe that we can change the world. Therefore I can fight my home war, with you, or with the army. If to discuss something, I would prefer to have assurances given of helping me, to get them today or tomorrow.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -88,28 +118,6 @@ So I would ask, please, if you found me in any way a reasonable person - Haskell
                                     <div>opened by soulomoon in <span class="repo">haskell-nix/hnix-store</span></div>
                                     <div class="comment">In such cases, you can just open another PR, which depends on this branch &amp; mention it depends here &amp; thankfully GitHub allows to mark the PR as a draft.
 Having that one additional level of nesting is perfectly reasonable.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#7971 Troubles with setting the `license` field</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/cabal</span></div>
-                                    <div class="comment">Want to inform that I am currently seeking a Haskell Foundation DevOps position.
-Because Haskell jobs are in US/EU mostly &amp; because of the dire situation in Ukraine - corporations continuously were rejecting me without explanations in my 2.5 ~ 3 years of jobsearch. So I am quite in distress now.
-For a long time - I wanted to help Cabal as a DevOps, but circumstances always were such that I quite could not reach to participate properly in such a cornerstone piece of Haskell infrastructure, as for years I was always refused to earn any money - I could not alleviate all compounded problems and constantly requiring to do job search, interviews, 40-60h long work assignments for free &amp; by the corporations my biography and skill never were respected. Never even once in ~3 years corporations given "deep concern" - the main aid &amp; export of EU to Ukraine in the last 30 years. GPS coordinates I was born in - by corporations always were chosen to be the main factor against helping me rather than a reason to even at least try to help me.
-So opened &amp; read I Cabal bootstrap code, or not - does not matter - I am not allowed the position to help the project.
-In face of experience &amp; facts, I ask from Haskell Foundation to accept the person with the biography of IT architect, for 365$/m a month to work on Haskell infrastructure.
-So I would ask, please, if you found me in any way reasonable person - Haskell community should be interested to accept my sacrifice.</div>
                                 </div>
                             </section>
                         </div>
