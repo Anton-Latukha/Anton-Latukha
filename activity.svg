@@ -23,6 +23,30 @@
                                     </svg>
                                     <div class="content">
                                         Commented on
+                                        <span class="issue">#2539 Streamline getDocumentationTryGhc</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
+                                    <div class="comment">I submitted this work in the autumn.
+I wanted to make ArgDoc provisioning quick.
+But I got: both "these changes are too simple there is nothing to merge" &amp; "these changes are too complex. I do not know you, so open a nitpick fix PR" from 2 maintainers.
+I was required to reopen it 2 times &amp; do rebases numerous times.
+It is not a good contributor experience.
+Why I am that direct?
+The war starts.
+Sanctions would not work. Go talk with Nazi nuclear Russia while they have a secret pact with China (which would pretend to be neutral until too late) for world domination.</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
                                         <span class="issue">#7971 Troubles with setting the `license` field</span>
                                     </div>
                                 </div>
@@ -86,24 +110,6 @@ For a long time - I wanted to help Cabal as a DevOps, but circumstances always w
 So opened &amp; read I Cabal bootstrap code, or not - does not matter - I am not allowed the position to help the project.
 In face of experience &amp; facts, I ask from Haskell Foundation to accept the person with the biography of IT architect, for 365$/m a month to work on Haskell infrastructure.
 So I would ask, please, if you found me in any way reasonable person - Haskell community should be interested to accept my sacrifice.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#169 Start careers infrastructure and a stab at the devops position posting.</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by myShoggoth in <span class="repo">haskellfoundation/haskellfoundation.github.io</span></div>
-                                    <div class="comment">I would also remind of Simone de Beauvoir, who is in a tremendous way, thankfully for us, described the difference between the pure intellectualism of Nietzsche &amp; stoics &amp; how to transcend into the bigger level of freedom: https://youtu.be/cVy9DiLBcZg?t=896
-I am happy to participate in the either process, because I protect people's freedoms in either way. People underestimate the efficiency of Free Software movement design - it reforms, it works, a few days back, I got inspired by war &amp; wrote to some philosophers that they did not study the most efficient important movement there is currently Open Source/Free Software movement, it is important to participate in it.</div>
                                 </div>
                             </section>
                         </div>
