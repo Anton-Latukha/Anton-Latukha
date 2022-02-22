@@ -2,7 +2,7 @@
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.people{padding:0 10px}.field.license.details{display:flex;justify-content:space-between}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.people{padding:0 10px}.field.license.details,.field.license.details small{display:flex;justify-content:space-between}.field.license.details small{color:#666;text-align:right}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -15,6 +15,60 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#1059 Currently I would not be able to continue maintain the `haskell-nix` projects because of war</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">How we, who fight the real enemy at our home, were considered not worthy - is beyond my imagination.</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#1059 Currently I would not be able to continue maintain the `haskell-nix` projects because of war</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
+                                    <div class="comment">
+                                        The real sad reason why I would not be able:
+
+
+US &amp; EU actions so far are inapt. The word of
+                                        <code>fascism</code>
+                                        still was not mentioned once. "We do not know what he thinks &amp; would do" - is the sign of inaptness. While Putin &amp; Russia exposed all of the signs of faschism in plane sight. I guess western politics in 24 years of working with Russia - never managed to put it together.
+I guess diplomates guide by mustashes &amp; hats &amp; bandages to distinguish nazies, rather than politics. Putin &amp; his soldiers does not wear them, simply to not be obvious, because they learned from WWII to not be flashy &amp; obvious with blings.
+US &amp; EU continuously sacrificed the main weapon in controlling Russia - Ukraine (we know everything about them &amp; we are fighting the war of independence for at least 500 years), Russia tells directly what it fears - powerful Ukraine, collaboration of Ukraine &amp; EU &amp; NATO. Russian government understands only force application before they do action, understand only force and numbers, collective offense (offense is precisely the best defense, here) &amp; defense. US &amp; EU continuously do what Putin awaited from them, so who luring into the trap who. Sanctions are vacuous, because weapons are already built, soldiers are already brainwashed &amp; trained, everything is delivered assembled &amp; in the motion, Russia built a huge war chest &amp; have a secret pact with China, the economic streams of Russia simply would be redirected into, hidden &amp; laundered in China - the biggest &amp; central piece of economy in the world &amp; China would pretend to be neutral, until Russia does the initial dirty work. EU economics were for decades continuously profiting from helping Putin &amp; Russian kleptocracy (helping &amp; blaming them for kleptocracy) - gathering &amp; laundering &amp; deposit interest compounding their money.
+Sorry me please, Gazprom &amp; other such companies are 50% government, 50% private - a perfect scheme to steal any amount of money from the company legally.
+Putin is one of the wealthiest people on earth, with at least 12-20 huge palaces alone, he can wage war against Ukraine &amp; Europe from his own pocket. Who allowed to give him such power?
+It is precisely because the Western world frequently only talks about values &amp; when there is time to control situation - they take passive reactionary position, when there is a time to protect own safety &amp; dignities of others - they escape &amp; hope nothing would happen, but somehow happy to launder blood money &amp; collude &amp; further efforts with nazi nuclear state &amp; help to keep Ukraine down.
+While Russia is precisely what tries to destroy Europe democracies &amp; solidarity, play them against each other &amp; conquer into domination over Europe. When Putin puts armies &amp; nuclear missiles into Ukraine, Belarus, &amp; Kaliningrad - Lithuania &amp; Latvia would be next &amp; they know that &amp; they know Russians, so Lithuania, as small as it is - continuously was &amp; is helping Ukraine.
+One of the best times Ukraine had, was when Ukraine was Kingdom of Ruthenia (in old Slavic pronounced "Kingdom of Rus'", guess who renamed the country to something strange in the history literature) as autonomy in Grand Duchy of Lithuania. So somehow history connects us. The only old documents &amp; literature Russians were not able to destroy originals &amp; issue only rewritten sources available now, what originals were saved - somehow are mostly documents stored in Vilnius. &amp; history trolls them - Russians still want to conquer the mother Kyiv Rus &amp; can not conquer the Kingdom of Rus, which is very ironic.
+Why nazi: faschism + genocides == nazi. &amp; who operates on genocides, (50% of the Chechen nation destroyed, others are subjugated, the established by Russia ruler literally cuts people heads &amp; uses them as a soccer ball (for proof - read how many journalists that were writing articles about him disappeared, last time I checked was 12)). So it is nothing new for Ukrainians, but it is a surprise that the west keeps helping Russia &amp; expects that everything would be great.
+They would not be able to hold Ruthenians/Ukrainians, we look alike &amp; speak alike, we can pretend to be "pro-Russian". So how would they handle the situation - precisely - mass killing who they can &amp; all others would be dumped in winter in Siberia onto the ground. It would be another genocide Russia does, with the caveat it would be the biggest one in the history.
+For a Ukrainian citizen, it is several times harder to get Haskell work than for a Russian citizen. Great arrangement, helps the situation tremeneoudly.
+Now because in 3 years of job search I was continuously refuted to be hired to any meaningful work, I was not given the possibility to move out of the war zone - these projects would not be maintained by me &amp; community would loose in this specialist, I probably would go into army to kill nazi invaders that literally tell we are not a nation &amp; not worth existing - to defend, to die for the world against the nazi nuclear state all others in the world were collaborating in creating.
+It is not Ukrainian responsibility, it was &amp; is the world responsibility to control the nazi nuclear state that signed a secret pact with the other biggest communist nuclear state. If we do not stop them now - we would not be able to stop them later.
+So how we left alone - they would destroy the world by domino effect, if everybody would be throwing values on the wind &amp; saying that they stand alone &amp; away - you are just standing dominos then.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -64,60 +118,6 @@
                                     <div>opened by Anton-Latukha in <span class="repo">haskell/cabal</span></div>
                                     <div class="comment">Yes, thank you. I am just under tremendous stress.
 It is a question of life and death for me.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#169 Start careers infrastructure and a stab at the devops position posting.</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by myShoggoth in <span class="repo">haskellfoundation/haskellfoundation.github.io</span></div>
-                                    <div class="comment">
-                                        Please, @haskellfoundation, @myShoggoth, @goldfirere, @bgamari, @rebeccaskinner, @angerman, @simonpj, @gbaz.
-                                        <code>myShoggoth</code>
-                                        - I am not your enemy. I only try to solve the situation diplomatically, to meet any mutual agreement &amp; save my life in the process.
-I can move West, even inside Ukraine - it is a huge country &amp; Russians would never be able to take the West os Ukraine, the real , into Zakarpattia Oblast - there, behind mountains is a completely safe region to work at least for several years. Then everything would be fine. I just need to know that I would have work &amp; any money source.
-As we see, I can formulate &amp; know more different IT ecosystem specifics, what is needed to be done in this work &amp; can formulate what is needed - even better than board members put it, which shows I understand what to do.
-I have already was working in the Free community for years in Haskell projects &amp; infrastructures, before that I worked in NixOS/Nixpkgs community. I have friendly relationships with many people in the community. In Haskell ecosystem, in Nixpkgs Haskell packages team, in OpenSuse, in Arch Linux.
-I am not a conflicting person, it is the absence of the dialog - that creates a perception of the conflict. &amp; I am under extreme stress because of the circumstances. I need to go either way &amp; decide.
-You can get me for cheap, for any price we would discuss. As a real human being with dignity - I am ready to be responsible &amp; do heavy work for a living for social benefit. I want to be surrounded by a good society &amp; communicate &amp; work together, to help with anything that would be proposed &amp; prioritized.
-I know Haskell society as the best people &amp; community I know.
-I have not yet gone into the military. I still believe into the Haskell community, into us, - for me connection of
-                                        <code>{Free Software/Open Source, Haskell, science, math, egalitarian good people}</code>
-                                        - is the consolidation of the main forces in the world &amp; I believe that we can change the world. Therefore I can fight my home war, with you, or with the army. If to discuss something, I would prefer to have assurances given of helping me, to get them today or tomorrow.
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#2539 Streamline getDocumentationTryGhc</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell/haskell-language-server</span></div>
-                                    <div class="comment">I submitted this work in the autumn.
-I wanted to make ArgDoc provisioning quick.
-But I got: both "these changes are too simple there is nothing to merge" &amp; "these changes are too complex. I do not know you, so open a nitpick fix PR" from 2 maintainers.
-I was required to reopen it 2 times &amp; do rebases numerous times.
-It is not a good contributor experience.
-Why I am that direct?
-The war starts.
-Sanctions would not work. Go talk with Nazi nuclear Russia while they have a secret pact with China (which would pretend to be neutral until too late) for world domination.</div>
                                 </div>
                             </section>
                         </div>
