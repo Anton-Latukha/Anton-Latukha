@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="439" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="479" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.people{padding:0 10px}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*,.row section{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,code,span.code{background-color:#7777771f;border-radius:6px;color:#777;padding:1px 5px;font-size:80%;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .code,span.code{margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.people{padding:0 10px}code{display:inline-block}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -15,6 +15,63 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#169 Start careers infrastructure and a stab at the devops position posting.</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by myShoggoth in <span class="repo">haskellfoundation/haskellfoundation.github.io</span></div>
+                                    <div class="comment">
+                                        Sorry. I am no longer interested to participate in discussions.
+As I said - I had the time till 2 days to make a decigion. I see no point in continuing.
+I'd like to finish with what lessons to take out of this:
+The interviewee was lied to on the interview several times:
+
+"We would have a big amount of time to talk" - I trusted that &amp; expected unlimited or ~1:30 for such fitting &amp; important interviews, "big about" happened to mean 30 minutes max.
+Person not even told who they are. And never mentioned they do not understand any of what I am saying. In fact precisely no management &amp; responses during the interview. As Jacques Lacan (famous psyoanalysist) says: https://youtu.be/w1PmWy4aSaQ?t=1253 - during the talk - the receiver is presumed to understand - essentially - human language does not allow cardinality of 1, it always has more - so sender presumes that receiver knows what is meant or helps to navigate the sender. Without any humane feedback, I was put into UDP mode &amp; that was used to refute me.
+But somehow was laughing during my
+                                        <code>ExistentialQuantification</code>
+                                        ,
+                                        <code>RankNTypes</code>
+                                        &amp;
+                                        <code>TypeFamilies</code>
+                                        jokes. So I presumed the person understands or roughly understands what I am talking about. But that was just laying to my face.
+When the person asked question &amp; went reading &amp; writing emails &amp; was not listening at all for the answer - I wanted to stop the interview - but that would meant the interview process is over &amp; we'd got into personal conflict right during interview.
+I specifically addressed the war question, that we can arrange things &amp; after that it was promised that technical interview with Gamari would be established &amp; so we ended the interview on that. I guess behind that decision of saving persons life - one should not stand strong.
+
+It took a person only 1-1.30 to think about the war &amp; save or not save the professional persons life to build a strong team. Then not taking the promise or own words back - to spin the decision 180 degrees, take the first nitpick around - throw as blame into the face of a person in life or death situation &amp; say "Best of luck in your search."
+
+There is no such thing as too many details to an open question with the interviewer pretending to know everything &amp; without moderation of the discussion.
+Answer is "Open complex questions sent without protocol of communication means, imply sending as much information as possible". Knowledge means information - entropy - which transmitted even on Shannon–Hartley encoding would be a big amount of information. The person that knows &amp; understands more - can tell more details about the question. So "too much details", especially coherent ones - is a sign that the person knows something.
+
+
+And then pretending that the promise never happened.
+Not responding to private emails when I wanted to solve the thing in private.
+
+Of course, all those actions may be retro-rationalized &amp; reason can be found to blame me always.
+
+US &amp; EU collaborated with (as England only after the war started decided to stop the London laundromat from profiting from blood money) &amp; helped to raise to power a nazi nuclear state.
+But somehow Ukraine, which they were discarding continuously now is responsible for it.
+No - Ukraine was trying to arrange the situation to fight the nazi nuclear state, while Europe was colluding with it &amp; profiting from it - who colluded to launder the war chest &amp; personal mountains of the wealth of nazi leaders - is responsible.
+And as always - US &amp; EU pretend to be not aware that they make deals with nazi nuclear state &amp; does not takes any responsibility for the effects of their actions. Yes, why be mature, when they can simply use others to suffer for the consequences of their actions. But there is the problem - the nazi nuclear Russia state is real &amp; it has a secret pact with China to change the power domination in the world. &amp; the "West" seems inapt to understand it.
+
+Because you not give me the possibility to fight the evil in my specialty means - I have a more worthy ideas &amp; targets now.
+I started the informational campaign against Russia. Russian government first all 14 points of Umberto Eco's definition of a fascist state &amp; more:
+https://www.youtube.com/watch?v=CpCKkWMbmXU
+Why - because it is one.
+If Germany wants to prove it changed.
+Reach to as many influential people as possible. Since the main statement Russia is a fascist state - is true - now you know it &amp; so you can give your knowledge &amp; thoughts on it to other people - please spread the influence.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -113,23 +170,6 @@ So how we left alone - they would destroy the world by domino effect, if everybo
                                 <div class="details">
                                     <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
                                     <div class="comment">How we, who fight the real enemy at our home, do not deserve real help - is beyond my imagination.</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                                        <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Opened
-                                        <span class="issue">#1059 Currently I would not be able to continue maintain the `haskell-nix` projects because of war</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">haskell-nix/hnix</span></div>
                                 </div>
                             </section>
                         </div>
