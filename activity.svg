@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="408" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="828" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}#metrics-end,.fill-width{width:100%}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details&gt;*,.row section{flex:1 1 0}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.people{padding:0 10px}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.stargazers .chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -15,6 +15,176 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 53 commits in
+                                        <span class="repo">Anton-Latukha/text</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-09-25-add-isSubsequenceOf</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#f64e610</div>
+                                        <div class="message">Fix strict indices: take hay offset into account</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#170d8fa</div>
+                                        <div class="message">More tests for indices</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#922d9cc</div>
+                                        <div class="message">Regenerate case mappings for Unicode 14.0 with matching GHC 9.2</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fdc9386</div>
+                                        <div class="message">Future-proof imports for Eq</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#366a8db</div>
+                                        <div class="message">Regenerate Haskell CI with GHC 9.2.1</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#85ffb4a</div>
+                                        <div class="message">Tests: keep compatible with ancient QuickCheck</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#56cba05</div>
+                                        <div class="message">Tests: do not assume that system locale is Unicode-compatible</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f2eaf97</div>
+                                        <div class="message">Rename _hs_text_memcmp to _hs_text_memcmp2 to disambiguate from system-wide headers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c07872b</div>
+                                        <div class="message">Add s390x and ppc64le CI builds</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#7a492ec</div>
+                                        <div class="message">Put simdutf stuff in its own folder</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d54b176</div>
+                                        <div class="message">Add CI config to test with simdutf disabled</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#944fb0e</div>
+                                        <div class="message">Introduce a flag to disable simdutf</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0630bd3</div>
+                                        <div class="message">Restore laziness of Data.Text.Lazy.lines (broken in 55358a4c)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#478fe5b</div>
+                                        <div class="message">Add 32-bit CI build</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e9c98f4</div>
+                                        <div class="message">Add inspection tests for Text literal</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#bb03e6f</div>
+                                        <div class="message">Reexport unpackCStringAscii from Data.Text</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c83414e</div>
+                                        <div class="message">Optimize handling of Text literals</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2f47425</div>
+                                        <div class="message">Disable doctests, because they are too fragile</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fef6c6d</div>
+                                        <div class="message">Clean redundant import</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#32648cb</div>
+                                        <div class="message">Elaborate on dangers of readFile</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 10 commits in
+                                        <span class="repo">Anton-Latukha/text</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">2021-09-25-add-isSubsequenceOf</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#6f06b72</div>
+                                        <div class="message">WIP: Tests.Properties.Substrings: add genOrdSubseq</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b363387</div>
+                                        <div class="message">WIP: Text: isSubsequenceOf: upd doc (add examples of code &amp; use)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f14d7cb</div>
+                                        <div class="message">WIP: Text: isSubsequenceOf: flip local fun
+
+This way may have more stack reuse.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a30ee98</div>
+                                        <div class="message">WIP: Text: isSubsequenceOf: lambda to imperative
+
+`on` now ensures that `uncons` can be specialized/consumed once.
+
+It would be interesting to look into Core at some point of work.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1786611</div>
+                                        <div class="message">WIP: Text: isSubsequenceOf: ({null, unsafeHead, unsafeTail} -&gt; uncons)
+
+As suggested, indeed `uncons` replaces 3 funciton invocations with 1.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#59c3480</div>
+                                        <div class="message">Text: flip isSubsequenceOf
+
+Previous argument order was alike `lookup` argument order mistake, when key
+cached (compiler saturates function) across DBs.
+
+Efficient use of the function is to all it once (per pattern) on the whole
+contents.
+
+So the contents should be cached first, and the search patterns are switchable.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d2425fb</div>
+                                        <div class="message">Text: add fun isSubsequenceOf
+
+Function to detect ordered subsequences in the content.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#69e3df8</div>
+                                        <div class="message">Mark measure_off_* functions as static</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ccaa346</div>
+                                        <div class="message">Update case mappings for Unicode 14.0.0</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fd691f7</div>
+                                        <div class="message">Freshen up README</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -71,93 +241,6 @@
                                     <div class="commit">
                                         <div class="sha">#95c1ff0</div>
                                         <div class="message">add Argumentum ad populum</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#169 Start careers infrastructure and a stab at the devops position posting.</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by myShoggoth in <span class="repo">haskellfoundation/haskellfoundation.github.io</span></div>
-                                    <div class="comment">
-                                        Sorry. I am no longer interested to participate in discussions.
-As I said - I had the time till 2 days to make a decigion. I see no point in continuing.
-I'd like to finish with what lessons to take out of this:
-The interviewee was lied to on the interview several times:
-
-"We would have a big amount of time to talk" - I trusted that &amp; expected unlimited or ~1:30 for such fitting &amp; important interviews, "big about" happened to mean 30 minutes max.
-Person not even told who they are. And never mentioned they do not understand any of what I am saying. In fact precisely no management &amp; responses during the interview. As Jacques Lacan (famous psyoanalysist) says: https://youtu.be/w1PmWy4aSaQ?t=1253 - during the talk - the receiver is presumed to understand - essentially - human language does not allow cardinality of 1, it always has more - so sender presumes that receiver knows what is meant or helps to navigate the sender. Without any humane feedback, I was put into UDP mode &amp; that was used to refute me.
-But somehow was laughing during my
-                                        <code>ExistentialQuantification</code>
-                                        ,
-                                        <code>RankNTypes</code>
-                                        &amp;
-                                        <code>TypeFamilies</code>
-                                        jokes. So I presumed the person understands or roughly understands what I am talking about. But that was just laying to my face.
-When the person asked question &amp; went reading &amp; writing emails &amp; was not listening at all for the answer - I wanted to stop the interview - but that would meant the interview process is over &amp; we'd got into personal conflict right during interview.
-I specifically addressed the war question, that we can arrange things &amp; after that it was promised that technical interview with Gamari would be established &amp; so we ended the interview on that. I guess behind that decision of saving persons life - one should not stand strong.
-
-It took a person only 1-1.30 to think about the war &amp; save or not save the professional persons life to build a strong team. Then not taking the promise or own words back - to spin the decision 180 degrees, take the first nitpick around - throw as blame into the face of a person in life or death situation &amp; say "Best of luck in your search."
-
-There is no such thing as too many details to an open question with the interviewer pretending to know everything &amp; without moderation of the discussion.
-Answer is "Open complex questions sent without protocol of communication means, imply sending as much information as possible". Knowledge means information - entropy - which transmitted even on Shannon–Hartley encoding would be a big amount of information. The person that knows &amp; understands more - can tell more details about the question. So "too much details", especially coherent ones - is a sign that the person knows something.
-
-
-And then pretending that the promise never happened.
-Not responding to private emails when I wanted to solve the thing in private.
-
-Of course, all those actions may be retro-rationalized &amp; reason can be found to blame me always.
-
-US &amp; EU collaborated with (as England only after the war started decided to stop the London laundromat from profiting from blood money) &amp; helped to raise to power a nazi nuclear state.
-But somehow Ukraine, which they were discarding continuously now is responsible for it.
-No - Ukraine was trying to arrange the situation to fight the nazi nuclear state, while Europe was colluding with it &amp; profiting from it - who colluded to launder the war chest &amp; personal mountains of the wealth of nazi leaders - is responsible.
-And as always - US &amp; EU pretend to be not aware that they make deals with nazi nuclear state &amp; does not takes any responsibility for the effects of their actions. Yes, why be mature, when they can simply use others to suffer for the consequences of their actions. But there is the problem - the nazi nuclear Russia state is real &amp; it has a secret pact with China to change the power domination in the world. &amp; the "West" seems inapt to understand it.
-
-Because you not give me the possibility to fight the evil in my specialty means - I have a more worthy ideas &amp; targets now.
-I started the informational campaign against Russia. Russian government first all 14 points of Umberto Eco's definition of a fascist state &amp; more:
-https://www.youtube.com/watch?v=CpCKkWMbmXU
-Why - because it is one.
-If Germany wants to prove it changed.
-Reach to as many influential people as possible. Since the main statement Russia is a fascist state - is true - now you know it &amp; so you can give your knowledge &amp; thoughts on it to other people - please spread the influence.
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#1059 Currently I would not be able to continue maintain the `haskell-nix` projects because of war</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by Anton-Latukha in <span class="repo">haskell-nix/hnix</span></div>
-                                    <div class="comment">
-                                        I am reaching out to you, because in hard times I quickly understood that we all are together. That in reality we can reach to whoever we want and hold a dialog about whatever is needed &amp; do whatever we mutually decided. In war the people should throws away all the system that restricts actions &amp; operate on the human value system.
-Only in help with each other &amp; protecting shared values we can stand against this.
-US/EU governments &amp; banks (as "London laundromat") were essentially holding Ukraine down &amp; collaborating with bully treterous Russian nazi nuclear totalitarian government. They helped to raise the beast, now nazi nuclear totalitarian government has huge gold pile for war chest, kleptocracy has enough money to essentially hold the WWIII on their money alone, Russia even not mobilized own nation &amp; Belarus &amp; Kazashstan - who obviously would join at some point.
-Now Taiwan awaits invasion. Taiwan was/is put into same position as Ukraine, almost all countries renounced Taiwan in favour of Chine. Now, when there would be fitting moment - China would invade Taiwan &amp; most countries can't even address Taiwan invasion judicially - they judicially pretended it was not existing in the first place. Imagine world chip shortage after that &amp; its implications.
-Imagine playing the chess &amp; so far US/Europe chosen skip the moves &amp; wait until Putin makes another move &amp; think how to respond to it. They are reactionary, not active, it is a loosing strategy which is dangerous to all of us.
-I am reaching out to you - because Putin &amp; China have a pact to change the balance in the world in their favour &amp; press US/EU as much as possible to gradually decay them, or even conquer, Putin dreams to conquer all USSR states back &amp; was furious that many of them joined NATO. Putin speaks in reverse, he tells we can not allow Ukraine to join EU &amp; NATO, we have security concerns - he uses reverse logic statements, he lies by telling the truth - he really scared of Ukraine joining NATO, or Ukraine joining forces with NATO. He is scared of European values &amp; so tries to detest them, inside own territories especially, pro-russians frequently degrade into being essentially aggressive drunk animals.
-His restoration plans includes parts of EU &amp; he dreams of being a restorator of Russia Greatness, people suffering &amp; economy are only a means to be used. US/EU need to know that it is a WWII history again, seems sad that politicians not learned that enough, it is safer &amp; more effective to unite &amp; strike with all possible forces first, before Russia makes another moves.
-So far seem they play the "West", it is time for the "West" to wake up, diplomats constantly talk "we made an error not treating it seriously enough" - they should treat it with most seriousness possible, a united front would save Ukrainer &amp; Estonia, Latvia, Lithuania - ask Lithuanians - they know. Ask old fighters against the opressor - about the enemy - they know the image, what is planned. We either need to take the lead in this process or it can be a bloodbath on European soil.
-I am civilian also, but when war comes suddenly you are a sportsman, a politician, a social worker, a doctor, a diplomat, and an armymen, the killer of the enemy.
-Overall - Ukraine stands very strong, we all are ready to fight the horde, our morale is very high &amp; their morale is very low - their military worldview depends on that Russia is a hero of fighting against fashism &amp; word 'fashism' - is at key play here - if we able to put the words that they are 'fashists' in their heads - their moral would so low &amp; they would have an epiphany that they essentially own arch nemesis, their officers grandparents all fought in WWII against
-                                        <code>fashism</code>
-                                        - their propaganda would fall, and their military maybe even can be turned to depose the government.
                                     </div>
                                 </div>
                             </section>
