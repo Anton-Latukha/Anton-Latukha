@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="485" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="104" class="">
     <defs>
         <style/>
     </defs>
@@ -31,102 +31,6 @@
                                     <div class="commit">
                                         <div class="sha">#1fdf592</div>
                                         <div class="message">WIP</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 53 commits in
-                                        <span class="repo">Anton-Latukha/text</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">2021-09-25-add-isSubsequenceOf</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#f64e610</div>
-                                        <div class="message">Fix strict indices: take hay offset into account</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#170d8fa</div>
-                                        <div class="message">More tests for indices</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#922d9cc</div>
-                                        <div class="message">Regenerate case mappings for Unicode 14.0 with matching GHC 9.2</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fdc9386</div>
-                                        <div class="message">Future-proof imports for Eq</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#366a8db</div>
-                                        <div class="message">Regenerate Haskell CI with GHC 9.2.1</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#85ffb4a</div>
-                                        <div class="message">Tests: keep compatible with ancient QuickCheck</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#56cba05</div>
-                                        <div class="message">Tests: do not assume that system locale is Unicode-compatible</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f2eaf97</div>
-                                        <div class="message">Rename _hs_text_memcmp to _hs_text_memcmp2 to disambiguate from system-wide headers</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c07872b</div>
-                                        <div class="message">Add s390x and ppc64le CI builds</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7a492ec</div>
-                                        <div class="message">Put simdutf stuff in its own folder</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d54b176</div>
-                                        <div class="message">Add CI config to test with simdutf disabled</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#944fb0e</div>
-                                        <div class="message">Introduce a flag to disable simdutf</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0630bd3</div>
-                                        <div class="message">Restore laziness of Data.Text.Lazy.lines (broken in 55358a4c)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#478fe5b</div>
-                                        <div class="message">Add 32-bit CI build</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e9c98f4</div>
-                                        <div class="message">Add inspection tests for Text literal</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#bb03e6f</div>
-                                        <div class="message">Reexport unpackCStringAscii from Data.Text</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c83414e</div>
-                                        <div class="message">Optimize handling of Text literals</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2f47425</div>
-                                        <div class="message">Disable doctests, because they are too fragile</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fef6c6d</div>
-                                        <div class="message">Clean redundant import</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#32648cb</div>
-                                        <div class="message">Elaborate on dangers of readFile</div>
                                     </div>
                                 </div>
                             </section>
