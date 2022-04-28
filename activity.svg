@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="374" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="461" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,29 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#11051 No audio heard by callee on the first call (regression in 5.3.12)</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by mr-brunes in <span class="repo">signalapp/Signal-Android</span></div>
+                                    <div class="comment">@signal-app
+As a Free Software proponent and active contributor for the last N (5-10) years, I've taken the risk to use Signal as the basis in department of Ukrainian army I am responsible for.
+Since this thread and messages are unaddressed. Not even the problem, the messages are not addressed.
+Currently I spend all my money on telecommunication equipment for the war and this month have no to donate.
+Seems like project is dormant and my zone of responsibility in the army would be switched to WhatsApp .
+And I would stop reasoning to managing the server and advocating for funding Signal in Ukrainian military.
+Now I need to migrate everyone in the formation.</div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
